@@ -525,7 +525,7 @@
     $('searchForm').addEventListener('input',search);$('searchForm').addEventListener('change',()=>{search();enhanceSelects();});
     $('addComponent').onclick=()=>{addComponent();search();};$('resetSearch').onclick=resetSearch;$('emptyReset').onclick=resetSearch;
     $('compareVisible').onclick=()=>{for(const {file} of state.results){if(state.selected.size>=8)break;state.selected.add(file.id);}state.mode='compare';counts();search();renderComparison();};
-    $('clearSelected').onclick=()=>{state.selected.clear();state.mode='preview';counts();search();renderComparison();};
+    $('clearSelected').onclick=()=>{state.selected.clear();state.mode='preview';$('selectionToolbar').open=false;counts();search();renderComparison();$('selectionToolbar').querySelector('summary').focus();};
     $('returnComparison').onclick=()=>{state.mode='compare';counts();search();renderComparison();};
     $('closeNotice').onclick=()=>notice('');
     document.addEventListener('click',event=>{if(!event.composedPath().includes($('selectionToolbar')))$('selectionToolbar').open=false;});
