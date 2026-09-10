@@ -142,7 +142,7 @@
   function query() {
     return {text:'',components:[...$('componentRows').children].map(row=>({name:row.querySelector('select').value,
       fraction:row.querySelector('input[type=number]').value===''?null:row.querySelector('input[type=number]').valueAsNumber})),temperature:number('temperature'),pressure:number('pressure'),
-      b:null,angle:null,minE:null,maxE:null,fractionTolerance:1,fuzzyMatching:$('fuzzyMatching').checked,
+      b:null,angle:null,minE:null,maxE:null,fractionTolerance:1,fuzzyMatching:true,
       exactSet:true,partial:true};
   }
   function sortHeader(key,label) {

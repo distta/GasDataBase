@@ -482,12 +482,13 @@ body{font-size:var(--type-body);font-weight:400}
 .file-table .formula-line .swatch{grid-column:1;grid-row:1}
 .file-table .recipe-name{grid-column:2;max-width:100%;text-align:left;padding:0}
 .file-table .preview-badge{grid-column:2;justify-self:start;margin:0}
-.file-table .table-sort{position:relative;display:block;width:100%;padding:0;border:0;background:none;color:inherit;font:inherit;text-align:center;cursor:pointer}
-.file-table .sort-recipe .table-sort{width:calc(100% - 12px);margin-left:12px;text-align:left}
-.file-table .sort-arrow{position:absolute;right:-9px;top:50%;transform:translateY(-50%);font-size:10px;color:#85939d}
-.file-table .sort-recipe .sort-arrow{right:0}
+.file-table .table-sort{display:flex;align-items:center;justify-content:center;gap:4px;width:100%;padding:0;border:0;background:none;color:inherit;font:inherit;text-align:center;cursor:pointer}
+.file-table .table-sort>span:first-child{min-width:0}
+.file-table .sort-recipe .table-sort{display:inline-flex;width:auto;max-width:calc(100% - 12px);margin-left:12px;justify-content:flex-start;text-align:left}
+.file-table .sort-arrow{position:static;flex:none;font-size:10px;line-height:1;color:#85939d}
+
 .file-table th[aria-sort="ascending"],.file-table th[aria-sort="descending"],.file-table .table-sort:hover{color:#108b92}
-@media(max-width:550px){.file-table .table-sort{font-size:11px;line-height:1.4}.file-table .sort-arrow{right:-3px;font-size:9px}.file-table .sort-column{padding-left:5px;padding-right:8px}}
+@media(max-width:550px){.file-table .table-sort{font-size:11px;line-height:1.4}.file-table .sort-arrow{font-size:9px}.file-table .sort-column{padding-left:5px;padding-right:8px}}
 
 /* Classification controls and a viewport-sized desktop workspace. */
 @media(min-width:1001px){
@@ -495,7 +496,7 @@ body{font-size:var(--type-body);font-weight:400}
   .topbar{height:76px;min-height:76px;flex:none;padding-top:0;padding-bottom:0}
   .header-mascot img{height:70px;width:auto}.header-motto{font-size:18px}
   main{flex:1;min-height:0;width:100%;padding:12px 20px 0;display:flex;flex-direction:column;overflow:hidden}
-  .workspace{flex:1;min-height:0;align-items:stretch;gap:16px;grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr)}
+  .workspace{flex:1;min-height:0;align-items:stretch;gap:16px;grid-template-columns:minmax(0,.46fr) minmax(0,.54fr)}
   .catalog-browser{min-height:0;overflow:auto;padding-bottom:12px}
   .catalog-browser .filter-sidebar{flex:none}
   .catalog-browser .filter-sidebar>.workspace-heading{min-height:40px;padding:10px 0}
@@ -513,8 +514,6 @@ body{font-size:var(--type-body);font-weight:400}
   .site-footer{flex:none;width:calc(100% - 40px);max-width:none;margin:6px 20px 0;padding:5px 0;font-size:10px}
 }
 
-.fuzzy-option{grid-column:1/-1;display:flex;align-items:center;gap:7px;margin-top:10px;flex-wrap:wrap}
-.fuzzy-option>input{width:15px;height:15px;margin:0}
 
 /* Reserve more of the results table for the mixture name. */
 @media(min-width:551px){
