@@ -83,6 +83,21 @@
     for(const name of names){const delta=(ac.find(c=>c.name===name)?.fraction??0)-(bc.find(c=>c.name===name)?.fraction??0);if(Math.abs(delta)>1e-6)return delta;}
     return a.pressure_atm-b.pressure_atm || a.temperature_k-b.temperature_k || String(a.path||a.id||'').localeCompare(String(b.path||b.id||''),'en');
   }
+  function compareTableFiles(a,b,q,key,direction=1) {
+    if(!key)return compareFiles(a,b,q);
+    let delta=0;
+    if(key==='recipe') {
+      // Ignore query relevance for an explicit recipe sort; percentages remain numeric.
+      delta=compareFiles(a,b,{components:[]});
+    }else {
+      const field=key==='temperature'?'temperature_k':'pressure_atm';
+      const av=a[field],bv=b[field];
+      if(!Number.isFinite(av)||!Number.isFinite(bv)) {
+        if(Number.isFinite(av)!==Number.isFinite(bv))return Number.isFinite(av)?-1:1;
+      }else delta=av-bv;
+    }
+    return delta*direction || compareFiles(a,b,q);
+  }
   const base = [
     ['veCmUs','沿 E 电子漂移速度','cm/μs',[0],'漂移速度','raw.ve'],
     ['vbCmUs','沿 B⊥ 漂移速度','cm/μs',[8],'漂移速度','raw.vb'],
@@ -140,5 +155,5 @@
     return slice(gas,b,angle).filter(r=>(r.E>=min||near(r.E,min))&&(r.E<=max||near(r.E,max)))
       .map(r=>({x:r.E,y:param.get(r,gas),record:r}));
   }
-  return {bits,near,fmt,canonical,describe,parse,validateQuery,match,compareFiles,parameters,available,slice,series};
+  return {bits,near,fmt,canonical,describe,parse,validateQuery,match,compareFiles,compareTableFiles,parameters,available,slice,series};
 });
