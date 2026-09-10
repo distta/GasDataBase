@@ -1,6 +1,8 @@
 """Static contracts and real-sample checks for the new catalogue."""
 from html.parser import HTMLParser
 from pathlib import Path
+import hashlib
+import json
 import re
 import unittest
 
@@ -24,13 +26,22 @@ class Elements(HTMLParser):
 class CatalogueTests(unittest.TestCase):
     def test_actual_sample_scope_and_conditions(self):
         payload, report = catalog.assemble(ROOT)
-        self.assertEqual(report["accepted"], 8)
         self.assertFalse(report["rejected"])
+        provenance = json.loads((ROOT / 'catalog/provenance.json').read_text())['files']
+        self.assertEqual({r['path'] for r in payload['files']}, set(provenance))
+        self.assertEqual(report['accepted'], len(provenance))
+        self.assertTrue(any(p.get('origin') == 'legacy' for p in provenance.values()))
         for record in payload["files"]:
-            self.assertTrue(record["path"].startswith("GasDataBase/Ar_iC4H10/"))
-            self.assertEqual(record["magnetic_fields"], [0, 1])
-            self.assertEqual(record["dimensions"]["electric"], 31)
-            self.assertEqual(record["reference_check"]["missing_magnetic_points"], [])
+            source = provenance[record['path']]
+            self.assertEqual(hashlib.sha256((ROOT / record['path']).read_bytes()).hexdigest(), source['sha256'])
+            self.assertTrue(source['source_files'])
+            if source.get('origin') == 'legacy':
+                self.assertTrue(all(s['sha256'] == source['sha256'] for s in source['source_files']))
+                self.assertIsNone(source['config']['penning_enabled'])
+            else:
+                self.assertEqual(record['dimensions']['electric'], 31)
+                self.assertEqual(record['reference_check']['missing_magnetic_points'],
+                                 [b for b in [0, 1] if b not in record['magnetic_fields']])
 
     def test_page_has_one_shared_plot_and_unique_ids(self):
         html = (ROOT / "index.html").read_text()

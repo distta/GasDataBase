@@ -6,7 +6,187 @@
       "id": "ar-ic4h10-v001",
       "label": "Ar / iC₄H₁₀",
       "directory": "GasDataBase/Ar_iC4H10",
-      "description": "8种配比 · 20 °C · 1 atm · B=0/1 T · Penning关闭"
+      "description": "当前收录气体表；温压、场网格和来源以各文件记录为准"
+    },
+    {
+      "id": "ar_cf4",
+      "label": "Ar / CF4",
+      "directory": "GasDataBase/Ar_CF4",
+      "description": "当前收录气体表；温压、场网格和来源以各文件记录为准"
+    },
+    {
+      "id": "ar_co2",
+      "label": "Ar / CO2",
+      "directory": "GasDataBase/Ar_CO2",
+      "description": "当前收录气体表；温压、场网格和来源以各文件记录为准"
+    },
+    {
+      "id": "ar_ch4",
+      "label": "Ar / CH4",
+      "directory": "GasDataBase/Ar_CH4",
+      "description": "当前收录气体表；温压、场网格和来源以各文件记录为准"
+    },
+    {
+      "id": "ar_dme",
+      "label": "Ar / DME",
+      "directory": "GasDataBase/Ar_DME",
+      "description": "当前收录气体表；温压、场网格和来源以各文件记录为准"
+    },
+    {
+      "id": "ar_ch4_o2",
+      "label": "Ar / CH4 / O2",
+      "directory": "GasDataBase/Ar_CH4_O2",
+      "description": "当前收录气体表；温压、场网格和来源以各文件记录为准"
+    },
+    {
+      "id": "ar_ic4h10_sf6",
+      "label": "Ar / iC4H10 / SF6",
+      "directory": "GasDataBase/Ar_iC4H10_SF6",
+      "description": "当前收录气体表；温压、场网格和来源以各文件记录为准"
+    },
+    {
+      "id": "ar_ic4h10_o2",
+      "label": "Ar / iC4H10 / O2",
+      "directory": "GasDataBase/Ar_iC4H10_O2",
+      "description": "当前收录气体表；温压、场网格和来源以各文件记录为准"
+    },
+    {
+      "id": "c2f6",
+      "label": "C2F6",
+      "directory": "GasDataBase/C2F6",
+      "description": "当前收录气体表；温压、场网格和来源以各文件记录为准"
+    },
+    {
+      "id": "c2h2f4",
+      "label": "C2H2F4",
+      "directory": "GasDataBase/C2H2F4",
+      "description": "当前收录气体表；温压、场网格和来源以各文件记录为准"
+    },
+    {
+      "id": "c2h2f4_ic4h10_sf6",
+      "label": "C2H2F4 / iC4H10 / SF6",
+      "directory": "GasDataBase/C2H2F4_iC4H10_SF6",
+      "description": "当前收录气体表；温压、场网格和来源以各文件记录为准"
+    },
+    {
+      "id": "c2h2f4_cf3br_ic4h10",
+      "label": "C2H2F4 / CF3Br / iC4H10",
+      "directory": "GasDataBase/C2H2F4_CF3Br_iC4H10",
+      "description": "当前收录气体表；温压、场网格和来源以各文件记录为准"
+    },
+    {
+      "id": "c2h6_cf4_ne",
+      "label": "C2H6 / CF4 / Ne",
+      "directory": "GasDataBase/C2H6_CF4_Ne",
+      "description": "当前收录气体表；温压、场网格和来源以各文件记录为准"
+    },
+    {
+      "id": "c2h6",
+      "label": "C2H6",
+      "directory": "GasDataBase/C2H6",
+      "description": "当前收录气体表；温压、场网格和来源以各文件记录为准"
+    },
+    {
+      "id": "c3f8",
+      "label": "C3F8",
+      "directory": "GasDataBase/C3F8",
+      "description": "当前收录气体表；温压、场网格和来源以各文件记录为准"
+    },
+    {
+      "id": "c3h6",
+      "label": "C3H6",
+      "directory": "GasDataBase/C3H6",
+      "description": "当前收录气体表；温压、场网格和来源以各文件记录为准"
+    },
+    {
+      "id": "c3h8",
+      "label": "C3H8",
+      "directory": "GasDataBase/C3H8",
+      "description": "当前收录气体表；温压、场网格和来源以各文件记录为准"
+    },
+    {
+      "id": "cf3br",
+      "label": "CF3Br",
+      "directory": "GasDataBase/CF3Br",
+      "description": "当前收录气体表；温压、场网格和来源以各文件记录为准"
+    },
+    {
+      "id": "cf4_ne",
+      "label": "CF4 / Ne",
+      "directory": "GasDataBase/CF4_Ne",
+      "description": "当前收录气体表；温压、场网格和来源以各文件记录为准"
+    },
+    {
+      "id": "cf4_xe",
+      "label": "CF4 / Xe",
+      "directory": "GasDataBase/CF4_Xe",
+      "description": "当前收录气体表；温压、场网格和来源以各文件记录为准"
+    },
+    {
+      "id": "ch4_ne",
+      "label": "CH4 / Ne",
+      "directory": "GasDataBase/CH4_Ne",
+      "description": "当前收录气体表；温压、场网格和来源以各文件记录为准"
+    },
+    {
+      "id": "ch4",
+      "label": "CH4",
+      "directory": "GasDataBase/CH4",
+      "description": "当前收录气体表；温压、场网格和来源以各文件记录为准"
+    },
+    {
+      "id": "chf3",
+      "label": "CHF3",
+      "directory": "GasDataBase/CHF3",
+      "description": "当前收录气体表；温压、场网格和来源以各文件记录为准"
+    },
+    {
+      "id": "co2_ne",
+      "label": "CO2 / Ne",
+      "directory": "GasDataBase/CO2_Ne",
+      "description": "当前收录气体表；温压、场网格和来源以各文件记录为准"
+    },
+    {
+      "id": "dme_ne",
+      "label": "DME / Ne",
+      "directory": "GasDataBase/DME_Ne",
+      "description": "当前收录气体表；温压、场网格和来源以各文件记录为准"
+    },
+    {
+      "id": "he",
+      "label": "He",
+      "directory": "GasDataBase/He",
+      "description": "当前收录气体表；温压、场网格和来源以各文件记录为准"
+    },
+    {
+      "id": "ic4h10_ne",
+      "label": "iC4H10 / Ne",
+      "directory": "GasDataBase/iC4H10_Ne",
+      "description": "当前收录气体表；温压、场网格和来源以各文件记录为准"
+    },
+    {
+      "id": "sf6",
+      "label": "SF6",
+      "directory": "GasDataBase/SF6",
+      "description": "当前收录气体表；温压、场网格和来源以各文件记录为准"
+    },
+    {
+      "id": "tma_xe",
+      "label": "TMA / Xe",
+      "directory": "GasDataBase/TMA_Xe",
+      "description": "当前收录气体表；温压、场网格和来源以各文件记录为准"
+    },
+    {
+      "id": "xe",
+      "label": "Xe",
+      "directory": "GasDataBase/Xe",
+      "description": "当前收录气体表；温压、场网格和来源以各文件记录为准"
+    },
+    {
+      "id": "ic4h10_xe",
+      "label": "iC4H10 / Xe",
+      "directory": "GasDataBase/iC4H10_Xe",
+      "description": "当前收录气体表；温压、场网格和来源以各文件记录为准"
     }
   ],
   "reference_profile": {
