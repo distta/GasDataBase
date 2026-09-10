@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "files": {
+    "GasDataBase/Ar_iC4H10/Ar-98_iC4H10-2_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar_iC4H10/Ar-95_iC4H10-5_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar_iC4H10/Ar-90_iC4H10-10_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar_iC4H10/Ar-85_iC4H10-15_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar_iC4H10/Ar-80_iC4H10-20_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar_iC4H10/Ar-70_iC4H10-30_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar_iC4H10/Ar-60_iC4H10-40_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar_iC4H10/Ar-50_iC4H10-50_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    }
+  }
+}

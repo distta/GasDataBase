@@ -1,0 +1,645 @@
+{
+  "schema_version": 1,
+  "files": {
+    "GasDataBase/Ar_iC4H10/Ar-98_iC4H10-2_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar_iC4H10/Ar-98_iC4H10-2_T293.15K_P760Torr.gas",
+      "sha256": "d45f5d6a9bae60a00fbe15962ea8aa322d5e5d6a06edb4d7764ad20e24aca876",
+      "config": {
+        "components": {
+          "Ar": 98,
+          "iC4H10": 2
+        },
+        "temperature_k": 293.15,
+        "pressure_torr": 760,
+        "electric_fields_v_cm": [
+          100.000002,
+          199.99999640000001,
+          299.9999984,
+          400.0000004,
+          500.0000024,
+          599.9999968,
+          699.9999988000001,
+          800.000016,
+          899.99998,
+          1000.00002,
+          1499.999992,
+          2000.00004,
+          2500.000012,
+          2999.999984,
+          4000.0000040000004,
+          5000.000024,
+          5999.999968,
+          6999.999988,
+          8000.00016,
+          8999.9998,
+          10000.0002,
+          14999.99992,
+          20000.0004,
+          29999.99984,
+          40000.00004,
+          50000.00024,
+          59999.99968,
+          69999.99987999999,
+          80000.0016,
+          89999.99799999999,
+          100000.002
+        ],
+        "magnetic_fields_t": [
+          0.0,
+          1.0
+        ],
+        "angles_deg": [
+          89.99999846476551
+        ],
+        "penning_enabled": false,
+        "generate_gas_table_argument": 1,
+        "repeat_stability_check": false,
+        "random_seed": "library default; not independently controlled"
+      },
+      "software_sha256": {
+        "libGarfield.so.0.3.0": "967b9cdc274b4817150e33b6adaa1d2113e38c18ffaf7c6997ab8e84fc080b78",
+        "libmagboltz.so.11": "2ca25344c125c9fe0955b9009320f863486a38a8795c626d38a7d06f138aeb86"
+      },
+      "generator_signature": "4d7bdc0ae4a034f81cc136dc092ba06b564a7c8c2323fd147d453976c22e4515",
+      "source_files": [
+        {
+          "path": "runs/ar-ic4h10-20260909T170548Z/job_00/Ar-98_iC4H10-2_T293.15K_P760Torr_B0T.gas",
+          "sha256": "c2309d83c14dea08c4545b7e50d176dec689d10b1a236ed30f235a32880904b3"
+        },
+        {
+          "path": "runs/ar-ic4h10-20260909T170548Z/job_01/Ar-98_iC4H10-2_T293.15K_P760Torr_B1T.gas",
+          "sha256": "da7d9fcb6ae16220c45a69bafbfea9fa4b3883b66b07e73eed2b7037d2512aef"
+        },
+        {
+          "path": "runs/ar-ic4h10-supplement-20260910T030816Z/job_00/Ar-98_iC4H10-2_T293.15K_P760Torr_B0T.gas",
+          "sha256": "042fc9a7f72cf4c06afa612899a31b4e3c54a0bfde00f39be728cd5187afa7a3"
+        },
+        {
+          "path": "runs/ar-ic4h10-supplement-20260910T030816Z/job_01/Ar-98_iC4H10-2_T293.15K_P760Torr_B1T.gas",
+          "sha256": "faa3b15a842ad2795e820dbd90aa138d66e047c8c4592672558b0bd5c143f012"
+        }
+      ],
+      "merge_note": "Grid union without interpolation. T-format stores values; source F-format error columns retained in source files. No stability/precision acceptance."
+    },
+    "GasDataBase/Ar_iC4H10/Ar-95_iC4H10-5_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar_iC4H10/Ar-95_iC4H10-5_T293.15K_P760Torr.gas",
+      "sha256": "78175a3e1d221256c9e0f2473e1667841b14dcb0046f923180f6b83c23daa11a",
+      "config": {
+        "components": {
+          "Ar": 95,
+          "iC4H10": 5
+        },
+        "temperature_k": 293.15,
+        "pressure_torr": 760,
+        "electric_fields_v_cm": [
+          100.000002,
+          199.99999640000001,
+          299.9999984,
+          400.0000004,
+          500.0000024,
+          599.9999968,
+          699.9999988000001,
+          800.000016,
+          899.99998,
+          1000.00002,
+          1499.999992,
+          2000.00004,
+          2500.000012,
+          2999.999984,
+          4000.0000040000004,
+          5000.000024,
+          5999.999968,
+          6999.999988,
+          8000.00016,
+          8999.9998,
+          10000.0002,
+          14999.99992,
+          20000.0004,
+          29999.99984,
+          40000.00004,
+          50000.00024,
+          59999.99968,
+          69999.99987999999,
+          80000.0016,
+          89999.99799999999,
+          100000.002
+        ],
+        "magnetic_fields_t": [
+          0.0,
+          1.0
+        ],
+        "angles_deg": [
+          89.99999846476551
+        ],
+        "penning_enabled": false,
+        "generate_gas_table_argument": 1,
+        "repeat_stability_check": false,
+        "random_seed": "library default; not independently controlled"
+      },
+      "software_sha256": {
+        "libGarfield.so.0.3.0": "967b9cdc274b4817150e33b6adaa1d2113e38c18ffaf7c6997ab8e84fc080b78",
+        "libmagboltz.so.11": "2ca25344c125c9fe0955b9009320f863486a38a8795c626d38a7d06f138aeb86"
+      },
+      "generator_signature": "4d7bdc0ae4a034f81cc136dc092ba06b564a7c8c2323fd147d453976c22e4515",
+      "source_files": [
+        {
+          "path": "runs/ar-ic4h10-20260909T170548Z/job_02/Ar-95_iC4H10-5_T293.15K_P760Torr_B0T.gas",
+          "sha256": "5205695974738a2f05d4d2c9c1f74d5abe30db77e9743eba7b06c65b21ca5e84"
+        },
+        {
+          "path": "runs/ar-ic4h10-20260909T170548Z/job_03/Ar-95_iC4H10-5_T293.15K_P760Torr_B1T.gas",
+          "sha256": "a3e14495589ff415154069fa44b0a8436221c9880bb72d19f7085246ce899420"
+        },
+        {
+          "path": "runs/ar-ic4h10-supplement-20260910T030816Z/job_02/Ar-95_iC4H10-5_T293.15K_P760Torr_B0T.gas",
+          "sha256": "f8b6851f20d0fe63b12bb6ee445c7dc60bfc183f3c00e0606d69a017d8707de4"
+        },
+        {
+          "path": "runs/ar-ic4h10-supplement-20260910T030816Z/job_03/Ar-95_iC4H10-5_T293.15K_P760Torr_B1T.gas",
+          "sha256": "ac84c981b7d554740cafb2b032e8e72aa2efa91d3ecd91e54859d995b4218ea0"
+        }
+      ],
+      "merge_note": "Grid union without interpolation. T-format stores values; source F-format error columns retained in source files. No stability/precision acceptance."
+    },
+    "GasDataBase/Ar_iC4H10/Ar-90_iC4H10-10_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar_iC4H10/Ar-90_iC4H10-10_T293.15K_P760Torr.gas",
+      "sha256": "5df09e78105f456067eed14083cd7057e28408a21cc30f315469b5975e75b63f",
+      "config": {
+        "components": {
+          "Ar": 90,
+          "iC4H10": 10
+        },
+        "temperature_k": 293.15,
+        "pressure_torr": 760,
+        "electric_fields_v_cm": [
+          100.000002,
+          199.99999640000001,
+          299.9999984,
+          400.0000004,
+          500.0000024,
+          599.9999968,
+          699.9999988000001,
+          800.000016,
+          899.99998,
+          1000.00002,
+          1499.999992,
+          2000.00004,
+          2500.000012,
+          2999.999984,
+          4000.0000040000004,
+          5000.000024,
+          5999.999968,
+          6999.999988,
+          8000.00016,
+          8999.9998,
+          10000.0002,
+          14999.99992,
+          20000.0004,
+          29999.99984,
+          40000.00004,
+          50000.00024,
+          59999.99968,
+          69999.99987999999,
+          80000.0016,
+          89999.99799999999,
+          100000.002
+        ],
+        "magnetic_fields_t": [
+          0.0,
+          1.0
+        ],
+        "angles_deg": [
+          89.99999846476551
+        ],
+        "penning_enabled": false,
+        "generate_gas_table_argument": 1,
+        "repeat_stability_check": false,
+        "random_seed": "library default; not independently controlled"
+      },
+      "software_sha256": {
+        "libGarfield.so.0.3.0": "967b9cdc274b4817150e33b6adaa1d2113e38c18ffaf7c6997ab8e84fc080b78",
+        "libmagboltz.so.11": "2ca25344c125c9fe0955b9009320f863486a38a8795c626d38a7d06f138aeb86"
+      },
+      "generator_signature": "4d7bdc0ae4a034f81cc136dc092ba06b564a7c8c2323fd147d453976c22e4515",
+      "source_files": [
+        {
+          "path": "runs/ar-ic4h10-20260909T170548Z/job_04/Ar-90_iC4H10-10_T293.15K_P760Torr_B0T.gas",
+          "sha256": "a519fc160498a5bbd8945a1cb7b23d08a3b336284ab984bc41d0e417f3af784c"
+        },
+        {
+          "path": "runs/ar-ic4h10-20260909T170548Z/job_05/Ar-90_iC4H10-10_T293.15K_P760Torr_B1T.gas",
+          "sha256": "8ad0faca1e2ca364a4edfd50a79a0111f08f724567d6e88819d5873ebf526d3b"
+        },
+        {
+          "path": "runs/ar-ic4h10-supplement-20260910T030816Z/job_04/Ar-90_iC4H10-10_T293.15K_P760Torr_B0T.gas",
+          "sha256": "d37e87c63b96acbad11d9be7ddb696cfa379facb9903f660fcaaf81f91f36790"
+        },
+        {
+          "path": "runs/ar-ic4h10-supplement-20260910T030816Z/job_05/Ar-90_iC4H10-10_T293.15K_P760Torr_B1T.gas",
+          "sha256": "8ea6af85e342c1a71be4d749ea5e13760476e5a617dc2b088a9b63ea7f3b9dfe"
+        }
+      ],
+      "merge_note": "Grid union without interpolation. T-format stores values; source F-format error columns retained in source files. No stability/precision acceptance."
+    },
+    "GasDataBase/Ar_iC4H10/Ar-85_iC4H10-15_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar_iC4H10/Ar-85_iC4H10-15_T293.15K_P760Torr.gas",
+      "sha256": "8ec2e8df517b91494a848403c48432dc8d2afa96a1fc6e60058a23d6bc91d80c",
+      "config": {
+        "components": {
+          "Ar": 85,
+          "iC4H10": 15
+        },
+        "temperature_k": 293.15,
+        "pressure_torr": 760,
+        "electric_fields_v_cm": [
+          100.000002,
+          199.99999640000001,
+          299.9999984,
+          400.0000004,
+          500.0000024,
+          599.9999968,
+          699.9999988000001,
+          800.000016,
+          899.99998,
+          1000.00002,
+          1499.999992,
+          2000.00004,
+          2500.000012,
+          2999.999984,
+          4000.0000040000004,
+          5000.000024,
+          5999.999968,
+          6999.999988,
+          8000.00016,
+          8999.9998,
+          10000.0002,
+          14999.99992,
+          20000.0004,
+          29999.99984,
+          40000.00004,
+          50000.00024,
+          59999.99968,
+          69999.99987999999,
+          80000.0016,
+          89999.99799999999,
+          100000.002
+        ],
+        "magnetic_fields_t": [
+          0.0,
+          1.0
+        ],
+        "angles_deg": [
+          89.99999846476551
+        ],
+        "penning_enabled": false,
+        "generate_gas_table_argument": 1,
+        "repeat_stability_check": false,
+        "random_seed": "library default; not independently controlled"
+      },
+      "software_sha256": {
+        "libGarfield.so.0.3.0": "967b9cdc274b4817150e33b6adaa1d2113e38c18ffaf7c6997ab8e84fc080b78",
+        "libmagboltz.so.11": "2ca25344c125c9fe0955b9009320f863486a38a8795c626d38a7d06f138aeb86"
+      },
+      "generator_signature": "4d7bdc0ae4a034f81cc136dc092ba06b564a7c8c2323fd147d453976c22e4515",
+      "source_files": [
+        {
+          "path": "runs/ar-ic4h10-20260909T170548Z/job_06/Ar-85_iC4H10-15_T293.15K_P760Torr_B0T.gas",
+          "sha256": "f75c864c7d638cc3d4e1b1dab3e889a7b71caebe88f4d7d023571780ee8a5c3a"
+        },
+        {
+          "path": "runs/ar-ic4h10-20260909T170548Z/job_07/Ar-85_iC4H10-15_T293.15K_P760Torr_B1T.gas",
+          "sha256": "561cbc3822e0ec69944bc29e588e949a8965adab2179b9e1c896aca04a78b0c6"
+        },
+        {
+          "path": "runs/ar-ic4h10-supplement-20260910T030816Z/job_06/Ar-85_iC4H10-15_T293.15K_P760Torr_B0T.gas",
+          "sha256": "1eb6384ba8c7f1c71deeb35d8800d1c60cadd5835e7a91028b63ca89c025d5ad"
+        },
+        {
+          "path": "runs/ar-ic4h10-supplement-20260910T030816Z/job_07/Ar-85_iC4H10-15_T293.15K_P760Torr_B1T.gas",
+          "sha256": "a9c5b6f5ad4344d47149645b1a189cc4145a66dd9e2d8f2204c4380fe955e726"
+        }
+      ],
+      "merge_note": "Grid union without interpolation. T-format stores values; source F-format error columns retained in source files. No stability/precision acceptance."
+    },
+    "GasDataBase/Ar_iC4H10/Ar-80_iC4H10-20_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar_iC4H10/Ar-80_iC4H10-20_T293.15K_P760Torr.gas",
+      "sha256": "4ef72d09793d1a15bc3c9c954fa2318ce0ed1441b1cbf175543ba9f0f372097f",
+      "config": {
+        "components": {
+          "Ar": 80,
+          "iC4H10": 20
+        },
+        "temperature_k": 293.15,
+        "pressure_torr": 760,
+        "electric_fields_v_cm": [
+          100.000002,
+          199.99999640000001,
+          299.9999984,
+          400.0000004,
+          500.0000024,
+          599.9999968,
+          699.9999988000001,
+          800.000016,
+          899.99998,
+          1000.00002,
+          1499.999992,
+          2000.00004,
+          2500.000012,
+          2999.999984,
+          4000.0000040000004,
+          5000.000024,
+          5999.999968,
+          6999.999988,
+          8000.00016,
+          8999.9998,
+          10000.0002,
+          14999.99992,
+          20000.0004,
+          29999.99984,
+          40000.00004,
+          50000.00024,
+          59999.99968,
+          69999.99987999999,
+          80000.0016,
+          89999.99799999999,
+          100000.002
+        ],
+        "magnetic_fields_t": [
+          0.0,
+          1.0
+        ],
+        "angles_deg": [
+          89.99999846476551
+        ],
+        "penning_enabled": false,
+        "generate_gas_table_argument": 1,
+        "repeat_stability_check": false,
+        "random_seed": "library default; not independently controlled"
+      },
+      "software_sha256": {
+        "libGarfield.so.0.3.0": "967b9cdc274b4817150e33b6adaa1d2113e38c18ffaf7c6997ab8e84fc080b78",
+        "libmagboltz.so.11": "2ca25344c125c9fe0955b9009320f863486a38a8795c626d38a7d06f138aeb86"
+      },
+      "generator_signature": "4d7bdc0ae4a034f81cc136dc092ba06b564a7c8c2323fd147d453976c22e4515",
+      "source_files": [
+        {
+          "path": "runs/ar-ic4h10-20260909T170548Z/job_08/Ar-80_iC4H10-20_T293.15K_P760Torr_B0T.gas",
+          "sha256": "cf1961b6575562f4474376e36068467c643bbbe65021d200daa23fbb94ac7c87"
+        },
+        {
+          "path": "runs/ar-ic4h10-20260909T170548Z/job_09/Ar-80_iC4H10-20_T293.15K_P760Torr_B1T.gas",
+          "sha256": "84f75b973915a84feb107dfc333c3a3de425a00bc2ed82f368439df346b373b8"
+        },
+        {
+          "path": "runs/ar-ic4h10-supplement-20260910T030816Z/job_08/Ar-80_iC4H10-20_T293.15K_P760Torr_B0T.gas",
+          "sha256": "8fce476a787796de5672c64dfd47de0608eec5bdbb535ee006a4a7cf18bcfe47"
+        },
+        {
+          "path": "runs/ar-ic4h10-supplement-20260910T030816Z/job_09/Ar-80_iC4H10-20_T293.15K_P760Torr_B1T.gas",
+          "sha256": "8cd05351c8512968d80d0ded13184d4855a9b1e3252b3569047a1812fb8947a8"
+        }
+      ],
+      "merge_note": "Grid union without interpolation. T-format stores values; source F-format error columns retained in source files. No stability/precision acceptance."
+    },
+    "GasDataBase/Ar_iC4H10/Ar-70_iC4H10-30_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar_iC4H10/Ar-70_iC4H10-30_T293.15K_P760Torr.gas",
+      "sha256": "492f3d9f9809047fb45191825d9d067afcaba9290291e89461a3819a41ec97d6",
+      "config": {
+        "components": {
+          "Ar": 70,
+          "iC4H10": 30
+        },
+        "temperature_k": 293.15,
+        "pressure_torr": 760,
+        "electric_fields_v_cm": [
+          100.000002,
+          199.99999640000001,
+          299.9999984,
+          400.0000004,
+          500.0000024,
+          599.9999968,
+          699.9999988000001,
+          800.000016,
+          899.99998,
+          1000.00002,
+          1499.999992,
+          2000.00004,
+          2500.000012,
+          2999.999984,
+          4000.0000040000004,
+          5000.000024,
+          5999.999968,
+          6999.999988,
+          8000.00016,
+          8999.9998,
+          10000.0002,
+          14999.99992,
+          20000.0004,
+          29999.99984,
+          40000.00004,
+          50000.00024,
+          59999.99968,
+          69999.99987999999,
+          80000.0016,
+          89999.99799999999,
+          100000.002
+        ],
+        "magnetic_fields_t": [
+          0.0,
+          1.0
+        ],
+        "angles_deg": [
+          89.99999846476551
+        ],
+        "penning_enabled": false,
+        "generate_gas_table_argument": 1,
+        "repeat_stability_check": false,
+        "random_seed": "library default; not independently controlled"
+      },
+      "software_sha256": {
+        "libGarfield.so.0.3.0": "967b9cdc274b4817150e33b6adaa1d2113e38c18ffaf7c6997ab8e84fc080b78",
+        "libmagboltz.so.11": "2ca25344c125c9fe0955b9009320f863486a38a8795c626d38a7d06f138aeb86"
+      },
+      "generator_signature": "4d7bdc0ae4a034f81cc136dc092ba06b564a7c8c2323fd147d453976c22e4515",
+      "source_files": [
+        {
+          "path": "runs/ar-ic4h10-20260909T170548Z/job_10/Ar-70_iC4H10-30_T293.15K_P760Torr_B0T.gas",
+          "sha256": "63d972cf5bbc4a58fa41a5e158b804de187477e414e38046f67c7d0857b1d3cf"
+        },
+        {
+          "path": "runs/ar-ic4h10-20260909T170548Z/job_11/Ar-70_iC4H10-30_T293.15K_P760Torr_B1T.gas",
+          "sha256": "abcf08be4104c03e0302518d4c766b5a96828e04a579af7da484a5abb999ba93"
+        },
+        {
+          "path": "runs/ar-ic4h10-supplement-20260910T030816Z/job_10/Ar-70_iC4H10-30_T293.15K_P760Torr_B0T.gas",
+          "sha256": "29aa7f033efc614a2e95a0d76722ef4aecabb340efe535248ece361b69edadbd"
+        },
+        {
+          "path": "runs/ar-ic4h10-supplement-20260910T030816Z/job_11/Ar-70_iC4H10-30_T293.15K_P760Torr_B1T.gas",
+          "sha256": "03db86b8be778e21364cacfdc26cf89834e8f6ebb7d2ab2842fe1756306c021c"
+        }
+      ],
+      "merge_note": "Grid union without interpolation. T-format stores values; source F-format error columns retained in source files. No stability/precision acceptance."
+    },
+    "GasDataBase/Ar_iC4H10/Ar-60_iC4H10-40_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar_iC4H10/Ar-60_iC4H10-40_T293.15K_P760Torr.gas",
+      "sha256": "9bd23bec6654b9160b72edc3c425eee77d10d67a5943d3b29e3743ad397cc342",
+      "config": {
+        "components": {
+          "Ar": 60,
+          "iC4H10": 40
+        },
+        "temperature_k": 293.15,
+        "pressure_torr": 760,
+        "electric_fields_v_cm": [
+          100.000002,
+          199.99999640000001,
+          299.9999984,
+          400.0000004,
+          500.0000024,
+          599.9999968,
+          699.9999988000001,
+          800.000016,
+          899.99998,
+          1000.00002,
+          1499.999992,
+          2000.00004,
+          2500.000012,
+          2999.999984,
+          4000.0000040000004,
+          5000.000024,
+          5999.999968,
+          6999.999988,
+          8000.00016,
+          8999.9998,
+          10000.0002,
+          14999.99992,
+          20000.0004,
+          29999.99984,
+          40000.00004,
+          50000.00024,
+          59999.99968,
+          69999.99987999999,
+          80000.0016,
+          89999.99799999999,
+          100000.002
+        ],
+        "magnetic_fields_t": [
+          0.0,
+          1.0
+        ],
+        "angles_deg": [
+          89.99999846476551
+        ],
+        "penning_enabled": false,
+        "generate_gas_table_argument": 1,
+        "repeat_stability_check": false,
+        "random_seed": "library default; not independently controlled"
+      },
+      "software_sha256": {
+        "libGarfield.so.0.3.0": "967b9cdc274b4817150e33b6adaa1d2113e38c18ffaf7c6997ab8e84fc080b78",
+        "libmagboltz.so.11": "2ca25344c125c9fe0955b9009320f863486a38a8795c626d38a7d06f138aeb86"
+      },
+      "generator_signature": "4d7bdc0ae4a034f81cc136dc092ba06b564a7c8c2323fd147d453976c22e4515",
+      "source_files": [
+        {
+          "path": "runs/ar-ic4h10-20260909T170548Z/job_12/Ar-60_iC4H10-40_T293.15K_P760Torr_B0T.gas",
+          "sha256": "0ddf83415c53aa2f3a6c513358d58b00d4687ee7a5ce832b59461f1cf11b6c83"
+        },
+        {
+          "path": "runs/ar-ic4h10-20260909T170548Z/job_13/Ar-60_iC4H10-40_T293.15K_P760Torr_B1T.gas",
+          "sha256": "fc6c849df919fd0aaea4c4ad86c19e6ee8693738734baadb686453820fcc1ab1"
+        },
+        {
+          "path": "runs/ar-ic4h10-supplement-20260910T030816Z/job_12/Ar-60_iC4H10-40_T293.15K_P760Torr_B0T.gas",
+          "sha256": "67fcfea6cc51cf40e8d6488e94dfd11070e6b98a9bcd4b6ca65a41671bef4baa"
+        },
+        {
+          "path": "runs/ar-ic4h10-supplement-20260910T030816Z/job_13/Ar-60_iC4H10-40_T293.15K_P760Torr_B1T.gas",
+          "sha256": "880c80f67aa675e23fcb8ba41e4adf75c47327db6ebcc598e2ad1a4a4c548a08"
+        }
+      ],
+      "merge_note": "Grid union without interpolation. T-format stores values; source F-format error columns retained in source files. No stability/precision acceptance."
+    },
+    "GasDataBase/Ar_iC4H10/Ar-50_iC4H10-50_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar_iC4H10/Ar-50_iC4H10-50_T293.15K_P760Torr.gas",
+      "sha256": "6293becdf1b2de6cd82e5e7401ff1736d18714f83f06877ae476948c6cc2c919",
+      "config": {
+        "components": {
+          "Ar": 50,
+          "iC4H10": 50
+        },
+        "temperature_k": 293.15,
+        "pressure_torr": 760,
+        "electric_fields_v_cm": [
+          100.000002,
+          199.99999640000001,
+          299.9999984,
+          400.0000004,
+          500.0000024,
+          599.9999968,
+          699.9999988000001,
+          800.000016,
+          899.99998,
+          1000.00002,
+          1499.999992,
+          2000.00004,
+          2500.000012,
+          2999.999984,
+          4000.0000040000004,
+          5000.000024,
+          5999.999968,
+          6999.999988,
+          8000.00016,
+          8999.9998,
+          10000.0002,
+          14999.99992,
+          20000.0004,
+          29999.99984,
+          40000.00004,
+          50000.00024,
+          59999.99968,
+          69999.99987999999,
+          80000.0016,
+          89999.99799999999,
+          100000.002
+        ],
+        "magnetic_fields_t": [
+          0.0,
+          1.0
+        ],
+        "angles_deg": [
+          89.99999846476551
+        ],
+        "penning_enabled": false,
+        "generate_gas_table_argument": 1,
+        "repeat_stability_check": false,
+        "random_seed": "library default; not independently controlled"
+      },
+      "software_sha256": {
+        "libGarfield.so.0.3.0": "967b9cdc274b4817150e33b6adaa1d2113e38c18ffaf7c6997ab8e84fc080b78",
+        "libmagboltz.so.11": "2ca25344c125c9fe0955b9009320f863486a38a8795c626d38a7d06f138aeb86"
+      },
+      "generator_signature": "4d7bdc0ae4a034f81cc136dc092ba06b564a7c8c2323fd147d453976c22e4515",
+      "source_files": [
+        {
+          "path": "runs/ar-ic4h10-20260909T170548Z/job_14/Ar-50_iC4H10-50_T293.15K_P760Torr_B0T.gas",
+          "sha256": "21513db4064bded339e25de491a3a6ec0546f1e46adbb591607014e0c88909a4"
+        },
+        {
+          "path": "runs/ar-ic4h10-20260909T170548Z/job_15/Ar-50_iC4H10-50_T293.15K_P760Torr_B1T.gas",
+          "sha256": "3d049145588f966cfa1cdcc5a7e13148c405f47ee5fbacb590ebdb5b313e2f75"
+        },
+        {
+          "path": "runs/ar-ic4h10-supplement-20260910T030816Z/job_14/Ar-50_iC4H10-50_T293.15K_P760Torr_B0T.gas",
+          "sha256": "c08f2e1c93be4281377ba4ac1fbd90c6932ce9b30b92a76840ab04ade542968d"
+        },
+        {
+          "path": "runs/ar-ic4h10-supplement-20260910T030816Z/job_15/Ar-50_iC4H10-50_T293.15K_P760Torr_B1T.gas",
+          "sha256": "e47aa1615bc3e183932f7bbd39e55b783228094d567403e73bb37900a8e181bc"
+        }
+      ],
+      "merge_note": "Grid union without interpolation. T-format stores values; source F-format error columns retained in source files. No stability/precision acceptance."
+    }
+  }
+}

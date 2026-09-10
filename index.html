@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="检索、预览和比较 Garfield++ / Magboltz 气体文件。">
+  <title>Garfield Gas Database · 气体数据库</title>
+  <link rel="stylesheet" href="assets/css/catalog.css">
+  <script defer src="assets/js/gas-file-parser.js"></script>
+  <script defer src="assets/js/catalog-model.js"></script>
+  <script defer src="assets/js/catalog-app.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#catalog" aria-label="气体数据库首页">
+      <svg class="brand-mark" viewBox="0 0 40 40" fill="currentColor" aria-hidden="true"><ellipse cx="10" cy="12" rx="4" ry="6" transform="rotate(-25 10 12)"/><ellipse cx="19" cy="8" rx="4" ry="6"/><ellipse cx="29" cy="12" rx="4" ry="6" transform="rotate(25 29 12)"/><path d="M10 26c2-3 4-9 10-9s8 6 10 9c5 9-3 11-10 7-7 4-15 2-10-7Z"/></svg>
+      <span>Garfield Gas Database</span>
+    </a>
+    <nav aria-label="主要导航"><button class="nav-link active" data-view="catalog">检索与绘图</button><button class="nav-link" data-view="maintain">维护说明</button></nav>
+    <div class="header-mascot"><div class="header-motto">Better Gas<br><span>Better Detectors</span></div><img src="assets/images/garfield-header.png" alt="加菲猫" width="132" height="88"></div>
+  </header>
+  <main>
+    <div id="notice" class="notice" role="status" hidden></div>
+    <section id="view-catalog" class="view workspace" aria-label="检索与绘图工作区">
+      <div class="catalog-browser">
+      <details class="filter-sidebar panel" id="filterDrawer" open>
+        <summary class="workspace-heading"><span class="heading-icon" aria-hidden="true">⌕</span> 筛选条件 <span class="mobile-filter-hint">展开 / 收起</span></summary>
+        <form id="searchForm" class="filters">
+          <div class="mixture-filter"><label>组分与比例</label><div id="componentRows"></div></div>
+          <div class="field-grid thermo-filter">
+            <label>温度 <span class="unit">°C</span><input id="temperature" type="number" step="any" placeholder="不限"></label>
+            <label>压强 <span class="unit">atm</span><input id="pressure" type="number" step="any" min="0" placeholder="不限"></label>
+          </div>
+          <p id="queryError" class="error-text" role="alert" hidden></p>
+          <div class="filter-buttons"><button id="addComponent" type="button" class="text-button">＋ 添加组分</button><button id="resetSearch" type="button" class="button secondary">重置</button><button class="button primary" type="submit">检索</button></div>
+        </form>
+      </details>
+      <section class="results-column panel" aria-labelledby="resultsTitle">
+        <div class="results-tools"><h1 id="resultsTitle">气体文件 <span id="resultCount" class="count">—</span></h1><div class="results-actions"><button class="text-button local-trigger">＋ 本地文件</button><button id="compareVisible" class="text-button">比较当前结果</button></div></div>
+        <span id="resultSubtitle" class="sr-only">点击预览 · 勾选比较</span>
+        <div id="selectionToolbar" class="selection-toolbar" hidden><div class="selection-heading"><span><strong>已选比较</strong> · <span id="selectionCount"></span></span><button id="clearSelected" class="text-button">清空</button></div><div id="selectedFiles" class="selected-files" aria-label="已选比较的气体文件"></div></div>
+        <div id="results" class="file-table-scroll" aria-live="polite"></div>
+        <div id="emptyResults" class="empty-state" hidden><h3>没有符合条件的文件</h3><p>减少组分条件，或清空比例、温度和压强后重试。</p><button class="button secondary" id="emptyReset">清除筛选</button></div>
+
+      </section>
+      </div>
+      <aside class="plot-column" aria-label="在线绘图与文件比较">
+        <section class="panel plot-panel">
+          <div class="plot-heading"><div id="parameterTabs" class="parameter-tabs" role="tablist" aria-label="参数类别"><button role="tab" aria-selected="true" class="active" data-param-group="drift">漂移速度</button><button role="tab" aria-selected="false" data-param-group="diffusion">扩散</button><button role="tab" aria-selected="false" data-param-group="townsend">倍增</button><button role="tab" aria-selected="false" data-param-group="attachment">附着</button><button role="tab" aria-selected="false" data-param-group="more">更多</button></div><details class="export-menu"><summary class="button secondary">↥ 导出</summary><div class="export-popover"><button id="exportCsv" class="text-button" title="仅导出当前截面、范围及坐标有效的采样点；未插值" disabled>导出当前曲线数据（CSV）</button><button id="exportRaw" class="text-button" title="下载当前图中每条曲线对应的完整原始文件，包含全部工况" disabled>导出原始数据（.gas）</button><button id="exportSvg" class="text-button" disabled>导出图像（SVG）</button></div></details></div>
+          <div class="plot-context"><span id="plotContext" class="sr-only">选择文件即可预览</span><button id="returnComparison" class="text-button" hidden>返回已选文件比较</button></div>
+          <div id="compareEmpty" class="empty-state"><h3>选择一个配方查看曲线</h3></div>
+          <div id="compareWorkspace" hidden>
+            <div class="plot-configuration"><label class="parameter-control"><span class="sr-only">分量 / 参数</span><select id="parameter" aria-label="分量 / 参数"></select></label><div class="plot-condition-bar"><label>B <select id="plotB" aria-label="绘图磁场"></select></label><label>θ <select id="plotAngle" aria-label="绘图夹角"></select></label><span id="plotThermo"></span></div></div>
+            <div class="chart-container"><svg id="chart" viewBox="0 0 720 530" role="img" aria-label="气体参数曲线"></svg><div id="chartTooltip" class="chart-tooltip" hidden></div></div>
+            <div id="chartLegend" class="chart-legend"></div>
+            <p id="plotNotice" class="hint" role="status"></p>
+            <div class="chart-toolbar"><label class="x-selector">横轴 <select id="plotXAxis" aria-label="横轴"><option value="E">E</option><option value="EoverP">E/p</option><option value="EoverN">E/N</option></select></label><label class="switch">横轴对数<input id="logX" type="checkbox"><span aria-hidden="true"></span></label><label class="switch">纵轴对数<input id="logY" type="checkbox"><span aria-hidden="true"></span></label><label class="switch">采样点<input id="showPoints" type="checkbox" checked><span aria-hidden="true"></span></label><span class="zoom-hint">拖拽框选放大 · 双击恢复</span></div>
+            <details class="range-settings" open><summary>坐标轴显示范围</summary><div class="axis-ranges"><label>横轴 <span id="axisXUnit" class="unit"></span><span class="range-inputs"><input id="axisXMin" type="number" step="any" placeholder="自动" aria-label="横轴显示下限"><span>—</span><input id="axisXMax" type="number" step="any" placeholder="自动" aria-label="横轴显示上限"></span></label><label>纵轴 <span id="axisYUnit" class="unit"></span><span class="range-inputs"><input id="axisYMin" type="number" step="any" placeholder="自动" aria-label="纵轴显示下限"><span>—</span><input id="axisYMax" type="number" step="any" placeholder="自动" aria-label="纵轴显示上限"></span></label></div><button id="autoAxes" class="text-button">恢复自动范围</button></details>
+            <details class="data-details"><summary>曲线数据与参数说明</summary><p id="parameterSource" class="hint"></p><p class="hint">圆点为原始计算值；连线仅辅助阅读，未插值或外推。</p><div id="plotData" class="table-scroll"></div></details>
+          </div>
+        </section>
+      </aside>
+    </section>
+    <section id="view-maintain" class="view" hidden>
+      <div class="page-intro"><div><h1>数据库维护</h1><p class="subtitle">文件收录、元数据补充与统一计算规范。</p></div></div>
+      <div class="maintenance-grid"><article class="panel guide"><span class="step-number">01</span><h2>放入文件</h2><p>当前收录 Ar/iC₄H₁₀ 数据。收录目录由配置管理，有效的无后缀文件也能识别。</p><p>扩展气体体系时，在 <code>catalog/config.json</code> 添加目录即可。</p></article><article class="panel guide"><span class="step-number">02</span><h2>补充已知信息</h2><p>在 <code>catalog/metadata.json</code> 填写来源、贡献者和生成版本。不了解的信息留空，页面显示“未记录”。</p><p>配方、温压和网格由文件自动读取，无需重复录入。</p></article><article class="panel guide"><span class="step-number">03</span><h2>更新并预览</h2><code class="command">python3 tools/catalog.py --serve</code><p>自动检查、去重、生成目录，并启动本机预览。失败时保留原目录索引，终端指出具体文件。</p><a href="Doc/简易数据库维护说明.md">查看完整维护说明 ↗</a></article></div>
+      <div class="panel standards"><h2>统一生成规范</h2><div id="referenceProfile"></div><p class="hint">这是新计算的目标配置，不会重写已有气体表。首版框架不执行 Magboltz 批量计算。</p><hr><h3>一套配置，一份当前气体表</h3><p>新增电场点先补算，核对条件和生成设置后合并更新。补算文件移出收录目录；旧文件采用有限备份。更新后重新生成索引，不用修改网页。</p><p>相同内容自动合并展示；同配方、温压及已知生成版本的不同文件会提示维护者明确当前版本，避免悄悄覆盖。</p></div>
+    </section>
+  </main>
+  <footer class="site-footer"><span>Gas Library <span class="muted">气体探测器研究数据</span></span><span>本地文件仅在浏览器中处理，不会上传。</span></footer>
+  <input id="localFiles" type="file" multiple hidden aria-label="选择本地气体文件"><div id="dropOverlay" class="drop-overlay" hidden><strong>放入本地气体文件</strong><span>仅在浏览器中读取，不会上传或入库</span></div>
+  <dialog id="detailDialog" aria-labelledby="detailTitle"><div class="dialog-header"><div><p class="eyebrow">气体文件详情</p><h2 id="detailTitle"></h2></div><button id="closeDetail" class="icon-button" aria-label="关闭详情">×</button></div><div id="detailContent"></div></dialog>
+  <noscript><p class="notice">请启用 JavaScript 以检索和比较气体文件。</p></noscript>
+</body>
+</html>

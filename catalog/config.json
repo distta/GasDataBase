@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "title": "气体文件数据库",
+  "collections": [
+    {
+      "id": "ar-ic4h10-v001",
+      "label": "Ar / iC₄H₁₀",
+      "directory": "GasDataBase/Ar_iC4H10",
+      "description": "8种配比 · 20 °C · 1 atm · B=0/1 T · Penning关闭"
+    }
+  ],
+  "reference_profile": {
+    "id": "E-grid-v2",
+    "temperature_k": 293.15,
+    "pressure_atm": 1,
+    "magnetic_fields_t": [
+      0,
+      1
+    ],
+    "angles_deg": [
+      90
+    ],
+    "electric_fields_v_cm": [
+      100,
+      200,
+      300,
+      400,
+      500,
+      600,
+      700,
+      800,
+      900,
+      1000,
+      1500,
+      2000,
+      2500,
+      3000,
+      4000,
+      5000,
+      6000,
+      7000,
+      8000,
+      9000,
+      10000,
+      15000,
+      20000,
+      30000,
+      40000,
+      50000,
+      60000,
+      70000,
+      80000,
+      90000,
+      100000
+    ]
+  }
+}
