@@ -11,9 +11,10 @@
   const fmt = n => Number.isFinite(n) ? Number(n.toPrecision(7)).toLocaleString('en-US', {maximumSignificantDigits: 7}) : '—';
   const canonical = s => ({'ic4h10': 'iC4H10', 'i-c4h10': 'iC4H10', 'isobutane': 'iC4H10',
     'r134a': 'C2H2F4', 'argon': 'Ar', 'neon': 'Ne', 'cf4': 'CF4', 'ar': 'Ar', 'ne': 'Ne'}[s.trim().toLowerCase()] || s.trim());
+  const componentOrder = (a,b) => Number(!['He','Ne','Ar','Kr','Xe','Rn','Og'].includes(canonical(a)))-Number(!['He','Ne','Ar','Kr','Xe','Rn','Og'].includes(canonical(b))) || canonical(a).localeCompare(canonical(b),'en');
   function describe(gas, name) {
     const values = gas.identifier.split(',').map(part => part.trim().match(/^(.+?)\s+([\d.]+)\s*%$/)).filter(Boolean);
-    const components = values.map(m => ({name: canonical(m[1]), fraction: Number(m[2])})).sort((a,b) => a.name.localeCompare(b.name));
+    const components = values.map(m => ({name: canonical(m[1]), fraction: Number(m[2])})).sort((a,b) => componentOrder(a.name,b.name));
     return {label: components.length ? components.map(c => `${c.name} ${c.fraction}%`).join(' / ') : name,
       family: components.map(c => c.name).join(' / '), components, identifier: gas.identifier,
       temperature_k: gas.temperature, pressure_atm: gas.pressure / 760, pressure_torr: gas.pressure,
@@ -68,27 +69,27 @@
     if (!q.partial && !full) return null;
     return {coverage: full ? '完整覆盖' : '部分覆盖'};
   }
-  // Exact component sets rank first; percentages, then pressure and temperature
-  // provide deterministic ordering within each recipe family.
-  function compareFiles(a,b,q) {
+  // Relevance ranks first; equal relevance uses descending recipe, percentages,
+  // pressure and temperature. Explicit column sorting can override this order.
+  function compareFiles(a,b,q,order=-1) {
     const requested=q.components.filter(c=>c.name).map(c=>({...c,name:canonical(c.name)}));
-    const components=f=>[...f.components].map(c=>({...c,name:canonical(c.name)})).sort((a,b)=>a.name.localeCompare(b.name,'en'));
+    const components=f=>[...f.components].map(c=>({...c,name:canonical(c.name)})).sort((a,b)=>componentOrder(a.name,b.name));
     const ac=components(a),bc=components(b);
     const exact=cs=>requested.length>0&&cs.length===requested.length&&requested.every(c=>cs.some(v=>v.name===c.name));
     const setOrder=Number(exact(bc))-Number(exact(ac));if(setOrder)return setOrder;
     const distance=cs=>requested.reduce((sum,c)=>sum+(c.fraction===null?0:Math.abs((cs.find(v=>v.name===c.name)?.fraction??0)-c.fraction)),0);
     const delta=distance(ac)-distance(bc);if(Math.abs(delta)>1e-6)return delta;
-    const family=ac.map(c=>c.name).join('/').localeCompare(bc.map(c=>c.name).join('/'),'en');if(family)return family;
+    const family=ac.map(c=>c.name).join('/').localeCompare(bc.map(c=>c.name).join('/'),'en');if(family)return family*order;
     const names=[...requested.map(c=>c.name),...ac.map(c=>c.name)].filter((n,i,all)=>all.indexOf(n)===i);
-    for(const name of names){const delta=(ac.find(c=>c.name===name)?.fraction??0)-(bc.find(c=>c.name===name)?.fraction??0);if(Math.abs(delta)>1e-6)return delta;}
-    return a.pressure_atm-b.pressure_atm || a.temperature_k-b.temperature_k || String(a.path||a.id||'').localeCompare(String(b.path||b.id||''),'en');
+    for(const name of names){const delta=(ac.find(c=>c.name===name)?.fraction??0)-(bc.find(c=>c.name===name)?.fraction??0);if(Math.abs(delta)>1e-6)return delta*order;}
+    return (a.pressure_atm-b.pressure_atm)*order || (a.temperature_k-b.temperature_k)*order || String(a.path||a.id||'').localeCompare(String(b.path||b.id||''),'en');
   }
   function compareTableFiles(a,b,q,key,direction=1) {
     if(!key)return compareFiles(a,b,q);
     let delta=0;
     if(key==='recipe') {
       // Ignore query relevance for an explicit recipe sort; percentages remain numeric.
-      delta=compareFiles(a,b,{components:[]});
+      delta=compareFiles(a,b,{components:[]},1);
     }else {
       const field=key==='temperature'?'temperature_k':'pressure_atm';
       const av=a[field],bv=b[field];
@@ -155,5 +156,5 @@
     return slice(gas,b,angle).filter(r=>(r.E>=min||near(r.E,min))&&(r.E<=max||near(r.E,max)))
       .map(r=>({x:r.E,y:param.get(r,gas),record:r}));
   }
-  return {bits,near,fmt,canonical,describe,parse,validateQuery,match,compareFiles,compareTableFiles,parameters,available,slice,series};
+  return {bits,near,fmt,canonical,componentOrder,describe,parse,validateQuery,match,compareFiles,compareTableFiles,parameters,available,slice,series};
 });

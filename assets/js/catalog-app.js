@@ -96,7 +96,7 @@
           if(options.length>10){filter=document.createElement('input');filter.type='search';filter.placeholder='查找参数…';filter.setAttribute('aria-label','查找选项');menu.append(filter);}
           const list=document.createElement('span');list.className='picker-options';menu.append(list);
           const populate=()=>{list.replaceChildren();options.filter(o=>!filter||o.textContent.toLowerCase().includes(filter.value.toLowerCase())).forEach(option=>{
-            const item=document.createElement('button');item.type='button';item.className='picker-option';item.textContent=option.textContent;item.disabled=option.disabled;item.setAttribute('role','option');item.setAttribute('aria-selected',String(option.selected));
+            const item=document.createElement('button');item.type='button';item.className='picker-option';item.innerHTML=select.closest('#componentRows')?formula(option.textContent):esc(option.textContent);item.disabled=option.disabled;item.setAttribute('role','option');item.setAttribute('aria-selected',String(option.selected));
             item.onclick=()=>{select.value=option.value;closePickers();enhanceSelects();select.dispatchEvent(new Event('change',{bubbles:true}));button.focus();};list.append(item);
           });};populate();if(filter)filter.oninput=populate;
           wrapper.classList.add('open');button.setAttribute('aria-expanded','true');
@@ -112,7 +112,7 @@
         });
         select.addEventListener('change',enhanceSelects);
       }
-      const trigger=wrapper.querySelector('.picker-trigger');trigger.textContent=select.selectedOptions[0]?.textContent||'选择';trigger.disabled=select.disabled;trigger.title=select.title;trigger.setAttribute('aria-label',select.getAttribute('aria-label')||'选择选项');
+      const trigger=wrapper.querySelector('.picker-trigger');trigger.innerHTML=select.closest('#componentRows')?formula(select.selectedOptions[0]?.textContent||'选择'):esc(select.selectedOptions[0]?.textContent||'选择');trigger.disabled=select.disabled;trigger.title=select.title;trigger.setAttribute('aria-label',select.getAttribute('aria-label')||'选择选项');
     });
   }
   function parameterCategory(p) {
@@ -132,7 +132,7 @@
     enhanceSelects();
   }
   function addComponent(name='',fraction='') {
-    const names=[...new Set((state.catalog?.files || []).flatMap(f=>f.components.map(c=>c.name)))].sort();
+    const names=[...new Set((state.catalog?.files || []).flatMap(f=>f.components.map(c=>c.name)))].sort(M.componentOrder);
     const row=document.createElement('div');row.className='component-row';
     row.innerHTML=`<select aria-label="气体组分"><option value="">选择气体</option>${names.map(n=>`<option ${n===name?'selected':''} value="${esc(n)}">${esc(n)}</option>`).join('')}</select><div class="fraction-field"><input type="number" min="0" max="100" step="any" value="${esc(fraction)}" placeholder="不限" aria-label="组分比例"><span>%</span></div><button type="button" class="component-remove" aria-label="移除组分">×</button>`;
     row.querySelector('button').onclick=()=>{row.remove();if(!$('componentRows').children.length)addComponent();search();};

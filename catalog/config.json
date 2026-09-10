@@ -4,7 +4,7 @@
   "collections": [
     {
       "id": "ar-ic4h10-v001",
-      "label": "Ar / iC₄H₁₀",
+      "label": "Ar / iC4H10",
       "directory": "GasDataBase/Ar_iC4H10",
       "description": "当前收录气体表；温压、场网格和来源以各文件记录为准"
     },
@@ -76,8 +76,8 @@
     },
     {
       "id": "c2h6_cf4_ne",
-      "label": "C2H6 / CF4 / Ne",
-      "directory": "GasDataBase/C2H6_CF4_Ne",
+      "label": "Ne / C2H6 / CF4",
+      "directory": "GasDataBase/Ne_C2H6_CF4",
       "description": "当前收录气体表；温压、场网格和来源以各文件记录为准"
     },
     {
@@ -112,20 +112,20 @@
     },
     {
       "id": "cf4_ne",
-      "label": "CF4 / Ne",
-      "directory": "GasDataBase/CF4_Ne",
+      "label": "Ne / CF4",
+      "directory": "GasDataBase/Ne_CF4",
       "description": "当前收录气体表；温压、场网格和来源以各文件记录为准"
     },
     {
       "id": "cf4_xe",
-      "label": "CF4 / Xe",
-      "directory": "GasDataBase/CF4_Xe",
+      "label": "Xe / CF4",
+      "directory": "GasDataBase/Xe_CF4",
       "description": "当前收录气体表；温压、场网格和来源以各文件记录为准"
     },
     {
       "id": "ch4_ne",
-      "label": "CH4 / Ne",
-      "directory": "GasDataBase/CH4_Ne",
+      "label": "Ne / CH4",
+      "directory": "GasDataBase/Ne_CH4",
       "description": "当前收录气体表；温压、场网格和来源以各文件记录为准"
     },
     {
@@ -142,14 +142,14 @@
     },
     {
       "id": "co2_ne",
-      "label": "CO2 / Ne",
-      "directory": "GasDataBase/CO2_Ne",
+      "label": "Ne / CO2",
+      "directory": "GasDataBase/Ne_CO2",
       "description": "当前收录气体表；温压、场网格和来源以各文件记录为准"
     },
     {
       "id": "dme_ne",
-      "label": "DME / Ne",
-      "directory": "GasDataBase/DME_Ne",
+      "label": "Ne / DME",
+      "directory": "GasDataBase/Ne_DME",
       "description": "当前收录气体表；温压、场网格和来源以各文件记录为准"
     },
     {
@@ -160,8 +160,8 @@
     },
     {
       "id": "ic4h10_ne",
-      "label": "iC4H10 / Ne",
-      "directory": "GasDataBase/iC4H10_Ne",
+      "label": "Ne / iC4H10",
+      "directory": "GasDataBase/Ne_iC4H10",
       "description": "当前收录气体表；温压、场网格和来源以各文件记录为准"
     },
     {
@@ -172,8 +172,8 @@
     },
     {
       "id": "tma_xe",
-      "label": "TMA / Xe",
-      "directory": "GasDataBase/TMA_Xe",
+      "label": "Xe / TMA",
+      "directory": "GasDataBase/Xe_TMA",
       "description": "当前收录气体表；温压、场网格和来源以各文件记录为准"
     },
     {
@@ -184,8 +184,8 @@
     },
     {
       "id": "ic4h10_xe",
-      "label": "iC4H10 / Xe",
-      "directory": "GasDataBase/iC4H10_Xe",
+      "label": "Xe / iC4H10",
+      "directory": "GasDataBase/Xe_iC4H10",
       "description": "当前收录气体表；温压、场网格和来源以各文件记录为准"
     }
   ],

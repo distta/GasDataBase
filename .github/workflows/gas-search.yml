@@ -53,6 +53,8 @@ jobs:
         run: python3 -m unittest discover -s tests -v
       - name: Test shared gas parser against repository files
         run: node tests/test-gas-file-parser.js
+      - name: Test gas component and result ordering
+        run: node tests/test-catalog-order.js
       - name: Build deployment index from gas files
         run: python3 tools/catalog.py
       - name: Verify generated index

@@ -1,0 +1,2046 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-10",
+  "reason": "按用户要求删除温压不规范的正式库条目",
+  "rule": {
+    "temperature_c_step": 1,
+    "pressure_atm_step": 0.01,
+    "temperature_tolerance": 1e-06,
+    "pressure_tolerance": 1e-08
+  },
+  "removed_count": 31,
+  "files": [
+    {
+      "path": "GasDataBase/Ar_CO2/Ar-93_CO2-7_T293.15K_P2250.19Torr.gas",
+      "temperature_c": 19.999990000000025,
+      "pressure_atm": 2.960769868421053,
+      "provenance": {
+        "dataset": "GasDataBase/Ar_CO2/Ar-93_CO2-7_T293.15K_P2250.19Torr.gas",
+        "sha256": "553bb8bdc8886799e76b3b3ae8a57f57ed25e6c7faf81cb4f02fd87734b66143",
+        "origin": "legacy",
+        "config": {
+          "components": {
+            "Ar": 93,
+            "CO2": 7
+          },
+          "temperature_k": 293.14999,
+          "pressure_torr": 2250.1851,
+          "electric_fields_v_cm": [
+            100.00000574041411,
+            127.12685569236271,
+            161.6123802181416,
+            205.4527207701459,
+            261.18560010119404,
+            332.03702083193707,
+            422.10819507767104,
+            536.612869220649,
+            682.1790759821761,
+            867.2327234766061,
+            1102.485705363234,
+            1401.5552867969222,
+            1781.7532218408182,
+            2265.08672580624,
+            2879.53352013774,
+            3660.66030054813,
+            4653.68228643681,
+            5916.079781127751,
+            7520.92664566941,
+            9561.116146452541,
+            12154.74654822852,
+            15451.94615053617,
+            19643.574078427922,
+            24972.2572153668,
+            31746.443959287004,
+            40358.2533658626,
+            51306.180191222105,
+            65223.9305639679,
+            82917.1292547126,
+            105409.9412611659,
+            134004.3416836686,
+            170355.4856751171,
+            216567.59557862973,
+            275315.54742924,
+            350000.000964876
+          ],
+          "magnetic_fields_t": [
+            0.0
+          ],
+          "angles_deg": [
+            90.00000419434348
+          ],
+          "penning_enabled": null,
+          "generate_gas_table_argument": null,
+          "random_seed": null
+        },
+        "software_sha256": null,
+        "generator_signature": null,
+        "source_files": [
+          {
+            "path": "original/Ar/Other_Gas_Mixtures/ar_93_co2_7_3bar.gas",
+            "sha256": "553bb8bdc8886799e76b3b3ae8a57f57ed25e6c7faf81cb4f02fd87734b66143"
+          }
+        ],
+        "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+      },
+      "metadata": {
+        "status": "current",
+        "source": "旧数据库迁移；原始路径与 SHA256 见 catalog/provenance.json",
+        "notes": "按文件内组分、温压及原网格收录，原始表不改写。软件版本、统计设置及 Penning 状态未确认，不与其他计算结果自动合并。"
+      }
+    },
+    {
+      "path": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-85_iC4H10-5_SF6-10_T296.15K_P727.56Torr.gas",
+      "temperature_c": 23.0,
+      "pressure_atm": 0.9573157894736841,
+      "provenance": {
+        "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-85_iC4H10-5_SF6-10_T296.15K_P727.56Torr.gas",
+        "sha256": "78fda3634b44a79bd51b5558625cd79c406ce01e72fe4a7243e9b32be0a72fbb",
+        "origin": "legacy",
+        "config": {
+          "components": {
+            "C2H2F4": 85,
+            "iC4H10": 5,
+            "SF6": 10
+          },
+          "temperature_k": 296.15,
+          "pressure_torr": 727.56,
+          "electric_fields_v_cm": [
+            89999.99996327999,
+            99498.74394023999,
+            110000.00011679999
+          ],
+          "magnetic_fields_t": [
+            0.0
+          ],
+          "angles_deg": [
+            90.0000001836389
+          ],
+          "penning_enabled": null,
+          "generate_gas_table_argument": null,
+          "random_seed": null
+        },
+        "software_sha256": null,
+        "generator_signature": null,
+        "source_files": [
+          {
+            "path": "original/RPCgas_Typical/ Common_Gases/TimingRPCGas.gas",
+            "sha256": "78fda3634b44a79bd51b5558625cd79c406ce01e72fe4a7243e9b32be0a72fbb"
+          }
+        ],
+        "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+      },
+      "metadata": {
+        "status": "current",
+        "source": "旧数据库迁移；原始路径与 SHA256 见 catalog/provenance.json",
+        "notes": "按文件内组分、温压及原网格收录，原始表不改写。软件版本、统计设置及 Penning 状态未确认，不与其他计算结果自动合并。"
+      }
+    },
+    {
+      "path": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T283.15K_P763.8Torr.gas",
+      "temperature_c": 10.0,
+      "pressure_atm": 1.005,
+      "provenance": {
+        "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T283.15K_P763.8Torr.gas",
+        "sha256": "d670232e6a76ffb9952b7222a93b221ce87b30dd366749d96191f5bccaf44df9",
+        "origin": "legacy",
+        "config": {
+          "components": {
+            "C2H2F4": 90,
+            "iC4H10": 5,
+            "SF6": 5
+          },
+          "temperature_k": 283.15,
+          "pressure_torr": 763.8,
+          "electric_fields_v_cm": [
+            1000.0000019879999,
+            6266.666666904,
+            11533.333331819998,
+            16799.99998146,
+            22066.6666311,
+            27333.33335712,
+            32600.000006759998,
+            37866.6666564,
+            43133.33330604,
+            48400.00003206,
+            53666.66668169999,
+            58933.33333133999,
+            64199.99998098,
+            69466.66663061999,
+            74733.33335664,
+            80000.0003118
+          ],
+          "magnetic_fields_t": [
+            0.0
+          ],
+          "angles_deg": [
+            90.0000001836389
+          ],
+          "penning_enabled": null,
+          "generate_gas_table_argument": null,
+          "random_seed": null
+        },
+        "software_sha256": null,
+        "generator_signature": null,
+        "source_files": [
+          {
+            "path": "original/RPCgas_Typical/Different_Pressure_And_Temperature/1.005atm_10c.gas",
+            "sha256": "d670232e6a76ffb9952b7222a93b221ce87b30dd366749d96191f5bccaf44df9"
+          }
+        ],
+        "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+      },
+      "metadata": {
+        "status": "current",
+        "source": "旧数据库迁移；原始路径与 SHA256 见 catalog/provenance.json",
+        "notes": "按文件内组分、温压及原网格收录，原始表不改写。软件版本、统计设置及 Penning 状态未确认，不与其他计算结果自动合并。"
+      }
+    },
+    {
+      "path": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T293.15K_P763.8Torr.gas",
+      "temperature_c": 20.0,
+      "pressure_atm": 1.005,
+      "provenance": {
+        "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T293.15K_P763.8Torr.gas",
+        "sha256": "fecc800e02b3338457a733e0f544c79e45781026555a23a289e7ae2a79571467",
+        "origin": "legacy",
+        "config": {
+          "components": {
+            "C2H2F4": 90,
+            "iC4H10": 5,
+            "SF6": 5
+          },
+          "temperature_k": 293.15,
+          "pressure_torr": 763.8,
+          "electric_fields_v_cm": [
+            1000.0000019879999,
+            6266.666666904,
+            11533.333331819998,
+            16799.99998146,
+            22066.6666311,
+            27333.33335712,
+            32600.000006759998,
+            37866.6666564,
+            43133.33330604,
+            48400.00003206,
+            53666.66668169999,
+            58933.33333133999,
+            64199.99998098,
+            69466.66663061999,
+            74733.33335664,
+            80000.0003118
+          ],
+          "magnetic_fields_t": [
+            0.0
+          ],
+          "angles_deg": [
+            90.0000001836389
+          ],
+          "penning_enabled": null,
+          "generate_gas_table_argument": null,
+          "random_seed": null
+        },
+        "software_sha256": null,
+        "generator_signature": null,
+        "source_files": [
+          {
+            "path": "original/RPCgas_Typical/Different_Pressure_And_Temperature/1.005atm_20c.gas",
+            "sha256": "fecc800e02b3338457a733e0f544c79e45781026555a23a289e7ae2a79571467"
+          }
+        ],
+        "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+      },
+      "metadata": {
+        "status": "current",
+        "source": "旧数据库迁移；原始路径与 SHA256 见 catalog/provenance.json",
+        "notes": "按文件内组分、温压及原网格收录，原始表不改写。软件版本、统计设置及 Penning 状态未确认，不与其他计算结果自动合并。"
+      }
+    },
+    {
+      "path": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T303.15K_P763.8Torr.gas",
+      "temperature_c": 30.0,
+      "pressure_atm": 1.005,
+      "provenance": {
+        "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T303.15K_P763.8Torr.gas",
+        "sha256": "7e0dd3d7fd4687656cb7d268f7886dc6abc61870ce9e0b5a6b1208eee77999be",
+        "origin": "legacy",
+        "config": {
+          "components": {
+            "C2H2F4": 90,
+            "iC4H10": 5,
+            "SF6": 5
+          },
+          "temperature_k": 303.15,
+          "pressure_torr": 763.8,
+          "electric_fields_v_cm": [
+            1000.0000019879999,
+            6266.666666904,
+            11533.333331819998,
+            16799.99998146,
+            22066.6666311,
+            27333.33335712,
+            32600.000006759998,
+            37866.6666564,
+            43133.33330604,
+            48400.00003206,
+            53666.66668169999,
+            58933.33333133999,
+            64199.99998098,
+            69466.66663061999,
+            74733.33335664,
+            80000.0003118
+          ],
+          "magnetic_fields_t": [
+            0.0
+          ],
+          "angles_deg": [
+            90.0000001836389
+          ],
+          "penning_enabled": null,
+          "generate_gas_table_argument": null,
+          "random_seed": null
+        },
+        "software_sha256": null,
+        "generator_signature": null,
+        "source_files": [
+          {
+            "path": "original/RPCgas_Typical/Different_Pressure_And_Temperature/1.005atm_30c.gas",
+            "sha256": "7e0dd3d7fd4687656cb7d268f7886dc6abc61870ce9e0b5a6b1208eee77999be"
+          }
+        ],
+        "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+      },
+      "metadata": {
+        "status": "current",
+        "source": "旧数据库迁移；原始路径与 SHA256 见 catalog/provenance.json",
+        "notes": "按文件内组分、温压及原网格收录，原始表不改写。软件版本、统计设置及 Penning 状态未确认，不与其他计算结果自动合并。"
+      }
+    },
+    {
+      "path": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T313.15K_P763.8Torr.gas",
+      "temperature_c": 40.0,
+      "pressure_atm": 1.005,
+      "provenance": {
+        "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T313.15K_P763.8Torr.gas",
+        "sha256": "e2e63587bede6620a38a6b58200ae82860ca6c5a2d6467c1ae5759c249ea362c",
+        "origin": "legacy",
+        "config": {
+          "components": {
+            "C2H2F4": 90,
+            "iC4H10": 5,
+            "SF6": 5
+          },
+          "temperature_k": 313.15,
+          "pressure_torr": 763.8,
+          "electric_fields_v_cm": [
+            100.0000001988,
+            5357.894738328,
+            10615.78948104,
+            15873.684193199999,
+            21131.57898174,
+            26389.4736939,
+            31647.36840606,
+            36905.2631946,
+            42163.15790676,
+            47421.052618919995,
+            52678.94733108,
+            57936.84211962,
+            63194.73683177999,
+            68452.63154394,
+            73710.52633247999,
+            78968.42119739999,
+            84226.31575679999,
+            89484.2103162,
+            94742.10563939999,
+            100000.0001988
+          ],
+          "magnetic_fields_t": [
+            0.0
+          ],
+          "angles_deg": [
+            90.0000001836389
+          ],
+          "penning_enabled": null,
+          "generate_gas_table_argument": null,
+          "random_seed": null
+        },
+        "software_sha256": null,
+        "generator_signature": null,
+        "source_files": [
+          {
+            "path": "original/RPCgas_Typical/Different_Pressure_And_Temperature/1.005atm_40c.gas",
+            "sha256": "e2e63587bede6620a38a6b58200ae82860ca6c5a2d6467c1ae5759c249ea362c"
+          }
+        ],
+        "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+      },
+      "metadata": {
+        "status": "current",
+        "source": "旧数据库迁移；原始路径与 SHA256 见 catalog/provenance.json",
+        "notes": "按文件内组分、温压及原网格收录，原始表不改写。软件版本、统计设置及 Penning 状态未确认，不与其他计算结果自动合并。"
+      }
+    },
+    {
+      "path": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T323.15K_P763.8Torr.gas",
+      "temperature_c": 50.0,
+      "pressure_atm": 1.005,
+      "provenance": {
+        "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T323.15K_P763.8Torr.gas",
+        "sha256": "e8d9067a201a7a3428ee611ade9215cb4119e723eb71b4fc91431a6ebd0d652a",
+        "origin": "legacy",
+        "config": {
+          "components": {
+            "C2H2F4": 90,
+            "iC4H10": 5,
+            "SF6": 5
+          },
+          "temperature_k": 323.15,
+          "pressure_torr": 763.8,
+          "electric_fields_v_cm": [
+            100.0000001988,
+            5357.894738328,
+            10615.78948104,
+            15873.684193199999,
+            21131.57898174,
+            26389.4736939,
+            31647.36840606,
+            36905.2631946,
+            42163.15790676,
+            47421.052618919995,
+            52678.94733108,
+            57936.84211962,
+            63194.73683177999,
+            68452.63154394,
+            73710.52633247999,
+            78968.42119739999,
+            84226.31575679999,
+            89484.2103162,
+            94742.10563939999,
+            100000.0001988
+          ],
+          "magnetic_fields_t": [
+            0.0
+          ],
+          "angles_deg": [
+            90.0000001836389
+          ],
+          "penning_enabled": null,
+          "generate_gas_table_argument": null,
+          "random_seed": null
+        },
+        "software_sha256": null,
+        "generator_signature": null,
+        "source_files": [
+          {
+            "path": "original/RPCgas_Typical/Different_Pressure_And_Temperature/1.005atm_50c.gas",
+            "sha256": "e8d9067a201a7a3428ee611ade9215cb4119e723eb71b4fc91431a6ebd0d652a"
+          }
+        ],
+        "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+      },
+      "metadata": {
+        "status": "current",
+        "source": "旧数据库迁移；原始路径与 SHA256 见 catalog/provenance.json",
+        "notes": "按文件内组分、温压及原网格收录，原始表不改写。软件版本、统计设置及 Penning 状态未确认，不与其他计算结果自动合并。"
+      }
+    },
+    {
+      "path": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T333.15K_P763.8Torr.gas",
+      "temperature_c": 60.0,
+      "pressure_atm": 1.005,
+      "provenance": {
+        "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T333.15K_P763.8Torr.gas",
+        "sha256": "6364b3466355b5d147ffd0e09bfcd4c31f5fdd47b050837a6d3819957404842f",
+        "origin": "legacy",
+        "config": {
+          "components": {
+            "C2H2F4": 90,
+            "iC4H10": 5,
+            "SF6": 5
+          },
+          "temperature_k": 333.15,
+          "pressure_torr": 763.8,
+          "electric_fields_v_cm": [
+            100.0000001988,
+            5357.894738328,
+            10615.78948104,
+            15873.684193199999,
+            21131.57898174,
+            26389.4736939,
+            31647.36840606,
+            36905.2631946,
+            42163.15790676,
+            47421.052618919995,
+            52678.94733108,
+            57936.84211962,
+            63194.73683177999,
+            68452.63154394,
+            73710.52633247999,
+            78968.42119739999,
+            84226.31575679999,
+            89484.2103162,
+            94742.10563939999,
+            100000.0001988
+          ],
+          "magnetic_fields_t": [
+            0.0
+          ],
+          "angles_deg": [
+            90.0000001836389
+          ],
+          "penning_enabled": null,
+          "generate_gas_table_argument": null,
+          "random_seed": null
+        },
+        "software_sha256": null,
+        "generator_signature": null,
+        "source_files": [
+          {
+            "path": "original/RPCgas_Typical/Different_Pressure_And_Temperature/1.005atm_60c.gas",
+            "sha256": "6364b3466355b5d147ffd0e09bfcd4c31f5fdd47b050837a6d3819957404842f"
+          }
+        ],
+        "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+      },
+      "metadata": {
+        "status": "current",
+        "source": "旧数据库迁移；原始路径与 SHA256 见 catalog/provenance.json",
+        "notes": "按文件内组分、温压及原网格收录，原始表不改写。软件版本、统计设置及 Penning 状态未确认，不与其他计算结果自动合并。"
+      }
+    },
+    {
+      "path": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T343.15K_P763.8Torr.gas",
+      "temperature_c": 70.0,
+      "pressure_atm": 1.005,
+      "provenance": {
+        "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T343.15K_P763.8Torr.gas",
+        "sha256": "78a2aa4151c17da63f0a1b3913eccc535cc66c707f1ab03ca05892d2baf0565e",
+        "origin": "legacy",
+        "config": {
+          "components": {
+            "C2H2F4": 90,
+            "iC4H10": 5,
+            "SF6": 5
+          },
+          "temperature_k": 343.15,
+          "pressure_torr": 763.8,
+          "electric_fields_v_cm": [
+            100.0000001988,
+            5357.894738328,
+            10615.78948104,
+            15873.684193199999,
+            21131.57898174,
+            26389.4736939,
+            31647.36840606,
+            36905.2631946,
+            42163.15790676,
+            47421.052618919995,
+            52678.94733108,
+            57936.84211962,
+            63194.73683177999,
+            68452.63154394,
+            73710.52633247999,
+            78968.42119739999,
+            84226.31575679999,
+            89484.2103162,
+            94742.10563939999,
+            100000.0001988
+          ],
+          "magnetic_fields_t": [
+            0.0
+          ],
+          "angles_deg": [
+            90.0000001836389
+          ],
+          "penning_enabled": null,
+          "generate_gas_table_argument": null,
+          "random_seed": null
+        },
+        "software_sha256": null,
+        "generator_signature": null,
+        "source_files": [
+          {
+            "path": "original/RPCgas_Typical/Different_Pressure_And_Temperature/1.005atm_70c.gas",
+            "sha256": "78a2aa4151c17da63f0a1b3913eccc535cc66c707f1ab03ca05892d2baf0565e"
+          }
+        ],
+        "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+      },
+      "metadata": {
+        "status": "current",
+        "source": "旧数据库迁移；原始路径与 SHA256 见 catalog/provenance.json",
+        "notes": "按文件内组分、温压及原网格收录，原始表不改写。软件版本、统计设置及 Penning 状态未确认，不与其他计算结果自动合并。"
+      }
+    },
+    {
+      "path": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T353.15K_P763.8Torr.gas",
+      "temperature_c": 80.0,
+      "pressure_atm": 1.005,
+      "provenance": {
+        "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T353.15K_P763.8Torr.gas",
+        "sha256": "c27b8001d2009ff6b9b90f1205f8b86141975d8d3e7fa25d0568eea55b0ff56f",
+        "origin": "legacy",
+        "config": {
+          "components": {
+            "C2H2F4": 90,
+            "iC4H10": 5,
+            "SF6": 5
+          },
+          "temperature_k": 353.15,
+          "pressure_torr": 763.8,
+          "electric_fields_v_cm": [
+            100.0000001988,
+            5305.263159276,
+            10510.526307659999,
+            15715.789471319998,
+            20921.05263498,
+            26126.315798639997,
+            31331.578962300002,
+            36536.84212596,
+            41742.10528962,
+            46947.368453279996,
+            52152.63161694,
+            57357.894704219994,
+            62563.15786787999,
+            67768.42103154,
+            72973.6841952,
+            78178.947588,
+            83384.210217,
+            88589.47360979998,
+            93794.7370026,
+            98999.99963159999
+          ],
+          "magnetic_fields_t": [
+            0.0
+          ],
+          "angles_deg": [
+            90.0000001836389
+          ],
+          "penning_enabled": null,
+          "generate_gas_table_argument": null,
+          "random_seed": null
+        },
+        "software_sha256": null,
+        "generator_signature": null,
+        "source_files": [
+          {
+            "path": "original/RPCgas_Typical/Different_Pressure_And_Temperature/1.005atm_80c.gas",
+            "sha256": "c27b8001d2009ff6b9b90f1205f8b86141975d8d3e7fa25d0568eea55b0ff56f"
+          }
+        ],
+        "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+      },
+      "metadata": {
+        "status": "current",
+        "source": "旧数据库迁移；原始路径与 SHA256 见 catalog/provenance.json",
+        "notes": "按文件内组分、温压及原网格收录，原始表不改写。软件版本、统计设置及 Penning 状态未确认，不与其他计算结果自动合并。"
+      }
+    },
+    {
+      "path": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T602.789K_P293.15Torr.gas",
+      "temperature_c": 329.63880000000006,
+      "pressure_atm": 0.3857236842105263,
+      "provenance": {
+        "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T602.789K_P293.15Torr.gas",
+        "sha256": "61c558b7cd257bb1253919aadf3fdfc640feee4f0120ee72a7edc2ee22e63604",
+        "origin": "legacy",
+        "config": {
+          "components": {
+            "C2H2F4": 90,
+            "iC4H10": 5,
+            "SF6": 5
+          },
+          "temperature_k": 602.7888,
+          "pressure_torr": 293.15,
+          "electric_fields_v_cm": [
+            4999.99999499,
+            9999.99998998,
+            15000.000014285,
+            20000.000009274998,
+            25000.000004265,
+            30000.000087199995,
+            34999.9999063,
+            40000.000018549996,
+            45000.0001308,
+            49999.9999499,
+            55000.00006215,
+            59999.99988124999,
+            64999.999993499994,
+            70000.00010574999,
+            74999.99992485,
+            80000.00003709999,
+            84999.9998562,
+            89999.99996844999,
+            95000.00008069999,
+            99999.9998998,
+            105000.00001204999,
+            110000.0001243,
+            114999.99994339999
+          ],
+          "magnetic_fields_t": [
+            0.0
+          ],
+          "angles_deg": [
+            90.0000001836389
+          ],
+          "penning_enabled": null,
+          "generate_gas_table_argument": null,
+          "random_seed": null
+        },
+        "software_sha256": null,
+        "generator_signature": null,
+        "source_files": [
+          {
+            "path": "original/RPCgas_Typical/Different_Temperature/6027888.gas",
+            "sha256": "61c558b7cd257bb1253919aadf3fdfc640feee4f0120ee72a7edc2ee22e63604"
+          }
+        ],
+        "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+      },
+      "metadata": {
+        "status": "current",
+        "source": "旧数据库迁移；原始路径与 SHA256 见 catalog/provenance.json",
+        "notes": "按文件内组分、温压及原网格收录，原始表不改写。软件版本、统计设置及 Penning 状态未确认，不与其他计算结果自动合并。"
+      }
+    },
+    {
+      "path": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T610.186K_P293.15Torr.gas",
+      "temperature_c": 337.0363,
+      "pressure_atm": 0.3857236842105263,
+      "provenance": {
+        "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T610.186K_P293.15Torr.gas",
+        "sha256": "e6ccd5ff555fc29eca7cbefa32fbeb1ece8e332de833805353cedc9d31729343",
+        "origin": "legacy",
+        "config": {
+          "components": {
+            "C2H2F4": 90,
+            "iC4H10": 5,
+            "SF6": 5
+          },
+          "temperature_k": 610.1863,
+          "pressure_torr": 293.15,
+          "electric_fields_v_cm": [
+            4999.99999499,
+            9999.99998998,
+            15000.000014285,
+            20000.000009274998,
+            25000.000004265,
+            30000.000087199995,
+            34999.9999063,
+            40000.000018549996,
+            45000.0001308,
+            49999.9999499,
+            55000.00006215,
+            59999.99988124999,
+            64999.999993499994,
+            70000.00010574999,
+            74999.99992485,
+            80000.00003709999,
+            84999.9998562,
+            89999.99996844999,
+            95000.00008069999,
+            99999.9998998,
+            105000.00001204999,
+            110000.0001243,
+            114999.99994339999
+          ],
+          "magnetic_fields_t": [
+            0.0
+          ],
+          "angles_deg": [
+            90.0000001836389
+          ],
+          "penning_enabled": null,
+          "generate_gas_table_argument": null,
+          "random_seed": null
+        },
+        "software_sha256": null,
+        "generator_signature": null,
+        "source_files": [
+          {
+            "path": "original/RPCgas_Typical/Different_Temperature/6101863.gas",
+            "sha256": "e6ccd5ff555fc29eca7cbefa32fbeb1ece8e332de833805353cedc9d31729343"
+          }
+        ],
+        "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+      },
+      "metadata": {
+        "status": "current",
+        "source": "旧数据库迁移；原始路径与 SHA256 见 catalog/provenance.json",
+        "notes": "按文件内组分、温压及原网格收录，原始表不改写。软件版本、统计设置及 Penning 状态未确认，不与其他计算结果自动合并。"
+      }
+    },
+    {
+      "path": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T617.584K_P293.15Torr.gas",
+      "temperature_c": 344.4338,
+      "pressure_atm": 0.3857236842105263,
+      "provenance": {
+        "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T617.584K_P293.15Torr.gas",
+        "sha256": "6c05be090a0db27cba9f3f1167410d16fc03041fc3a2e784be0a70fc6b001a1e",
+        "origin": "legacy",
+        "config": {
+          "components": {
+            "C2H2F4": 90,
+            "iC4H10": 5,
+            "SF6": 5
+          },
+          "temperature_k": 617.5838,
+          "pressure_torr": 293.15,
+          "electric_fields_v_cm": [
+            4999.99999499,
+            9999.99998998,
+            15000.000014285,
+            20000.000009274998,
+            25000.000004265,
+            30000.000087199995,
+            34999.9999063,
+            40000.000018549996,
+            45000.0001308,
+            49999.9999499,
+            55000.00006215,
+            59999.99988124999,
+            64999.999993499994,
+            70000.00010574999,
+            74999.99992485,
+            80000.00003709999,
+            84999.9998562,
+            89999.99996844999,
+            95000.00008069999,
+            99999.9998998,
+            105000.00001204999,
+            110000.0001243,
+            114999.99994339999
+          ],
+          "magnetic_fields_t": [
+            0.0
+          ],
+          "angles_deg": [
+            90.0000001836389
+          ],
+          "penning_enabled": null,
+          "generate_gas_table_argument": null,
+          "random_seed": null
+        },
+        "software_sha256": null,
+        "generator_signature": null,
+        "source_files": [
+          {
+            "path": "original/RPCgas_Typical/Different_Temperature/6175838.gas",
+            "sha256": "6c05be090a0db27cba9f3f1167410d16fc03041fc3a2e784be0a70fc6b001a1e"
+          }
+        ],
+        "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+      },
+      "metadata": {
+        "status": "current",
+        "source": "旧数据库迁移；原始路径与 SHA256 见 catalog/provenance.json",
+        "notes": "按文件内组分、温压及原网格收录，原始表不改写。软件版本、统计设置及 Penning 状态未确认，不与其他计算结果自动合并。"
+      }
+    },
+    {
+      "path": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T624.981K_P293.15Torr.gas",
+      "temperature_c": 351.83130000000006,
+      "pressure_atm": 0.3857236842105263,
+      "provenance": {
+        "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T624.981K_P293.15Torr.gas",
+        "sha256": "0468bac3ba8b24a10a7213378b892018cbc622cdb2d1000297afdc46d7c05373",
+        "origin": "legacy",
+        "config": {
+          "components": {
+            "C2H2F4": 90,
+            "iC4H10": 5,
+            "SF6": 5
+          },
+          "temperature_k": 624.9813,
+          "pressure_torr": 293.15,
+          "electric_fields_v_cm": [
+            4999.99999499,
+            9999.99998998,
+            15000.000014285,
+            20000.000009274998,
+            25000.000004265,
+            30000.000087199995,
+            34999.9999063,
+            40000.000018549996,
+            45000.0001308,
+            49999.9999499,
+            55000.00006215,
+            59999.99988124999,
+            64999.999993499994,
+            70000.00010574999,
+            74999.99992485,
+            80000.00003709999,
+            84999.9998562,
+            89999.99996844999,
+            95000.00008069999,
+            99999.9998998,
+            105000.00001204999,
+            110000.0001243,
+            114999.99994339999
+          ],
+          "magnetic_fields_t": [
+            0.0
+          ],
+          "angles_deg": [
+            90.0000001836389
+          ],
+          "penning_enabled": null,
+          "generate_gas_table_argument": null,
+          "random_seed": null
+        },
+        "software_sha256": null,
+        "generator_signature": null,
+        "source_files": [
+          {
+            "path": "original/RPCgas_Typical/Different_Temperature/6249813.gas",
+            "sha256": "0468bac3ba8b24a10a7213378b892018cbc622cdb2d1000297afdc46d7c05373"
+          }
+        ],
+        "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+      },
+      "metadata": {
+        "status": "current",
+        "source": "旧数据库迁移；原始路径与 SHA256 见 catalog/provenance.json",
+        "notes": "按文件内组分、温压及原网格收录，原始表不改写。软件版本、统计设置及 Penning 状态未确认，不与其他计算结果自动合并。"
+      }
+    },
+    {
+      "path": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T632.379K_P293.15Torr.gas",
+      "temperature_c": 359.2288,
+      "pressure_atm": 0.3857236842105263,
+      "provenance": {
+        "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T632.379K_P293.15Torr.gas",
+        "sha256": "4d88b19c5e0575f818c3217ed7d22a9152b06d8ac5e2749fd2e29d7d1686f55e",
+        "origin": "legacy",
+        "config": {
+          "components": {
+            "C2H2F4": 90,
+            "iC4H10": 5,
+            "SF6": 5
+          },
+          "temperature_k": 632.3788,
+          "pressure_torr": 293.15,
+          "electric_fields_v_cm": [
+            4999.99999499,
+            9999.99998998,
+            15000.000014285,
+            20000.000009274998,
+            25000.000004265,
+            30000.000087199995,
+            34999.9999063,
+            40000.000018549996,
+            45000.0001308,
+            49999.9999499,
+            55000.00006215,
+            59999.99988124999,
+            64999.999993499994,
+            70000.00010574999,
+            74999.99992485,
+            80000.00003709999,
+            84999.9998562,
+            89999.99996844999,
+            95000.00008069999,
+            99999.9998998,
+            105000.00001204999,
+            110000.0001243,
+            114999.99994339999
+          ],
+          "magnetic_fields_t": [
+            0.0
+          ],
+          "angles_deg": [
+            90.0000001836389
+          ],
+          "penning_enabled": null,
+          "generate_gas_table_argument": null,
+          "random_seed": null
+        },
+        "software_sha256": null,
+        "generator_signature": null,
+        "source_files": [
+          {
+            "path": "original/RPCgas_Typical/Different_Temperature/6323788.gas",
+            "sha256": "4d88b19c5e0575f818c3217ed7d22a9152b06d8ac5e2749fd2e29d7d1686f55e"
+          }
+        ],
+        "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+      },
+      "metadata": {
+        "status": "current",
+        "source": "旧数据库迁移；原始路径与 SHA256 见 catalog/provenance.json",
+        "notes": "按文件内组分、温压及原网格收录，原始表不改写。软件版本、统计设置及 Penning 状态未确认，不与其他计算结果自动合并。"
+      }
+    },
+    {
+      "path": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T639.776K_P293.15Torr.gas",
+      "temperature_c": 366.6263,
+      "pressure_atm": 0.3857236842105263,
+      "provenance": {
+        "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T639.776K_P293.15Torr.gas",
+        "sha256": "82fe3dcd4828e6a380eed6874ce3be8c3502478435d697f58a145e66f6f85e06",
+        "origin": "legacy",
+        "config": {
+          "components": {
+            "C2H2F4": 90,
+            "iC4H10": 5,
+            "SF6": 5
+          },
+          "temperature_k": 639.7763,
+          "pressure_torr": 293.15,
+          "electric_fields_v_cm": [
+            4999.99999499,
+            9999.99998998,
+            15000.000014285,
+            20000.000009274998,
+            25000.000004265,
+            30000.000087199995,
+            34999.9999063,
+            40000.000018549996,
+            45000.0001308,
+            49999.9999499,
+            55000.00006215,
+            59999.99988124999,
+            64999.999993499994,
+            70000.00010574999,
+            74999.99992485,
+            80000.00003709999,
+            84999.9998562,
+            89999.99996844999,
+            95000.00008069999,
+            99999.9998998,
+            105000.00001204999,
+            110000.0001243,
+            114999.99994339999
+          ],
+          "magnetic_fields_t": [
+            0.0
+          ],
+          "angles_deg": [
+            90.0000001836389
+          ],
+          "penning_enabled": null,
+          "generate_gas_table_argument": null,
+          "random_seed": null
+        },
+        "software_sha256": null,
+        "generator_signature": null,
+        "source_files": [
+          {
+            "path": "original/RPCgas_Typical/Different_Temperature/6397763.gas",
+            "sha256": "82fe3dcd4828e6a380eed6874ce3be8c3502478435d697f58a145e66f6f85e06"
+          }
+        ],
+        "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+      },
+      "metadata": {
+        "status": "current",
+        "source": "旧数据库迁移；原始路径与 SHA256 见 catalog/provenance.json",
+        "notes": "按文件内组分、温压及原网格收录，原始表不改写。软件版本、统计设置及 Penning 状态未确认，不与其他计算结果自动合并。"
+      }
+    },
+    {
+      "path": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T647.174K_P293.15Torr.gas",
+      "temperature_c": 374.02380000000005,
+      "pressure_atm": 0.3857236842105263,
+      "provenance": {
+        "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T647.174K_P293.15Torr.gas",
+        "sha256": "5aadc60373d01b287e9c23a611a80bcd48a75c52a0736a953adcba66e01e8ab3",
+        "origin": "legacy",
+        "config": {
+          "components": {
+            "C2H2F4": 90,
+            "iC4H10": 5,
+            "SF6": 5
+          },
+          "temperature_k": 647.1738,
+          "pressure_torr": 293.15,
+          "electric_fields_v_cm": [
+            4999.99999499,
+            9999.99998998,
+            15000.000014285,
+            20000.000009274998,
+            25000.000004265,
+            30000.000087199995,
+            34999.9999063,
+            40000.000018549996,
+            45000.0001308,
+            49999.9999499,
+            55000.00006215,
+            59999.99988124999,
+            64999.999993499994,
+            70000.00010574999,
+            74999.99992485,
+            80000.00003709999,
+            84999.9998562,
+            89999.99996844999,
+            95000.00008069999,
+            99999.9998998,
+            105000.00001204999,
+            110000.0001243,
+            114999.99994339999
+          ],
+          "magnetic_fields_t": [
+            0.0
+          ],
+          "angles_deg": [
+            90.0000001836389
+          ],
+          "penning_enabled": null,
+          "generate_gas_table_argument": null,
+          "random_seed": null
+        },
+        "software_sha256": null,
+        "generator_signature": null,
+        "source_files": [
+          {
+            "path": "original/RPCgas_Typical/Different_Temperature/6471738.gas",
+            "sha256": "5aadc60373d01b287e9c23a611a80bcd48a75c52a0736a953adcba66e01e8ab3"
+          }
+        ],
+        "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+      },
+      "metadata": {
+        "status": "current",
+        "source": "旧数据库迁移；原始路径与 SHA256 见 catalog/provenance.json",
+        "notes": "按文件内组分、温压及原网格收录，原始表不改写。软件版本、统计设置及 Penning 状态未确认，不与其他计算结果自动合并。"
+      }
+    },
+    {
+      "path": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T654.571K_P293.15Torr.gas",
+      "temperature_c": 381.4213,
+      "pressure_atm": 0.3857236842105263,
+      "provenance": {
+        "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T654.571K_P293.15Torr.gas",
+        "sha256": "f39e680b043efb297aa67045e2ea8e95176146849dd45775b2eae317993780c4",
+        "origin": "legacy",
+        "config": {
+          "components": {
+            "C2H2F4": 90,
+            "iC4H10": 5,
+            "SF6": 5
+          },
+          "temperature_k": 654.5713,
+          "pressure_torr": 293.15,
+          "electric_fields_v_cm": [
+            4999.99999499,
+            9999.99998998,
+            15000.000014285,
+            20000.000009274998,
+            25000.000004265,
+            30000.000087199995,
+            34999.9999063,
+            40000.000018549996,
+            45000.0001308,
+            49999.9999499,
+            55000.00006215,
+            59999.99988124999,
+            64999.999993499994,
+            70000.00010574999,
+            74999.99992485,
+            80000.00003709999,
+            84999.9998562,
+            89999.99996844999,
+            95000.00008069999,
+            99999.9998998,
+            105000.00001204999,
+            110000.0001243,
+            114999.99994339999
+          ],
+          "magnetic_fields_t": [
+            0.0
+          ],
+          "angles_deg": [
+            90.0000001836389
+          ],
+          "penning_enabled": null,
+          "generate_gas_table_argument": null,
+          "random_seed": null
+        },
+        "software_sha256": null,
+        "generator_signature": null,
+        "source_files": [
+          {
+            "path": "original/RPCgas_Typical/Different_Temperature/6545713.gas",
+            "sha256": "f39e680b043efb297aa67045e2ea8e95176146849dd45775b2eae317993780c4"
+          }
+        ],
+        "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+      },
+      "metadata": {
+        "status": "current",
+        "source": "旧数据库迁移；原始路径与 SHA256 见 catalog/provenance.json",
+        "notes": "按文件内组分、温压及原网格收录，原始表不改写。软件版本、统计设置及 Penning 状态未确认，不与其他计算结果自动合并。"
+      }
+    },
+    {
+      "path": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T661.969K_P293.15Torr.gas",
+      "temperature_c": 388.8188,
+      "pressure_atm": 0.3857236842105263,
+      "provenance": {
+        "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T661.969K_P293.15Torr.gas",
+        "sha256": "633d6990a8d34ff6254f39083051458c05c55f202473984cb60aed34c8a976be",
+        "origin": "legacy",
+        "config": {
+          "components": {
+            "C2H2F4": 90,
+            "iC4H10": 5,
+            "SF6": 5
+          },
+          "temperature_k": 661.9688,
+          "pressure_torr": 293.15,
+          "electric_fields_v_cm": [
+            4999.99999499,
+            9999.99998998,
+            15000.000014285,
+            20000.000009274998,
+            25000.000004265,
+            30000.000087199995,
+            34999.9999063,
+            40000.000018549996,
+            45000.0001308,
+            49999.9999499,
+            55000.00006215,
+            59999.99988124999,
+            64999.999993499994,
+            70000.00010574999,
+            74999.99992485,
+            80000.00003709999,
+            84999.9998562,
+            89999.99996844999,
+            95000.00008069999,
+            99999.9998998,
+            105000.00001204999,
+            110000.0001243,
+            114999.99994339999
+          ],
+          "magnetic_fields_t": [
+            0.0
+          ],
+          "angles_deg": [
+            90.0000001836389
+          ],
+          "penning_enabled": null,
+          "generate_gas_table_argument": null,
+          "random_seed": null
+        },
+        "software_sha256": null,
+        "generator_signature": null,
+        "source_files": [
+          {
+            "path": "original/RPCgas_Typical/Different_Temperature/6619688.gas",
+            "sha256": "633d6990a8d34ff6254f39083051458c05c55f202473984cb60aed34c8a976be"
+          }
+        ],
+        "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+      },
+      "metadata": {
+        "status": "current",
+        "source": "旧数据库迁移；原始路径与 SHA256 见 catalog/provenance.json",
+        "notes": "按文件内组分、温压及原网格收录，原始表不改写。软件版本、统计设置及 Penning 状态未确认，不与其他计算结果自动合并。"
+      }
+    },
+    {
+      "path": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T669.366K_P293.15Torr.gas",
+      "temperature_c": 396.21630000000005,
+      "pressure_atm": 0.3857236842105263,
+      "provenance": {
+        "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T669.366K_P293.15Torr.gas",
+        "sha256": "1294d50e88fc45033ae91c382c39ca025a18142f144b9c07fb7090770dadc39b",
+        "origin": "legacy",
+        "config": {
+          "components": {
+            "C2H2F4": 90,
+            "iC4H10": 5,
+            "SF6": 5
+          },
+          "temperature_k": 669.3663,
+          "pressure_torr": 293.15,
+          "electric_fields_v_cm": [
+            4999.99999499,
+            9999.99998998,
+            15000.000014285,
+            20000.000009274998,
+            25000.000004265,
+            30000.000087199995,
+            34999.9999063,
+            40000.000018549996,
+            45000.0001308,
+            49999.9999499,
+            55000.00006215,
+            59999.99988124999,
+            64999.999993499994,
+            70000.00010574999,
+            74999.99992485,
+            80000.00003709999,
+            84999.9998562,
+            89999.99996844999,
+            95000.00008069999,
+            99999.9998998,
+            105000.00001204999,
+            110000.0001243,
+            114999.99994339999
+          ],
+          "magnetic_fields_t": [
+            0.0
+          ],
+          "angles_deg": [
+            90.0000001836389
+          ],
+          "penning_enabled": null,
+          "generate_gas_table_argument": null,
+          "random_seed": null
+        },
+        "software_sha256": null,
+        "generator_signature": null,
+        "source_files": [
+          {
+            "path": "original/RPCgas_Typical/Different_Temperature/6693663.gas",
+            "sha256": "1294d50e88fc45033ae91c382c39ca025a18142f144b9c07fb7090770dadc39b"
+          }
+        ],
+        "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+      },
+      "metadata": {
+        "status": "current",
+        "source": "旧数据库迁移；原始路径与 SHA256 见 catalog/provenance.json",
+        "notes": "按文件内组分、温压及原网格收录，原始表不改写。软件版本、统计设置及 Penning 状态未确认，不与其他计算结果自动合并。"
+      }
+    },
+    {
+      "path": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T676.764K_P293.15Torr.gas",
+      "temperature_c": 403.61379999999997,
+      "pressure_atm": 0.3857236842105263,
+      "provenance": {
+        "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T676.764K_P293.15Torr.gas",
+        "sha256": "a1cf36fda518d01c9a68760ec71d89a5d24fb7f55004686dc04a7125c4d74f0a",
+        "origin": "legacy",
+        "config": {
+          "components": {
+            "C2H2F4": 90,
+            "iC4H10": 5,
+            "SF6": 5
+          },
+          "temperature_k": 676.7638,
+          "pressure_torr": 293.15,
+          "electric_fields_v_cm": [
+            4999.99999499,
+            9999.99998998,
+            15000.000014285,
+            20000.000009274998,
+            25000.000004265,
+            30000.000087199995,
+            34999.9999063,
+            40000.000018549996,
+            45000.0001308,
+            49999.9999499,
+            55000.00006215,
+            59999.99988124999,
+            64999.999993499994,
+            70000.00010574999,
+            74999.99992485,
+            80000.00003709999,
+            84999.9998562,
+            89999.99996844999,
+            95000.00008069999,
+            99999.9998998,
+            105000.00001204999,
+            110000.0001243,
+            114999.99994339999
+          ],
+          "magnetic_fields_t": [
+            0.0
+          ],
+          "angles_deg": [
+            90.0000001836389
+          ],
+          "penning_enabled": null,
+          "generate_gas_table_argument": null,
+          "random_seed": null
+        },
+        "software_sha256": null,
+        "generator_signature": null,
+        "source_files": [
+          {
+            "path": "original/RPCgas_Typical/Different_Temperature/6767638.gas",
+            "sha256": "a1cf36fda518d01c9a68760ec71d89a5d24fb7f55004686dc04a7125c4d74f0a"
+          }
+        ],
+        "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+      },
+      "metadata": {
+        "status": "current",
+        "source": "旧数据库迁移；原始路径与 SHA256 见 catalog/provenance.json",
+        "notes": "按文件内组分、温压及原网格收录，原始表不改写。软件版本、统计设置及 Penning 状态未确认，不与其他计算结果自动合并。"
+      }
+    },
+    {
+      "path": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T684.161K_P293.15Torr.gas",
+      "temperature_c": 411.0113,
+      "pressure_atm": 0.3857236842105263,
+      "provenance": {
+        "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T684.161K_P293.15Torr.gas",
+        "sha256": "d86858649145f58b2988eb641a583894c9f6e1156dd84fd2e37889ef4d7da6be",
+        "origin": "legacy",
+        "config": {
+          "components": {
+            "C2H2F4": 90,
+            "iC4H10": 5,
+            "SF6": 5
+          },
+          "temperature_k": 684.1613,
+          "pressure_torr": 293.15,
+          "electric_fields_v_cm": [
+            4999.99999499,
+            9999.99998998,
+            15000.000014285,
+            20000.000009274998,
+            25000.000004265,
+            30000.000087199995,
+            34999.9999063,
+            40000.000018549996,
+            45000.0001308,
+            49999.9999499,
+            55000.00006215,
+            59999.99988124999,
+            64999.999993499994,
+            70000.00010574999,
+            74999.99992485,
+            80000.00003709999,
+            84999.9998562,
+            89999.99996844999,
+            95000.00008069999,
+            99999.9998998,
+            105000.00001204999,
+            110000.0001243,
+            114999.99994339999
+          ],
+          "magnetic_fields_t": [
+            0.0
+          ],
+          "angles_deg": [
+            90.0000001836389
+          ],
+          "penning_enabled": null,
+          "generate_gas_table_argument": null,
+          "random_seed": null
+        },
+        "software_sha256": null,
+        "generator_signature": null,
+        "source_files": [
+          {
+            "path": "original/RPCgas_Typical/Different_Temperature/6841613.gas",
+            "sha256": "d86858649145f58b2988eb641a583894c9f6e1156dd84fd2e37889ef4d7da6be"
+          }
+        ],
+        "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+      },
+      "metadata": {
+        "status": "current",
+        "source": "旧数据库迁移；原始路径与 SHA256 见 catalog/provenance.json",
+        "notes": "按文件内组分、温压及原网格收录，原始表不改写。软件版本、统计设置及 Penning 状态未确认，不与其他计算结果自动合并。"
+      }
+    },
+    {
+      "path": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T691.559K_P293.15Torr.gas",
+      "temperature_c": 418.40880000000004,
+      "pressure_atm": 0.3857236842105263,
+      "provenance": {
+        "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T691.559K_P293.15Torr.gas",
+        "sha256": "9fb0a23255542d00cdbde9e9aad5021ec73e7854886804de638fb727ad077f12",
+        "origin": "legacy",
+        "config": {
+          "components": {
+            "C2H2F4": 90,
+            "iC4H10": 5,
+            "SF6": 5
+          },
+          "temperature_k": 691.5588,
+          "pressure_torr": 293.15,
+          "electric_fields_v_cm": [
+            4999.99999499,
+            9999.99998998,
+            15000.000014285,
+            20000.000009274998,
+            25000.000004265,
+            30000.000087199995,
+            34999.9999063,
+            40000.000018549996,
+            45000.0001308,
+            49999.9999499,
+            55000.00006215,
+            59999.99988124999,
+            64999.999993499994,
+            70000.00010574999,
+            74999.99992485,
+            80000.00003709999,
+            84999.9998562,
+            89999.99996844999,
+            95000.00008069999,
+            99999.9998998,
+            105000.00001204999,
+            110000.0001243,
+            114999.99994339999
+          ],
+          "magnetic_fields_t": [
+            0.0
+          ],
+          "angles_deg": [
+            90.0000001836389
+          ],
+          "penning_enabled": null,
+          "generate_gas_table_argument": null,
+          "random_seed": null
+        },
+        "software_sha256": null,
+        "generator_signature": null,
+        "source_files": [
+          {
+            "path": "original/RPCgas_Typical/Different_Temperature/6915588.gas",
+            "sha256": "9fb0a23255542d00cdbde9e9aad5021ec73e7854886804de638fb727ad077f12"
+          }
+        ],
+        "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+      },
+      "metadata": {
+        "status": "current",
+        "source": "旧数据库迁移；原始路径与 SHA256 见 catalog/provenance.json",
+        "notes": "按文件内组分、温压及原网格收录，原始表不改写。软件版本、统计设置及 Penning 状态未确认，不与其他计算结果自动合并。"
+      }
+    },
+    {
+      "path": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T698.956K_P293.15Torr.gas",
+      "temperature_c": 425.8063000000001,
+      "pressure_atm": 0.3857236842105263,
+      "provenance": {
+        "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T698.956K_P293.15Torr.gas",
+        "sha256": "299ed0194f6106fe6367948288e15cedcc1389f490ab1f2db0b008e62824fa55",
+        "origin": "legacy",
+        "config": {
+          "components": {
+            "C2H2F4": 90,
+            "iC4H10": 5,
+            "SF6": 5
+          },
+          "temperature_k": 698.9563,
+          "pressure_torr": 293.15,
+          "electric_fields_v_cm": [
+            4999.99999499,
+            9999.99998998,
+            15000.000014285,
+            20000.000009274998,
+            25000.000004265,
+            30000.000087199995,
+            34999.9999063,
+            40000.000018549996,
+            45000.0001308,
+            49999.9999499,
+            55000.00006215,
+            59999.99988124999,
+            64999.999993499994,
+            70000.00010574999,
+            74999.99992485,
+            80000.00003709999,
+            84999.9998562,
+            89999.99996844999,
+            95000.00008069999,
+            99999.9998998,
+            105000.00001204999,
+            110000.0001243,
+            114999.99994339999
+          ],
+          "magnetic_fields_t": [
+            0.0
+          ],
+          "angles_deg": [
+            90.0000001836389
+          ],
+          "penning_enabled": null,
+          "generate_gas_table_argument": null,
+          "random_seed": null
+        },
+        "software_sha256": null,
+        "generator_signature": null,
+        "source_files": [
+          {
+            "path": "original/RPCgas_Typical/Different_Temperature/6989563.gas",
+            "sha256": "299ed0194f6106fe6367948288e15cedcc1389f490ab1f2db0b008e62824fa55"
+          }
+        ],
+        "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+      },
+      "metadata": {
+        "status": "current",
+        "source": "旧数据库迁移；原始路径与 SHA256 见 catalog/provenance.json",
+        "notes": "按文件内组分、温压及原网格收录，原始表不改写。软件版本、统计设置及 Penning 状态未确认，不与其他计算结果自动合并。"
+      }
+    },
+    {
+      "path": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T706.354K_P293.15Torr.gas",
+      "temperature_c": 433.2038,
+      "pressure_atm": 0.3857236842105263,
+      "provenance": {
+        "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T706.354K_P293.15Torr.gas",
+        "sha256": "d33a6b96fd87eae8c2fe7e972b717ebfd7b51db21218a160a7e2e07533450b2b",
+        "origin": "legacy",
+        "config": {
+          "components": {
+            "C2H2F4": 90,
+            "iC4H10": 5,
+            "SF6": 5
+          },
+          "temperature_k": 706.3538,
+          "pressure_torr": 293.15,
+          "electric_fields_v_cm": [
+            4999.99999499,
+            9999.99998998,
+            15000.000014285,
+            20000.000009274998,
+            25000.000004265,
+            30000.000087199995,
+            34999.9999063,
+            40000.000018549996,
+            45000.0001308,
+            49999.9999499,
+            55000.00006215,
+            59999.99988124999,
+            64999.999993499994,
+            70000.00010574999,
+            74999.99992485,
+            80000.00003709999,
+            84999.9998562,
+            89999.99996844999,
+            95000.00008069999,
+            99999.9998998,
+            105000.00001204999,
+            110000.0001243,
+            114999.99994339999
+          ],
+          "magnetic_fields_t": [
+            0.0
+          ],
+          "angles_deg": [
+            90.0000001836389
+          ],
+          "penning_enabled": null,
+          "generate_gas_table_argument": null,
+          "random_seed": null
+        },
+        "software_sha256": null,
+        "generator_signature": null,
+        "source_files": [
+          {
+            "path": "original/RPCgas_Typical/Different_Temperature/7063538.gas",
+            "sha256": "d33a6b96fd87eae8c2fe7e972b717ebfd7b51db21218a160a7e2e07533450b2b"
+          }
+        ],
+        "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+      },
+      "metadata": {
+        "status": "current",
+        "source": "旧数据库迁移；原始路径与 SHA256 见 catalog/provenance.json",
+        "notes": "按文件内组分、温压及原网格收录，原始表不改写。软件版本、统计设置及 Penning 状态未确认，不与其他计算结果自动合并。"
+      }
+    },
+    {
+      "path": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T713.751K_P293.15Torr.gas",
+      "temperature_c": 440.60130000000004,
+      "pressure_atm": 0.3857236842105263,
+      "provenance": {
+        "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T713.751K_P293.15Torr.gas",
+        "sha256": "8b770a74cea22f1a56f384040f9755c45e6227dc862b46992847ee0be30483af",
+        "origin": "legacy",
+        "config": {
+          "components": {
+            "C2H2F4": 90,
+            "iC4H10": 5,
+            "SF6": 5
+          },
+          "temperature_k": 713.7513,
+          "pressure_torr": 293.15,
+          "electric_fields_v_cm": [
+            4999.99999499,
+            9999.99998998,
+            15000.000014285,
+            20000.000009274998,
+            25000.000004265,
+            30000.000087199995,
+            34999.9999063,
+            40000.000018549996,
+            45000.0001308,
+            49999.9999499,
+            55000.00006215,
+            59999.99988124999,
+            64999.999993499994,
+            70000.00010574999,
+            74999.99992485,
+            80000.00003709999,
+            84999.9998562,
+            89999.99996844999,
+            95000.00008069999,
+            99999.9998998,
+            105000.00001204999,
+            110000.0001243,
+            114999.99994339999
+          ],
+          "magnetic_fields_t": [
+            0.0
+          ],
+          "angles_deg": [
+            90.0000001836389
+          ],
+          "penning_enabled": null,
+          "generate_gas_table_argument": null,
+          "random_seed": null
+        },
+        "software_sha256": null,
+        "generator_signature": null,
+        "source_files": [
+          {
+            "path": "original/RPCgas_Typical/Different_Temperature/7137513.gas",
+            "sha256": "8b770a74cea22f1a56f384040f9755c45e6227dc862b46992847ee0be30483af"
+          }
+        ],
+        "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+      },
+      "metadata": {
+        "status": "current",
+        "source": "旧数据库迁移；原始路径与 SHA256 见 catalog/provenance.json",
+        "notes": "按文件内组分、温压及原网格收录，原始表不改写。软件版本、统计设置及 Penning 状态未确认，不与其他计算结果自动合并。"
+      }
+    },
+    {
+      "path": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T721.149K_P293.15Torr.gas",
+      "temperature_c": 447.9988000000001,
+      "pressure_atm": 0.3857236842105263,
+      "provenance": {
+        "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T721.149K_P293.15Torr.gas",
+        "sha256": "a724dc059baf0f2bdbf56be03a3e0a9487ea3c9540fea08a1458d99f35571d73",
+        "origin": "legacy",
+        "config": {
+          "components": {
+            "C2H2F4": 90,
+            "iC4H10": 5,
+            "SF6": 5
+          },
+          "temperature_k": 721.1488,
+          "pressure_torr": 293.15,
+          "electric_fields_v_cm": [
+            4999.99999499,
+            9999.99998998,
+            15000.000014285,
+            20000.000009274998,
+            25000.000004265,
+            30000.000087199995,
+            34999.9999063,
+            40000.000018549996,
+            45000.0001308,
+            49999.9999499,
+            55000.00006215,
+            59999.99988124999,
+            64999.999993499994,
+            70000.00010574999,
+            74999.99992485,
+            80000.00003709999,
+            84999.9998562,
+            89999.99996844999,
+            95000.00008069999,
+            99999.9998998,
+            105000.00001204999,
+            110000.0001243,
+            114999.99994339999
+          ],
+          "magnetic_fields_t": [
+            0.0
+          ],
+          "angles_deg": [
+            90.0000001836389
+          ],
+          "penning_enabled": null,
+          "generate_gas_table_argument": null,
+          "random_seed": null
+        },
+        "software_sha256": null,
+        "generator_signature": null,
+        "source_files": [
+          {
+            "path": "original/RPCgas_Typical/Different_Temperature/7211488.gas",
+            "sha256": "a724dc059baf0f2bdbf56be03a3e0a9487ea3c9540fea08a1458d99f35571d73"
+          }
+        ],
+        "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+      },
+      "metadata": {
+        "status": "current",
+        "source": "旧数据库迁移；原始路径与 SHA256 见 catalog/provenance.json",
+        "notes": "按文件内组分、温压及原网格收录，原始表不改写。软件版本、统计设置及 Penning 状态未确认，不与其他计算结果自动合并。"
+      }
+    },
+    {
+      "path": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T728.546K_P293.15Torr.gas",
+      "temperature_c": 455.3963,
+      "pressure_atm": 0.3857236842105263,
+      "provenance": {
+        "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T728.546K_P293.15Torr.gas",
+        "sha256": "4a8e68aac8a46df34060ecd75c4dab8498c86b5ac8ca7dc028c2b870630830ce",
+        "origin": "legacy",
+        "config": {
+          "components": {
+            "C2H2F4": 90,
+            "iC4H10": 5,
+            "SF6": 5
+          },
+          "temperature_k": 728.5463,
+          "pressure_torr": 293.15,
+          "electric_fields_v_cm": [
+            4999.99999499,
+            9999.99998998,
+            15000.000014285,
+            20000.000009274998,
+            25000.000004265,
+            30000.000087199995,
+            34999.9999063,
+            40000.000018549996,
+            45000.0001308,
+            49999.9999499,
+            55000.00006215,
+            59999.99988124999,
+            64999.999993499994,
+            70000.00010574999,
+            74999.99992485,
+            80000.00003709999,
+            84999.9998562,
+            89999.99996844999,
+            95000.00008069999,
+            99999.9998998,
+            105000.00001204999,
+            110000.0001243,
+            114999.99994339999
+          ],
+          "magnetic_fields_t": [
+            0.0
+          ],
+          "angles_deg": [
+            90.0000001836389
+          ],
+          "penning_enabled": null,
+          "generate_gas_table_argument": null,
+          "random_seed": null
+        },
+        "software_sha256": null,
+        "generator_signature": null,
+        "source_files": [
+          {
+            "path": "original/RPCgas_Typical/Different_Temperature/7285463.gas",
+            "sha256": "4a8e68aac8a46df34060ecd75c4dab8498c86b5ac8ca7dc028c2b870630830ce"
+          }
+        ],
+        "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+      },
+      "metadata": {
+        "status": "current",
+        "source": "旧数据库迁移；原始路径与 SHA256 见 catalog/provenance.json",
+        "notes": "按文件内组分、温压及原网格收录，原始表不改写。软件版本、统计设置及 Penning 状态未确认，不与其他计算结果自动合并。"
+      }
+    },
+    {
+      "path": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T735.944K_P293.15Torr.gas",
+      "temperature_c": 462.79380000000003,
+      "pressure_atm": 0.3857236842105263,
+      "provenance": {
+        "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T735.944K_P293.15Torr.gas",
+        "sha256": "9d130411a4e0c27b179e4e007a8101099d9e9768b48635b907185a630879ae0d",
+        "origin": "legacy",
+        "config": {
+          "components": {
+            "C2H2F4": 90,
+            "iC4H10": 5,
+            "SF6": 5
+          },
+          "temperature_k": 735.9438,
+          "pressure_torr": 293.15,
+          "electric_fields_v_cm": [
+            4999.99999499,
+            9999.99998998,
+            15000.000014285,
+            20000.000009274998,
+            25000.000004265,
+            30000.000087199995,
+            34999.9999063,
+            40000.000018549996,
+            45000.0001308,
+            49999.9999499,
+            55000.00006215,
+            59999.99988124999,
+            64999.999993499994,
+            70000.00010574999,
+            74999.99992485,
+            80000.00003709999,
+            84999.9998562,
+            89999.99996844999,
+            95000.00008069999,
+            99999.9998998,
+            105000.00001204999,
+            110000.0001243,
+            114999.99994339999
+          ],
+          "magnetic_fields_t": [
+            0.0
+          ],
+          "angles_deg": [
+            90.0000001836389
+          ],
+          "penning_enabled": null,
+          "generate_gas_table_argument": null,
+          "random_seed": null
+        },
+        "software_sha256": null,
+        "generator_signature": null,
+        "source_files": [
+          {
+            "path": "original/RPCgas_Typical/Different_Temperature/7359438.gas",
+            "sha256": "9d130411a4e0c27b179e4e007a8101099d9e9768b48635b907185a630879ae0d"
+          }
+        ],
+        "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+      },
+      "metadata": {
+        "status": "current",
+        "source": "旧数据库迁移；原始路径与 SHA256 见 catalog/provenance.json",
+        "notes": "按文件内组分、温压及原网格收录，原始表不改写。软件版本、统计设置及 Penning 状态未确认，不与其他计算结果自动合并。"
+      }
+    },
+    {
+      "path": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T743.341K_P293.15Torr.gas",
+      "temperature_c": 470.19130000000007,
+      "pressure_atm": 0.3857236842105263,
+      "provenance": {
+        "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T743.341K_P293.15Torr.gas",
+        "sha256": "12110c94c1db2d0b3314b98023cf56d46dd24cbc793e0eee6074ab5975385ba9",
+        "origin": "legacy",
+        "config": {
+          "components": {
+            "C2H2F4": 90,
+            "iC4H10": 5,
+            "SF6": 5
+          },
+          "temperature_k": 743.3413,
+          "pressure_torr": 293.15,
+          "electric_fields_v_cm": [
+            4999.99999499,
+            9999.99998998,
+            15000.000014285,
+            20000.000009274998,
+            25000.000004265,
+            30000.000087199995,
+            34999.9999063,
+            40000.000018549996,
+            45000.0001308,
+            49999.9999499,
+            55000.00006215,
+            59999.99988124999,
+            64999.999993499994,
+            70000.00010574999,
+            74999.99992485,
+            80000.00003709999,
+            84999.9998562,
+            89999.99996844999,
+            95000.00008069999,
+            99999.9998998,
+            105000.00001204999,
+            110000.0001243,
+            114999.99994339999
+          ],
+          "magnetic_fields_t": [
+            0.0
+          ],
+          "angles_deg": [
+            90.0000001836389
+          ],
+          "penning_enabled": null,
+          "generate_gas_table_argument": null,
+          "random_seed": null
+        },
+        "software_sha256": null,
+        "generator_signature": null,
+        "source_files": [
+          {
+            "path": "original/RPCgas_Typical/Different_Temperature/7433413.gas",
+            "sha256": "12110c94c1db2d0b3314b98023cf56d46dd24cbc793e0eee6074ab5975385ba9"
+          }
+        ],
+        "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+      },
+      "metadata": {
+        "status": "current",
+        "source": "旧数据库迁移；原始路径与 SHA256 见 catalog/provenance.json",
+        "notes": "按文件内组分、温压及原网格收录，原始表不改写。软件版本、统计设置及 Penning 状态未确认，不与其他计算结果自动合并。"
+      }
+    },
+    {
+      "path": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T750.739K_P293.15Torr.gas",
+      "temperature_c": 477.5888,
+      "pressure_atm": 0.3857236842105263,
+      "provenance": {
+        "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T750.739K_P293.15Torr.gas",
+        "sha256": "6ea34925f462dcb6aefb50bdfd5adbb242e1d48a13e3792b7632733f9943a75e",
+        "origin": "legacy",
+        "config": {
+          "components": {
+            "C2H2F4": 90,
+            "iC4H10": 5,
+            "SF6": 5
+          },
+          "temperature_k": 750.7388,
+          "pressure_torr": 293.15,
+          "electric_fields_v_cm": [
+            4999.99999499,
+            9999.99998998,
+            15000.000014285,
+            20000.000009274998,
+            25000.000004265,
+            30000.000087199995,
+            34999.9999063,
+            40000.000018549996,
+            45000.0001308,
+            49999.9999499,
+            55000.00006215,
+            59999.99988124999,
+            64999.999993499994,
+            70000.00010574999,
+            74999.99992485,
+            80000.00003709999,
+            84999.9998562,
+            89999.99996844999,
+            95000.00008069999,
+            99999.9998998,
+            105000.00001204999,
+            110000.0001243,
+            114999.99994339999
+          ],
+          "magnetic_fields_t": [
+            0.0
+          ],
+          "angles_deg": [
+            90.0000001836389
+          ],
+          "penning_enabled": null,
+          "generate_gas_table_argument": null,
+          "random_seed": null
+        },
+        "software_sha256": null,
+        "generator_signature": null,
+        "source_files": [
+          {
+            "path": "original/RPCgas_Typical/Different_Temperature/7507388.gas",
+            "sha256": "6ea34925f462dcb6aefb50bdfd5adbb242e1d48a13e3792b7632733f9943a75e"
+          }
+        ],
+        "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+      },
+      "metadata": {
+        "status": "current",
+        "source": "旧数据库迁移；原始路径与 SHA256 见 catalog/provenance.json",
+        "notes": "按文件内组分、温压及原网格收录，原始表不改写。软件版本、统计设置及 Penning 状态未确认，不与其他计算结果自动合并。"
+      }
+    }
+  ]
+}

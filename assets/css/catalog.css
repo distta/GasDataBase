@@ -309,10 +309,10 @@ main{padding-top:22px}.workspace{grid-template-columns:230px minmax(270px,.72fr)
 .catalog-browser .filters .thermo-filter{margin:0;gap:10px;align-items:start}
 .thermo-filter label{line-height:19px}.thermo-filter input{margin-top:9px}
 .catalog-browser .query-error,.catalog-browser #queryError,.catalog-browser .filter-buttons{grid-column:1/-1}
-.file-table-scroll{width:100%;overflow:auto;border:1px solid #dfe5e8;border-radius:7px;background:#fff}
+.file-table-scroll{width:100%;max-height:60vh;overflow:auto;scrollbar-gutter:stable;border:1px solid #dfe5e8;border-radius:7px;background:#fff}
 .file-table-scroll:empty{display:none}
 .file-table{width:100%;min-width:550px;font-size:11px;line-height:1.5}
-.file-table th{position:static;padding:8px 7px;background:#f7f9fa;color:#647480;font-size:10px;font-weight:500;border-bottom:1px solid #dfe5e8}
+.file-table th{position:sticky;top:0;z-index:1;padding:8px 7px;background:#f7f9fa;color:#647480;font-size:10px;font-weight:500;border-bottom:1px solid #dfe5e8}
 .file-table th small{display:block;font-size:9px;font-weight:400;color:#7b8790}
 .file-table td{padding:9px 7px;vertical-align:middle;color:#526675;border-bottom:1px solid #e9edef;font-variant-numeric:tabular-nums}
 .file-table .compare-cell{width:34px;text-align:center}.file-table input[type=checkbox]{display:block;margin:auto;width:13px;height:13px}

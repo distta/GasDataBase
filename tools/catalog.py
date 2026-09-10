@@ -65,6 +65,10 @@ def required_number(text, key):
     return value
 
 
+def component_order(name):
+    return (name.lower() not in {"he", "ne", "ar", "kr", "xe", "rn", "og"}, name.lower())
+
+
 def inspect_gas(text, filename, aliases):
     marker = re.search(r"The gas tables follow:\s*", text, re.I)
     end = re.search(r"^\s*H\s+Extr\s*:", text, re.M | re.I)
@@ -101,7 +105,7 @@ def inspect_gas(text, filename, aliases):
         raise ValueError("电离通道数与 Dimension 不符")
     pressure, temperature = required_number(footer, "PGAS"), required_number(footer, "TGAS")
     parsed = legacy.parse_identifier(text, aliases)
-    components = sorted(parsed["components"], key=lambda c: c["name"].lower())
+    components = sorted(parsed["components"], key=lambda c: component_order(c["name"]))
     if not components or any(c["fraction"] is None or not 0 < c["fraction"] <= 100 for c in components):
         raise ValueError("无法确认有效的气体组分及比例")
     if not math.isclose(sum(c["fraction"] for c in components), 100, abs_tol=.05):
