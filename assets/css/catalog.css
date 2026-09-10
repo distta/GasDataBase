@@ -493,8 +493,8 @@ body{font-size:var(--type-body);font-weight:400}
 /* Classification controls and a viewport-sized desktop workspace. */
 @media(min-width:1001px){
   body{height:100vh;height:100dvh;display:flex;flex-direction:column;overflow:hidden}
-  .topbar{height:76px;min-height:76px;flex:none;padding-top:0;padding-bottom:0}
-  .header-mascot img{height:70px;width:auto}.header-motto{font-size:18px}
+  .topbar{height:68px;min-height:68px;flex:none;padding-top:0;padding-bottom:0}
+  .header-mascot img{height:54px;width:auto}.header-motto{font-size:15px}
   main{flex:1;min-height:0;width:100%;padding:12px 20px 0;display:flex;flex-direction:column;overflow:hidden}
   .workspace{flex:1;min-height:0;align-items:stretch;gap:16px;grid-template-columns:minmax(0,.46fr) minmax(0,.54fr)}
   .catalog-browser{min-height:0;overflow:auto;padding-bottom:12px}
@@ -550,3 +550,34 @@ body{font-size:var(--type-body);font-weight:400}
 .selection-popover{position:absolute;bottom:calc(100% + 6px);left:0;right:0;z-index:8;max-height: min(300px,45vh);overflow:auto;padding:12px;background:#f2f8f7;border:1px solid #dceae7;border-radius:6px;box-shadow:0 4px 18px #20374420}
 #selectionToolbar:not([open])>.selection-popover{display:none}
 #selectedFiles [data-remove]{width:32px;height:32px}
+
+/* Restrained accents, stronger text, and fewer nested background panels. */
+:root{--ink:#24313f;--muted:#586575;--accent:#087e83;--accent-hover:#06666b}
+.file-table td,.file-table .recipe-name{color:#243447}
+.file-table td.file-facts,.file-table td:nth-child(4){color:#263340;font-weight:500}
+.file-table th,.filters label,.range-settings>summary,.data-details>summary{color:#445364}
+.hint,.muted,.unit,.count{color:#586575}
+.text-button,.row-actions .text-button,.results-actions .local-trigger,.selection-toggle{color:#45566a}
+.text-button:hover,.row-actions .text-button:hover{color:var(--accent)}
+#compareVisible{min-height:32px;padding:4px 10px;font-size:12px;white-space:nowrap}
+#compareVisible:disabled{background:#f1f3f5;color:#647180;border-color:#dce2e6;opacity:1}
+.file-table-scroll{border:0;border-radius:0;border-top:1px solid #dce2e6}
+.file-table th{background:#fff;border-bottom:1px solid #dce2e6}
+.catalog-browser,.plot-panel{box-shadow:none}
+.count{background:transparent;padding:0 2px}
+#selectionToolbar{background:transparent;border:0;border-top:1px solid #dce2e6;border-radius:0;padding:0 2px}
+#selectionToolbar>summary{color:#344455}
+.selection-popover{background:#fff;border-color:#dce2e6}
+#selectedFiles .selected-chip{background:transparent;border:0;border-bottom:1px solid #e4e8ec;border-radius:0}
+.plot-configuration{background:transparent;border:0;padding:8px 0}
+.plot-condition-bar{background:transparent}
+.nav-link.active,.parameter-tabs button.active{color:var(--accent)}
+.file-row.selected,.file-row.previewing{background:#eaf5f2}
+@media(min-width:701px) and (max-width:1000px){.topbar{height:68px;min-height:68px}.header-mascot img{height:54px;width:auto}.header-motto{font-size:15px}}
+@media(max-width:700px){
+ .topbar{height:68px;min-height:68px;padding:7px 12px;gap:0;align-content:center}
+ .brand{font-size:14px;padding-right:52px}.brand-mark{width:23px;height:23px}
+ .topbar nav{height:26px}.nav-link{font-size:11px}
+ .header-mascot{right:10px;top:8px;height:44px}.header-mascot img{height:44px;width:auto}
+ #compareVisible{font-size:11px;padding:4px 7px}
+}
