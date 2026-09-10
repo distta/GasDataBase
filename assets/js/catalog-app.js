@@ -15,7 +15,7 @@
   const mixedThermo=files=>files.length>1&&files.some(f=>!M.near(f.temperature_k,files[0].temperature_k)||!M.near(f.pressure_atm,files[0].pressure_atm));
   const metaValue = value => value == null || value === '' ? '未记录' : value;
   const lookup = id => state.locals.get(id) || state.catalog?.files.find(f=>f.id===id);
-  function notice(message) { $('notice').textContent=message; $('notice').hidden=!message; }
+  function notice(message) { $('noticeMessage').textContent=message; $('notice').hidden=!message; }
   function safeUrl(file) {
     if(!file.path?.startsWith('GasDataBase/') || /[\\?#]/.test(file.path) || file.path.split('/').includes('..')) throw Error('文件路径不合法。');
     const url=new URL(file.path.split('/').map(encodeURIComponent).join('/'), document.baseURI);
@@ -152,6 +152,7 @@
   }
   function search() {
     if(!state.catalog)return;
+    const scrollTop=$('results').scrollTop;
     const q=query(),error=M.validateQuery(q);
     $('queryError').textContent=error;$('queryError').hidden=!error;
     state.results=error?[]:state.catalog.files.map(file=>({file,match:M.match(file,q)})).filter(item=>item.match).sort((a,b)=>M.compareTableFiles(a.file,b.file,q,state.sortKey,state.sortDirection));
@@ -164,12 +165,13 @@
     $('compareVisible').disabled=!state.results.length;
     $('emptyResults').hidden=!!state.results.length || !!error;
     const row=({file:f})=>`<tr class="file-row ${state.selected.has(f.id)?'selected':''} ${state.mode==='preview'&&state.preview===f.id?'previewing':''}" data-file="${f.id}">
-      <td class="compare-cell"><input type="checkbox" data-select="${f.id}" ${state.selected.has(f.id)?'checked':''} aria-label="比较 ${esc(f.label)}"></td>
+      <td class="compare-cell"><label class="compare-target" title="加入或移出比较"><input type="checkbox" data-select="${f.id}" ${state.selected.has(f.id)?'checked':''} aria-label="比较 ${esc(f.label)}"></label></td>
       <td class="formula-cell"><div class="formula-line">${state.selected.has(f.id)||state.mode==='preview'&&state.preview===f.id?`<i class="swatch" style="background:${colors[Math.max(0,[...state.selected].indexOf(f.id))]}"></i>`:'<i class="swatch swatch-empty" aria-hidden="true"></i>'}<button class="recipe-name" data-preview="${f.id}" aria-label="预览 ${esc(f.label)}">${title(f)}</button>${state.mode==='preview'&&state.preview===f.id?'<span class="badge preview-badge">正在预览</span>':''}</div></td>
       <td class="file-facts" title="${fmt(f.temperature_k)} K">${fmt(f.temperature_k-273.15)}</td>
       <td title="${fmt(f.pressure_torr)} Torr">${fmt(f.pressure_atm)}</td>
       <td class="row-actions"><button class="text-button" data-detail="${f.id}">详情</button><button class="text-button" data-download="${f.id}" aria-label="下载 ${esc(f.label)}">下载</button></td></tr>`;
     $('results').innerHTML=state.results.length?`<table class="file-table" aria-label="气体文件检索结果"><thead><tr><th scope="col">比较</th>${sortHeader('recipe','气体配方')}${sortHeader('temperature','温度 (°C)')}${sortHeader('pressure','压强 (atm)')}<th scope="col">操作</th></tr></thead><tbody>${state.results.map(row).join('')}</tbody></table>`:'';
+    $('results').scrollTop=scrollTop;
   }
 
   function resetSearch() {
@@ -188,9 +190,9 @@
   }
   function counts() {
     const ids=[...state.selected],showThermo=mixedThermo([...state.selected].map(lookup));
-    $('selectionToolbar').hidden=!ids.length;$('selectionCount').textContent=`已选 ${ids.length} 项`;
+    $('clearSelected').disabled=!ids.length;$('selectionCount').textContent=`已选 ${ids.length} 项`;
     $('returnComparison').hidden=state.mode==='compare'||!ids.length;
-    $('selectedFiles').innerHTML=ids.map((id,i)=>{const f=lookup(id),label=f.label+(showThermo?' · '+thermoLabel(f):'');return `<div class="selected-chip"><i class="swatch" style="background:${colors[i]}"></i><button class="text-button" data-preview="${id}">${esc(label)}</button>${f.local?'<span class="badge">本地</span>':''}<button data-remove="${id}" title="移出比较" aria-label="移除 ${esc(label)}">×</button></div>`;}).join('');
+    $('selectedFiles').innerHTML=ids.map((id,i)=>{const f=lookup(id),label=f.label+(showThermo?' · '+thermoLabel(f):'');return `<div class="selected-chip"><i class="swatch" style="background:${colors[i]}"></i><button class="text-button" data-preview="${id}">${esc(label)}</button>${f.local?'<span class="badge">本地</span>':''}<button data-remove="${id}" title="移出比较" aria-label="移除 ${esc(label)}">×</button></div>`;}).join('')||'<span class="hint">尚未选择文件</span>';
   }
   function select(id,on) {
     if(on && state.selected.size>=8 && !state.selected.has(id)){notice('每次最多比较 8 份文件，请先移除不需要的文件。');search();return;}
@@ -522,6 +524,9 @@
     $('compareVisible').onclick=()=>{for(const {file} of state.results){if(state.selected.size>=8)break;state.selected.add(file.id);}if(state.results.some(({file})=>!state.selected.has(file.id)))notice('最多比较 8 份文件，未加入超出数量的结果。');state.mode='compare';counts();search();renderComparison();};
     $('clearSelected').onclick=()=>{state.selected.clear();state.mode='preview';counts();search();renderComparison();};
     $('returnComparison').onclick=()=>{state.mode='compare';counts();search();renderComparison();};
+    $('closeNotice').onclick=()=>notice('');
+    document.addEventListener('click',event=>{if(!event.composedPath().includes($('selectionToolbar')))$('selectionToolbar').open=false;});
+    $('selectionToolbar').addEventListener('keydown',event=>{if(event.key==='Escape'){$('selectionToolbar').open=false;$('selectionToolbar').querySelector('summary').focus();}});
     $('closeDetail').onclick=()=>$('detailDialog').close();
     $('detailDialog').addEventListener('click',e=>{if(e.target===$('detailDialog')){const r=e.target.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)e.target.close();}});
     $('localFiles').onchange=e=>importFiles(e.target.files);

@@ -20,7 +20,7 @@
     <div class="header-mascot"><div class="header-motto">Better Gas<br><span>Better Detectors</span></div><img src="assets/images/garfield-header.png" alt="加菲猫" width="132" height="88"></div>
   </header>
   <main>
-    <div id="notice" class="notice" role="status" hidden></div>
+    <div id="notice" class="notice" role="status" hidden><span id="noticeMessage"></span><button id="closeNotice" type="button" aria-label="关闭提示">×</button></div>
     <section id="view-catalog" class="view workspace" aria-label="检索与绘图工作区">
       <div class="catalog-browser">
       <details class="filter-sidebar panel" id="filterDrawer" open>
@@ -38,9 +38,11 @@
       <section class="results-column panel" aria-labelledby="resultsTitle">
         <div class="results-tools"><h1 id="resultsTitle">气体文件 <span id="resultCount" class="count">—</span></h1><div class="results-actions"><button class="text-button local-trigger">＋ 本地文件</button><button id="compareVisible" class="text-button">比较当前结果</button></div></div>
         <span id="resultSubtitle" class="sr-only">点击预览 · 勾选比较</span>
-        <div id="selectionToolbar" class="selection-toolbar" hidden><div class="selection-heading"><span><strong>已选比较</strong> · <span id="selectionCount"></span></span><button id="clearSelected" class="text-button">清空</button></div><div id="selectedFiles" class="selected-files" aria-label="已选比较的气体文件"></div></div>
+
         <div id="results" class="file-table-scroll" aria-live="polite"></div>
         <div id="emptyResults" class="empty-state" hidden><h3>没有符合条件的文件</h3><p>减少组分条件，或清空比例、温度和压强后重试。</p><button class="button secondary" id="emptyReset">清除筛选</button></div>
+
+        <details id="selectionToolbar" class="selection-toolbar"><summary>已选比较 · <span id="selectionCount">已选 0 项</span><span class="selection-toggle">查看 / 收起</span></summary><div class="selection-popover"><div class="selection-heading"><strong>已选文件</strong><button id="clearSelected" class="text-button">清空</button></div><div id="selectedFiles" class="selected-files" aria-label="已选比较的气体文件"></div></div></details>
 
       </section>
       </div>

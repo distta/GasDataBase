@@ -532,3 +532,21 @@ body{font-size:var(--type-body);font-weight:400}
   .file-table th.sort-temperature{width:80px}
   .file-table th.sort-pressure{width:90px}
 }
+
+/* Notifications and selected files never push the results table down. */
+#notice{position:fixed;top:12px;left:50%;transform:translateX(-50%);z-index:1000;width:max-content;max-width:calc(100vw - 24px);margin:0;display:flex;align-items:center;gap:12px;box-shadow:0 4px 18px #20374420}
+#noticeMessage{min-width:0;white-space:normal}
+#closeNotice{flex:none;width:36px;height:36px;padding:0;border:0;background:transparent;color:inherit;font-size:24px;border-radius:4px}
+#closeNotice:hover{background:#efdfba}
+.file-table th:first-child{width:48px}
+.file-table td.compare-cell{padding:0}
+.compare-target{display:flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;margin:0;cursor:pointer}
+.file-table .compare-target input{width:18px;height:18px;margin:0}
+.compare-target:hover{background:#dcefeb}
+#selectionToolbar{position:relative;flex:none;height:40px;max-height:none;overflow:visible;margin:8px 0 0;padding:0 10px;border-radius:5px}
+#selectionToolbar>summary{display:flex;align-items:center;gap:5px;height:38px;list-style:none;cursor:pointer;font-size:12px;color:#526e70}
+#selectionToolbar>summary::-webkit-details-marker{display:none}
+.selection-toggle{margin-left:auto;color:var(--accent)}
+.selection-popover{position:absolute;bottom:calc(100% + 6px);left:0;right:0;z-index:8;max-height: min(300px,45vh);overflow:auto;padding:12px;background:#f2f8f7;border:1px solid #dceae7;border-radius:6px;box-shadow:0 4px 18px #20374420}
+#selectionToolbar:not([open])>.selection-popover{display:none}
+#selectedFiles [data-remove]{width:32px;height:32px}
