@@ -42,7 +42,7 @@
     const names = q.components.filter(c => c.name).map(c => c.name);
     if (new Set(names).size !== names.length) return '同一种气体只需填写一次。';
     if (q.components.some(c => c.fraction !== null && (!Number.isFinite(c.fraction) || c.fraction < 0 || c.fraction > 100))) return '比例应在 0–100% 之间。';
-    if (q.exactSet && q.components.length && q.components.every(c => c.fraction !== null) && Math.abs(q.components.reduce((s,c)=>s+(c.fraction || 0),0)-100) > .05) return '精确组分查询的比例总和应为 100%。';
+    if (!q.fuzzyMatching && q.exactSet && q.components.length && q.components.every(c => c.fraction !== null) && Math.abs(q.components.reduce((s,c)=>s+(c.fraction || 0),0)-100) > .05) return '精确组分查询的比例总和应为 100%。';
     if (![q.fractionTolerance, q.temperature, q.pressure, q.b, q.angle, q.minE, q.maxE].every(v => v === null || Number.isFinite(v))) return '请输入有效数值。';
     if (q.temperature !== null && q.temperature <= -273.15) return '温度必须高于绝对零度。';
     if (q.pressure !== null && q.pressure <= 0) return '压强必须大于 0。';
@@ -63,12 +63,12 @@
       const row = rows[index];
       return file.components.some((component,i) => !used.has(i) &&
         (!row.name || canonical(component.name) === canonical(row.name)) &&
-        (row.fraction === null || Math.abs(component.fraction-row.fraction) <= q.fractionTolerance+1e-6) &&
+        (q.fuzzyMatching || row.fraction === null || Math.abs(component.fraction-row.fraction) <= q.fractionTolerance+1e-6) &&
         assign(index+1, new Set([...used,i])));
     };
     if (!assign(0,new Set())) return null;
-    if (q.temperature !== null && !near(file.temperature_k, q.temperature+273.15)) return null;
-    if (q.pressure !== null && !near(file.pressure_atm, q.pressure)) return null;
+    if (!q.fuzzyMatching && q.temperature !== null && !near(file.temperature_k, q.temperature+273.15)) return null;
+    if (!q.fuzzyMatching && q.pressure !== null && !near(file.pressure_atm, q.pressure)) return null;
     if (q.b !== null && !file.magnetic_fields.some(b => near(b,q.b))) return null;
     // B=0 has no distinguished E–B angle; retain the file's recorded angle.
     if (q.angle !== null && !(q.b === 0 || (q.b === null && file.magnetic_fields.every(b=>near(b,0)))) &&
@@ -88,8 +88,28 @@
     const ac=components(a),bc=components(b);
     const exact=cs=>requested.length>0&&cs.length===requested.length&&requested.every(c=>cs.some(v=>v.name===c.name));
     const setOrder=Number(exact(bc))-Number(exact(ac));if(setOrder)return setOrder;
-    const distance=cs=>requested.reduce((sum,c)=>sum+(c.fraction===null?0:Math.abs((cs.find(v=>v.name===c.name)?.fraction??0)-c.fraction)),0);
+    // Minimise total percentage-point deviation with a distinct match for each
+    // row, including ratios entered for unnamed components.
+    const distance=cs=>{
+      const rows=q.components.filter(c=>c.name || c.fraction!==null);
+      const visit=(index,used)=>{
+        if(index===rows.length)return 0;
+        const row=rows[index];let best=Infinity;
+        cs.forEach((c,i)=>{
+          if(used.has(i)||(row.name&&canonical(row.name)!==c.name))return;
+          const cost=row.fraction===null?0:Math.abs(c.fraction-row.fraction);
+          best=Math.min(best,cost+visit(index+1,new Set([...used,i])));
+        });return best;
+      };return visit(0,new Set());
+    };
     const delta=distance(ac)-distance(bc);if(Math.abs(delta)>1e-6)return delta;
+    if(q.fuzzyMatching){
+      const thermoDistance=f=>
+        (Number.isFinite(q.temperature)?Math.abs(f.temperature_k-(q.temperature+273.15))/(q.temperature+273.15):0)+
+        (Number.isFinite(q.pressure)?Math.abs(f.pressure_atm-q.pressure)/q.pressure:0);
+      const thermoDelta=thermoDistance(a)-thermoDistance(b);
+      if(Math.abs(thermoDelta)>1e-12)return thermoDelta;
+    }
     const family=ac.map(c=>c.name).join('/').localeCompare(bc.map(c=>c.name).join('/'),'en');if(family)return family*order;
     const names=[...requested.map(c=>c.name),...ac.map(c=>c.name)].filter((n,i,all)=>all.indexOf(n)===i);
     for(const name of names){const delta=(ac.find(c=>c.name===name)?.fraction??0)-(bc.find(c=>c.name===name)?.fraction??0);if(Math.abs(delta)>1e-6)return delta*order;}

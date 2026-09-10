@@ -142,7 +142,7 @@
   function query() {
     return {text:'',components:[...$('componentRows').children].map(row=>({name:row.querySelector('select').value,
       fraction:row.querySelector('input[type=number]').value===''?null:row.querySelector('input[type=number]').valueAsNumber})),temperature:number('temperature'),pressure:number('pressure'),
-      b:null,angle:null,minE:null,maxE:null,fractionTolerance:1,
+      b:null,angle:null,minE:null,maxE:null,fractionTolerance:1,fuzzyMatching:$('fuzzyMatching').checked,
       exactSet:true,partial:true};
   }
   function sortHeader(key,label) {
@@ -370,8 +370,10 @@
       const lx=area.x+area.w+16,ly=area.y+18+i*(showThermo?52:36);
       svg.append(svgNode('line',{x1:lx,x2:lx+22,y1:ly,y2:ly,stroke:s.color,'stroke-width':2}));
       svg.append(svgNode('circle',{cx:lx+11,cy:ly,r:3,fill:s.color,'data-legend':'true'}));
-      const label=shortLabel(s.entry.file),node=svgNode('text',{x:lx+29,y:ly+5,fill:'#111','font-size':16},label.length>19?label.slice(0,18)+'…':label);node.append(svgNode('title',{},label+(showThermo?' · '+thermoLabel(s.entry.file):'')));svg.append(node);
-      if(showThermo){const condition=svgNode('text',{x:lx+29,y:ly+23,fill:'#526675','font-size':13,'data-legend-thermo':'true'},thermoLabel(s.entry.file));svg.append(condition);if(condition.getComputedTextLength()>150){condition.setAttribute('textLength',150);condition.setAttribute('lengthAdjust','spacingAndGlyphs');}}
+      const label=shortLabel(s.entry.file),node=svgNode('text',{x:lx+29,y:ly+5,fill:'#111','font-size':16},label.length>23?label.slice(0,22)+'…':label);node.append(svgNode('title',{},label+(showThermo?' · '+thermoLabel(s.entry.file):'')));svg.append(node);
+      const legendTextWidth=150;
+      if(node.getComputedTextLength()>legendTextWidth){node.setAttribute('textLength',legendTextWidth);node.setAttribute('lengthAdjust','spacingAndGlyphs');}
+      if(showThermo){const condition=svgNode('text',{x:lx+29,y:ly+23,fill:'#526675','font-size':13,'data-legend-thermo':'true'},thermoLabel(s.entry.file));svg.append(condition);if(condition.getComputedTextLength()>legendTextWidth){condition.setAttribute('textLength',legendTextWidth);condition.setAttribute('lengthAdjust','spacingAndGlyphs');}}
     });
     const rows=state.plot.flatMap(s=>s.points.filter(pt=>pt.visible).map(pt=>[s.entry.file.label,fmt(pt.record.E),fmt(pt.x),fmt(pt.y),fmt(pt.record.BTesla),fmt(pt.record.angleDeg)]));
     $('plotData').innerHTML=htmlTable(['配方','E [V/cm]',axisLabel+' ['+unit+']',p.label+' ['+p.unit+']','B [T]','原始夹角 [°]'],rows);
@@ -487,9 +489,9 @@
     document.addEventListener('keydown',event=>{if(event.key==='Escape')closePickers();});
     window.addEventListener('resize',()=>closePickers());
     const narrow=window.matchMedia('(max-width: 700px)');
-    const setDrawer=()=>{$('filterDrawer').open=!narrow.matches;};
-    setDrawer();narrow.addEventListener('change',setDrawer);
-    $('filterDrawer').querySelector('summary').addEventListener('click',event=>{if(!narrow.matches)event.preventDefault();});
+    const drawer=$('filterDrawer');drawer.open=!narrow.matches;
+    const drawerHint=()=>{drawer.querySelector('.mobile-filter-hint').textContent=drawer.open?'收起 ▴':'展开 ▾';};
+    drawer.addEventListener('toggle',drawerHint);drawerHint();
     document.addEventListener('click',event=>{
       const el=event.target.closest('button');if(!el)return;
       if(el.dataset.view)view(el.dataset.view);
