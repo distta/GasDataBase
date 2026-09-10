@@ -43,6 +43,19 @@ class CatalogueTests(unittest.TestCase):
                 self.assertEqual(record['reference_check']['missing_magnetic_points'],
                                  [b for b in [0, 1] if b not in record['magnetic_fields']])
 
+    def test_classified_paths_follow_component_count(self):
+        cases = [(['CO2', 'Ar'], 'GasDataBase/Ar+X/Ar_CO2'),
+                 (['O2', 'Ar', 'CH4'], 'GasDataBase/Ar+X+Y/Ar_CH4_O2'),
+                 (['He'], 'GasDataBase/Pure/He'),
+                 (['CF4', 'Ne'], 'GasDataBase/Ne+X/Ne_CF4'),
+                 (['CH4', 'CO2'], 'GasDataBase/X+Y/CH4_CO2')]
+        for components, expected in cases:
+            self.assertEqual(catalog.family_directory(components), expected)
+        data, _ = catalog.assemble(ROOT)
+        for record in data['files']:
+            self.assertEqual(str(Path(record['path']).parent),
+                             catalog.family_directory([c['name'] for c in record['components']]))
+
     def test_page_has_one_shared_plot_and_unique_ids(self):
         html = (ROOT / "index.html").read_text()
         ids = Elements(html).ids

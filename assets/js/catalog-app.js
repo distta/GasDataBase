@@ -134,16 +134,16 @@
   function addComponent(name='',fraction='') {
     const names=[...new Set((state.catalog?.files || []).flatMap(f=>f.components.map(c=>c.name)))].sort(M.componentOrder);
     const row=document.createElement('div');row.className='component-row';
-    row.innerHTML=`<select aria-label="气体组分"><option value="">选择气体</option>${names.map(n=>`<option ${n===name?'selected':''} value="${esc(n)}">${esc(n)}</option>`).join('')}</select><div class="fraction-field"><input type="number" min="0" max="100" step="any" value="${esc(fraction)}" placeholder="不限" aria-label="组分比例"><span>%</span></div><button type="button" class="component-remove" aria-label="移除组分">×</button>`;
+    row.innerHTML=`<select aria-label="气体组分"><option value="">不限</option>${names.map(n=>`<option ${n===name?'selected':''} value="${esc(n)}">${esc(n)}</option>`).join('')}</select><div class="fraction-field"><input type="number" min="0" max="100" step="any" value="${esc(fraction)}" placeholder="不限" aria-label="组分比例"><span>%</span></div><button type="button" class="component-remove" aria-label="移除组分">×</button>`;
     row.querySelector('button').onclick=()=>{row.remove();if(!$('componentRows').children.length)addComponent();search();};
     row.querySelector('input[type=number]').addEventListener('input',event=>balanceRecipe(event.target));
     $('componentRows').append(row);enhanceSelects();
   }
   function query() {
-    return {text:'',components:[...$('componentRows').children].map(row=>({name:row.querySelector('select').value,
+    return {text:'',nobleGas:$('nobleGas').value,componentCount:(Number($('componentCount').value)||null),components:[...$('componentRows').children].map(row=>({name:row.querySelector('select').value,
       fraction:row.querySelector('input[type=number]').value===''?null:row.querySelector('input[type=number]').valueAsNumber})),temperature:number('temperature'),pressure:number('pressure'),
       b:null,angle:null,minE:null,maxE:null,fractionTolerance:1,
-      exactSet:false,partial:true};
+      exactSet:!(Number($('componentCount').value)||null)&&[...$('componentRows').querySelectorAll('select')].filter(s=>s.value).length>=2,partial:true};
   }
   function sortHeader(key,label) {
     const active=state.sortKey===key,direction=active?(state.sortDirection===1?'ascending':'descending'):'none';
@@ -172,14 +172,20 @@
     $('results').innerHTML=state.results.length?`<table class="file-table" aria-label="气体文件检索结果"><thead><tr><th scope="col">比较</th>${sortHeader('recipe','气体配方')}${sortHeader('temperature','温度 (°C)')}${sortHeader('pressure','压强 (atm)')}<th scope="col">操作</th></tr></thead><tbody>${state.results.map(row).join('')}</tbody></table>`:'';
   }
 
+  function updateGasTypes() {
+    const base=$('nobleGas').value, noble=base && base!=='none';
+    const labels=['不限','Pure',...(noble?[`${base}+X（二元）`,`${base}+X+Y（三元）`,`${base}+X+Y+Z（四元）`]:['X+Y（二元）','X+Y+Z（三元）','X+Y+Z+W（四元）'])];
+    [...$('componentCount').options].forEach((option,i)=>{option.textContent=labels[i];});
+  }
+
   function resetSearch() {
     state.sortKey=null;state.sortDirection=1;
-    $('searchForm').reset();$('componentRows').replaceChildren();
+    $('searchForm').reset();updateGasTypes();$('componentRows').replaceChildren();
     addComponent();search();enhanceSelects();
   }
   function balanceRecipe(changed) {
     const rows=[...$('componentRows').children], named=rows.filter(r=>r.querySelector('select').value);
-    if(named.length===2 && rows.length===2) {
+    if(named.length===2 && rows.length===2 && (!(Number($('componentCount').value)||null) || (Number($('componentCount').value)||null)===2)) {
       const other=named.map(r=>r.querySelector('input[type=number]')).find(i=>i!==changed);
       if(changed.value==='')other.value='';
       else if(Number.isFinite(changed.valueAsNumber)&&changed.valueAsNumber>=0&&changed.valueAsNumber<=100)other.value=Number((100-changed.valueAsNumber).toFixed(6));
@@ -515,7 +521,7 @@
     });
     $('results').addEventListener('change',event=>{if(event.target.dataset.select)select(event.target.dataset.select,event.target.checked);});
     $('searchForm').onsubmit=e=>{e.preventDefault();search();};
-    $('searchForm').addEventListener('input',search);$('searchForm').addEventListener('change',()=>{search();enhanceSelects();});
+    $('searchForm').addEventListener('input',search);$('searchForm').addEventListener('change',()=>{updateGasTypes();search();enhanceSelects();});
     $('addComponent').onclick=()=>{addComponent();};$('resetSearch').onclick=resetSearch;$('emptyReset').onclick=resetSearch;
     $('compareVisible').onclick=()=>{for(const {file} of state.results){if(state.selected.size>=8)break;state.selected.add(file.id);}if(state.results.some(({file})=>!state.selected.has(file.id)))notice('最多比较 8 份文件，未加入超出数量的结果。');state.mode='compare';counts();search();renderComparison();};
     $('clearSelected').onclick=()=>{state.selected.clear();state.mode='preview';counts();search();renderComparison();};

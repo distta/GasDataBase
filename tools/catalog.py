@@ -66,7 +66,19 @@ def required_number(text, key):
 
 
 def component_order(name):
-    return (name.lower() not in {"he", "ne", "ar", "kr", "xe", "rn", "og"}, name.lower())
+    noble = ["he", "ne", "ar", "kr", "xe", "rn", "og"]
+    return (noble.index(name.lower()) if name.lower() in noble else len(noble), name.lower())
+
+
+def family_directory(names):
+    names = sorted(names, key=component_order)
+    noble = [name for name in names if name.lower() in {"he", "ne", "ar", "kr", "xe", "rn", "og"}]
+    base = noble[0] if noble else "X"
+    variables = ["X", "Y", "Z"] if noble else ["Y", "Z", "W"]
+    category = "Pure" if len(names) == 1 else "+".join([base] + variables[:len(names)-1])
+    if len(names) > 4:
+        category = base + "+Mix"
+    return str(Path("GasDataBase") / category / "_".join(names))
 
 
 def inspect_gas(text, filename, aliases):

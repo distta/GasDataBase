@@ -11,7 +11,11 @@
   const fmt = n => Number.isFinite(n) ? Number(n.toPrecision(7)).toLocaleString('en-US', {maximumSignificantDigits: 7}) : '—';
   const canonical = s => ({'ic4h10': 'iC4H10', 'i-c4h10': 'iC4H10', 'isobutane': 'iC4H10',
     'r134a': 'C2H2F4', 'argon': 'Ar', 'neon': 'Ne', 'cf4': 'CF4', 'ar': 'Ar', 'ne': 'Ne'}[s.trim().toLowerCase()] || s.trim());
-  const componentOrder = (a,b) => Number(!['He','Ne','Ar','Kr','Xe','Rn','Og'].includes(canonical(a)))-Number(!['He','Ne','Ar','Kr','Xe','Rn','Og'].includes(canonical(b))) || canonical(a).localeCompare(canonical(b),'en');
+  const nobleGases = ['He','Ne','Ar','Kr','Xe','Rn','Og'];
+  const componentOrder = (a,b) => {
+    const rank = name => nobleGases.includes(canonical(name)) ? nobleGases.indexOf(canonical(name)) : nobleGases.length;
+    return rank(a)-rank(b) || canonical(a).localeCompare(canonical(b),'en',{numeric:true});
+  };
   function describe(gas, name) {
     const values = gas.identifier.split(',').map(part => part.trim().match(/^(.+?)\s+([\d.]+)\s*%$/)).filter(Boolean);
     const components = values.map(m => ({name: canonical(m[1]), fraction: Number(m[2])})).sort((a,b) => componentOrder(a.name,b.name));
@@ -35,6 +39,7 @@
     return gas;
   }
   function validateQuery(q) {
+    if (q.componentCount && q.components.filter(c=>c.name).length > q.componentCount) return '所选组分数量超过指定的气体类型。';
     if (q.components.some(c => !c.name && c.fraction !== null)) return '请为已填写的比例选择气体。';
     const names = q.components.filter(c => c.name).map(c => c.name);
     if (new Set(names).size !== names.length) return '同一种气体只需填写一次。';
@@ -49,6 +54,9 @@
     return '';
   }
   function match(file, q) {
+    if (q.componentCount && file.components.length !== q.componentCount) return null;
+    if (q.nobleGas === 'none' && file.components.some(c=>nobleGases.includes(canonical(c.name)))) return null;
+    if (q.nobleGas && q.nobleGas !== 'none' && !file.components.some(c=>canonical(c.name)===q.nobleGas)) return null;
     const terms = q.text.toLowerCase().trim().split(/\s+/).filter(Boolean);
     const hay = [file.label, file.path, file.family, file.identifier, ...Object.values(file.metadata || {})].join(' ').toLowerCase();
     if (!terms.every(t => hay.includes(t))) return null;

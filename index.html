@@ -26,6 +26,10 @@
       <details class="filter-sidebar panel" id="filterDrawer" open>
         <summary class="workspace-heading"><span class="heading-icon" aria-hidden="true">⌕</span> 筛选条件 <span class="mobile-filter-hint">展开 / 收起</span></summary>
         <form id="searchForm" class="filters">
+          <div class="category-filters">
+            <label>稀有气体<select id="nobleGas" aria-label="稀有气体"><option value="">不限</option><option>He</option><option>Ne</option><option>Ar</option><option>Kr</option><option>Xe</option><option value="none">无稀有气体</option></select></label>
+            <label>气体类型<select id="componentCount" aria-label="气体类型"><option value="">不限</option><option value="1">Pure</option><option value="2">X+Y（二元）</option><option value="3">X+Y+Z（三元）</option><option value="4">X+Y+Z+W（四元）</option></select></label>
+          </div>
           <div class="mixture-filter"><label>组分与比例</label><div id="componentRows"></div></div>
           <div class="field-grid thermo-filter">
             <label>温度 <span class="unit">°C</span><input id="temperature" type="number" step="any" placeholder="不限"></label>
@@ -55,7 +59,7 @@
             <div id="chartLegend" class="chart-legend"></div>
             <p id="plotNotice" class="hint" role="status"></p>
             <div class="chart-toolbar"><label class="x-selector">横轴 <select id="plotXAxis" aria-label="横轴"><option value="E">E</option><option value="EoverP">E/p</option><option value="EoverN">E/N</option></select></label><label class="switch">横轴对数<input id="logX" type="checkbox"><span aria-hidden="true"></span></label><label class="switch">纵轴对数<input id="logY" type="checkbox"><span aria-hidden="true"></span></label><label class="switch">采样点<input id="showPoints" type="checkbox" checked><span aria-hidden="true"></span></label><span class="zoom-hint">拖拽框选放大 · 双击恢复</span></div>
-            <details class="range-settings" open><summary>坐标轴显示范围</summary><div class="axis-ranges"><label>横轴 <span id="axisXUnit" class="unit"></span><span class="range-inputs"><input id="axisXMin" type="number" step="any" placeholder="自动" aria-label="横轴显示下限"><span>—</span><input id="axisXMax" type="number" step="any" placeholder="自动" aria-label="横轴显示上限"></span></label><label>纵轴 <span id="axisYUnit" class="unit"></span><span class="range-inputs"><input id="axisYMin" type="number" step="any" placeholder="自动" aria-label="纵轴显示下限"><span>—</span><input id="axisYMax" type="number" step="any" placeholder="自动" aria-label="纵轴显示上限"></span></label></div><button id="autoAxes" class="text-button">恢复自动范围</button></details>
+            <details class="range-settings"><summary>坐标轴显示范围</summary><div class="axis-ranges"><label>横轴 <span id="axisXUnit" class="unit"></span><span class="range-inputs"><input id="axisXMin" type="number" step="any" placeholder="自动" aria-label="横轴显示下限"><span>—</span><input id="axisXMax" type="number" step="any" placeholder="自动" aria-label="横轴显示上限"></span></label><label>纵轴 <span id="axisYUnit" class="unit"></span><span class="range-inputs"><input id="axisYMin" type="number" step="any" placeholder="自动" aria-label="纵轴显示下限"><span>—</span><input id="axisYMax" type="number" step="any" placeholder="自动" aria-label="纵轴显示上限"></span></label></div><button id="autoAxes" class="text-button">恢复自动范围</button></details>
             <details class="data-details"><summary>曲线数据与参数说明</summary><p id="parameterSource" class="hint"></p><p class="hint">圆点为原始计算值；连线仅辅助阅读，未插值或外推。</p><div id="plotData" class="table-scroll"></div></details>
           </div>
         </section>
@@ -63,7 +67,7 @@
     </section>
     <section id="view-maintain" class="view" hidden>
       <div class="page-intro"><div><h1>数据库维护</h1><p class="subtitle">文件收录、元数据补充与统一计算规范。</p></div></div>
-      <div class="maintenance-grid"><article class="panel guide"><span class="step-number">01</span><h2>放入文件</h2><p>当前收录 Ar/iC₄H₁₀ 数据。收录目录由配置管理，有效的无后缀文件也能识别。</p><p>扩展气体体系时，在 <code>catalog/config.json</code> 添加目录即可。</p></article><article class="panel guide"><span class="step-number">02</span><h2>补充已知信息</h2><p>在 <code>catalog/metadata.json</code> 填写来源、贡献者和生成版本。不了解的信息留空，页面显示“未记录”。</p><p>配方、温压和网格由文件自动读取，无需重复录入。</p></article><article class="panel guide"><span class="step-number">03</span><h2>更新并预览</h2><code class="command">python3 tools/catalog.py --serve</code><p>自动检查、去重、生成目录，并启动本机预览。失败时保留原目录索引，终端指出具体文件。</p><a href="Doc/简易数据库维护说明.md">查看完整维护说明 ↗</a></article></div>
+      <div class="maintenance-grid"><article class="panel guide"><span class="step-number">01</span><h2>放入文件</h2><p>正式文件按稀有气体及 Pure、Ar+X、Ar+X+Y 等类型分类。收录目录由配置管理。</p><p>扩展气体体系时，在 <code>catalog/config.json</code> 添加目录即可。</p></article><article class="panel guide"><span class="step-number">02</span><h2>补充已知信息</h2><p>在 <code>catalog/metadata.json</code> 填写来源、贡献者和生成版本。不了解的信息留空，页面显示“未记录”。</p><p>配方、温压和网格由文件自动读取，无需重复录入。</p></article><article class="panel guide"><span class="step-number">03</span><h2>更新并预览</h2><code class="command">python3 tools/catalog.py --serve</code><p>自动检查、去重、生成目录，并启动本机预览。失败时保留原目录索引，终端指出具体文件。</p><a href="Doc/简易数据库维护说明.md">查看完整维护说明 ↗</a></article></div>
       <div class="panel standards"><h2>统一生成规范</h2><div id="referenceProfile"></div><p class="hint">这是新计算的目标配置，不会重写已有气体表。首版框架不执行 Magboltz 批量计算。</p><hr><h3>一套配置，一份当前气体表</h3><p>新增电场点先补算，核对条件和生成设置后合并更新。补算文件移出收录目录；旧文件采用有限备份。更新后重新生成索引，不用修改网页。</p><p>相同内容自动合并展示；同配方、温压及已知生成版本的不同文件会提示维护者明确当前版本，避免悄悄覆盖。</p></div>
     </section>
   </main>

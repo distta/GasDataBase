@@ -1,8 +1,692 @@
 {
   "schema_version": 1,
   "files": {
-    "GasDataBase/Ar_CF4/Ar-70_CF4-30_T293.15K_P1520Torr.gas": {
-      "dataset": "GasDataBase/Ar_CF4/Ar-70_CF4-30_T293.15K_P1520Torr.gas",
+    "GasDataBase/Pure/C2F6/C2F6-100_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Pure/C2F6/C2F6-100_T293.15K_P760Torr.gas",
+      "sha256": "3e4fa661655c28316e83bce906e95d475b64f8c2865fce1af78fbe05f174bdec",
+      "origin": "legacy",
+      "config": {
+        "components": {
+          "C2F6": 100
+        },
+        "temperature_k": 293.15,
+        "pressure_torr": 760.0,
+        "electric_fields_v_cm": [
+          50000.000012000004,
+          54000.000016,
+          58000.00001999999,
+          62000.000024,
+          66000.000028,
+          70000.000032,
+          74000.000036,
+          78000.00004,
+          82000.00012000001,
+          86000.0002,
+          90000.00028000001,
+          94000.00036,
+          97999.99968000001,
+          101999.99975999999,
+          105999.99983999999,
+          109999.99992,
+          114000.0,
+          118000.00008,
+          122000.00016000001,
+          126000.00024000001,
+          130000.00031999999,
+          133999.99964,
+          137999.99972,
+          141999.9998,
+          145999.99988000002,
+          149999.99996000002
+        ],
+        "magnetic_fields_t": [
+          0.0
+        ],
+        "angles_deg": [
+          90.0000001836389
+        ],
+        "penning_enabled": null,
+        "generate_gas_table_argument": null,
+        "random_seed": null
+      },
+      "software_sha256": null,
+      "generator_signature": null,
+      "source_files": [
+        {
+          "path": "original/SinglePureGas/C2F6.gas",
+          "sha256": "3e4fa661655c28316e83bce906e95d475b64f8c2865fce1af78fbe05f174bdec"
+        }
+      ],
+      "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+    },
+    "GasDataBase/Pure/C2H2F4/C2H2F4-100_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Pure/C2H2F4/C2H2F4-100_T293.15K_P760Torr.gas",
+      "sha256": "ee1d73d06ea8923c7f80506032b6637df9282f86cd852623cdb3162a06aa5155",
+      "origin": "legacy",
+      "config": {
+        "components": {
+          "C2H2F4": 100
+        },
+        "temperature_k": 293.15,
+        "pressure_torr": 760.0,
+        "electric_fields_v_cm": [
+          50000.000012000004,
+          54000.000016,
+          58000.00001999999,
+          62000.000024,
+          66000.000028,
+          70000.000032,
+          74000.000036,
+          78000.00004,
+          82000.00012000001,
+          86000.0002,
+          90000.00028000001,
+          94000.00036,
+          97999.99968000001,
+          101999.99975999999,
+          105999.99983999999,
+          109999.99992,
+          114000.0,
+          118000.00008,
+          122000.00016000001,
+          126000.00024000001,
+          130000.00031999999,
+          133999.99964,
+          137999.99972,
+          141999.9998,
+          145999.99988000002,
+          149999.99996000002
+        ],
+        "magnetic_fields_t": [
+          0.0
+        ],
+        "angles_deg": [
+          90.0000001836389
+        ],
+        "penning_enabled": null,
+        "generate_gas_table_argument": null,
+        "random_seed": null
+      },
+      "software_sha256": null,
+      "generator_signature": null,
+      "source_files": [
+        {
+          "path": "original/SinglePureGas/R134a.gas",
+          "sha256": "ee1d73d06ea8923c7f80506032b6637df9282f86cd852623cdb3162a06aa5155"
+        }
+      ],
+      "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+    },
+    "GasDataBase/Pure/C2H6/C2H6-100_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Pure/C2H6/C2H6-100_T293.15K_P760Torr.gas",
+      "sha256": "5a167dc87d7b1d993f6ebd20f3d68bd67c07e911f382b3ade8091a0ee2f2f019",
+      "origin": "legacy",
+      "config": {
+        "components": {
+          "C2H6": 100
+        },
+        "temperature_k": 293.15,
+        "pressure_torr": 760.0,
+        "electric_fields_v_cm": [
+          50000.000012000004,
+          54000.000016,
+          58000.00001999999,
+          62000.000024,
+          66000.000028,
+          70000.000032,
+          74000.000036,
+          78000.00004,
+          82000.00012000001,
+          86000.0002,
+          90000.00028000001,
+          94000.00036,
+          97999.99968000001,
+          101999.99975999999,
+          105999.99983999999,
+          109999.99992,
+          114000.0,
+          118000.00008,
+          122000.00016000001,
+          126000.00024000001,
+          130000.00031999999,
+          133999.99964,
+          137999.99972,
+          141999.9998,
+          145999.99988000002,
+          149999.99996000002
+        ],
+        "magnetic_fields_t": [
+          0.0
+        ],
+        "angles_deg": [
+          90.0000001836389
+        ],
+        "penning_enabled": null,
+        "generate_gas_table_argument": null,
+        "random_seed": null
+      },
+      "software_sha256": null,
+      "generator_signature": null,
+      "source_files": [
+        {
+          "path": "original/SinglePureGas/C2H6.gas",
+          "sha256": "5a167dc87d7b1d993f6ebd20f3d68bd67c07e911f382b3ade8091a0ee2f2f019"
+        }
+      ],
+      "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+    },
+    "GasDataBase/Pure/C3F8/C3F8-100_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Pure/C3F8/C3F8-100_T293.15K_P760Torr.gas",
+      "sha256": "9eee536928437a3dfb300aacd4b9a67ca1849fb08068d7d6140a4994af59bfd3",
+      "origin": "legacy",
+      "config": {
+        "components": {
+          "C3F8": 100
+        },
+        "temperature_k": 293.15,
+        "pressure_torr": 760.0,
+        "electric_fields_v_cm": [
+          50000.000012000004,
+          54000.000016,
+          58000.00001999999,
+          62000.000024,
+          66000.000028,
+          70000.000032,
+          74000.000036,
+          78000.00004,
+          82000.00012000001,
+          86000.0002,
+          90000.00028000001,
+          94000.00036,
+          97999.99968000001,
+          101999.99975999999,
+          105999.99983999999,
+          109999.99992,
+          114000.0,
+          118000.00008,
+          122000.00016000001,
+          126000.00024000001,
+          130000.00031999999,
+          133999.99964,
+          137999.99972,
+          141999.9998,
+          145999.99988000002,
+          149999.99996000002
+        ],
+        "magnetic_fields_t": [
+          0.0
+        ],
+        "angles_deg": [
+          90.0000001836389
+        ],
+        "penning_enabled": null,
+        "generate_gas_table_argument": null,
+        "random_seed": null
+      },
+      "software_sha256": null,
+      "generator_signature": null,
+      "source_files": [
+        {
+          "path": "original/SinglePureGas/C3F8.gas",
+          "sha256": "9eee536928437a3dfb300aacd4b9a67ca1849fb08068d7d6140a4994af59bfd3"
+        }
+      ],
+      "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+    },
+    "GasDataBase/Pure/C3H6/C3H6-100_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Pure/C3H6/C3H6-100_T293.15K_P760Torr.gas",
+      "sha256": "13a855c5e05f6f45ac113934ac43bd6149fa94514abdb7363607fefbebd09981",
+      "origin": "legacy",
+      "config": {
+        "components": {
+          "C3H6": 100
+        },
+        "temperature_k": 293.15,
+        "pressure_torr": 760.0,
+        "electric_fields_v_cm": [
+          50000.000012000004,
+          54000.000016,
+          58000.00001999999,
+          62000.000024,
+          66000.000028,
+          70000.000032,
+          74000.000036,
+          78000.00004,
+          82000.00012000001,
+          86000.0002,
+          90000.00028000001,
+          94000.00036,
+          97999.99968000001,
+          101999.99975999999,
+          105999.99983999999,
+          109999.99992,
+          114000.0,
+          118000.00008,
+          122000.00016000001,
+          126000.00024000001,
+          130000.00031999999,
+          133999.99964,
+          137999.99972,
+          141999.9998,
+          145999.99988000002,
+          149999.99996000002
+        ],
+        "magnetic_fields_t": [
+          0.0
+        ],
+        "angles_deg": [
+          90.0000001836389
+        ],
+        "penning_enabled": null,
+        "generate_gas_table_argument": null,
+        "random_seed": null
+      },
+      "software_sha256": null,
+      "generator_signature": null,
+      "source_files": [
+        {
+          "path": "original/SinglePureGas/C3H6.gas",
+          "sha256": "13a855c5e05f6f45ac113934ac43bd6149fa94514abdb7363607fefbebd09981"
+        }
+      ],
+      "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+    },
+    "GasDataBase/Pure/C3H8/C3H8-100_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Pure/C3H8/C3H8-100_T293.15K_P760Torr.gas",
+      "sha256": "810f5e7a799d318e0df61f772d2f3974fc8ec8728b8f34250a520aa1207dbd45",
+      "origin": "legacy",
+      "config": {
+        "components": {
+          "C3H8": 100
+        },
+        "temperature_k": 293.15,
+        "pressure_torr": 760.0,
+        "electric_fields_v_cm": [
+          50000.000012000004,
+          54000.000016,
+          58000.00001999999,
+          62000.000024,
+          66000.000028,
+          70000.000032,
+          74000.000036,
+          78000.00004,
+          82000.00012000001,
+          86000.0002,
+          90000.00028000001,
+          94000.00036,
+          97999.99968000001,
+          101999.99975999999,
+          105999.99983999999,
+          109999.99992,
+          114000.0,
+          118000.00008,
+          122000.00016000001,
+          126000.00024000001,
+          130000.00031999999,
+          133999.99964,
+          137999.99972,
+          141999.9998,
+          145999.99988000002,
+          149999.99996000002
+        ],
+        "magnetic_fields_t": [
+          0.0
+        ],
+        "angles_deg": [
+          90.0000001836389
+        ],
+        "penning_enabled": null,
+        "generate_gas_table_argument": null,
+        "random_seed": null
+      },
+      "software_sha256": null,
+      "generator_signature": null,
+      "source_files": [
+        {
+          "path": "original/SinglePureGas/C3H8.gas",
+          "sha256": "810f5e7a799d318e0df61f772d2f3974fc8ec8728b8f34250a520aa1207dbd45"
+        }
+      ],
+      "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+    },
+    "GasDataBase/Pure/CF3Br/CF3Br-100_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Pure/CF3Br/CF3Br-100_T293.15K_P760Torr.gas",
+      "sha256": "d2703a724cc0657f447819b32f67de3fedca631b94f289a5ff8048986c7671ec",
+      "origin": "legacy",
+      "config": {
+        "components": {
+          "CF3Br": 100
+        },
+        "temperature_k": 293.15,
+        "pressure_torr": 760.0,
+        "electric_fields_v_cm": [
+          50000.000012000004,
+          54000.000016,
+          58000.00001999999,
+          62000.000024,
+          66000.000028,
+          70000.000032,
+          74000.000036,
+          78000.00004,
+          82000.00012000001,
+          86000.0002,
+          90000.00028000001,
+          94000.00036,
+          97999.99968000001,
+          101999.99975999999,
+          105999.99983999999,
+          109999.99992,
+          114000.0,
+          118000.00008,
+          122000.00016000001,
+          126000.00024000001,
+          130000.00031999999,
+          133999.99964,
+          137999.99972,
+          141999.9998,
+          145999.99988000002,
+          149999.99996000002
+        ],
+        "magnetic_fields_t": [
+          0.0
+        ],
+        "angles_deg": [
+          90.0000001836389
+        ],
+        "penning_enabled": null,
+        "generate_gas_table_argument": null,
+        "random_seed": null
+      },
+      "software_sha256": null,
+      "generator_signature": null,
+      "source_files": [
+        {
+          "path": "original/SinglePureGas/CF3Br.gas",
+          "sha256": "d2703a724cc0657f447819b32f67de3fedca631b94f289a5ff8048986c7671ec"
+        }
+      ],
+      "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+    },
+    "GasDataBase/Pure/CH4/CH4-100_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Pure/CH4/CH4-100_T293.15K_P760Torr.gas",
+      "sha256": "24cf1255d004e906dc59a02f739541d31c7b6355d933161b8605c5ab06f7edcf",
+      "origin": "legacy",
+      "config": {
+        "components": {
+          "CH4": 100
+        },
+        "temperature_k": 293.15,
+        "pressure_torr": 760.0,
+        "electric_fields_v_cm": [
+          50000.000012000004,
+          54000.000016,
+          58000.00001999999,
+          62000.000024,
+          66000.000028,
+          70000.000032,
+          74000.000036,
+          78000.00004,
+          82000.00012000001,
+          86000.0002,
+          90000.00028000001,
+          94000.00036,
+          97999.99968000001,
+          101999.99975999999,
+          105999.99983999999,
+          109999.99992,
+          114000.0,
+          118000.00008,
+          122000.00016000001,
+          126000.00024000001,
+          130000.00031999999,
+          133999.99964,
+          137999.99972,
+          141999.9998,
+          145999.99988000002,
+          149999.99996000002
+        ],
+        "magnetic_fields_t": [
+          0.0
+        ],
+        "angles_deg": [
+          90.0000001836389
+        ],
+        "penning_enabled": null,
+        "generate_gas_table_argument": null,
+        "random_seed": null
+      },
+      "software_sha256": null,
+      "generator_signature": null,
+      "source_files": [
+        {
+          "path": "original/SinglePureGas/CH4.gas",
+          "sha256": "24cf1255d004e906dc59a02f739541d31c7b6355d933161b8605c5ab06f7edcf"
+        }
+      ],
+      "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+    },
+    "GasDataBase/Pure/CHF3/CHF3-100_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Pure/CHF3/CHF3-100_T293.15K_P760Torr.gas",
+      "sha256": "2f961a900165b947d45a51ece221ec0578ba5fd656e7776b9f513fa26b23bef5",
+      "origin": "legacy",
+      "config": {
+        "components": {
+          "CHF3": 100
+        },
+        "temperature_k": 293.15,
+        "pressure_torr": 760.0,
+        "electric_fields_v_cm": [
+          50000.000012000004,
+          54000.000016,
+          58000.00001999999,
+          62000.000024,
+          66000.000028,
+          70000.000032,
+          74000.000036,
+          78000.00004,
+          82000.00012000001,
+          86000.0002,
+          90000.00028000001,
+          94000.00036,
+          97999.99968000001,
+          101999.99975999999,
+          105999.99983999999,
+          109999.99992,
+          114000.0,
+          118000.00008,
+          122000.00016000001,
+          126000.00024000001,
+          130000.00031999999,
+          133999.99964,
+          137999.99972,
+          141999.9998,
+          145999.99988000002,
+          149999.99996000002
+        ],
+        "magnetic_fields_t": [
+          0.0
+        ],
+        "angles_deg": [
+          90.0000001836389
+        ],
+        "penning_enabled": null,
+        "generate_gas_table_argument": null,
+        "random_seed": null
+      },
+      "software_sha256": null,
+      "generator_signature": null,
+      "source_files": [
+        {
+          "path": "original/SinglePureGas/CHF3.gas",
+          "sha256": "2f961a900165b947d45a51ece221ec0578ba5fd656e7776b9f513fa26b23bef5"
+        }
+      ],
+      "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+    },
+    "GasDataBase/Pure/He/He-100_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Pure/He/He-100_T293.15K_P760Torr.gas",
+      "sha256": "f2655b6b1adf15f86c52ba47d47aad9464e854f14024181ca0546be83224b68d",
+      "origin": "legacy",
+      "config": {
+        "components": {
+          "He": 100
+        },
+        "temperature_k": 293.15,
+        "pressure_torr": 760.0,
+        "electric_fields_v_cm": [
+          9.999999972000001,
+          12.742749835999998,
+          16.237767383999998,
+          20.691380836,
+          26.366509,
+          33.598182828,
+          42.81332396,
+          54.555947844,
+          69.519279588,
+          88.5866792,
+          112.88378952000001,
+          143.84498872,
+          183.29807072,
+          233.57214672,
+          297.6351444,
+          379.26901908,
+          483.29302348,
+          615.84821144,
+          784.7599716,
+          999.9999971999999
+        ],
+        "magnetic_fields_t": [
+          0.0
+        ],
+        "angles_deg": [
+          90.0000001836389
+        ],
+        "penning_enabled": null,
+        "generate_gas_table_argument": null,
+        "random_seed": null
+      },
+      "software_sha256": null,
+      "generator_signature": null,
+      "source_files": [
+        {
+          "path": "original/github_nkx111_gasFiles/he_100.0-E_vs_P_10.0_1000.0_nodes_20-nCol_10-maxElectronEnergy_400.000000.gas",
+          "sha256": "f2655b6b1adf15f86c52ba47d47aad9464e854f14024181ca0546be83224b68d"
+        }
+      ],
+      "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+    },
+    "GasDataBase/Pure/SF6/SF6-100_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Pure/SF6/SF6-100_T293.15K_P760Torr.gas",
+      "sha256": "19cfd4775902462d72576b90c01365238a4cc31db1a8b4b92b943bce3a4dcb07",
+      "origin": "legacy",
+      "config": {
+        "components": {
+          "SF6": 100
+        },
+        "temperature_k": 293.15,
+        "pressure_torr": 760.0,
+        "electric_fields_v_cm": [
+          50000.000012000004,
+          51999.999976,
+          54000.000016,
+          55999.99998000001,
+          58000.00001999999,
+          59999.999984,
+          62000.000024,
+          63999.999987999996,
+          66000.000028,
+          67999.999992,
+          70000.000032,
+          71999.999996,
+          74000.000036,
+          76000.0,
+          78000.00004,
+          80000.00008,
+          82000.00012000001,
+          84000.00016,
+          86000.0002,
+          88000.00024,
+          90000.00028000001,
+          92000.00032,
+          94000.00036,
+          95999.99964,
+          97999.99968000001,
+          99999.99971999999
+        ],
+        "magnetic_fields_t": [
+          0.0
+        ],
+        "angles_deg": [
+          90.0000001836389
+        ],
+        "penning_enabled": null,
+        "generate_gas_table_argument": null,
+        "random_seed": null
+      },
+      "software_sha256": null,
+      "generator_signature": null,
+      "source_files": [
+        {
+          "path": "original/SinglePureGas/SF6.gas",
+          "sha256": "19cfd4775902462d72576b90c01365238a4cc31db1a8b4b92b943bce3a4dcb07"
+        }
+      ],
+      "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+    },
+    "GasDataBase/Pure/Xe/Xe-100_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Pure/Xe/Xe-100_T293.15K_P760Torr.gas",
+      "sha256": "356413c2f73e2e058ffb6da51bda031aed3ea1446aa7a811912cbb9a2d6add13",
+      "origin": "legacy",
+      "config": {
+        "components": {
+          "Xe": 100
+        },
+        "temperature_k": 293.15,
+        "pressure_torr": 760.0,
+        "electric_fields_v_cm": [
+          9.999999972000001,
+          12.742749835999998,
+          16.237767383999998,
+          20.691380836,
+          26.366509,
+          33.598182828,
+          42.81332396,
+          54.555947844,
+          69.519279588,
+          88.5866792,
+          112.88378952000001,
+          143.84498872,
+          183.29807072,
+          233.57214672,
+          297.6351444,
+          379.26901908,
+          483.29302348,
+          615.84821144,
+          784.7599716,
+          999.9999971999999
+        ],
+        "magnetic_fields_t": [
+          0.0
+        ],
+        "angles_deg": [
+          90.0000001836389
+        ],
+        "penning_enabled": null,
+        "generate_gas_table_argument": null,
+        "random_seed": null
+      },
+      "software_sha256": null,
+      "generator_signature": null,
+      "source_files": [
+        {
+          "path": "original/github_nkx111_gasFiles/xe_100.0-E_vs_P_10.0_1000.0_nodes_20-nCol_10-maxElectronEnergy_400.000000.gas",
+          "sha256": "356413c2f73e2e058ffb6da51bda031aed3ea1446aa7a811912cbb9a2d6add13"
+        }
+      ],
+      "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
+    },
+    "GasDataBase/Ar+X/Ar_CF4/Ar-70_CF4-30_T293.15K_P1520Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CF4/Ar-70_CF4-30_T293.15K_P1520Torr.gas",
       "sha256": "82f7429a97c3cced272cea4e437347a7c7e65490cdbd8fb8827f1d3364919dc3",
       "origin": "legacy",
       "config": {
@@ -67,8 +751,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CF4/Ar-70_CF4-30_T293.15K_P7.6Torr.gas": {
-      "dataset": "GasDataBase/Ar_CF4/Ar-70_CF4-30_T293.15K_P7.6Torr.gas",
+    "GasDataBase/Ar+X/Ar_CF4/Ar-70_CF4-30_T293.15K_P7.6Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CF4/Ar-70_CF4-30_T293.15K_P7.6Torr.gas",
       "sha256": "01dcf589834254ebe2fd75674c745f424486f5b227ecefa3af65efbc0a413215",
       "origin": "legacy",
       "config": {
@@ -133,8 +817,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CH4/Ar-70_CH4-30_T293.15K_P1520Torr.gas": {
-      "dataset": "GasDataBase/Ar_CH4/Ar-70_CH4-30_T293.15K_P1520Torr.gas",
+    "GasDataBase/Ar+X/Ar_CH4/Ar-70_CH4-30_T293.15K_P1520Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CH4/Ar-70_CH4-30_T293.15K_P1520Torr.gas",
       "sha256": "ec6a8bac82a20f5084640401784799b7337f562eac2ccf3d9e42dde07f5c6c17",
       "origin": "legacy",
       "config": {
@@ -203,8 +887,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CH4/Ar-70_CH4-30_T293.15K_P7.6Torr.gas": {
-      "dataset": "GasDataBase/Ar_CH4/Ar-70_CH4-30_T293.15K_P7.6Torr.gas",
+    "GasDataBase/Ar+X/Ar_CH4/Ar-70_CH4-30_T293.15K_P7.6Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CH4/Ar-70_CH4-30_T293.15K_P7.6Torr.gas",
       "sha256": "a497b6b45c71563c11330f3abbf00ec6ec80ee196751a41147e9b3e565061f43",
       "origin": "legacy",
       "config": {
@@ -273,8 +957,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CH4/Ar-70_CH4-30_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_CH4/Ar-70_CH4-30_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X/Ar_CH4/Ar-70_CH4-30_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CH4/Ar-70_CH4-30_T293.15K_P760Torr.gas",
       "sha256": "b3a0eb78f91c676a4dcc93bf3ba1724d10e31cd9df14c0473734665c0e3e696c",
       "origin": "legacy",
       "config": {
@@ -343,8 +1027,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CO2/Ar-70_CO2-30_T293.15K_P1520Torr.gas": {
-      "dataset": "GasDataBase/Ar_CO2/Ar-70_CO2-30_T293.15K_P1520Torr.gas",
+    "GasDataBase/Ar+X/Ar_CO2/Ar-70_CO2-30_T293.15K_P1520Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CO2/Ar-70_CO2-30_T293.15K_P1520Torr.gas",
       "sha256": "e7ef500dfab0b3eca54358f7afdc2e8d43f8bf1748c30f065c995ab352160935",
       "origin": "legacy",
       "config": {
@@ -417,8 +1101,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CO2/Ar-70_CO2-30_T293.15K_P7.6Torr.gas": {
-      "dataset": "GasDataBase/Ar_CO2/Ar-70_CO2-30_T293.15K_P7.6Torr.gas",
+    "GasDataBase/Ar+X/Ar_CO2/Ar-70_CO2-30_T293.15K_P7.6Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CO2/Ar-70_CO2-30_T293.15K_P7.6Torr.gas",
       "sha256": "ab11977f3cdf79f9ada71fe6061474940ff061281ec0f54b575d7d995e3bd590",
       "origin": "legacy",
       "config": {
@@ -491,8 +1175,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_DME/Ar-70_DME-30_T293.15K_P1520Torr.gas": {
-      "dataset": "GasDataBase/Ar_DME/Ar-70_DME-30_T293.15K_P1520Torr.gas",
+    "GasDataBase/Ar+X/Ar_DME/Ar-70_DME-30_T293.15K_P1520Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_DME/Ar-70_DME-30_T293.15K_P1520Torr.gas",
       "sha256": "ea75d698bf082b51d96325f88255566c5e3ba0e911886d621fe46364297e4fbe",
       "origin": "legacy",
       "config": {
@@ -557,8 +1241,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_DME/Ar-70_DME-30_T293.15K_P7.6Torr.gas": {
-      "dataset": "GasDataBase/Ar_DME/Ar-70_DME-30_T293.15K_P7.6Torr.gas",
+    "GasDataBase/Ar+X/Ar_DME/Ar-70_DME-30_T293.15K_P7.6Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_DME/Ar-70_DME-30_T293.15K_P7.6Torr.gas",
       "sha256": "a84eefb521ecc5e498f892814708515180a1d5a1e5411f9e3f8cd68dbec504b2",
       "origin": "legacy",
       "config": {
@@ -623,8 +1307,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10/Ar-70_iC4H10-30_T293.15K_P1520Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10/Ar-70_iC4H10-30_T293.15K_P1520Torr.gas",
+    "GasDataBase/Ar+X/Ar_iC4H10/Ar-70_iC4H10-30_T293.15K_P1520Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_iC4H10/Ar-70_iC4H10-30_T293.15K_P1520Torr.gas",
       "sha256": "7883a8ac6f070133f2e73b6d9bcff5d6b36eff8832bec93236ddf1041e680c7c",
       "origin": "legacy",
       "config": {
@@ -689,8 +1373,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10/Ar-70_iC4H10-30_T293.15K_P7.6Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10/Ar-70_iC4H10-30_T293.15K_P7.6Torr.gas",
+    "GasDataBase/Ar+X/Ar_iC4H10/Ar-70_iC4H10-30_T293.15K_P7.6Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_iC4H10/Ar-70_iC4H10-30_T293.15K_P7.6Torr.gas",
       "sha256": "1aca1553f2359ff702b5a5a0278b78f923c27d6c27a9c9be39f8afaa667bd283",
       "origin": "legacy",
       "config": {
@@ -755,8 +1439,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CF4/Ar-75_CF4-25_T293.15K_P1520Torr.gas": {
-      "dataset": "GasDataBase/Ar_CF4/Ar-75_CF4-25_T293.15K_P1520Torr.gas",
+    "GasDataBase/Ar+X/Ar_CF4/Ar-75_CF4-25_T293.15K_P1520Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CF4/Ar-75_CF4-25_T293.15K_P1520Torr.gas",
       "sha256": "b2c5f1b2c21753f60dc12c667ee9bf1f0e249f20d93523c65120e1ff3ae73dcc",
       "origin": "legacy",
       "config": {
@@ -821,8 +1505,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CF4/Ar-75_CF4-25_T293.15K_P7.6Torr.gas": {
-      "dataset": "GasDataBase/Ar_CF4/Ar-75_CF4-25_T293.15K_P7.6Torr.gas",
+    "GasDataBase/Ar+X/Ar_CF4/Ar-75_CF4-25_T293.15K_P7.6Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CF4/Ar-75_CF4-25_T293.15K_P7.6Torr.gas",
       "sha256": "d9e7929801b5410ed500ebd9fb76e61d74178b406e48e6572ff3e3706f646773",
       "origin": "legacy",
       "config": {
@@ -887,8 +1571,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CF4/Ar-75_CF4-25_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_CF4/Ar-75_CF4-25_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X/Ar_CF4/Ar-75_CF4-25_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CF4/Ar-75_CF4-25_T293.15K_P760Torr.gas",
       "sha256": "2af0f3edabdbd6befaf4a7044239288ebeb638519ad447ed3df08409e7cc9eb7",
       "origin": "legacy",
       "config": {
@@ -953,8 +1637,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CH4/Ar-75_CH4-25_T293.15K_P1520Torr.gas": {
-      "dataset": "GasDataBase/Ar_CH4/Ar-75_CH4-25_T293.15K_P1520Torr.gas",
+    "GasDataBase/Ar+X/Ar_CH4/Ar-75_CH4-25_T293.15K_P1520Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CH4/Ar-75_CH4-25_T293.15K_P1520Torr.gas",
       "sha256": "cc7b2a919a936d4c310d28ca9b8d449111845d8e42070bf73a04f66156014c47",
       "origin": "legacy",
       "config": {
@@ -1023,8 +1707,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CH4/Ar-75_CH4-25_T293.15K_P7.6Torr.gas": {
-      "dataset": "GasDataBase/Ar_CH4/Ar-75_CH4-25_T293.15K_P7.6Torr.gas",
+    "GasDataBase/Ar+X/Ar_CH4/Ar-75_CH4-25_T293.15K_P7.6Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CH4/Ar-75_CH4-25_T293.15K_P7.6Torr.gas",
       "sha256": "cee2c9f8e944a0c2692a15de30a66a11af21c27a8df247e095a815caec09d31c",
       "origin": "legacy",
       "config": {
@@ -1093,8 +1777,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CH4/Ar-75_CH4-25_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_CH4/Ar-75_CH4-25_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X/Ar_CH4/Ar-75_CH4-25_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CH4/Ar-75_CH4-25_T293.15K_P760Torr.gas",
       "sha256": "79ba23148ef1b1897f26a2af626fb8c107d447811223b083a97c71cec0bc802d",
       "origin": "legacy",
       "config": {
@@ -1163,8 +1847,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CO2/Ar-75_CO2-25_T293.15K_P1520Torr.gas": {
-      "dataset": "GasDataBase/Ar_CO2/Ar-75_CO2-25_T293.15K_P1520Torr.gas",
+    "GasDataBase/Ar+X/Ar_CO2/Ar-75_CO2-25_T293.15K_P1520Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CO2/Ar-75_CO2-25_T293.15K_P1520Torr.gas",
       "sha256": "0108789228e47eaeebaa02ca4ef36cb68d837a0dcef92e46dbd452a6535d240c",
       "origin": "legacy",
       "config": {
@@ -1237,8 +1921,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CO2/Ar-75_CO2-25_T293.15K_P7.6Torr.gas": {
-      "dataset": "GasDataBase/Ar_CO2/Ar-75_CO2-25_T293.15K_P7.6Torr.gas",
+    "GasDataBase/Ar+X/Ar_CO2/Ar-75_CO2-25_T293.15K_P7.6Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CO2/Ar-75_CO2-25_T293.15K_P7.6Torr.gas",
       "sha256": "1ef157972961b0bbaac305d9003bc207c122afd5147fbedec4ac9406c6c24332",
       "origin": "legacy",
       "config": {
@@ -1311,8 +1995,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CO2/Ar-75_CO2-25_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_CO2/Ar-75_CO2-25_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X/Ar_CO2/Ar-75_CO2-25_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CO2/Ar-75_CO2-25_T293.15K_P760Torr.gas",
       "sha256": "ce81d015970c57aed2069850624d5b5cf7ccdd08cc10fe9b29ff5cd6e3186193",
       "origin": "legacy",
       "config": {
@@ -1385,8 +2069,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_DME/Ar-75_DME-25_T293.15K_P1520Torr.gas": {
-      "dataset": "GasDataBase/Ar_DME/Ar-75_DME-25_T293.15K_P1520Torr.gas",
+    "GasDataBase/Ar+X/Ar_DME/Ar-75_DME-25_T293.15K_P1520Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_DME/Ar-75_DME-25_T293.15K_P1520Torr.gas",
       "sha256": "07736226837a82ec44671c439985f4ecf7a5867a18eea4dcaa6e743ff86dc28e",
       "origin": "legacy",
       "config": {
@@ -1451,8 +2135,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_DME/Ar-75_DME-25_T293.15K_P7.6Torr.gas": {
-      "dataset": "GasDataBase/Ar_DME/Ar-75_DME-25_T293.15K_P7.6Torr.gas",
+    "GasDataBase/Ar+X/Ar_DME/Ar-75_DME-25_T293.15K_P7.6Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_DME/Ar-75_DME-25_T293.15K_P7.6Torr.gas",
       "sha256": "727015f0016fa15b3c397da7428c531ef00b74f68a5469caa520dab4292fa8dc",
       "origin": "legacy",
       "config": {
@@ -1517,8 +2201,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_DME/Ar-75_DME-25_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_DME/Ar-75_DME-25_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X/Ar_DME/Ar-75_DME-25_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_DME/Ar-75_DME-25_T293.15K_P760Torr.gas",
       "sha256": "87657a1f7d27db43a33df62797cd3a309a552c879b798f42aa185147cac07e6e",
       "origin": "legacy",
       "config": {
@@ -1583,8 +2267,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10/Ar-75_iC4H10-25_T293.15K_P1520Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10/Ar-75_iC4H10-25_T293.15K_P1520Torr.gas",
+    "GasDataBase/Ar+X/Ar_iC4H10/Ar-75_iC4H10-25_T293.15K_P1520Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_iC4H10/Ar-75_iC4H10-25_T293.15K_P1520Torr.gas",
       "sha256": "90dcc404fcf29ff7a80dfd7640e5e79301cf0f5d1d127d4b6aeb18cd91b9b03a",
       "origin": "legacy",
       "config": {
@@ -1649,8 +2333,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10/Ar-75_iC4H10-25_T293.15K_P7.6Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10/Ar-75_iC4H10-25_T293.15K_P7.6Torr.gas",
+    "GasDataBase/Ar+X/Ar_iC4H10/Ar-75_iC4H10-25_T293.15K_P7.6Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_iC4H10/Ar-75_iC4H10-25_T293.15K_P7.6Torr.gas",
       "sha256": "9d295f3de0cf4efc34388657c2e104b35e99980328e4618de39cf94dbe09dd76",
       "origin": "legacy",
       "config": {
@@ -1715,8 +2399,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10/Ar-75_iC4H10-25_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10/Ar-75_iC4H10-25_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X/Ar_iC4H10/Ar-75_iC4H10-25_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_iC4H10/Ar-75_iC4H10-25_T293.15K_P760Torr.gas",
       "sha256": "25ee6c2489926cd7772d3d23e4dbfde8dd42d59448886fe2c644d6034d0845a2",
       "origin": "legacy",
       "config": {
@@ -1781,8 +2465,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CF4/Ar-80_CF4-20_T293.15K_P1520Torr.gas": {
-      "dataset": "GasDataBase/Ar_CF4/Ar-80_CF4-20_T293.15K_P1520Torr.gas",
+    "GasDataBase/Ar+X/Ar_CF4/Ar-80_CF4-20_T293.15K_P1520Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CF4/Ar-80_CF4-20_T293.15K_P1520Torr.gas",
       "sha256": "b39b043faf53f76ff94feeb73b0ed8e53ae026870c518248f0dca323ecca8dc0",
       "origin": "legacy",
       "config": {
@@ -1847,8 +2531,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CF4/Ar-80_CF4-20_T293.15K_P7.6Torr.gas": {
-      "dataset": "GasDataBase/Ar_CF4/Ar-80_CF4-20_T293.15K_P7.6Torr.gas",
+    "GasDataBase/Ar+X/Ar_CF4/Ar-80_CF4-20_T293.15K_P7.6Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CF4/Ar-80_CF4-20_T293.15K_P7.6Torr.gas",
       "sha256": "d677ce1e319bdfc4cf31dbf05f8094ec26c31ab7de56a127abb6a8cace4e6be2",
       "origin": "legacy",
       "config": {
@@ -1913,8 +2597,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CH4/Ar-80_CH4-20_T293.15K_P1520Torr.gas": {
-      "dataset": "GasDataBase/Ar_CH4/Ar-80_CH4-20_T293.15K_P1520Torr.gas",
+    "GasDataBase/Ar+X/Ar_CH4/Ar-80_CH4-20_T293.15K_P1520Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CH4/Ar-80_CH4-20_T293.15K_P1520Torr.gas",
       "sha256": "78eeabca8699e505e7dbe654a7172044bb27f35c2940d05e4a26f6fc4da14387",
       "origin": "legacy",
       "config": {
@@ -1983,8 +2667,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CH4/Ar-80_CH4-20_T293.15K_P7.6Torr.gas": {
-      "dataset": "GasDataBase/Ar_CH4/Ar-80_CH4-20_T293.15K_P7.6Torr.gas",
+    "GasDataBase/Ar+X/Ar_CH4/Ar-80_CH4-20_T293.15K_P7.6Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CH4/Ar-80_CH4-20_T293.15K_P7.6Torr.gas",
       "sha256": "3afb8a21239d3a6554fd24dd4cb148737652660c295b78cd1c4c1fd910ea7ef4",
       "origin": "legacy",
       "config": {
@@ -2053,8 +2737,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CH4/Ar-80_CH4-20_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_CH4/Ar-80_CH4-20_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X/Ar_CH4/Ar-80_CH4-20_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CH4/Ar-80_CH4-20_T293.15K_P760Torr.gas",
       "sha256": "9577135a4424668e665dd986033e2d03ae80f73672b57b954f3013b4b1602761",
       "origin": "legacy",
       "config": {
@@ -2123,8 +2807,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CO2/Ar-80_CO2-20_T293.15K_P1520Torr.gas": {
-      "dataset": "GasDataBase/Ar_CO2/Ar-80_CO2-20_T293.15K_P1520Torr.gas",
+    "GasDataBase/Ar+X/Ar_CO2/Ar-80_CO2-20_T293.15K_P1520Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CO2/Ar-80_CO2-20_T293.15K_P1520Torr.gas",
       "sha256": "4bf6b47c725c2a22a3380ae69a8f3f3d4b59098f100ef708bb4c2b9c016985bb",
       "origin": "legacy",
       "config": {
@@ -2197,8 +2881,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CO2/Ar-80_CO2-20_T293.15K_P7.6Torr.gas": {
-      "dataset": "GasDataBase/Ar_CO2/Ar-80_CO2-20_T293.15K_P7.6Torr.gas",
+    "GasDataBase/Ar+X/Ar_CO2/Ar-80_CO2-20_T293.15K_P7.6Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CO2/Ar-80_CO2-20_T293.15K_P7.6Torr.gas",
       "sha256": "7258a743836cda85cc064b36c7ce01ae38299fbf312fd4c0cadd955e06c91b62",
       "origin": "legacy",
       "config": {
@@ -2271,8 +2955,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_DME/Ar-80_DME-20_T293.15K_P1520Torr.gas": {
-      "dataset": "GasDataBase/Ar_DME/Ar-80_DME-20_T293.15K_P1520Torr.gas",
+    "GasDataBase/Ar+X/Ar_DME/Ar-80_DME-20_T293.15K_P1520Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_DME/Ar-80_DME-20_T293.15K_P1520Torr.gas",
       "sha256": "a1015a64019e103fca6d36bd6cd86907a7ee3c56e118d869d9ba1da429152140",
       "origin": "legacy",
       "config": {
@@ -2337,8 +3021,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_DME/Ar-80_DME-20_T293.15K_P7.6Torr.gas": {
-      "dataset": "GasDataBase/Ar_DME/Ar-80_DME-20_T293.15K_P7.6Torr.gas",
+    "GasDataBase/Ar+X/Ar_DME/Ar-80_DME-20_T293.15K_P7.6Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_DME/Ar-80_DME-20_T293.15K_P7.6Torr.gas",
       "sha256": "294653fa8f540dd4e8723b6ef841c4bb352036173d8bf4f407a65f0655d27319",
       "origin": "legacy",
       "config": {
@@ -2403,8 +3087,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10/Ar-80_iC4H10-20_T293.15K_P1520Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10/Ar-80_iC4H10-20_T293.15K_P1520Torr.gas",
+    "GasDataBase/Ar+X/Ar_iC4H10/Ar-80_iC4H10-20_T293.15K_P1520Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_iC4H10/Ar-80_iC4H10-20_T293.15K_P1520Torr.gas",
       "sha256": "7c3af7907aa42b602a73dee0f8c9260181a0b3d36704dc57a8ec08fe64ef01e4",
       "origin": "legacy",
       "config": {
@@ -2469,8 +3153,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10/Ar-80_iC4H10-20_T293.15K_P7.6Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10/Ar-80_iC4H10-20_T293.15K_P7.6Torr.gas",
+    "GasDataBase/Ar+X/Ar_iC4H10/Ar-80_iC4H10-20_T293.15K_P7.6Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_iC4H10/Ar-80_iC4H10-20_T293.15K_P7.6Torr.gas",
       "sha256": "9f2499196f730a4009fdebc0e35d50bc6cb51325e5b7ee7ea17ed63328b7a216",
       "origin": "legacy",
       "config": {
@@ -2535,8 +3219,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10/Ar-84_iC4H10-16_T293.15K_P1520Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10/Ar-84_iC4H10-16_T293.15K_P1520Torr.gas",
+    "GasDataBase/Ar+X/Ar_iC4H10/Ar-84_iC4H10-16_T293.15K_P1520Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_iC4H10/Ar-84_iC4H10-16_T293.15K_P1520Torr.gas",
       "sha256": "bea06dee380a6fa35c4132171a0a6622e3754d8d7af5212731bce5eceead0954",
       "origin": "legacy",
       "config": {
@@ -2601,8 +3285,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10/Ar-84_iC4H10-16_T293.15K_P38Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10/Ar-84_iC4H10-16_T293.15K_P38Torr.gas",
+    "GasDataBase/Ar+X/Ar_iC4H10/Ar-84_iC4H10-16_T293.15K_P38Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_iC4H10/Ar-84_iC4H10-16_T293.15K_P38Torr.gas",
       "sha256": "622c6aa960bbbf79becd5ef6486c78b91145e5d0b1048ab92003857f707712ac",
       "origin": "legacy",
       "config": {
@@ -2667,8 +3351,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10/Ar-84_iC4H10-16_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10/Ar-84_iC4H10-16_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X/Ar_iC4H10/Ar-84_iC4H10-16_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_iC4H10/Ar-84_iC4H10-16_T293.15K_P760Torr.gas",
       "sha256": "a0e9ccdc603153872acc919feeeb0a13795b4a06cba7d4a537d6c7e6bb417d8a",
       "origin": "legacy",
       "config": {
@@ -2733,8 +3417,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CF4/Ar-85_CF4-15_T293.15K_P1520Torr.gas": {
-      "dataset": "GasDataBase/Ar_CF4/Ar-85_CF4-15_T293.15K_P1520Torr.gas",
+    "GasDataBase/Ar+X/Ar_CF4/Ar-85_CF4-15_T293.15K_P1520Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CF4/Ar-85_CF4-15_T293.15K_P1520Torr.gas",
       "sha256": "1d3246e2e5c84bb89797b1b95631fbff3531f01ab2386847fc0cb9393c340d3a",
       "origin": "legacy",
       "config": {
@@ -2799,8 +3483,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CF4/Ar-85_CF4-15_T293.15K_P7.6Torr.gas": {
-      "dataset": "GasDataBase/Ar_CF4/Ar-85_CF4-15_T293.15K_P7.6Torr.gas",
+    "GasDataBase/Ar+X/Ar_CF4/Ar-85_CF4-15_T293.15K_P7.6Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CF4/Ar-85_CF4-15_T293.15K_P7.6Torr.gas",
       "sha256": "1351050d288cf9511932f223e7ac9e06eb2b625df7604223ebbe24d4de955b24",
       "origin": "legacy",
       "config": {
@@ -2865,8 +3549,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CF4/Ar-85_CF4-15_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_CF4/Ar-85_CF4-15_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X/Ar_CF4/Ar-85_CF4-15_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CF4/Ar-85_CF4-15_T293.15K_P760Torr.gas",
       "sha256": "aa395b6cbe415426fc8030ee4676010620a4969860ad86d847486819367dce16",
       "origin": "legacy",
       "config": {
@@ -2931,8 +3615,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CH4/Ar-85_CH4-15_T293.15K_P1520Torr.gas": {
-      "dataset": "GasDataBase/Ar_CH4/Ar-85_CH4-15_T293.15K_P1520Torr.gas",
+    "GasDataBase/Ar+X/Ar_CH4/Ar-85_CH4-15_T293.15K_P1520Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CH4/Ar-85_CH4-15_T293.15K_P1520Torr.gas",
       "sha256": "f3a5d99975d2860c33749a70742426c6a90fa188d26a46742332c31b98624e6b",
       "origin": "legacy",
       "config": {
@@ -3001,8 +3685,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CH4/Ar-85_CH4-15_T293.15K_P7.6Torr.gas": {
-      "dataset": "GasDataBase/Ar_CH4/Ar-85_CH4-15_T293.15K_P7.6Torr.gas",
+    "GasDataBase/Ar+X/Ar_CH4/Ar-85_CH4-15_T293.15K_P7.6Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CH4/Ar-85_CH4-15_T293.15K_P7.6Torr.gas",
       "sha256": "eccaa8677c9825647df0de5a590c4e26a8dfdb7a0b918925dc26c0ec975b07f6",
       "origin": "legacy",
       "config": {
@@ -3071,8 +3755,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CH4/Ar-85_CH4-15_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_CH4/Ar-85_CH4-15_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X/Ar_CH4/Ar-85_CH4-15_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CH4/Ar-85_CH4-15_T293.15K_P760Torr.gas",
       "sha256": "c6f578058f3a57cfee83d3ab046920d7d77eb44ea4088ae14318f55eacc32c93",
       "origin": "legacy",
       "config": {
@@ -3141,8 +3825,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CO2/Ar-85_CO2-15_T293.15K_P1520Torr.gas": {
-      "dataset": "GasDataBase/Ar_CO2/Ar-85_CO2-15_T293.15K_P1520Torr.gas",
+    "GasDataBase/Ar+X/Ar_CO2/Ar-85_CO2-15_T293.15K_P1520Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CO2/Ar-85_CO2-15_T293.15K_P1520Torr.gas",
       "sha256": "2143e13589a80923174b7fbc2b809e75ed803ed38c59243727641dfff5f53fa2",
       "origin": "legacy",
       "config": {
@@ -3215,8 +3899,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CO2/Ar-85_CO2-15_T293.15K_P7.6Torr.gas": {
-      "dataset": "GasDataBase/Ar_CO2/Ar-85_CO2-15_T293.15K_P7.6Torr.gas",
+    "GasDataBase/Ar+X/Ar_CO2/Ar-85_CO2-15_T293.15K_P7.6Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CO2/Ar-85_CO2-15_T293.15K_P7.6Torr.gas",
       "sha256": "7de6b31d967013377db4433cd64472c6e093ec3f209f19197b2583cf0d8df3ad",
       "origin": "legacy",
       "config": {
@@ -3289,8 +3973,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_DME/Ar-85_DME-15_T293.15K_P1520Torr.gas": {
-      "dataset": "GasDataBase/Ar_DME/Ar-85_DME-15_T293.15K_P1520Torr.gas",
+    "GasDataBase/Ar+X/Ar_DME/Ar-85_DME-15_T293.15K_P1520Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_DME/Ar-85_DME-15_T293.15K_P1520Torr.gas",
       "sha256": "07b166c9577aa78c85f7252cc60a8fb1ce97fc33c081f11e0135cc95c672c9a1",
       "origin": "legacy",
       "config": {
@@ -3355,8 +4039,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_DME/Ar-85_DME-15_T293.15K_P7.6Torr.gas": {
-      "dataset": "GasDataBase/Ar_DME/Ar-85_DME-15_T293.15K_P7.6Torr.gas",
+    "GasDataBase/Ar+X/Ar_DME/Ar-85_DME-15_T293.15K_P7.6Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_DME/Ar-85_DME-15_T293.15K_P7.6Torr.gas",
       "sha256": "5b12e102bbead0b7ab260b0debe94cc451ecf874d2e634d5359bac01f43f200b",
       "origin": "legacy",
       "config": {
@@ -3421,8 +4105,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_DME/Ar-85_DME-15_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_DME/Ar-85_DME-15_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X/Ar_DME/Ar-85_DME-15_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_DME/Ar-85_DME-15_T293.15K_P760Torr.gas",
       "sha256": "ee5d449e9d0df7e7c966136468b016bf20a19e6f092a2dad0daae9efc9b1977a",
       "origin": "legacy",
       "config": {
@@ -3487,8 +4171,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10/Ar-85_iC4H10-15_T293.15K_P1520Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10/Ar-85_iC4H10-15_T293.15K_P1520Torr.gas",
+    "GasDataBase/Ar+X/Ar_iC4H10/Ar-85_iC4H10-15_T293.15K_P1520Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_iC4H10/Ar-85_iC4H10-15_T293.15K_P1520Torr.gas",
       "sha256": "b7c25c381eb5779d5fdce161b04268afccfb6a669172db96918ccdbd7dabe87b",
       "origin": "legacy",
       "config": {
@@ -3553,8 +4237,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10/Ar-85_iC4H10-15_T293.15K_P7.6Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10/Ar-85_iC4H10-15_T293.15K_P7.6Torr.gas",
+    "GasDataBase/Ar+X/Ar_iC4H10/Ar-85_iC4H10-15_T293.15K_P7.6Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_iC4H10/Ar-85_iC4H10-15_T293.15K_P7.6Torr.gas",
       "sha256": "083d1d3b0d894325babd779f868702903c0a214d8e7594badd28d9cc722fd66c",
       "origin": "legacy",
       "config": {
@@ -3619,8 +4303,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10/Ar-87_iC4H10-13_T293.15K_P1520Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10/Ar-87_iC4H10-13_T293.15K_P1520Torr.gas",
+    "GasDataBase/Ar+X/Ar_iC4H10/Ar-87_iC4H10-13_T293.15K_P1520Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_iC4H10/Ar-87_iC4H10-13_T293.15K_P1520Torr.gas",
       "sha256": "afa811263966512883b1dae0578af6b5a17f239b4d50fc40603f9baa3a58abf8",
       "origin": "legacy",
       "config": {
@@ -3685,8 +4369,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10/Ar-87_iC4H10-13_T293.15K_P38Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10/Ar-87_iC4H10-13_T293.15K_P38Torr.gas",
+    "GasDataBase/Ar+X/Ar_iC4H10/Ar-87_iC4H10-13_T293.15K_P38Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_iC4H10/Ar-87_iC4H10-13_T293.15K_P38Torr.gas",
       "sha256": "87502e9479684d8c800d9744a516ae78cca428685067137a4ca71598894353b9",
       "origin": "legacy",
       "config": {
@@ -3751,8 +4435,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10/Ar-87_iC4H10-13_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10/Ar-87_iC4H10-13_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X/Ar_iC4H10/Ar-87_iC4H10-13_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_iC4H10/Ar-87_iC4H10-13_T293.15K_P760Torr.gas",
       "sha256": "967c229272fb66411d5689d76d7ef85efd167a84edbe107f4a8f834e1c3e00b6",
       "origin": "legacy",
       "config": {
@@ -3817,8 +4501,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CH4_O2/Ar-89.955_CH4-9.995_O2-0.05_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_CH4_O2/Ar-89.955_CH4-9.995_O2-0.05_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X+Y/Ar_CH4_O2/Ar-89.955_CH4-9.995_O2-0.05_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X+Y/Ar_CH4_O2/Ar-89.955_CH4-9.995_O2-0.05_T293.15K_P760Torr.gas",
       "sha256": "b0fc4439ee5078797c6f56d095159f907f3fb821cf2a89e66cb3e4a93c01cac3",
       "origin": "legacy",
       "config": {
@@ -3871,8 +4555,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CH4_O2/Ar-89.973_CH4-9.997_O2-0.03_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_CH4_O2/Ar-89.973_CH4-9.997_O2-0.03_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X+Y/Ar_CH4_O2/Ar-89.973_CH4-9.997_O2-0.03_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X+Y/Ar_CH4_O2/Ar-89.973_CH4-9.997_O2-0.03_T293.15K_P760Torr.gas",
       "sha256": "69d849141ea0d40b55688820bcc5790e925ac39985d496e19c638c51a43d875d",
       "origin": "legacy",
       "config": {
@@ -3925,8 +4609,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CH4_O2/Ar-89.9982_CH4-9.9998_O2-0.002_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_CH4_O2/Ar-89.9982_CH4-9.9998_O2-0.002_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X+Y/Ar_CH4_O2/Ar-89.9982_CH4-9.9998_O2-0.002_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X+Y/Ar_CH4_O2/Ar-89.9982_CH4-9.9998_O2-0.002_T293.15K_P760Torr.gas",
       "sha256": "59cdf6e14015058c43374f6c2d2a624f03b4631b0b094e7354300e68df7af758",
       "origin": "legacy",
       "config": {
@@ -3979,8 +4663,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CF4/Ar-90_CF4-10_T293.15K_P1520Torr.gas": {
-      "dataset": "GasDataBase/Ar_CF4/Ar-90_CF4-10_T293.15K_P1520Torr.gas",
+    "GasDataBase/Ar+X/Ar_CF4/Ar-90_CF4-10_T293.15K_P1520Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CF4/Ar-90_CF4-10_T293.15K_P1520Torr.gas",
       "sha256": "725ca11ff6b50ae6336de3dbf134a4cf1eab1062abc6cbe73530eb6b13e2107f",
       "origin": "legacy",
       "config": {
@@ -4045,8 +4729,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CF4/Ar-90_CF4-10_T293.15K_P7.6Torr.gas": {
-      "dataset": "GasDataBase/Ar_CF4/Ar-90_CF4-10_T293.15K_P7.6Torr.gas",
+    "GasDataBase/Ar+X/Ar_CF4/Ar-90_CF4-10_T293.15K_P7.6Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CF4/Ar-90_CF4-10_T293.15K_P7.6Torr.gas",
       "sha256": "6364505e5e3df8c1093eaddccdbbf1bc2587fd0b4cd9eafc9648ae1a40d78af3",
       "origin": "legacy",
       "config": {
@@ -4111,8 +4795,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CH4/Ar-90_CH4-10_T293.15K_P1520Torr.gas": {
-      "dataset": "GasDataBase/Ar_CH4/Ar-90_CH4-10_T293.15K_P1520Torr.gas",
+    "GasDataBase/Ar+X/Ar_CH4/Ar-90_CH4-10_T293.15K_P1520Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CH4/Ar-90_CH4-10_T293.15K_P1520Torr.gas",
       "sha256": "cce07c22f1f0660035bafb0d60d04dcd13cc1528c4c963de9288cc410f2b354f",
       "origin": "legacy",
       "config": {
@@ -4181,8 +4865,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CH4/Ar-90_CH4-10_T293.15K_P7.6Torr.gas": {
-      "dataset": "GasDataBase/Ar_CH4/Ar-90_CH4-10_T293.15K_P7.6Torr.gas",
+    "GasDataBase/Ar+X/Ar_CH4/Ar-90_CH4-10_T293.15K_P7.6Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CH4/Ar-90_CH4-10_T293.15K_P7.6Torr.gas",
       "sha256": "d5a00a74ee859e56c49457a9feb87df9a2f365caa5b11a1573fd6e2985f20358",
       "origin": "legacy",
       "config": {
@@ -4251,8 +4935,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CO2/Ar-90_CO2-10_T293.15K_P1520Torr.gas": {
-      "dataset": "GasDataBase/Ar_CO2/Ar-90_CO2-10_T293.15K_P1520Torr.gas",
+    "GasDataBase/Ar+X/Ar_CO2/Ar-90_CO2-10_T293.15K_P1520Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CO2/Ar-90_CO2-10_T293.15K_P1520Torr.gas",
       "sha256": "d8365ba01d56edf5ca0b50f2abef9ecf426fed6bf30ab59a6ec8ecabd5a676df",
       "origin": "legacy",
       "config": {
@@ -4325,8 +5009,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CO2/Ar-90_CO2-10_T293.15K_P7.6Torr.gas": {
-      "dataset": "GasDataBase/Ar_CO2/Ar-90_CO2-10_T293.15K_P7.6Torr.gas",
+    "GasDataBase/Ar+X/Ar_CO2/Ar-90_CO2-10_T293.15K_P7.6Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CO2/Ar-90_CO2-10_T293.15K_P7.6Torr.gas",
       "sha256": "edbc6f9cecc78ed440b989f3b502489d6904274fa116927c48a74f35b09aa726",
       "origin": "legacy",
       "config": {
@@ -4399,8 +5083,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_DME/Ar-90_DME-10_T293.15K_P1520Torr.gas": {
-      "dataset": "GasDataBase/Ar_DME/Ar-90_DME-10_T293.15K_P1520Torr.gas",
+    "GasDataBase/Ar+X/Ar_DME/Ar-90_DME-10_T293.15K_P1520Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_DME/Ar-90_DME-10_T293.15K_P1520Torr.gas",
       "sha256": "f55d7e9b6bf091070cbcffd971587678636e139ce1a53fe7fe863bc1f32e4426",
       "origin": "legacy",
       "config": {
@@ -4465,8 +5149,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_DME/Ar-90_DME-10_T293.15K_P7.6Torr.gas": {
-      "dataset": "GasDataBase/Ar_DME/Ar-90_DME-10_T293.15K_P7.6Torr.gas",
+    "GasDataBase/Ar+X/Ar_DME/Ar-90_DME-10_T293.15K_P7.6Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_DME/Ar-90_DME-10_T293.15K_P7.6Torr.gas",
       "sha256": "a5e4a77622e7c09a3fe0c3b178d41ebdb16d33181477e0b4480e650d96e40da0",
       "origin": "legacy",
       "config": {
@@ -4531,8 +5215,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10_SF6/Ar-90_iC4H10-5_SF6-5_T293.15K_P456Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10_SF6/Ar-90_iC4H10-5_SF6-5_T293.15K_P456Torr.gas",
+    "GasDataBase/Ar+X+Y/Ar_iC4H10_SF6/Ar-90_iC4H10-5_SF6-5_T293.15K_P456Torr.gas": {
+      "dataset": "GasDataBase/Ar+X+Y/Ar_iC4H10_SF6/Ar-90_iC4H10-5_SF6-5_T293.15K_P456Torr.gas",
       "sha256": "d05761e78053c0e64bef686fd3eaa143338ac435201d2913b33579310faaff0e",
       "origin": "legacy",
       "config": {
@@ -4613,8 +5297,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10_SF6/Ar-90_iC4H10-5_SF6-5_T293.15K_P532Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10_SF6/Ar-90_iC4H10-5_SF6-5_T293.15K_P532Torr.gas",
+    "GasDataBase/Ar+X+Y/Ar_iC4H10_SF6/Ar-90_iC4H10-5_SF6-5_T293.15K_P532Torr.gas": {
+      "dataset": "GasDataBase/Ar+X+Y/Ar_iC4H10_SF6/Ar-90_iC4H10-5_SF6-5_T293.15K_P532Torr.gas",
       "sha256": "0d1338b1d67d8bd7667d8a7341a9074cee5fff14086eab6e658ab047ae35d7b9",
       "origin": "legacy",
       "config": {
@@ -4695,8 +5379,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10_SF6/Ar-90_iC4H10-5_SF6-5_T293.15K_P608Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10_SF6/Ar-90_iC4H10-5_SF6-5_T293.15K_P608Torr.gas",
+    "GasDataBase/Ar+X+Y/Ar_iC4H10_SF6/Ar-90_iC4H10-5_SF6-5_T293.15K_P608Torr.gas": {
+      "dataset": "GasDataBase/Ar+X+Y/Ar_iC4H10_SF6/Ar-90_iC4H10-5_SF6-5_T293.15K_P608Torr.gas",
       "sha256": "fa2576ecdeaf895ee90c9ff14782f3174cf3ed25bc230bfdebc86e48f8173526",
       "origin": "legacy",
       "config": {
@@ -4777,8 +5461,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10_SF6/Ar-90_iC4H10-5_SF6-5_T293.15K_P684Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10_SF6/Ar-90_iC4H10-5_SF6-5_T293.15K_P684Torr.gas",
+    "GasDataBase/Ar+X+Y/Ar_iC4H10_SF6/Ar-90_iC4H10-5_SF6-5_T293.15K_P684Torr.gas": {
+      "dataset": "GasDataBase/Ar+X+Y/Ar_iC4H10_SF6/Ar-90_iC4H10-5_SF6-5_T293.15K_P684Torr.gas",
       "sha256": "896e33b2eccc0d63919ddcd01cbcd2bb1ea511f349552bc0330313624731b150",
       "origin": "legacy",
       "config": {
@@ -4859,8 +5543,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10_SF6/Ar-90_iC4H10-5_SF6-5_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10_SF6/Ar-90_iC4H10-5_SF6-5_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X+Y/Ar_iC4H10_SF6/Ar-90_iC4H10-5_SF6-5_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X+Y/Ar_iC4H10_SF6/Ar-90_iC4H10-5_SF6-5_T293.15K_P760Torr.gas",
       "sha256": "dc7a29694511be2dea9be28215663849f1f17ef3c427fc5934d981857e58a981",
       "origin": "legacy",
       "config": {
@@ -4945,8 +5629,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10/Ar-90_iC4H10-10_T293.15K_P38Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10/Ar-90_iC4H10-10_T293.15K_P38Torr.gas",
+    "GasDataBase/Ar+X/Ar_iC4H10/Ar-90_iC4H10-10_T293.15K_P38Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_iC4H10/Ar-90_iC4H10-10_T293.15K_P38Torr.gas",
       "sha256": "10c4b22541e650d76d6c5b723c4471c79ac017a474bc17b74464b9395c1b716d",
       "origin": "legacy",
       "config": {
@@ -5011,8 +5695,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10/Ar-90_iC4H10-10_T293.15K_P7.6Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10/Ar-90_iC4H10-10_T293.15K_P7.6Torr.gas",
+    "GasDataBase/Ar+X/Ar_iC4H10/Ar-90_iC4H10-10_T293.15K_P7.6Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_iC4H10/Ar-90_iC4H10-10_T293.15K_P7.6Torr.gas",
       "sha256": "81cc671ad0a684a8b0e379b89e6b4befae3310fe7adb47a17d9dd2b8f0c820f4",
       "origin": "legacy",
       "config": {
@@ -5077,8 +5761,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CO2/Ar-93_CO2-7_T293.15K_P152Torr.gas": {
-      "dataset": "GasDataBase/Ar_CO2/Ar-93_CO2-7_T293.15K_P152Torr.gas",
+    "GasDataBase/Ar+X/Ar_CO2/Ar-93_CO2-7_T293.15K_P152Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CO2/Ar-93_CO2-7_T293.15K_P152Torr.gas",
       "sha256": "d7ead3097c0c45f02484ad106f03a73f17415d2b7581676ca2177813145c5f80",
       "origin": "legacy",
       "config": {
@@ -5143,8 +5827,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CO2/Ar-93_CO2-7_T293.15K_P190Torr.gas": {
-      "dataset": "GasDataBase/Ar_CO2/Ar-93_CO2-7_T293.15K_P190Torr.gas",
+    "GasDataBase/Ar+X/Ar_CO2/Ar-93_CO2-7_T293.15K_P190Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CO2/Ar-93_CO2-7_T293.15K_P190Torr.gas",
       "sha256": "85f2bd8ddf4f694330ee44c18f3ab7803442c99231653e0c82a9c6011278bb94",
       "origin": "legacy",
       "config": {
@@ -5209,8 +5893,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CO2/Ar-93_CO2-7_T293.15K_P2280Torr.gas": {
-      "dataset": "GasDataBase/Ar_CO2/Ar-93_CO2-7_T293.15K_P2280Torr.gas",
+    "GasDataBase/Ar+X/Ar_CO2/Ar-93_CO2-7_T293.15K_P2280Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CO2/Ar-93_CO2-7_T293.15K_P2280Torr.gas",
       "sha256": "4d341e0adf9030ea9aa0f4de78ecbab50e118193cb3683fba49bfdaf1e29aa30",
       "origin": "legacy",
       "config": {
@@ -5262,8 +5946,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CO2/Ar-93_CO2-7_T293.15K_P304Torr.gas": {
-      "dataset": "GasDataBase/Ar_CO2/Ar-93_CO2-7_T293.15K_P304Torr.gas",
+    "GasDataBase/Ar+X/Ar_CO2/Ar-93_CO2-7_T293.15K_P304Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CO2/Ar-93_CO2-7_T293.15K_P304Torr.gas",
       "sha256": "5246646834775a2931bc6eef5dfee8e1b981dcd11c1f627738e5e5205ed6c9c1",
       "origin": "legacy",
       "config": {
@@ -5328,8 +6012,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CO2/Ar-93_CO2-7_T293.15K_P38Torr.gas": {
-      "dataset": "GasDataBase/Ar_CO2/Ar-93_CO2-7_T293.15K_P38Torr.gas",
+    "GasDataBase/Ar+X/Ar_CO2/Ar-93_CO2-7_T293.15K_P38Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CO2/Ar-93_CO2-7_T293.15K_P38Torr.gas",
       "sha256": "1d192edeb052062720d3ba5fb8083df1c2b7acb1886141648098a867953b91d7",
       "origin": "legacy",
       "config": {
@@ -5394,8 +6078,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CO2/Ar-93_CO2-7_T293.15K_P456Torr.gas": {
-      "dataset": "GasDataBase/Ar_CO2/Ar-93_CO2-7_T293.15K_P456Torr.gas",
+    "GasDataBase/Ar+X/Ar_CO2/Ar-93_CO2-7_T293.15K_P456Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CO2/Ar-93_CO2-7_T293.15K_P456Torr.gas",
       "sha256": "594a7911ef9888bcef6aecec2fade01813c7faf620537b292fe7812ca38c8162",
       "origin": "legacy",
       "config": {
@@ -5460,8 +6144,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CO2/Ar-93_CO2-7_T293.15K_P53.2Torr.gas": {
-      "dataset": "GasDataBase/Ar_CO2/Ar-93_CO2-7_T293.15K_P53.2Torr.gas",
+    "GasDataBase/Ar+X/Ar_CO2/Ar-93_CO2-7_T293.15K_P53.2Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CO2/Ar-93_CO2-7_T293.15K_P53.2Torr.gas",
       "sha256": "69666a5b5a5aefcbe439072ccbedb3c36dd564e11685878d3e748d487b63ab82",
       "origin": "legacy",
       "config": {
@@ -5526,8 +6210,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CO2/Ar-93_CO2-7_T293.15K_P608Torr.gas": {
-      "dataset": "GasDataBase/Ar_CO2/Ar-93_CO2-7_T293.15K_P608Torr.gas",
+    "GasDataBase/Ar+X/Ar_CO2/Ar-93_CO2-7_T293.15K_P608Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CO2/Ar-93_CO2-7_T293.15K_P608Torr.gas",
       "sha256": "0146ad436b11cecd76825fef4be4267b26ca6a72b32b5abe08fa2284318b7ec2",
       "origin": "legacy",
       "config": {
@@ -5592,8 +6276,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CO2/Ar-93_CO2-7_T293.15K_P76Torr.gas": {
-      "dataset": "GasDataBase/Ar_CO2/Ar-93_CO2-7_T293.15K_P76Torr.gas",
+    "GasDataBase/Ar+X/Ar_CO2/Ar-93_CO2-7_T293.15K_P76Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CO2/Ar-93_CO2-7_T293.15K_P76Torr.gas",
       "sha256": "7af5510d7227999e041e51a49e746c0a85f2d873b881238b459b1c16266bcbc3",
       "origin": "legacy",
       "config": {
@@ -5658,8 +6342,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10_O2/Ar-93_iC4H10-5_O2-2_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10_O2/Ar-93_iC4H10-5_O2-2_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X+Y/Ar_iC4H10_O2/Ar-93_iC4H10-5_O2-2_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X+Y/Ar_iC4H10_O2/Ar-93_iC4H10-5_O2-2_T293.15K_P760Torr.gas",
       "sha256": "d6c5207f36985ef15f100d64db77fdde137cec2a08e22af80ac87b70b54f2528",
       "origin": "legacy",
       "config": {
@@ -5712,8 +6396,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10/Ar-93_iC4H10-7_T293.15K_P1520Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10/Ar-93_iC4H10-7_T293.15K_P1520Torr.gas",
+    "GasDataBase/Ar+X/Ar_iC4H10/Ar-93_iC4H10-7_T293.15K_P1520Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_iC4H10/Ar-93_iC4H10-7_T293.15K_P1520Torr.gas",
       "sha256": "814574f0a615b9939ec1e3494b26ed3c258f6cec1db5fceb4b4aa8deb12ac7a7",
       "origin": "legacy",
       "config": {
@@ -5778,8 +6462,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10/Ar-93_iC4H10-7_T293.15K_P38Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10/Ar-93_iC4H10-7_T293.15K_P38Torr.gas",
+    "GasDataBase/Ar+X/Ar_iC4H10/Ar-93_iC4H10-7_T293.15K_P38Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_iC4H10/Ar-93_iC4H10-7_T293.15K_P38Torr.gas",
       "sha256": "935009197af7917363a8ac195e21f899ff5f4ef68ca9c9874d20b08c4376ae64",
       "origin": "legacy",
       "config": {
@@ -5844,8 +6528,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10/Ar-93_iC4H10-7_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10/Ar-93_iC4H10-7_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X/Ar_iC4H10/Ar-93_iC4H10-7_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_iC4H10/Ar-93_iC4H10-7_T293.15K_P760Torr.gas",
       "sha256": "73f371b4a399a37066b57a54d439bbd5de2fa5e2075e6e87e2ea18bfb17cc5ec",
       "origin": "legacy",
       "config": {
@@ -5910,8 +6594,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CF4/Ar-95_CF4-5_T293.15K_P1520Torr.gas": {
-      "dataset": "GasDataBase/Ar_CF4/Ar-95_CF4-5_T293.15K_P1520Torr.gas",
+    "GasDataBase/Ar+X/Ar_CF4/Ar-95_CF4-5_T293.15K_P1520Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CF4/Ar-95_CF4-5_T293.15K_P1520Torr.gas",
       "sha256": "61e39b417331606663c83446fefcdb773182b0c3e0c4633fd6a7439d50c1215c",
       "origin": "legacy",
       "config": {
@@ -5976,8 +6660,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CF4/Ar-95_CF4-5_T293.15K_P7.6Torr.gas": {
-      "dataset": "GasDataBase/Ar_CF4/Ar-95_CF4-5_T293.15K_P7.6Torr.gas",
+    "GasDataBase/Ar+X/Ar_CF4/Ar-95_CF4-5_T293.15K_P7.6Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CF4/Ar-95_CF4-5_T293.15K_P7.6Torr.gas",
       "sha256": "894d96310021e2bca32251b5fe27d88202c926b62f45a5ea175017470aff06da",
       "origin": "legacy",
       "config": {
@@ -6042,8 +6726,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CH4/Ar-95_CH4-5_T293.15K_P1520Torr.gas": {
-      "dataset": "GasDataBase/Ar_CH4/Ar-95_CH4-5_T293.15K_P1520Torr.gas",
+    "GasDataBase/Ar+X/Ar_CH4/Ar-95_CH4-5_T293.15K_P1520Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CH4/Ar-95_CH4-5_T293.15K_P1520Torr.gas",
       "sha256": "50b226090813076b47fbcefce35e3aa4d4f62405987c2993b4ba73d1d42eda66",
       "origin": "legacy",
       "config": {
@@ -6112,8 +6796,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CH4/Ar-95_CH4-5_T293.15K_P7.6Torr.gas": {
-      "dataset": "GasDataBase/Ar_CH4/Ar-95_CH4-5_T293.15K_P7.6Torr.gas",
+    "GasDataBase/Ar+X/Ar_CH4/Ar-95_CH4-5_T293.15K_P7.6Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CH4/Ar-95_CH4-5_T293.15K_P7.6Torr.gas",
       "sha256": "80cf48c5be3fe871abd06aed042eed32537418e2af4435742ea4e3eb73bbc53a",
       "origin": "legacy",
       "config": {
@@ -6182,8 +6866,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CH4/Ar-95_CH4-5_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_CH4/Ar-95_CH4-5_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X/Ar_CH4/Ar-95_CH4-5_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CH4/Ar-95_CH4-5_T293.15K_P760Torr.gas",
       "sha256": "07ff52a3a42a0e13c11aa13bab9b1af828669e0aa1f2a3985a4100c35e616d40",
       "origin": "legacy",
       "config": {
@@ -6252,8 +6936,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CO2/Ar-95_CO2-5_T293.15K_P1520Torr.gas": {
-      "dataset": "GasDataBase/Ar_CO2/Ar-95_CO2-5_T293.15K_P1520Torr.gas",
+    "GasDataBase/Ar+X/Ar_CO2/Ar-95_CO2-5_T293.15K_P1520Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CO2/Ar-95_CO2-5_T293.15K_P1520Torr.gas",
       "sha256": "78dfabec6e21c382e34ceea070f960408a16d1a4556fd81bda83caba9e386ca9",
       "origin": "legacy",
       "config": {
@@ -6326,8 +7010,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CO2/Ar-95_CO2-5_T293.15K_P7.6Torr.gas": {
-      "dataset": "GasDataBase/Ar_CO2/Ar-95_CO2-5_T293.15K_P7.6Torr.gas",
+    "GasDataBase/Ar+X/Ar_CO2/Ar-95_CO2-5_T293.15K_P7.6Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CO2/Ar-95_CO2-5_T293.15K_P7.6Torr.gas",
       "sha256": "5932830c9b2dc8769f371264b7496b589d7256f84bb1ec41106214ff5ecc8630",
       "origin": "legacy",
       "config": {
@@ -6400,8 +7084,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CO2/Ar-95_CO2-5_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_CO2/Ar-95_CO2-5_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X/Ar_CO2/Ar-95_CO2-5_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CO2/Ar-95_CO2-5_T293.15K_P760Torr.gas",
       "sha256": "bfec9c79cea016bb78542beb9b5ce1c0b296d80a1a87683b27036534c1091745",
       "origin": "legacy",
       "config": {
@@ -6474,8 +7158,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_DME/Ar-95_DME-5_T293.15K_P1520Torr.gas": {
-      "dataset": "GasDataBase/Ar_DME/Ar-95_DME-5_T293.15K_P1520Torr.gas",
+    "GasDataBase/Ar+X/Ar_DME/Ar-95_DME-5_T293.15K_P1520Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_DME/Ar-95_DME-5_T293.15K_P1520Torr.gas",
       "sha256": "1e5fc43c4d362f1c845381fdf463baf649fa9f8fceb2ca3dd89256f97e368f1e",
       "origin": "legacy",
       "config": {
@@ -6540,8 +7224,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_DME/Ar-95_DME-5_T293.15K_P7.6Torr.gas": {
-      "dataset": "GasDataBase/Ar_DME/Ar-95_DME-5_T293.15K_P7.6Torr.gas",
+    "GasDataBase/Ar+X/Ar_DME/Ar-95_DME-5_T293.15K_P7.6Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_DME/Ar-95_DME-5_T293.15K_P7.6Torr.gas",
       "sha256": "971792455e4fd4c201683b4ebd392c7cb5a8c67e764cf026df521ac332205217",
       "origin": "legacy",
       "config": {
@@ -6606,8 +7290,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_DME/Ar-95_DME-5_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_DME/Ar-95_DME-5_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X/Ar_DME/Ar-95_DME-5_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_DME/Ar-95_DME-5_T293.15K_P760Torr.gas",
       "sha256": "50a79f0c7973f3df5f490d5cdfe2b0298f31d0ca73a8271aa862e1cc360e8563",
       "origin": "legacy",
       "config": {
@@ -6672,8 +7356,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10/Ar-95_iC4H10-5_T293.15K_P1520Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10/Ar-95_iC4H10-5_T293.15K_P1520Torr.gas",
+    "GasDataBase/Ar+X/Ar_iC4H10/Ar-95_iC4H10-5_T293.15K_P1520Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_iC4H10/Ar-95_iC4H10-5_T293.15K_P1520Torr.gas",
       "sha256": "6c5023abef9b2440180895e8b0d8b8e43d0fbe08350fb1c82c2bc01449eb2ed8",
       "origin": "legacy",
       "config": {
@@ -6738,8 +7422,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10/Ar-95_iC4H10-5_T293.15K_P7.6Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10/Ar-95_iC4H10-5_T293.15K_P7.6Torr.gas",
+    "GasDataBase/Ar+X/Ar_iC4H10/Ar-95_iC4H10-5_T293.15K_P7.6Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_iC4H10/Ar-95_iC4H10-5_T293.15K_P7.6Torr.gas",
       "sha256": "9fdd4bc6e9a87a0b818fc21f646fbc343873114dda051a4c31a414e53118c58c",
       "origin": "legacy",
       "config": {
@@ -6804,8 +7488,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10/Ar-96_iC4H10-4_T293.15K_P1520Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10/Ar-96_iC4H10-4_T293.15K_P1520Torr.gas",
+    "GasDataBase/Ar+X/Ar_iC4H10/Ar-96_iC4H10-4_T293.15K_P1520Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_iC4H10/Ar-96_iC4H10-4_T293.15K_P1520Torr.gas",
       "sha256": "9a493e562987523cbe70e0f22b366eb7b0381353118dd8edb232564930ccf1e3",
       "origin": "legacy",
       "config": {
@@ -6870,8 +7554,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10/Ar-96_iC4H10-4_T293.15K_P38Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10/Ar-96_iC4H10-4_T293.15K_P38Torr.gas",
+    "GasDataBase/Ar+X/Ar_iC4H10/Ar-96_iC4H10-4_T293.15K_P38Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_iC4H10/Ar-96_iC4H10-4_T293.15K_P38Torr.gas",
       "sha256": "1745db571f6014cc595304ceb83cb2d5f83d654ede7f1f2fa91eef5db47f4013",
       "origin": "legacy",
       "config": {
@@ -6936,8 +7620,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10/Ar-96_iC4H10-4_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10/Ar-96_iC4H10-4_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X/Ar_iC4H10/Ar-96_iC4H10-4_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_iC4H10/Ar-96_iC4H10-4_T293.15K_P760Torr.gas",
       "sha256": "942c85723ee33c46075c10fe8982662434cd93856df23250bd59cface0f6d7cb",
       "origin": "legacy",
       "config": {
@@ -7002,8 +7686,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10/Ar-97_iC4H10-3_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10/Ar-97_iC4H10-3_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X/Ar_iC4H10/Ar-97_iC4H10-3_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_iC4H10/Ar-97_iC4H10-3_T293.15K_P760Torr.gas",
       "sha256": "c71685aa87862ded7441e37acf2824dcf039e7c4ddef485aa0c35da8aeff54e1",
       "origin": "legacy",
       "config": {
@@ -7055,8 +7739,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_CH4/Ar-99_CH4-1_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_CH4/Ar-99_CH4-1_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X/Ar_CH4/Ar-99_CH4-1_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CH4/Ar-99_CH4-1_T293.15K_P760Torr.gas",
       "sha256": "61863369d777a677934cdc9228e70b6fae317a9f2609143d9a1ae6778034778b",
       "origin": "legacy",
       "config": {
@@ -7288,8 +7972,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10/Ar-99_iC4H10-1_T293.15K_P1520Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10/Ar-99_iC4H10-1_T293.15K_P1520Torr.gas",
+    "GasDataBase/Ar+X/Ar_iC4H10/Ar-99_iC4H10-1_T293.15K_P1520Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_iC4H10/Ar-99_iC4H10-1_T293.15K_P1520Torr.gas",
       "sha256": "b271b6be26b8471448cdd96667ee323e90c517f2edb592a0ea59279c090070be",
       "origin": "legacy",
       "config": {
@@ -7354,8 +8038,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10/Ar-99_iC4H10-1_T293.15K_P38Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10/Ar-99_iC4H10-1_T293.15K_P38Torr.gas",
+    "GasDataBase/Ar+X/Ar_iC4H10/Ar-99_iC4H10-1_T293.15K_P38Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_iC4H10/Ar-99_iC4H10-1_T293.15K_P38Torr.gas",
       "sha256": "800d0a795d2b4edff7329a966389624c25e290adbc987e808d035d8f8a617c8e",
       "origin": "legacy",
       "config": {
@@ -7420,8 +8104,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10/Ar-99.5_iC4H10-0.5_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10/Ar-99.5_iC4H10-0.5_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X/Ar_iC4H10/Ar-99.5_iC4H10-0.5_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_iC4H10/Ar-99.5_iC4H10-0.5_T293.15K_P760Torr.gas",
       "sha256": "b4453ae6f99536a19e5bd9359c81638b0e838a09b7664efe45fce2fa9fdd1aae",
       "origin": "legacy",
       "config": {
@@ -7473,124 +8157,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2F6/C2F6-100_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/C2F6/C2F6-100_T293.15K_P760Torr.gas",
-      "sha256": "3e4fa661655c28316e83bce906e95d475b64f8c2865fce1af78fbe05f174bdec",
-      "origin": "legacy",
-      "config": {
-        "components": {
-          "C2F6": 100
-        },
-        "temperature_k": 293.15,
-        "pressure_torr": 760.0,
-        "electric_fields_v_cm": [
-          50000.000012000004,
-          54000.000016,
-          58000.00001999999,
-          62000.000024,
-          66000.000028,
-          70000.000032,
-          74000.000036,
-          78000.00004,
-          82000.00012000001,
-          86000.0002,
-          90000.00028000001,
-          94000.00036,
-          97999.99968000001,
-          101999.99975999999,
-          105999.99983999999,
-          109999.99992,
-          114000.0,
-          118000.00008,
-          122000.00016000001,
-          126000.00024000001,
-          130000.00031999999,
-          133999.99964,
-          137999.99972,
-          141999.9998,
-          145999.99988000002,
-          149999.99996000002
-        ],
-        "magnetic_fields_t": [
-          0.0
-        ],
-        "angles_deg": [
-          90.0000001836389
-        ],
-        "penning_enabled": null,
-        "generate_gas_table_argument": null,
-        "random_seed": null
-      },
-      "software_sha256": null,
-      "generator_signature": null,
-      "source_files": [
-        {
-          "path": "original/SinglePureGas/C2F6.gas",
-          "sha256": "3e4fa661655c28316e83bce906e95d475b64f8c2865fce1af78fbe05f174bdec"
-        }
-      ],
-      "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
-    },
-    "GasDataBase/C2H2F4/C2H2F4-100_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4/C2H2F4-100_T293.15K_P760Torr.gas",
-      "sha256": "ee1d73d06ea8923c7f80506032b6637df9282f86cd852623cdb3162a06aa5155",
-      "origin": "legacy",
-      "config": {
-        "components": {
-          "C2H2F4": 100
-        },
-        "temperature_k": 293.15,
-        "pressure_torr": 760.0,
-        "electric_fields_v_cm": [
-          50000.000012000004,
-          54000.000016,
-          58000.00001999999,
-          62000.000024,
-          66000.000028,
-          70000.000032,
-          74000.000036,
-          78000.00004,
-          82000.00012000001,
-          86000.0002,
-          90000.00028000001,
-          94000.00036,
-          97999.99968000001,
-          101999.99975999999,
-          105999.99983999999,
-          109999.99992,
-          114000.0,
-          118000.00008,
-          122000.00016000001,
-          126000.00024000001,
-          130000.00031999999,
-          133999.99964,
-          137999.99972,
-          141999.9998,
-          145999.99988000002,
-          149999.99996000002
-        ],
-        "magnetic_fields_t": [
-          0.0
-        ],
-        "angles_deg": [
-          90.0000001836389
-        ],
-        "penning_enabled": null,
-        "generate_gas_table_argument": null,
-        "random_seed": null
-      },
-      "software_sha256": null,
-      "generator_signature": null,
-      "source_files": [
-        {
-          "path": "original/SinglePureGas/R134a.gas",
-          "sha256": "ee1d73d06ea8923c7f80506032b6637df9282f86cd852623cdb3162a06aa5155"
-        }
-      ],
-      "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
-    },
-    "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-70_iC4H10-25_SF6-5_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-70_iC4H10-25_SF6-5_T293.15K_P760Torr.gas",
+    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-70_iC4H10-25_SF6-5_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-70_iC4H10-25_SF6-5_T293.15K_P760Torr.gas",
       "sha256": "79e8ee7803ff2138f4e348437bb9e95a7264faafc482a0405f42811100cf2086",
       "origin": "legacy",
       "config": {
@@ -7649,8 +8217,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2H2F4_CF3Br_iC4H10/C2H2F4-80_CF3Br-10_iC4H10-10_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4_CF3Br_iC4H10/C2H2F4-80_CF3Br-10_iC4H10-10_T293.15K_P760Torr.gas",
+    "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-80_CF3Br-10_iC4H10-10_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-80_CF3Br-10_iC4H10-10_T293.15K_P760Torr.gas",
       "sha256": "f57318f89bc390b80f04560a02cc2d06cea59d487e512dc7a63039b4d20c6cad",
       "origin": "legacy",
       "config": {
@@ -7709,8 +8277,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2H2F4_CF3Br_iC4H10/C2H2F4-80_CF3Br-16_iC4H10-4_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4_CF3Br_iC4H10/C2H2F4-80_CF3Br-16_iC4H10-4_T293.15K_P760Torr.gas",
+    "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-80_CF3Br-16_iC4H10-4_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-80_CF3Br-16_iC4H10-4_T293.15K_P760Torr.gas",
       "sha256": "f43142c6df0e8b05d2ace8772b537ebefd7b7653ce16a34f7f86dc6428b1cbd8",
       "origin": "legacy",
       "config": {
@@ -7769,8 +8337,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2H2F4_CF3Br_iC4H10/C2H2F4-80_CF3Br-4_iC4H10-16_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4_CF3Br_iC4H10/C2H2F4-80_CF3Br-4_iC4H10-16_T293.15K_P760Torr.gas",
+    "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-80_CF3Br-4_iC4H10-16_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-80_CF3Br-4_iC4H10-16_T293.15K_P760Torr.gas",
       "sha256": "a51fd95020e50572446f51870c592686d529fcde4b6f2df7d7ae024612062107",
       "origin": "legacy",
       "config": {
@@ -7829,8 +8397,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-80_iC4H10-10_SF6-10_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-80_iC4H10-10_SF6-10_T293.15K_P760Torr.gas",
+    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-80_iC4H10-10_SF6-10_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-80_iC4H10-10_SF6-10_T293.15K_P760Torr.gas",
       "sha256": "1d0b74fcab4d244dae0d270ba2304fa80030f1aa9ecf4249b8c5be40b637e23c",
       "origin": "legacy",
       "config": {
@@ -7889,8 +8457,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-80_iC4H10-4_SF6-16_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-80_iC4H10-4_SF6-16_T293.15K_P760Torr.gas",
+    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-80_iC4H10-4_SF6-16_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-80_iC4H10-4_SF6-16_T293.15K_P760Torr.gas",
       "sha256": "5a4858ebfecfa9af4fc971b92518bdfb9ca761daa8f69f4700d8d3f6b226554d",
       "origin": "legacy",
       "config": {
@@ -7949,8 +8517,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-80_iC4H10-16_SF6-4_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-80_iC4H10-16_SF6-4_T293.15K_P760Torr.gas",
+    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-80_iC4H10-16_SF6-4_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-80_iC4H10-16_SF6-4_T293.15K_P760Torr.gas",
       "sha256": "2429c93c90ff244c49fa2f9e7eaa230eeacbeafbddc2dcbc294aafc5068bb8de",
       "origin": "legacy",
       "config": {
@@ -8009,8 +8577,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2H2F4_CF3Br_iC4H10/C2H2F4-85_CF3Br-12_iC4H10-3_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4_CF3Br_iC4H10/C2H2F4-85_CF3Br-12_iC4H10-3_T293.15K_P760Torr.gas",
+    "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-85_CF3Br-12_iC4H10-3_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-85_CF3Br-12_iC4H10-3_T293.15K_P760Torr.gas",
       "sha256": "2f906a8750a3fc78eb2c4abe7035db98bc1d28954491bcc3838ec9d9f7cb0efa",
       "origin": "legacy",
       "config": {
@@ -8069,8 +8637,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2H2F4_CF3Br_iC4H10/C2H2F4-85_CF3Br-3_iC4H10-12_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4_CF3Br_iC4H10/C2H2F4-85_CF3Br-3_iC4H10-12_T293.15K_P760Torr.gas",
+    "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-85_CF3Br-3_iC4H10-12_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-85_CF3Br-3_iC4H10-12_T293.15K_P760Torr.gas",
       "sha256": "d681c6f1243022a5959b16b339070aa433a377cfd59c8c9617b399280b87dd57",
       "origin": "legacy",
       "config": {
@@ -8129,8 +8697,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2H2F4_CF3Br_iC4H10/C2H2F4-85_CF3Br-7.5_iC4H10-7.5_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4_CF3Br_iC4H10/C2H2F4-85_CF3Br-7.5_iC4H10-7.5_T293.15K_P760Torr.gas",
+    "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-85_CF3Br-7.5_iC4H10-7.5_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-85_CF3Br-7.5_iC4H10-7.5_T293.15K_P760Torr.gas",
       "sha256": "bc822b5b31d775daca1d96d9c3b1dc58a7a65340b6c12e342fa58962fecb0a7d",
       "origin": "legacy",
       "config": {
@@ -8189,8 +8757,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-85_iC4H10-3_SF6-12_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-85_iC4H10-3_SF6-12_T293.15K_P760Torr.gas",
+    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-85_iC4H10-3_SF6-12_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-85_iC4H10-3_SF6-12_T293.15K_P760Torr.gas",
       "sha256": "03908e5a53a6358547498e8556fb2b2f82c6ba7fc730644acf3c95eaf9e107de",
       "origin": "legacy",
       "config": {
@@ -8249,8 +8817,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-85_iC4H10-12_SF6-3_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-85_iC4H10-12_SF6-3_T293.15K_P760Torr.gas",
+    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-85_iC4H10-12_SF6-3_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-85_iC4H10-12_SF6-3_T293.15K_P760Torr.gas",
       "sha256": "49d5aa4dc7099345a3fe70353bb8e81c5594cbebb577e6d8c4daa6df797a4f72",
       "origin": "legacy",
       "config": {
@@ -8309,8 +8877,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-85_iC4H10-7.5_SF6-7.5_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-85_iC4H10-7.5_SF6-7.5_T293.15K_P760Torr.gas",
+    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-85_iC4H10-7.5_SF6-7.5_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-85_iC4H10-7.5_SF6-7.5_T293.15K_P760Torr.gas",
       "sha256": "7b0ac0501f6ff70cb589d453e0cbb8017caf486683b217b035cc9cebe6959a23",
       "origin": "legacy",
       "config": {
@@ -8369,8 +8937,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2H2F4_CF3Br_iC4H10/C2H2F4-90_CF3Br-2_iC4H10-8_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4_CF3Br_iC4H10/C2H2F4-90_CF3Br-2_iC4H10-8_T293.15K_P760Torr.gas",
+    "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-90_CF3Br-2_iC4H10-8_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-90_CF3Br-2_iC4H10-8_T293.15K_P760Torr.gas",
       "sha256": "868e695075455ebf068d67a5b00a00fa4aa2b9c87a75a5bf700c3a520bfde461",
       "origin": "legacy",
       "config": {
@@ -8429,8 +8997,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2H2F4_CF3Br_iC4H10/C2H2F4-90_CF3Br-5_iC4H10-5_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4_CF3Br_iC4H10/C2H2F4-90_CF3Br-5_iC4H10-5_T293.15K_P760Torr.gas",
+    "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-90_CF3Br-5_iC4H10-5_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-90_CF3Br-5_iC4H10-5_T293.15K_P760Torr.gas",
       "sha256": "13b538284a92859cf1e55bc35e4711494325fd839e373b3df21b28b3591024b3",
       "origin": "legacy",
       "config": {
@@ -8489,8 +9057,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2H2F4_CF3Br_iC4H10/C2H2F4-90_CF3Br-8_iC4H10-2_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4_CF3Br_iC4H10/C2H2F4-90_CF3Br-8_iC4H10-2_T293.15K_P760Torr.gas",
+    "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-90_CF3Br-8_iC4H10-2_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-90_CF3Br-8_iC4H10-2_T293.15K_P760Torr.gas",
       "sha256": "e47360f56966827124ce98bc329f1363959786856ae96e210e6d85273e5666a1",
       "origin": "legacy",
       "config": {
@@ -8549,8 +9117,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-8_SF6-2_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-8_SF6-2_T293.15K_P760Torr.gas",
+    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-8_SF6-2_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-8_SF6-2_T293.15K_P760Torr.gas",
       "sha256": "d94d61bf9e30144bd4aa01b31e3a6b120726163dae6fbc4069e46aee2b7a0aa4",
       "origin": "legacy",
       "config": {
@@ -8609,8 +9177,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T283.15K_P1520Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T283.15K_P1520Torr.gas",
+    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T283.15K_P1520Torr.gas": {
+      "dataset": "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T283.15K_P1520Torr.gas",
       "sha256": "c5bcbe3a026e38f5a6215f83c76055f6f93c89054bf3aa514f3d4975a7c424a9",
       "origin": "legacy",
       "config": {
@@ -8659,8 +9227,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T293.15K_P1064Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T293.15K_P1064Torr.gas",
+    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T293.15K_P1064Torr.gas": {
+      "dataset": "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T293.15K_P1064Torr.gas",
       "sha256": "c7e1985c2a39c9851cd09e40fff40ecd5942c19e2190b3149d975d226aea6bf2",
       "origin": "legacy",
       "config": {
@@ -8726,8 +9294,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T293.15K_P1216Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T293.15K_P1216Torr.gas",
+    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T293.15K_P1216Torr.gas": {
+      "dataset": "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T293.15K_P1216Torr.gas",
       "sha256": "0de698704f1bbcde6b5898582d90715c43eabb77438104bae52a01bea8595f72",
       "origin": "legacy",
       "config": {
@@ -8793,8 +9361,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T293.15K_P1368Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T293.15K_P1368Torr.gas",
+    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T293.15K_P1368Torr.gas": {
+      "dataset": "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T293.15K_P1368Torr.gas",
       "sha256": "ac23c2d0a16b3667158f2c2140e73d7e5d18b6f77b88b382be567f4020de6803",
       "origin": "legacy",
       "config": {
@@ -8860,8 +9428,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T293.15K_P15.2Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T293.15K_P15.2Torr.gas",
+    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T293.15K_P15.2Torr.gas": {
+      "dataset": "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T293.15K_P15.2Torr.gas",
       "sha256": "59492596a18ae9e25ccdead2695a01431797f16051a769e5dc295a6961d8d975",
       "origin": "legacy",
       "config": {
@@ -8927,8 +9495,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T293.15K_P22.8Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T293.15K_P22.8Torr.gas",
+    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T293.15K_P22.8Torr.gas": {
+      "dataset": "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T293.15K_P22.8Torr.gas",
       "sha256": "466b862c8f44208f7ed5d5a2832fda948f29327eff9111b7d7995ca1b2931b7d",
       "origin": "legacy",
       "config": {
@@ -8994,8 +9562,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T293.15K_P30.4Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T293.15K_P30.4Torr.gas",
+    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T293.15K_P30.4Torr.gas": {
+      "dataset": "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T293.15K_P30.4Torr.gas",
       "sha256": "b8e21c8fed02166e1ff43cbcf6761d040e620503a285dd3f61e11dd56cd46728",
       "origin": "legacy",
       "config": {
@@ -9061,8 +9629,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T293.15K_P304Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T293.15K_P304Torr.gas",
+    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T293.15K_P304Torr.gas": {
+      "dataset": "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T293.15K_P304Torr.gas",
       "sha256": "c043a35f6808714382c3d7a80f1abca5d763fa808b0539b24c1558d3a887bc72",
       "origin": "legacy",
       "config": {
@@ -9136,8 +9704,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T293.15K_P456Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T293.15K_P456Torr.gas",
+    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T293.15K_P456Torr.gas": {
+      "dataset": "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T293.15K_P456Torr.gas",
       "sha256": "7a58388c4c1023e0ee3f194dfe8ad741c69527ae2d8782d3668b7800df250d83",
       "origin": "legacy",
       "config": {
@@ -9203,8 +9771,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T293.15K_P608Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T293.15K_P608Torr.gas",
+    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T293.15K_P608Torr.gas": {
+      "dataset": "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T293.15K_P608Torr.gas",
       "sha256": "cd097d2f8dfd85fab7a8dd8effaa86dae7e3875f3b0b6e9281ef771230871778",
       "origin": "legacy",
       "config": {
@@ -9270,8 +9838,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T293.15K_P912Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T293.15K_P912Torr.gas",
+    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T293.15K_P912Torr.gas": {
+      "dataset": "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T293.15K_P912Torr.gas",
       "sha256": "83a7647c45da02a87c69a6301c08770b5618c1b68ab10c4a07a1b5d343be3a65",
       "origin": "legacy",
       "config": {
@@ -9337,8 +9905,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T296.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T296.15K_P760Torr.gas",
+    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T296.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T296.15K_P760Torr.gas",
       "sha256": "325a020e3d5361a530bbd578dcd6d48708f95e4395a4908eb83e15a8f8e3270d",
       "origin": "legacy",
       "config": {
@@ -9411,8 +9979,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T303.15K_P1520Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T303.15K_P1520Torr.gas",
+    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T303.15K_P1520Torr.gas": {
+      "dataset": "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T303.15K_P1520Torr.gas",
       "sha256": "9e67b9f7969b4045ab51bb534890081afffc2b999a7bc4b3ff0a6c9846316149",
       "origin": "legacy",
       "config": {
@@ -9461,8 +10029,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T313.15K_P1520Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T313.15K_P1520Torr.gas",
+    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T313.15K_P1520Torr.gas": {
+      "dataset": "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T313.15K_P1520Torr.gas",
       "sha256": "76f9b28df216eab6a9f1b6e3520ac57b7638e0ba3c33b92da8c9ca1c170df914",
       "origin": "legacy",
       "config": {
@@ -9515,8 +10083,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T323.15K_P1520Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T323.15K_P1520Torr.gas",
+    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T323.15K_P1520Torr.gas": {
+      "dataset": "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T323.15K_P1520Torr.gas",
       "sha256": "bb3f1574cb1651e372ec39e6e6fce45e2efb2e16f2143e474b0d6ab00855ce21",
       "origin": "legacy",
       "config": {
@@ -9569,8 +10137,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T333.15K_P1520Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T333.15K_P1520Torr.gas",
+    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T333.15K_P1520Torr.gas": {
+      "dataset": "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T333.15K_P1520Torr.gas",
       "sha256": "171b4566f363d62fe4676591e703a644637c66f1eafe3dfdb3cb4ff0c41a29cf",
       "origin": "legacy",
       "config": {
@@ -9623,8 +10191,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T343.15K_P1520Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T343.15K_P1520Torr.gas",
+    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T343.15K_P1520Torr.gas": {
+      "dataset": "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T343.15K_P1520Torr.gas",
       "sha256": "a77722b267cbb6727052dac840e7872acfbd40af49207fdeccd720c1af2f4f28",
       "origin": "legacy",
       "config": {
@@ -9677,8 +10245,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T353.15K_P1520Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T353.15K_P1520Torr.gas",
+    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T353.15K_P1520Torr.gas": {
+      "dataset": "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-5_SF6-5_T353.15K_P1520Torr.gas",
       "sha256": "ddb6953ab7126de049b63075c18ebdb5d427eb5dba57357fa2e94b24e677aea7",
       "origin": "legacy",
       "config": {
@@ -9731,8 +10299,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-2_SF6-8_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-2_SF6-8_T293.15K_P760Torr.gas",
+    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-2_SF6-8_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-2_SF6-8_T293.15K_P760Torr.gas",
       "sha256": "e22008dbd8c8281e81563dbba7a49bd75f192b357f5f9a913879d1fd9c24c8f0",
       "origin": "legacy",
       "config": {
@@ -9791,8 +10359,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2H2F4_CF3Br_iC4H10/C2H2F4-95_CF3Br-1_iC4H10-4_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4_CF3Br_iC4H10/C2H2F4-95_CF3Br-1_iC4H10-4_T293.15K_P760Torr.gas",
+    "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-95_CF3Br-1_iC4H10-4_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-95_CF3Br-1_iC4H10-4_T293.15K_P760Torr.gas",
       "sha256": "d34c109ab5efd24c39fe02b45df478ef9ed78b7f9cc55556e42c2ad0fef80b6a",
       "origin": "legacy",
       "config": {
@@ -9851,8 +10419,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2H2F4_CF3Br_iC4H10/C2H2F4-95_CF3Br-2.5_iC4H10-2.5_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4_CF3Br_iC4H10/C2H2F4-95_CF3Br-2.5_iC4H10-2.5_T293.15K_P760Torr.gas",
+    "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-95_CF3Br-2.5_iC4H10-2.5_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-95_CF3Br-2.5_iC4H10-2.5_T293.15K_P760Torr.gas",
       "sha256": "112bcc7c5d50fc814d93216ef5d954ba011c42489293749409d74a31879e074c",
       "origin": "legacy",
       "config": {
@@ -9911,8 +10479,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2H2F4_CF3Br_iC4H10/C2H2F4-95_CF3Br-4_iC4H10-1_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4_CF3Br_iC4H10/C2H2F4-95_CF3Br-4_iC4H10-1_T293.15K_P760Torr.gas",
+    "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-95_CF3Br-4_iC4H10-1_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-95_CF3Br-4_iC4H10-1_T293.15K_P760Torr.gas",
       "sha256": "7cb994cd83076c3abc0c578c0d7bf600d057a05e11b952ea563776c6ac7f1100",
       "origin": "legacy",
       "config": {
@@ -9971,8 +10539,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-95_iC4H10-4_SF6-1_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-95_iC4H10-4_SF6-1_T293.15K_P760Torr.gas",
+    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-95_iC4H10-4_SF6-1_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-95_iC4H10-4_SF6-1_T293.15K_P760Torr.gas",
       "sha256": "7acc6001a9bf20c29a79b6bec1c65b2f7c4d0cddfd572098b25dfc54d20d31b3",
       "origin": "legacy",
       "config": {
@@ -10031,8 +10599,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-95_iC4H10-2.5_SF6-2.5_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-95_iC4H10-2.5_SF6-2.5_T293.15K_P760Torr.gas",
+    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-95_iC4H10-2.5_SF6-2.5_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-95_iC4H10-2.5_SF6-2.5_T293.15K_P760Torr.gas",
       "sha256": "aaeb3b86bc67e9477c1b0b2833e9993bd37f84f4317462cb0eb9b88ce879b2f4",
       "origin": "legacy",
       "config": {
@@ -10091,8 +10659,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-95_iC4H10-1_SF6-4_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/C2H2F4_iC4H10_SF6/C2H2F4-95_iC4H10-1_SF6-4_T293.15K_P760Torr.gas",
+    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-95_iC4H10-1_SF6-4_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-95_iC4H10-1_SF6-4_T293.15K_P760Torr.gas",
       "sha256": "d14be9bb3f8a464aa8d21f63e7e57848e8b9839ed3694a41bfd6e94a834d5971",
       "origin": "legacy",
       "config": {
@@ -10151,576 +10719,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/C2H6/C2H6-100_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/C2H6/C2H6-100_T293.15K_P760Torr.gas",
-      "sha256": "5a167dc87d7b1d993f6ebd20f3d68bd67c07e911f382b3ade8091a0ee2f2f019",
-      "origin": "legacy",
-      "config": {
-        "components": {
-          "C2H6": 100
-        },
-        "temperature_k": 293.15,
-        "pressure_torr": 760.0,
-        "electric_fields_v_cm": [
-          50000.000012000004,
-          54000.000016,
-          58000.00001999999,
-          62000.000024,
-          66000.000028,
-          70000.000032,
-          74000.000036,
-          78000.00004,
-          82000.00012000001,
-          86000.0002,
-          90000.00028000001,
-          94000.00036,
-          97999.99968000001,
-          101999.99975999999,
-          105999.99983999999,
-          109999.99992,
-          114000.0,
-          118000.00008,
-          122000.00016000001,
-          126000.00024000001,
-          130000.00031999999,
-          133999.99964,
-          137999.99972,
-          141999.9998,
-          145999.99988000002,
-          149999.99996000002
-        ],
-        "magnetic_fields_t": [
-          0.0
-        ],
-        "angles_deg": [
-          90.0000001836389
-        ],
-        "penning_enabled": null,
-        "generate_gas_table_argument": null,
-        "random_seed": null
-      },
-      "software_sha256": null,
-      "generator_signature": null,
-      "source_files": [
-        {
-          "path": "original/SinglePureGas/C2H6.gas",
-          "sha256": "5a167dc87d7b1d993f6ebd20f3d68bd67c07e911f382b3ade8091a0ee2f2f019"
-        }
-      ],
-      "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
-    },
-    "GasDataBase/C3F8/C3F8-100_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/C3F8/C3F8-100_T293.15K_P760Torr.gas",
-      "sha256": "9eee536928437a3dfb300aacd4b9a67ca1849fb08068d7d6140a4994af59bfd3",
-      "origin": "legacy",
-      "config": {
-        "components": {
-          "C3F8": 100
-        },
-        "temperature_k": 293.15,
-        "pressure_torr": 760.0,
-        "electric_fields_v_cm": [
-          50000.000012000004,
-          54000.000016,
-          58000.00001999999,
-          62000.000024,
-          66000.000028,
-          70000.000032,
-          74000.000036,
-          78000.00004,
-          82000.00012000001,
-          86000.0002,
-          90000.00028000001,
-          94000.00036,
-          97999.99968000001,
-          101999.99975999999,
-          105999.99983999999,
-          109999.99992,
-          114000.0,
-          118000.00008,
-          122000.00016000001,
-          126000.00024000001,
-          130000.00031999999,
-          133999.99964,
-          137999.99972,
-          141999.9998,
-          145999.99988000002,
-          149999.99996000002
-        ],
-        "magnetic_fields_t": [
-          0.0
-        ],
-        "angles_deg": [
-          90.0000001836389
-        ],
-        "penning_enabled": null,
-        "generate_gas_table_argument": null,
-        "random_seed": null
-      },
-      "software_sha256": null,
-      "generator_signature": null,
-      "source_files": [
-        {
-          "path": "original/SinglePureGas/C3F8.gas",
-          "sha256": "9eee536928437a3dfb300aacd4b9a67ca1849fb08068d7d6140a4994af59bfd3"
-        }
-      ],
-      "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
-    },
-    "GasDataBase/C3H6/C3H6-100_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/C3H6/C3H6-100_T293.15K_P760Torr.gas",
-      "sha256": "13a855c5e05f6f45ac113934ac43bd6149fa94514abdb7363607fefbebd09981",
-      "origin": "legacy",
-      "config": {
-        "components": {
-          "C3H6": 100
-        },
-        "temperature_k": 293.15,
-        "pressure_torr": 760.0,
-        "electric_fields_v_cm": [
-          50000.000012000004,
-          54000.000016,
-          58000.00001999999,
-          62000.000024,
-          66000.000028,
-          70000.000032,
-          74000.000036,
-          78000.00004,
-          82000.00012000001,
-          86000.0002,
-          90000.00028000001,
-          94000.00036,
-          97999.99968000001,
-          101999.99975999999,
-          105999.99983999999,
-          109999.99992,
-          114000.0,
-          118000.00008,
-          122000.00016000001,
-          126000.00024000001,
-          130000.00031999999,
-          133999.99964,
-          137999.99972,
-          141999.9998,
-          145999.99988000002,
-          149999.99996000002
-        ],
-        "magnetic_fields_t": [
-          0.0
-        ],
-        "angles_deg": [
-          90.0000001836389
-        ],
-        "penning_enabled": null,
-        "generate_gas_table_argument": null,
-        "random_seed": null
-      },
-      "software_sha256": null,
-      "generator_signature": null,
-      "source_files": [
-        {
-          "path": "original/SinglePureGas/C3H6.gas",
-          "sha256": "13a855c5e05f6f45ac113934ac43bd6149fa94514abdb7363607fefbebd09981"
-        }
-      ],
-      "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
-    },
-    "GasDataBase/C3H8/C3H8-100_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/C3H8/C3H8-100_T293.15K_P760Torr.gas",
-      "sha256": "810f5e7a799d318e0df61f772d2f3974fc8ec8728b8f34250a520aa1207dbd45",
-      "origin": "legacy",
-      "config": {
-        "components": {
-          "C3H8": 100
-        },
-        "temperature_k": 293.15,
-        "pressure_torr": 760.0,
-        "electric_fields_v_cm": [
-          50000.000012000004,
-          54000.000016,
-          58000.00001999999,
-          62000.000024,
-          66000.000028,
-          70000.000032,
-          74000.000036,
-          78000.00004,
-          82000.00012000001,
-          86000.0002,
-          90000.00028000001,
-          94000.00036,
-          97999.99968000001,
-          101999.99975999999,
-          105999.99983999999,
-          109999.99992,
-          114000.0,
-          118000.00008,
-          122000.00016000001,
-          126000.00024000001,
-          130000.00031999999,
-          133999.99964,
-          137999.99972,
-          141999.9998,
-          145999.99988000002,
-          149999.99996000002
-        ],
-        "magnetic_fields_t": [
-          0.0
-        ],
-        "angles_deg": [
-          90.0000001836389
-        ],
-        "penning_enabled": null,
-        "generate_gas_table_argument": null,
-        "random_seed": null
-      },
-      "software_sha256": null,
-      "generator_signature": null,
-      "source_files": [
-        {
-          "path": "original/SinglePureGas/C3H8.gas",
-          "sha256": "810f5e7a799d318e0df61f772d2f3974fc8ec8728b8f34250a520aa1207dbd45"
-        }
-      ],
-      "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
-    },
-    "GasDataBase/CF3Br/CF3Br-100_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/CF3Br/CF3Br-100_T293.15K_P760Torr.gas",
-      "sha256": "d2703a724cc0657f447819b32f67de3fedca631b94f289a5ff8048986c7671ec",
-      "origin": "legacy",
-      "config": {
-        "components": {
-          "CF3Br": 100
-        },
-        "temperature_k": 293.15,
-        "pressure_torr": 760.0,
-        "electric_fields_v_cm": [
-          50000.000012000004,
-          54000.000016,
-          58000.00001999999,
-          62000.000024,
-          66000.000028,
-          70000.000032,
-          74000.000036,
-          78000.00004,
-          82000.00012000001,
-          86000.0002,
-          90000.00028000001,
-          94000.00036,
-          97999.99968000001,
-          101999.99975999999,
-          105999.99983999999,
-          109999.99992,
-          114000.0,
-          118000.00008,
-          122000.00016000001,
-          126000.00024000001,
-          130000.00031999999,
-          133999.99964,
-          137999.99972,
-          141999.9998,
-          145999.99988000002,
-          149999.99996000002
-        ],
-        "magnetic_fields_t": [
-          0.0
-        ],
-        "angles_deg": [
-          90.0000001836389
-        ],
-        "penning_enabled": null,
-        "generate_gas_table_argument": null,
-        "random_seed": null
-      },
-      "software_sha256": null,
-      "generator_signature": null,
-      "source_files": [
-        {
-          "path": "original/SinglePureGas/CF3Br.gas",
-          "sha256": "d2703a724cc0657f447819b32f67de3fedca631b94f289a5ff8048986c7671ec"
-        }
-      ],
-      "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
-    },
-    "GasDataBase/CH4/CH4-100_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/CH4/CH4-100_T293.15K_P760Torr.gas",
-      "sha256": "24cf1255d004e906dc59a02f739541d31c7b6355d933161b8605c5ab06f7edcf",
-      "origin": "legacy",
-      "config": {
-        "components": {
-          "CH4": 100
-        },
-        "temperature_k": 293.15,
-        "pressure_torr": 760.0,
-        "electric_fields_v_cm": [
-          50000.000012000004,
-          54000.000016,
-          58000.00001999999,
-          62000.000024,
-          66000.000028,
-          70000.000032,
-          74000.000036,
-          78000.00004,
-          82000.00012000001,
-          86000.0002,
-          90000.00028000001,
-          94000.00036,
-          97999.99968000001,
-          101999.99975999999,
-          105999.99983999999,
-          109999.99992,
-          114000.0,
-          118000.00008,
-          122000.00016000001,
-          126000.00024000001,
-          130000.00031999999,
-          133999.99964,
-          137999.99972,
-          141999.9998,
-          145999.99988000002,
-          149999.99996000002
-        ],
-        "magnetic_fields_t": [
-          0.0
-        ],
-        "angles_deg": [
-          90.0000001836389
-        ],
-        "penning_enabled": null,
-        "generate_gas_table_argument": null,
-        "random_seed": null
-      },
-      "software_sha256": null,
-      "generator_signature": null,
-      "source_files": [
-        {
-          "path": "original/SinglePureGas/CH4.gas",
-          "sha256": "24cf1255d004e906dc59a02f739541d31c7b6355d933161b8605c5ab06f7edcf"
-        }
-      ],
-      "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
-    },
-    "GasDataBase/CHF3/CHF3-100_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/CHF3/CHF3-100_T293.15K_P760Torr.gas",
-      "sha256": "2f961a900165b947d45a51ece221ec0578ba5fd656e7776b9f513fa26b23bef5",
-      "origin": "legacy",
-      "config": {
-        "components": {
-          "CHF3": 100
-        },
-        "temperature_k": 293.15,
-        "pressure_torr": 760.0,
-        "electric_fields_v_cm": [
-          50000.000012000004,
-          54000.000016,
-          58000.00001999999,
-          62000.000024,
-          66000.000028,
-          70000.000032,
-          74000.000036,
-          78000.00004,
-          82000.00012000001,
-          86000.0002,
-          90000.00028000001,
-          94000.00036,
-          97999.99968000001,
-          101999.99975999999,
-          105999.99983999999,
-          109999.99992,
-          114000.0,
-          118000.00008,
-          122000.00016000001,
-          126000.00024000001,
-          130000.00031999999,
-          133999.99964,
-          137999.99972,
-          141999.9998,
-          145999.99988000002,
-          149999.99996000002
-        ],
-        "magnetic_fields_t": [
-          0.0
-        ],
-        "angles_deg": [
-          90.0000001836389
-        ],
-        "penning_enabled": null,
-        "generate_gas_table_argument": null,
-        "random_seed": null
-      },
-      "software_sha256": null,
-      "generator_signature": null,
-      "source_files": [
-        {
-          "path": "original/SinglePureGas/CHF3.gas",
-          "sha256": "2f961a900165b947d45a51ece221ec0578ba5fd656e7776b9f513fa26b23bef5"
-        }
-      ],
-      "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
-    },
-    "GasDataBase/He/He-100_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/He/He-100_T293.15K_P760Torr.gas",
-      "sha256": "f2655b6b1adf15f86c52ba47d47aad9464e854f14024181ca0546be83224b68d",
-      "origin": "legacy",
-      "config": {
-        "components": {
-          "He": 100
-        },
-        "temperature_k": 293.15,
-        "pressure_torr": 760.0,
-        "electric_fields_v_cm": [
-          9.999999972000001,
-          12.742749835999998,
-          16.237767383999998,
-          20.691380836,
-          26.366509,
-          33.598182828,
-          42.81332396,
-          54.555947844,
-          69.519279588,
-          88.5866792,
-          112.88378952000001,
-          143.84498872,
-          183.29807072,
-          233.57214672,
-          297.6351444,
-          379.26901908,
-          483.29302348,
-          615.84821144,
-          784.7599716,
-          999.9999971999999
-        ],
-        "magnetic_fields_t": [
-          0.0
-        ],
-        "angles_deg": [
-          90.0000001836389
-        ],
-        "penning_enabled": null,
-        "generate_gas_table_argument": null,
-        "random_seed": null
-      },
-      "software_sha256": null,
-      "generator_signature": null,
-      "source_files": [
-        {
-          "path": "original/github_nkx111_gasFiles/he_100.0-E_vs_P_10.0_1000.0_nodes_20-nCol_10-maxElectronEnergy_400.000000.gas",
-          "sha256": "f2655b6b1adf15f86c52ba47d47aad9464e854f14024181ca0546be83224b68d"
-        }
-      ],
-      "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
-    },
-    "GasDataBase/SF6/SF6-100_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/SF6/SF6-100_T293.15K_P760Torr.gas",
-      "sha256": "19cfd4775902462d72576b90c01365238a4cc31db1a8b4b92b943bce3a4dcb07",
-      "origin": "legacy",
-      "config": {
-        "components": {
-          "SF6": 100
-        },
-        "temperature_k": 293.15,
-        "pressure_torr": 760.0,
-        "electric_fields_v_cm": [
-          50000.000012000004,
-          51999.999976,
-          54000.000016,
-          55999.99998000001,
-          58000.00001999999,
-          59999.999984,
-          62000.000024,
-          63999.999987999996,
-          66000.000028,
-          67999.999992,
-          70000.000032,
-          71999.999996,
-          74000.000036,
-          76000.0,
-          78000.00004,
-          80000.00008,
-          82000.00012000001,
-          84000.00016,
-          86000.0002,
-          88000.00024,
-          90000.00028000001,
-          92000.00032,
-          94000.00036,
-          95999.99964,
-          97999.99968000001,
-          99999.99971999999
-        ],
-        "magnetic_fields_t": [
-          0.0
-        ],
-        "angles_deg": [
-          90.0000001836389
-        ],
-        "penning_enabled": null,
-        "generate_gas_table_argument": null,
-        "random_seed": null
-      },
-      "software_sha256": null,
-      "generator_signature": null,
-      "source_files": [
-        {
-          "path": "original/SinglePureGas/SF6.gas",
-          "sha256": "19cfd4775902462d72576b90c01365238a4cc31db1a8b4b92b943bce3a4dcb07"
-        }
-      ],
-      "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
-    },
-    "GasDataBase/Xe/Xe-100_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Xe/Xe-100_T293.15K_P760Torr.gas",
-      "sha256": "356413c2f73e2e058ffb6da51bda031aed3ea1446aa7a811912cbb9a2d6add13",
-      "origin": "legacy",
-      "config": {
-        "components": {
-          "Xe": 100
-        },
-        "temperature_k": 293.15,
-        "pressure_torr": 760.0,
-        "electric_fields_v_cm": [
-          9.999999972000001,
-          12.742749835999998,
-          16.237767383999998,
-          20.691380836,
-          26.366509,
-          33.598182828,
-          42.81332396,
-          54.555947844,
-          69.519279588,
-          88.5866792,
-          112.88378952000001,
-          143.84498872,
-          183.29807072,
-          233.57214672,
-          297.6351444,
-          379.26901908,
-          483.29302348,
-          615.84821144,
-          784.7599716,
-          999.9999971999999
-        ],
-        "magnetic_fields_t": [
-          0.0
-        ],
-        "angles_deg": [
-          90.0000001836389
-        ],
-        "penning_enabled": null,
-        "generate_gas_table_argument": null,
-        "random_seed": null
-      },
-      "software_sha256": null,
-      "generator_signature": null,
-      "source_files": [
-        {
-          "path": "original/github_nkx111_gasFiles/xe_100.0-E_vs_P_10.0_1000.0_nodes_20-nCol_10-maxElectronEnergy_400.000000.gas",
-          "sha256": "356413c2f73e2e058ffb6da51bda031aed3ea1446aa7a811912cbb9a2d6add13"
-        }
-      ],
-      "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
-    },
-    "GasDataBase/Ar_CF4/Ar-95_CF4-5_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_CF4/Ar-95_CF4-5_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X/Ar_CF4/Ar-95_CF4-5_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CF4/Ar-95_CF4-5_T293.15K_P760Torr.gas",
       "sha256": "e9d61074c165f32c3b557467b5117a9870138fd18c99dd884e65136e182e52c4",
       "config": {
         "components": {
@@ -10791,8 +10791,8 @@
       ],
       "merge_note": "Grid union without interpolation. T-format stores values; source F-format error columns retained in source files. No stability/precision acceptance."
     },
-    "GasDataBase/Ar_CF4/Ar-90_CF4-10_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_CF4/Ar-90_CF4-10_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X/Ar_CF4/Ar-90_CF4-10_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CF4/Ar-90_CF4-10_T293.15K_P760Torr.gas",
       "sha256": "09c90237918f3fbebef7e3432fff896cf0f6c179f5772da3499f052353c51019",
       "config": {
         "components": {
@@ -10863,8 +10863,8 @@
       ],
       "merge_note": "Grid union without interpolation. T-format stores values; source F-format error columns retained in source files. No stability/precision acceptance."
     },
-    "GasDataBase/Ar_CF4/Ar-80_CF4-20_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_CF4/Ar-80_CF4-20_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X/Ar_CF4/Ar-80_CF4-20_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CF4/Ar-80_CF4-20_T293.15K_P760Torr.gas",
       "sha256": "d3edc90fca3feec7945d3f827150e7347dee352618de34ed803835ec284aea30",
       "config": {
         "components": {
@@ -10935,8 +10935,8 @@
       ],
       "merge_note": "Grid union without interpolation. T-format stores values; source F-format error columns retained in source files. No stability/precision acceptance."
     },
-    "GasDataBase/Ar_CF4/Ar-60_CF4-40_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_CF4/Ar-60_CF4-40_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X/Ar_CF4/Ar-60_CF4-40_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CF4/Ar-60_CF4-40_T293.15K_P760Torr.gas",
       "sha256": "07e18a61db711ed442db6f47573a127e78bd284b582462a40010810727664f30",
       "config": {
         "components": {
@@ -11007,8 +11007,8 @@
       ],
       "merge_note": "Grid union without interpolation. T-format stores values; source F-format error columns retained in source files. No stability/precision acceptance."
     },
-    "GasDataBase/Ar_CF4/Ar-50_CF4-50_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_CF4/Ar-50_CF4-50_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X/Ar_CF4/Ar-50_CF4-50_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CF4/Ar-50_CF4-50_T293.15K_P760Torr.gas",
       "sha256": "f6be47effe2652e1241e9f3cb291012808681fcacd3e0b543126357fbc23e615",
       "config": {
         "components": {
@@ -11079,8 +11079,8 @@
       ],
       "merge_note": "Grid union without interpolation. T-format stores values; source F-format error columns retained in source files. No stability/precision acceptance."
     },
-    "GasDataBase/Ar_CO2/Ar-93_CO2-7_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_CO2/Ar-93_CO2-7_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X/Ar_CO2/Ar-93_CO2-7_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CO2/Ar-93_CO2-7_T293.15K_P760Torr.gas",
       "sha256": "48fd4492a6c3ba297ac2048f3d5839e18b2c8a57ed9c1a273535eee665503fde",
       "config": {
         "components": {
@@ -11151,8 +11151,8 @@
       ],
       "merge_note": "Grid union without interpolation. T-format stores values; source F-format error columns retained in source files. No stability/precision acceptance."
     },
-    "GasDataBase/Ar_CO2/Ar-90_CO2-10_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_CO2/Ar-90_CO2-10_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X/Ar_CO2/Ar-90_CO2-10_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CO2/Ar-90_CO2-10_T293.15K_P760Torr.gas",
       "sha256": "6496ef0759ec30ac0edf1d4b7fc91e329302e4f0e944fc82d540c1075370d96e",
       "config": {
         "components": {
@@ -11223,8 +11223,8 @@
       ],
       "merge_note": "Grid union without interpolation. T-format stores values; source F-format error columns retained in source files. No stability/precision acceptance."
     },
-    "GasDataBase/Ar_CO2/Ar-88_CO2-12_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_CO2/Ar-88_CO2-12_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X/Ar_CO2/Ar-88_CO2-12_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CO2/Ar-88_CO2-12_T293.15K_P760Torr.gas",
       "sha256": "137a239d736d0df792108b6f066e9cd268126810cede924c573cde040fd6a753",
       "config": {
         "components": {
@@ -11295,8 +11295,8 @@
       ],
       "merge_note": "Grid union without interpolation. T-format stores values; source F-format error columns retained in source files. No stability/precision acceptance."
     },
-    "GasDataBase/Ar_CO2/Ar-85_CO2-15_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_CO2/Ar-85_CO2-15_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X/Ar_CO2/Ar-85_CO2-15_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CO2/Ar-85_CO2-15_T293.15K_P760Torr.gas",
       "sha256": "f9fd64d59d643f5334d9e9907b2bf1cc56e8c67269d0cfe3b177fc4c896f3bda",
       "config": {
         "components": {
@@ -11367,8 +11367,8 @@
       ],
       "merge_note": "Grid union without interpolation. T-format stores values; source F-format error columns retained in source files. No stability/precision acceptance."
     },
-    "GasDataBase/Ar_CO2/Ar-80_CO2-20_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_CO2/Ar-80_CO2-20_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X/Ar_CO2/Ar-80_CO2-20_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CO2/Ar-80_CO2-20_T293.15K_P760Torr.gas",
       "sha256": "e45392a933c86919f0adef5df0fec70802c1b3cf13574c9e0838c462a264076d",
       "config": {
         "components": {
@@ -11439,8 +11439,8 @@
       ],
       "merge_note": "Grid union without interpolation. T-format stores values; source F-format error columns retained in source files. No stability/precision acceptance."
     },
-    "GasDataBase/Ar_CO2/Ar-70_CO2-30_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_CO2/Ar-70_CO2-30_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X/Ar_CO2/Ar-70_CO2-30_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CO2/Ar-70_CO2-30_T293.15K_P760Torr.gas",
       "sha256": "84b096458cbc76c3f96c330545085b0689d86cb3e3f2541e8c0431eb28c4e9fb",
       "config": {
         "components": {
@@ -11511,8 +11511,8 @@
       ],
       "merge_note": "Grid union without interpolation. T-format stores values; source F-format error columns retained in source files. No stability/precision acceptance."
     },
-    "GasDataBase/Ar_CO2/Ar-60_CO2-40_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_CO2/Ar-60_CO2-40_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X/Ar_CO2/Ar-60_CO2-40_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_CO2/Ar-60_CO2-40_T293.15K_P760Torr.gas",
       "sha256": "226f1983d2799479f6b8b4fd3d31db1368ea96e0e705f061b39de50d74000152",
       "config": {
         "components": {
@@ -11583,8 +11583,8 @@
       ],
       "merge_note": "Grid union without interpolation. T-format stores values; source F-format error columns retained in source files. No stability/precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10/Ar-98_iC4H10-2_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10/Ar-98_iC4H10-2_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X/Ar_iC4H10/Ar-98_iC4H10-2_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_iC4H10/Ar-98_iC4H10-2_T293.15K_P760Torr.gas",
       "sha256": "d45f5d6a9bae60a00fbe15962ea8aa322d5e5d6a06edb4d7764ad20e24aca876",
       "config": {
         "components": {
@@ -11663,8 +11663,8 @@
       ],
       "merge_note": "Grid union without interpolation. T-format stores values; source F-format error columns retained in source files. No stability/precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10/Ar-95_iC4H10-5_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10/Ar-95_iC4H10-5_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X/Ar_iC4H10/Ar-95_iC4H10-5_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_iC4H10/Ar-95_iC4H10-5_T293.15K_P760Torr.gas",
       "sha256": "78175a3e1d221256c9e0f2473e1667841b14dcb0046f923180f6b83c23daa11a",
       "config": {
         "components": {
@@ -11743,8 +11743,8 @@
       ],
       "merge_note": "Grid union without interpolation. T-format stores values; source F-format error columns retained in source files. No stability/precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10/Ar-90_iC4H10-10_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10/Ar-90_iC4H10-10_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X/Ar_iC4H10/Ar-90_iC4H10-10_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_iC4H10/Ar-90_iC4H10-10_T293.15K_P760Torr.gas",
       "sha256": "5df09e78105f456067eed14083cd7057e28408a21cc30f315469b5975e75b63f",
       "config": {
         "components": {
@@ -11823,8 +11823,8 @@
       ],
       "merge_note": "Grid union without interpolation. T-format stores values; source F-format error columns retained in source files. No stability/precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10/Ar-85_iC4H10-15_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10/Ar-85_iC4H10-15_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X/Ar_iC4H10/Ar-85_iC4H10-15_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_iC4H10/Ar-85_iC4H10-15_T293.15K_P760Torr.gas",
       "sha256": "8ec2e8df517b91494a848403c48432dc8d2afa96a1fc6e60058a23d6bc91d80c",
       "config": {
         "components": {
@@ -11903,8 +11903,8 @@
       ],
       "merge_note": "Grid union without interpolation. T-format stores values; source F-format error columns retained in source files. No stability/precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10/Ar-80_iC4H10-20_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10/Ar-80_iC4H10-20_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X/Ar_iC4H10/Ar-80_iC4H10-20_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_iC4H10/Ar-80_iC4H10-20_T293.15K_P760Torr.gas",
       "sha256": "4ef72d09793d1a15bc3c9c954fa2318ce0ed1441b1cbf175543ba9f0f372097f",
       "config": {
         "components": {
@@ -11983,8 +11983,8 @@
       ],
       "merge_note": "Grid union without interpolation. T-format stores values; source F-format error columns retained in source files. No stability/precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10/Ar-70_iC4H10-30_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10/Ar-70_iC4H10-30_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X/Ar_iC4H10/Ar-70_iC4H10-30_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_iC4H10/Ar-70_iC4H10-30_T293.15K_P760Torr.gas",
       "sha256": "492f3d9f9809047fb45191825d9d067afcaba9290291e89461a3819a41ec97d6",
       "config": {
         "components": {
@@ -12063,8 +12063,8 @@
       ],
       "merge_note": "Grid union without interpolation. T-format stores values; source F-format error columns retained in source files. No stability/precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10/Ar-60_iC4H10-40_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10/Ar-60_iC4H10-40_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X/Ar_iC4H10/Ar-60_iC4H10-40_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_iC4H10/Ar-60_iC4H10-40_T293.15K_P760Torr.gas",
       "sha256": "9bd23bec6654b9160b72edc3c425eee77d10d67a5943d3b29e3743ad397cc342",
       "config": {
         "components": {
@@ -12143,8 +12143,8 @@
       ],
       "merge_note": "Grid union without interpolation. T-format stores values; source F-format error columns retained in source files. No stability/precision acceptance."
     },
-    "GasDataBase/Ar_iC4H10/Ar-50_iC4H10-50_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ar_iC4H10/Ar-50_iC4H10-50_T293.15K_P760Torr.gas",
+    "GasDataBase/Ar+X/Ar_iC4H10/Ar-50_iC4H10-50_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ar+X/Ar_iC4H10/Ar-50_iC4H10-50_T293.15K_P760Torr.gas",
       "sha256": "6293becdf1b2de6cd82e5e7401ff1736d18714f83f06877ae476948c6cc2c919",
       "config": {
         "components": {
@@ -12223,8 +12223,8 @@
       ],
       "merge_note": "Grid union without interpolation. T-format stores values; source F-format error columns retained in source files. No stability/precision acceptance."
     },
-    "GasDataBase/Ne_C2H6_CF4/Ne-95_C2H6-1_CF4-4_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ne_C2H6_CF4/Ne-95_C2H6-1_CF4-4_T293.15K_P760Torr.gas",
+    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-95_C2H6-1_CF4-4_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-95_C2H6-1_CF4-4_T293.15K_P760Torr.gas",
       "sha256": "e8ec3a140edfeebcca1dfb891871ce57d888e1c36aa6afc423647273e4aceaa2",
       "origin": "legacy",
       "config": {
@@ -12283,8 +12283,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ne_C2H6_CF4/Ne-80_C2H6-10_CF4-10_T293.15K_P114Torr.gas": {
-      "dataset": "GasDataBase/Ne_C2H6_CF4/Ne-80_C2H6-10_CF4-10_T293.15K_P114Torr.gas",
+    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-80_C2H6-10_CF4-10_T293.15K_P114Torr.gas": {
+      "dataset": "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-80_C2H6-10_CF4-10_T293.15K_P114Torr.gas",
       "sha256": "0c678ebe9812048f7f47276ce4f9b79d150f5edf748a6736f143b18310187e60",
       "origin": "legacy",
       "config": {
@@ -12350,8 +12350,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ne_C2H6_CF4/Ne-80_C2H6-10_CF4-10_T293.15K_P152Torr.gas": {
-      "dataset": "GasDataBase/Ne_C2H6_CF4/Ne-80_C2H6-10_CF4-10_T293.15K_P152Torr.gas",
+    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-80_C2H6-10_CF4-10_T293.15K_P152Torr.gas": {
+      "dataset": "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-80_C2H6-10_CF4-10_T293.15K_P152Torr.gas",
       "sha256": "0c52cb95edc1c92e384abf5c2007680989c24a918d1093d38499ed7cc8b0417b",
       "origin": "legacy",
       "config": {
@@ -12417,8 +12417,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ne_C2H6_CF4/Ne-80_C2H6-10_CF4-10_T293.15K_P190Torr.gas": {
-      "dataset": "GasDataBase/Ne_C2H6_CF4/Ne-80_C2H6-10_CF4-10_T293.15K_P190Torr.gas",
+    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-80_C2H6-10_CF4-10_T293.15K_P190Torr.gas": {
+      "dataset": "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-80_C2H6-10_CF4-10_T293.15K_P190Torr.gas",
       "sha256": "e9081268173e9b74d396272d9fd505940574ac8d3626c0d1a588d99feaa159ff",
       "origin": "legacy",
       "config": {
@@ -12484,8 +12484,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ne_C2H6_CF4/Ne-80_C2H6-10_CF4-10_T293.15K_P304Torr.gas": {
-      "dataset": "GasDataBase/Ne_C2H6_CF4/Ne-80_C2H6-10_CF4-10_T293.15K_P304Torr.gas",
+    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-80_C2H6-10_CF4-10_T293.15K_P304Torr.gas": {
+      "dataset": "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-80_C2H6-10_CF4-10_T293.15K_P304Torr.gas",
       "sha256": "9bc12e0e962814c211cb06bec854eead93089cb900f0ff267c73f39d3d7ac9ab",
       "origin": "legacy",
       "config": {
@@ -12551,8 +12551,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ne_C2H6_CF4/Ne-80_C2H6-10_CF4-10_T293.15K_P38Torr.gas": {
-      "dataset": "GasDataBase/Ne_C2H6_CF4/Ne-80_C2H6-10_CF4-10_T293.15K_P38Torr.gas",
+    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-80_C2H6-10_CF4-10_T293.15K_P38Torr.gas": {
+      "dataset": "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-80_C2H6-10_CF4-10_T293.15K_P38Torr.gas",
       "sha256": "81809308d7de43d7bd232675c15b0f1351ecfe0af4ec727c234b0d92721c94bf",
       "origin": "legacy",
       "config": {
@@ -12618,8 +12618,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ne_C2H6_CF4/Ne-80_C2H6-10_CF4-10_T293.15K_P456Torr.gas": {
-      "dataset": "GasDataBase/Ne_C2H6_CF4/Ne-80_C2H6-10_CF4-10_T293.15K_P456Torr.gas",
+    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-80_C2H6-10_CF4-10_T293.15K_P456Torr.gas": {
+      "dataset": "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-80_C2H6-10_CF4-10_T293.15K_P456Torr.gas",
       "sha256": "d631d2d98e593729cb202fe1df90a345bd599bd2d6681eb060eb34381f6babff",
       "origin": "legacy",
       "config": {
@@ -12685,8 +12685,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ne_C2H6_CF4/Ne-80_C2H6-10_CF4-10_T293.15K_P53.2Torr.gas": {
-      "dataset": "GasDataBase/Ne_C2H6_CF4/Ne-80_C2H6-10_CF4-10_T293.15K_P53.2Torr.gas",
+    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-80_C2H6-10_CF4-10_T293.15K_P53.2Torr.gas": {
+      "dataset": "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-80_C2H6-10_CF4-10_T293.15K_P53.2Torr.gas",
       "sha256": "ce11a5e5498dc36d7859ba2b9855c304150d978255bfea9165239dc55e7cbf99",
       "origin": "legacy",
       "config": {
@@ -12752,8 +12752,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ne_C2H6_CF4/Ne-80_C2H6-10_CF4-10_T293.15K_P608Torr.gas": {
-      "dataset": "GasDataBase/Ne_C2H6_CF4/Ne-80_C2H6-10_CF4-10_T293.15K_P608Torr.gas",
+    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-80_C2H6-10_CF4-10_T293.15K_P608Torr.gas": {
+      "dataset": "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-80_C2H6-10_CF4-10_T293.15K_P608Torr.gas",
       "sha256": "6991e01c67369ecf6c242cae722492c1b1d12b166a2fd3e8bd9b9aeb9d472187",
       "origin": "legacy",
       "config": {
@@ -12819,8 +12819,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ne_C2H6_CF4/Ne-80_C2H6-10_CF4-10_T293.15K_P76Torr.gas": {
-      "dataset": "GasDataBase/Ne_C2H6_CF4/Ne-80_C2H6-10_CF4-10_T293.15K_P76Torr.gas",
+    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-80_C2H6-10_CF4-10_T293.15K_P76Torr.gas": {
+      "dataset": "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-80_C2H6-10_CF4-10_T293.15K_P76Torr.gas",
       "sha256": "f8f57fd21a048b8cfe697a2e701f7e7a4ba191950ee91f9ca1f9fb97390a4994",
       "origin": "legacy",
       "config": {
@@ -12886,8 +12886,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ne_C2H6_CF4/Ne-85_C2H6-12_CF4-3_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ne_C2H6_CF4/Ne-85_C2H6-12_CF4-3_T293.15K_P760Torr.gas",
+    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-85_C2H6-12_CF4-3_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-85_C2H6-12_CF4-3_T293.15K_P760Torr.gas",
       "sha256": "5d30044a9b9e4d64b73fbd4467ddc81a6bacc49cc67b49f8efc9a3ac57b8a218",
       "origin": "legacy",
       "config": {
@@ -12946,8 +12946,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ne_C2H6_CF4/Ne-80_C2H6-16_CF4-4_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ne_C2H6_CF4/Ne-80_C2H6-16_CF4-4_T293.15K_P760Torr.gas",
+    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-80_C2H6-16_CF4-4_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-80_C2H6-16_CF4-4_T293.15K_P760Torr.gas",
       "sha256": "09fd83ac694831425ad286760ea57b7c6a9c4c66a0b999f6e7e479578a27cee7",
       "origin": "legacy",
       "config": {
@@ -13006,8 +13006,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ne_C2H6_CF4/Ne-90_C2H6-2_CF4-8_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ne_C2H6_CF4/Ne-90_C2H6-2_CF4-8_T293.15K_P760Torr.gas",
+    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-90_C2H6-2_CF4-8_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-90_C2H6-2_CF4-8_T293.15K_P760Torr.gas",
       "sha256": "37cc0a956f03ac55e28fe69c20b16e50598c5c7a66d2d9f4516419406774c104",
       "origin": "legacy",
       "config": {
@@ -13066,8 +13066,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ne_C2H6_CF4/Ne-95_C2H6-2.5_CF4-2.5_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ne_C2H6_CF4/Ne-95_C2H6-2.5_CF4-2.5_T293.15K_P760Torr.gas",
+    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-95_C2H6-2.5_CF4-2.5_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-95_C2H6-2.5_CF4-2.5_T293.15K_P760Torr.gas",
       "sha256": "0ec2e7b2ebe1fd0059669f33472a3124c83b446c04cb07760a6c28c377e9a1f9",
       "origin": "legacy",
       "config": {
@@ -13126,8 +13126,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ne_C2H6_CF4/Ne-85_C2H6-3_CF4-12_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ne_C2H6_CF4/Ne-85_C2H6-3_CF4-12_T293.15K_P760Torr.gas",
+    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-85_C2H6-3_CF4-12_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-85_C2H6-3_CF4-12_T293.15K_P760Torr.gas",
       "sha256": "0179e8bd1695f04a89eaa72010a68fcc199210650f16c17565e3e5a8d6f141e4",
       "origin": "legacy",
       "config": {
@@ -13186,8 +13186,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ne_C2H6_CF4/Ne-95_C2H6-4_CF4-1_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ne_C2H6_CF4/Ne-95_C2H6-4_CF4-1_T293.15K_P760Torr.gas",
+    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-95_C2H6-4_CF4-1_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-95_C2H6-4_CF4-1_T293.15K_P760Torr.gas",
       "sha256": "47300864c6533d2790553dcb6e69e964c737788effa157e072e4d1d94d36fb5b",
       "origin": "legacy",
       "config": {
@@ -13246,8 +13246,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ne_C2H6_CF4/Ne-80_C2H6-4_CF4-16_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ne_C2H6_CF4/Ne-80_C2H6-4_CF4-16_T293.15K_P760Torr.gas",
+    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-80_C2H6-4_CF4-16_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-80_C2H6-4_CF4-16_T293.15K_P760Torr.gas",
       "sha256": "d4de9bfff2a0d4b4858d45d79ae58b00b5cea8d93a275cc4d4cf1646837d4d75",
       "origin": "legacy",
       "config": {
@@ -13306,8 +13306,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ne_C2H6_CF4/Ne-90_C2H6-5_CF4-5_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ne_C2H6_CF4/Ne-90_C2H6-5_CF4-5_T293.15K_P760Torr.gas",
+    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-90_C2H6-5_CF4-5_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-90_C2H6-5_CF4-5_T293.15K_P760Torr.gas",
       "sha256": "bddfe481b18209a572935d16b8a0994c1bfadaa5ff97dca898d2982ebb8ac056",
       "origin": "legacy",
       "config": {
@@ -13366,8 +13366,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ne_C2H6_CF4/Ne-85_C2H6-7.5_CF4-7.5_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ne_C2H6_CF4/Ne-85_C2H6-7.5_CF4-7.5_T293.15K_P760Torr.gas",
+    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-85_C2H6-7.5_CF4-7.5_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-85_C2H6-7.5_CF4-7.5_T293.15K_P760Torr.gas",
       "sha256": "5fe622d9d3eef808f79f85a30b7c04e83d505e09df231fb37ae9fcc167226247",
       "origin": "legacy",
       "config": {
@@ -13426,8 +13426,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ne_C2H6_CF4/Ne-90_C2H6-8_CF4-2_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ne_C2H6_CF4/Ne-90_C2H6-8_CF4-2_T293.15K_P760Torr.gas",
+    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-90_C2H6-8_CF4-2_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-90_C2H6-8_CF4-2_T293.15K_P760Torr.gas",
       "sha256": "43ab4d34eed70433487f85596678148371120ea1ada33dbb087ba4eaa4e7bbc4",
       "origin": "legacy",
       "config": {
@@ -13486,8 +13486,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ne_CF4/Ne-90_CF4-10_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ne_CF4/Ne-90_CF4-10_T293.15K_P760Torr.gas",
+    "GasDataBase/Ne+X/Ne_CF4/Ne-90_CF4-10_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ne+X/Ne_CF4/Ne-90_CF4-10_T293.15K_P760Torr.gas",
       "sha256": "b2a165581975cbe861e9f1627683e0d6d65a0792cbdc479262730ae03cd81880",
       "origin": "legacy",
       "config": {
@@ -13570,8 +13570,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ne_CF4/Ne-80_CF4-20_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ne_CF4/Ne-80_CF4-20_T293.15K_P760Torr.gas",
+    "GasDataBase/Ne+X/Ne_CF4/Ne-80_CF4-20_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ne+X/Ne_CF4/Ne-80_CF4-20_T293.15K_P760Torr.gas",
       "sha256": "4bde1729a7225377426014f81a469320876f31847dce7b8dde448b8f9f7c6f8a",
       "origin": "legacy",
       "config": {
@@ -13654,8 +13654,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ne_CF4/Ne-70_CF4-30_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ne_CF4/Ne-70_CF4-30_T293.15K_P760Torr.gas",
+    "GasDataBase/Ne+X/Ne_CF4/Ne-70_CF4-30_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ne+X/Ne_CF4/Ne-70_CF4-30_T293.15K_P760Torr.gas",
       "sha256": "653fa3c1cc60210bb07398d748cd23f3e29521967b902975127a136d899f3387",
       "origin": "legacy",
       "config": {
@@ -13738,8 +13738,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Xe_CF4/Xe-5_CF4-95_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Xe_CF4/Xe-5_CF4-95_T293.15K_P760Torr.gas",
+    "GasDataBase/Xe+X/Xe_CF4/Xe-5_CF4-95_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Xe+X/Xe_CF4/Xe-5_CF4-95_T293.15K_P760Torr.gas",
       "sha256": "14f871f37bc95aa4e1503e800ea5a4ba851544ad66ccd4733294421eb03e4e9b",
       "origin": "legacy",
       "config": {
@@ -13791,8 +13791,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Xe_CF4/Xe-3_CF4-97_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Xe_CF4/Xe-3_CF4-97_T293.15K_P760Torr.gas",
+    "GasDataBase/Xe+X/Xe_CF4/Xe-3_CF4-97_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Xe+X/Xe_CF4/Xe-3_CF4-97_T293.15K_P760Torr.gas",
       "sha256": "7c8a687800feb5099e0e32ae7f2bb3654aa20cbe3ac5b35d1f066c52894fb2a9",
       "origin": "legacy",
       "config": {
@@ -13844,8 +13844,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Xe_CF4/Xe-2_CF4-98_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Xe_CF4/Xe-2_CF4-98_T293.15K_P760Torr.gas",
+    "GasDataBase/Xe+X/Xe_CF4/Xe-2_CF4-98_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Xe+X/Xe_CF4/Xe-2_CF4-98_T293.15K_P760Torr.gas",
       "sha256": "f9af6e2745937f3d0de50ead929e7ddceb5967af26ab7f751887948903efe99d",
       "origin": "legacy",
       "config": {
@@ -13897,8 +13897,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Xe_CF4/Xe-1_CF4-99_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Xe_CF4/Xe-1_CF4-99_T293.15K_P760Torr.gas",
+    "GasDataBase/Xe+X/Xe_CF4/Xe-1_CF4-99_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Xe+X/Xe_CF4/Xe-1_CF4-99_T293.15K_P760Torr.gas",
       "sha256": "24c2521a22c27ba100efb74941d857fed25936ce9bc7760e9b20eabedd036ff4",
       "origin": "legacy",
       "config": {
@@ -13950,8 +13950,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Xe_CF4/Xe-0.5_CF4-99.5_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Xe_CF4/Xe-0.5_CF4-99.5_T293.15K_P760Torr.gas",
+    "GasDataBase/Xe+X/Xe_CF4/Xe-0.5_CF4-99.5_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Xe+X/Xe_CF4/Xe-0.5_CF4-99.5_T293.15K_P760Torr.gas",
       "sha256": "3e875fcf07a628d28d759ebe0451e7841cc18a3314c79cb7ddcac17533705aa8",
       "origin": "legacy",
       "config": {
@@ -14003,8 +14003,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ne_CH4/Ne-90_CH4-10_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ne_CH4/Ne-90_CH4-10_T293.15K_P760Torr.gas",
+    "GasDataBase/Ne+X/Ne_CH4/Ne-90_CH4-10_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ne+X/Ne_CH4/Ne-90_CH4-10_T293.15K_P760Torr.gas",
       "sha256": "921907593c4c8d5030ed12a513d1313b42d6e195c2fea00c27c705422f152bed",
       "origin": "legacy",
       "config": {
@@ -14087,8 +14087,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ne_CH4/Ne-80_CH4-20_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ne_CH4/Ne-80_CH4-20_T293.15K_P760Torr.gas",
+    "GasDataBase/Ne+X/Ne_CH4/Ne-80_CH4-20_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ne+X/Ne_CH4/Ne-80_CH4-20_T293.15K_P760Torr.gas",
       "sha256": "d9216e4aa0f5aa11d55e6661536d3d7112c94a4bf2ab131b54eafdb383fbe715",
       "origin": "legacy",
       "config": {
@@ -14171,8 +14171,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ne_CH4/Ne-70_CH4-30_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ne_CH4/Ne-70_CH4-30_T293.15K_P760Torr.gas",
+    "GasDataBase/Ne+X/Ne_CH4/Ne-70_CH4-30_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ne+X/Ne_CH4/Ne-70_CH4-30_T293.15K_P760Torr.gas",
       "sha256": "9082c153c5cc24dce19d6007b97782511c1f5363fff642550332660ed2b38ae6",
       "origin": "legacy",
       "config": {
@@ -14255,8 +14255,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ne_CO2/Ne-90_CO2-10_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ne_CO2/Ne-90_CO2-10_T293.15K_P760Torr.gas",
+    "GasDataBase/Ne+X/Ne_CO2/Ne-90_CO2-10_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ne+X/Ne_CO2/Ne-90_CO2-10_T293.15K_P760Torr.gas",
       "sha256": "fb48cf6d3d4956475470477f1f4b5dc208d48cb340129d51cc5af4f794e0ae9f",
       "origin": "legacy",
       "config": {
@@ -14339,8 +14339,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ne_CO2/Ne-80_CO2-20_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ne_CO2/Ne-80_CO2-20_T293.15K_P760Torr.gas",
+    "GasDataBase/Ne+X/Ne_CO2/Ne-80_CO2-20_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ne+X/Ne_CO2/Ne-80_CO2-20_T293.15K_P760Torr.gas",
       "sha256": "ced98adf864e17daf7d48f72704196cf895e54d03fa02896d33ecf1d8251ce37",
       "origin": "legacy",
       "config": {
@@ -14423,8 +14423,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ne_CO2/Ne-70_CO2-30_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ne_CO2/Ne-70_CO2-30_T293.15K_P760Torr.gas",
+    "GasDataBase/Ne+X/Ne_CO2/Ne-70_CO2-30_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ne+X/Ne_CO2/Ne-70_CO2-30_T293.15K_P760Torr.gas",
       "sha256": "81d333e648eeef30101536eee60d4f910138723df5933c980b3e636dea800361",
       "origin": "legacy",
       "config": {
@@ -14507,8 +14507,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ne_DME/Ne-90_DME-10_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ne_DME/Ne-90_DME-10_T293.15K_P760Torr.gas",
+    "GasDataBase/Ne+X/Ne_DME/Ne-90_DME-10_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ne+X/Ne_DME/Ne-90_DME-10_T293.15K_P760Torr.gas",
       "sha256": "e44d15b2b30fa46e1f56b5bff7d07544c30c2d08c168ad4de7aa0e12a32952c6",
       "origin": "legacy",
       "config": {
@@ -14591,8 +14591,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ne_DME/Ne-80_DME-20_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ne_DME/Ne-80_DME-20_T293.15K_P760Torr.gas",
+    "GasDataBase/Ne+X/Ne_DME/Ne-80_DME-20_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ne+X/Ne_DME/Ne-80_DME-20_T293.15K_P760Torr.gas",
       "sha256": "47100feb98555ec228305735d951a2ce2ca46b38fdfd0cc226dcd6aee6c3770e",
       "origin": "legacy",
       "config": {
@@ -14675,8 +14675,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ne_DME/Ne-70_DME-30_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ne_DME/Ne-70_DME-30_T293.15K_P760Torr.gas",
+    "GasDataBase/Ne+X/Ne_DME/Ne-70_DME-30_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ne+X/Ne_DME/Ne-70_DME-30_T293.15K_P760Torr.gas",
       "sha256": "faae07368ddb8dea14aaa370ff36a81b136f87157201aae5c0eb1dcc6960f0f7",
       "origin": "legacy",
       "config": {
@@ -14759,8 +14759,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ne_iC4H10/Ne-70_iC4H10-30_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ne_iC4H10/Ne-70_iC4H10-30_T293.15K_P760Torr.gas",
+    "GasDataBase/Ne+X/Ne_iC4H10/Ne-70_iC4H10-30_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ne+X/Ne_iC4H10/Ne-70_iC4H10-30_T293.15K_P760Torr.gas",
       "sha256": "23db3a4c077cd2a1d6323e87a96afbe8fa45bf24237f12de511d3587c05b1cd4",
       "origin": "legacy",
       "config": {
@@ -14843,8 +14843,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ne_iC4H10/Ne-80_iC4H10-20_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ne_iC4H10/Ne-80_iC4H10-20_T293.15K_P760Torr.gas",
+    "GasDataBase/Ne+X/Ne_iC4H10/Ne-80_iC4H10-20_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ne+X/Ne_iC4H10/Ne-80_iC4H10-20_T293.15K_P760Torr.gas",
       "sha256": "d7d663e23d9c2fdfc40190502f6f2394d62c5de5e945d8b750dc35771d5da365",
       "origin": "legacy",
       "config": {
@@ -14927,8 +14927,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ne_iC4H10/Ne-90_iC4H10-10_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ne_iC4H10/Ne-90_iC4H10-10_T293.15K_P760Torr.gas",
+    "GasDataBase/Ne+X/Ne_iC4H10/Ne-90_iC4H10-10_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ne+X/Ne_iC4H10/Ne-90_iC4H10-10_T293.15K_P760Torr.gas",
       "sha256": "139170afd5d0f96223c535a11bf4165a7fc50c965f00377eb7bb65b0c64238ca",
       "origin": "legacy",
       "config": {
@@ -15011,8 +15011,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ne_iC4H10/Ne-95_iC4H10-5_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ne_iC4H10/Ne-95_iC4H10-5_T293.15K_P760Torr.gas",
+    "GasDataBase/Ne+X/Ne_iC4H10/Ne-95_iC4H10-5_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ne+X/Ne_iC4H10/Ne-95_iC4H10-5_T293.15K_P760Torr.gas",
       "sha256": "ebb710eab28f4662c99b2a7e78fc1834b4ebf5390a031bb49b55661ef4874dcb",
       "origin": "legacy",
       "config": {
@@ -15064,8 +15064,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ne_iC4H10/Ne-97_iC4H10-3_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ne_iC4H10/Ne-97_iC4H10-3_T293.15K_P760Torr.gas",
+    "GasDataBase/Ne+X/Ne_iC4H10/Ne-97_iC4H10-3_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ne+X/Ne_iC4H10/Ne-97_iC4H10-3_T293.15K_P760Torr.gas",
       "sha256": "cbe74968ffb46c9a996db22114e61d096e0c482b41a228f2901f820725e776a6",
       "origin": "legacy",
       "config": {
@@ -15117,8 +15117,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ne_iC4H10/Ne-98_iC4H10-2_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ne_iC4H10/Ne-98_iC4H10-2_T293.15K_P760Torr.gas",
+    "GasDataBase/Ne+X/Ne_iC4H10/Ne-98_iC4H10-2_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ne+X/Ne_iC4H10/Ne-98_iC4H10-2_T293.15K_P760Torr.gas",
       "sha256": "0fefff5e7fb626426d767823a2dd4c5c1330ec2fe2eff463f4a5394d0297ea6f",
       "origin": "legacy",
       "config": {
@@ -15170,8 +15170,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ne_iC4H10/Ne-99_iC4H10-1_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ne_iC4H10/Ne-99_iC4H10-1_T293.15K_P760Torr.gas",
+    "GasDataBase/Ne+X/Ne_iC4H10/Ne-99_iC4H10-1_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ne+X/Ne_iC4H10/Ne-99_iC4H10-1_T293.15K_P760Torr.gas",
       "sha256": "05f796548bef9f2d72f237679005e2dcbb55250961012303dfc64002fd84043e",
       "origin": "legacy",
       "config": {
@@ -15223,8 +15223,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Ne_iC4H10/Ne-99.5_iC4H10-0.5_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Ne_iC4H10/Ne-99.5_iC4H10-0.5_T293.15K_P760Torr.gas",
+    "GasDataBase/Ne+X/Ne_iC4H10/Ne-99.5_iC4H10-0.5_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Ne+X/Ne_iC4H10/Ne-99.5_iC4H10-0.5_T293.15K_P760Torr.gas",
       "sha256": "e372c93a157e0cc162b2a84f5e98ec43e9b6c314a6b833d768861980944106e0",
       "origin": "legacy",
       "config": {
@@ -15276,8 +15276,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Xe_TMA/Xe-99.9_TMA-0.1_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Xe_TMA/Xe-99.9_TMA-0.1_T293.15K_P760Torr.gas",
+    "GasDataBase/Xe+X/Xe_TMA/Xe-99.9_TMA-0.1_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Xe+X/Xe_TMA/Xe-99.9_TMA-0.1_T293.15K_P760Torr.gas",
       "sha256": "91283935a54434cebe7fb3e2e170ea0dd2ac3c60fbf092097b90a750a1d11050",
       "origin": "legacy",
       "config": {
@@ -15329,8 +15329,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Xe_TMA/Xe-99.5_TMA-0.5_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Xe_TMA/Xe-99.5_TMA-0.5_T293.15K_P760Torr.gas",
+    "GasDataBase/Xe+X/Xe_TMA/Xe-99.5_TMA-0.5_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Xe+X/Xe_TMA/Xe-99.5_TMA-0.5_T293.15K_P760Torr.gas",
       "sha256": "5917d673129a8335a59ad711c13a78671dde55fbb7684cddc48372fe19fe8162",
       "origin": "legacy",
       "config": {
@@ -15382,8 +15382,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Xe_TMA/Xe-99_TMA-1_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Xe_TMA/Xe-99_TMA-1_T293.15K_P760Torr.gas",
+    "GasDataBase/Xe+X/Xe_TMA/Xe-99_TMA-1_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Xe+X/Xe_TMA/Xe-99_TMA-1_T293.15K_P760Torr.gas",
       "sha256": "6b95463f5d6aa3f21ac6d21d02678b8fceda02c1cba7f1a41ab68e7e27ba811a",
       "origin": "legacy",
       "config": {
@@ -15435,8 +15435,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Xe_TMA/Xe-99_TMA-1_T293.15K_P7600Torr.gas": {
-      "dataset": "GasDataBase/Xe_TMA/Xe-99_TMA-1_T293.15K_P7600Torr.gas",
+    "GasDataBase/Xe+X/Xe_TMA/Xe-99_TMA-1_T293.15K_P7600Torr.gas": {
+      "dataset": "GasDataBase/Xe+X/Xe_TMA/Xe-99_TMA-1_T293.15K_P7600Torr.gas",
       "sha256": "9fc16e8aef98166084273ef2e2dcddb8f9eecb0010023427771f060e26689bdf",
       "origin": "legacy",
       "config": {
@@ -15488,8 +15488,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Xe_TMA/Xe-98_TMA-2_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Xe_TMA/Xe-98_TMA-2_T293.15K_P760Torr.gas",
+    "GasDataBase/Xe+X/Xe_TMA/Xe-98_TMA-2_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Xe+X/Xe_TMA/Xe-98_TMA-2_T293.15K_P760Torr.gas",
       "sha256": "b3f7af973bf62a8b7d4bbc901f24e45a55b4dfae1d6f75b4a06b31b5ac5eb2c5",
       "origin": "legacy",
       "config": {
@@ -15541,8 +15541,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Xe_TMA/Xe-97.8_TMA-2.2_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Xe_TMA/Xe-97.8_TMA-2.2_T293.15K_P760Torr.gas",
+    "GasDataBase/Xe+X/Xe_TMA/Xe-97.8_TMA-2.2_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Xe+X/Xe_TMA/Xe-97.8_TMA-2.2_T293.15K_P760Torr.gas",
       "sha256": "0d8e45c3cf89bcd0d240b582e51ee7043837ed7a84ade95122fe350961096a70",
       "origin": "legacy",
       "config": {
@@ -15594,8 +15594,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Xe_TMA/Xe-97_TMA-3_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Xe_TMA/Xe-97_TMA-3_T293.15K_P760Torr.gas",
+    "GasDataBase/Xe+X/Xe_TMA/Xe-97_TMA-3_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Xe+X/Xe_TMA/Xe-97_TMA-3_T293.15K_P760Torr.gas",
       "sha256": "c96885c7a3e6977575a20c49bc6312084dc320fe0e721594adcb4dd6dcf53da9",
       "origin": "legacy",
       "config": {
@@ -15647,8 +15647,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Xe_TMA/Xe-97_TMA-3_T293.15K_P7600Torr.gas": {
-      "dataset": "GasDataBase/Xe_TMA/Xe-97_TMA-3_T293.15K_P7600Torr.gas",
+    "GasDataBase/Xe+X/Xe_TMA/Xe-97_TMA-3_T293.15K_P7600Torr.gas": {
+      "dataset": "GasDataBase/Xe+X/Xe_TMA/Xe-97_TMA-3_T293.15K_P7600Torr.gas",
       "sha256": "78f8c5a1ff52da3088b38f694f750bbc91c8426b008a1a45c49637fc2dbc3e35",
       "origin": "legacy",
       "config": {
@@ -15700,8 +15700,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Xe_TMA/Xe-95_TMA-5_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Xe_TMA/Xe-95_TMA-5_T293.15K_P760Torr.gas",
+    "GasDataBase/Xe+X/Xe_TMA/Xe-95_TMA-5_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Xe+X/Xe_TMA/Xe-95_TMA-5_T293.15K_P760Torr.gas",
       "sha256": "c54abafeba1270e2a7861450c38b3cc7dc1ea8e5958ca55aef5160df6ba430fd",
       "origin": "legacy",
       "config": {
@@ -15753,8 +15753,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Xe_TMA/Xe-93_TMA-7_T293.15K_P7600Torr.gas": {
-      "dataset": "GasDataBase/Xe_TMA/Xe-93_TMA-7_T293.15K_P7600Torr.gas",
+    "GasDataBase/Xe+X/Xe_TMA/Xe-93_TMA-7_T293.15K_P7600Torr.gas": {
+      "dataset": "GasDataBase/Xe+X/Xe_TMA/Xe-93_TMA-7_T293.15K_P7600Torr.gas",
       "sha256": "1b8d49807b64b4e477d2926eb94ca0d05c81f4cc5128eb25b7d1024ea7ef6102",
       "origin": "legacy",
       "config": {
@@ -15806,8 +15806,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Xe_TMA/Xe-91_TMA-9_T293.15K_P7600Torr.gas": {
-      "dataset": "GasDataBase/Xe_TMA/Xe-91_TMA-9_T293.15K_P7600Torr.gas",
+    "GasDataBase/Xe+X/Xe_TMA/Xe-91_TMA-9_T293.15K_P7600Torr.gas": {
+      "dataset": "GasDataBase/Xe+X/Xe_TMA/Xe-91_TMA-9_T293.15K_P7600Torr.gas",
       "sha256": "5a68e655f9856356e44242d8d4e4383a3163f51901557375e26bf8f92ff077bb",
       "origin": "legacy",
       "config": {
@@ -15859,8 +15859,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Xe_iC4H10/Xe-95_iC4H10-5_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Xe_iC4H10/Xe-95_iC4H10-5_T293.15K_P760Torr.gas",
+    "GasDataBase/Xe+X/Xe_iC4H10/Xe-95_iC4H10-5_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Xe+X/Xe_iC4H10/Xe-95_iC4H10-5_T293.15K_P760Torr.gas",
       "sha256": "a2872f46def0c9a866a75225e506487327d5c99268deb3a2471ccff78e7ed6a7",
       "origin": "legacy",
       "config": {
@@ -15912,8 +15912,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Xe_iC4H10/Xe-97_iC4H10-3_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Xe_iC4H10/Xe-97_iC4H10-3_T293.15K_P760Torr.gas",
+    "GasDataBase/Xe+X/Xe_iC4H10/Xe-97_iC4H10-3_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Xe+X/Xe_iC4H10/Xe-97_iC4H10-3_T293.15K_P760Torr.gas",
       "sha256": "50ee448cec7ba974cde5d21534e61f65d12383b12680fa087633d51ae67c8656",
       "origin": "legacy",
       "config": {
@@ -15965,8 +15965,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Xe_iC4H10/Xe-98_iC4H10-2_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Xe_iC4H10/Xe-98_iC4H10-2_T293.15K_P760Torr.gas",
+    "GasDataBase/Xe+X/Xe_iC4H10/Xe-98_iC4H10-2_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Xe+X/Xe_iC4H10/Xe-98_iC4H10-2_T293.15K_P760Torr.gas",
       "sha256": "dd3f1344e495ff6611d055455bd287c79438eb3f03a8bb1c29176bb6b97de1c1",
       "origin": "legacy",
       "config": {
@@ -16018,8 +16018,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Xe_iC4H10/Xe-99_iC4H10-1_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Xe_iC4H10/Xe-99_iC4H10-1_T293.15K_P760Torr.gas",
+    "GasDataBase/Xe+X/Xe_iC4H10/Xe-99_iC4H10-1_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Xe+X/Xe_iC4H10/Xe-99_iC4H10-1_T293.15K_P760Torr.gas",
       "sha256": "28f35f65f3ecc0c30e4ab2d70353160f01eea0ecdcbb9f0240ba2cd83604e8b2",
       "origin": "legacy",
       "config": {
@@ -16071,8 +16071,8 @@
       ],
       "merge_note": "Original bytes retained; identical copies deduplicated. Generation settings unknown; no automatic grid merging or physical precision acceptance."
     },
-    "GasDataBase/Xe_iC4H10/Xe-99.5_iC4H10-0.5_T293.15K_P760Torr.gas": {
-      "dataset": "GasDataBase/Xe_iC4H10/Xe-99.5_iC4H10-0.5_T293.15K_P760Torr.gas",
+    "GasDataBase/Xe+X/Xe_iC4H10/Xe-99.5_iC4H10-0.5_T293.15K_P760Torr.gas": {
+      "dataset": "GasDataBase/Xe+X/Xe_iC4H10/Xe-99.5_iC4H10-0.5_T293.15K_P760Torr.gas",
       "sha256": "3e0a7fa85ef37ca8d11c3d968faa3a09d3498124165119ac7e8fdeb5fcc10207",
       "origin": "legacy",
       "config": {

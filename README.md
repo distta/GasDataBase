@@ -10,7 +10,7 @@
 
 ## 目录
 
-- `GasDataBase/`：按气体体系组织的正式 .gas 文件。
+- `GasDataBase/`：按稀有气体、组分数量和具体体系组织的正式 .gas 文件，例如 `Ar+X/Ar_CO2/`。
 - `assets/`、`index.html`：页面、样式、解析与绘图逻辑。
 - `catalog/`：收录配置、索引与集中来源记录。
 - `tools/`：目录生成和静态网站打包工具。
