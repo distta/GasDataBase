@@ -26,14 +26,23 @@
     if(!globalThis.crypto?.subtle)return null;
     return [...new Uint8Array(await crypto.subtle.digest('SHA-256',bytes))].map(v=>v.toString(16).padStart(2,'0')).join('');
   }
-  async function load(id) {
+  async function load(id,background=false) {
     if(state.cache.has(id))return state.cache.get(id);
     const file=lookup(id);
     if(!file)throw Error('文件不在当前目录。');
     const promise=(async()=>{
-      const response=await fetch(safeUrl(file),{cache:'no-cache'});
-      if(!response.ok)throw Error(`下载失败：HTTP ${response.status}`);
-      const bytes=await response.arrayBuffer();
+      // A content-specific URL can safely reuse the browser's disk cache.
+      const url=safeUrl(file);url.searchParams.set('sha256',file.sha256);
+      const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),20000);
+      let bytes;
+      try {
+        const response=await fetch(url,{cache:'force-cache',signal:controller.signal,priority:background?'low':'high'});
+        if(!response.ok)throw Error(`下载失败：HTTP ${response.status}`);
+        bytes=await response.arrayBuffer();
+      }catch(error){
+        if(error.name==='AbortError')throw Error('下载超时，请重新选择该气体重试。');
+        throw error;
+      }finally{clearTimeout(timer);}
       if(bytes.byteLength>50*1024*1024)throw Error('单文件超过 50 MiB，请缩小文件后重试。');
       const hash=await digest(bytes);
       if(hash && hash!==file.sha256)throw Error('文件已变化，目录索引尚未更新。请维护者运行 tools/catalog.py。');
@@ -43,6 +52,20 @@
     })();
     state.cache.set(id,promise);
     try{return await promise;}catch(error){state.cache.delete(id);throw error;}
+  }
+  let prefetchStarted=false;
+  function prefetchFiles() {
+    if(prefetchStarted || navigator.connection?.saveData || /(^|-)2g$/.test(navigator.connection?.effectiveType||''))return;
+    prefetchStarted=true;
+    // Keep background traffic bounded as the database grows: at most 8 small
+    // files, 1 MiB total and two concurrent requests, after the first plot.
+    let budget=1024*1024;
+    const queue=state.results.slice(0,8).map(item=>item.file).filter(file=>{
+      if(state.cache.has(file.id)||!file.size_bytes||file.size_bytes>budget)return false;
+      budget-=file.size_bytes;return true;
+    });
+    const worker=async()=>{while(queue.length){const file=queue.shift();try{await load(file.id,true);}catch{ /* Retry on explicit selection. */ }}};
+    setTimeout(()=>{void worker();void worker();},300);
   }
   function download(name,data,type) {
     const url=URL.createObjectURL(new Blob([data],{type}));
@@ -203,7 +226,7 @@
     $('plotThermo').textContent=sameThermo?fmt(entries[0].gas.temperature-273.15)+' °C · '+fmt(entries[0].gas.pressure/760)+' atm':'多种温压 · 见图例';
     $('plotThermo').title=entries.map(e=>`${e.file.label}: ${fmt(e.gas.temperature)} K · ${fmt(e.gas.pressure)} Torr`).join('\n');
     fillSelect('plotB',[...new Set(entries.flatMap(e=>e.file.magnetic_fields))].sort((a,b)=>a-b),v=>`${fmt(v)} T`);
-    updateAngles();setRange(false);
+    updateAngles();setRange(false);prefetchFiles();
   }
   function updateAngles() {
     const b=Number($('plotB').value);
