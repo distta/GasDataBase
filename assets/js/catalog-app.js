@@ -193,6 +193,8 @@
   }
   function counts() {
     const ids=[...state.selected],showThermo=mixedThermo([...state.selected].map(lookup));
+    if(!ids.length)$('selectionToolbar').open=false;
+    $('selectionToolbar').querySelector('.selection-popover').hidden=!ids.length||!$('selectionToolbar').open;
     $('clearSelected').disabled=!ids.length;$('selectionCount').textContent=`已选 ${ids.length} 项`;
     $('returnComparison').hidden=state.mode==='compare'||!ids.length;
     $('selectedFiles').innerHTML=ids.map((id,i)=>{const f=lookup(id),label=displayLabel(f)+(showThermo?' · '+thermoLabel(f):'');return `<div class="selected-chip"><i class="swatch" style="background:${colors[i]}"></i><button class="text-button" data-preview="${id}">${esc(label)}</button>${f.local?'<span class="badge">本地</span>':''}<button data-remove="${id}" title="移出比较" aria-label="移除 ${esc(label)}">×</button></div>`;}).join('')||'<span class="hint">尚未选择文件</span>';
@@ -529,6 +531,11 @@
     $('returnComparison').onclick=()=>{state.mode='compare';counts();search();renderComparison();};
     $('closeNotice').onclick=()=>notice('');
     document.addEventListener('click',event=>{if(!event.composedPath().includes($('selectionToolbar')))$('selectionToolbar').open=false;});
+    $('selectionToolbar').addEventListener('toggle',()=>{
+      const toolbar=$('selectionToolbar');
+      if(!state.selected.size)toolbar.open=false;
+      toolbar.querySelector('.selection-popover').hidden=!state.selected.size||!toolbar.open;
+    });
     $('selectionToolbar').addEventListener('keydown',event=>{if(event.key==='Escape'){$('selectionToolbar').open=false;$('selectionToolbar').querySelector('summary').focus();}});
     $('closeDetail').onclick=()=>$('detailDialog').close();
     $('detailDialog').addEventListener('click',e=>{if(e.target===$('detailDialog')){const r=e.target.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)e.target.close();}});
