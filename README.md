@@ -22,3 +22,5 @@
 本地预览（可选）：`python3 tools/catalog.py --serve`。
 
 [维护说明](Doc/简易数据库维护说明.md) · [参数说明](Doc/气体参数展示约定.md)
+
+本地计算工作区中的 `original/`、`simulation/`、`runs/`、`reports/` 及入库、盘点工具保留在本机，由 `.gitignore` 排除。远程只维护网页、正式数据库和发布所需代码。
