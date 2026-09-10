@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Package the static Pages site, without computation runs or historical stock."""
 import json
+import hashlib
+import re
 import shutil
 from pathlib import Path
 
@@ -19,7 +21,13 @@ def build(root):
     if site.exists():
         shutil.rmtree(site)
     site.mkdir()
-    shutil.copy2(root / 'index.html', site / 'index.html')
+    html = (root / 'index.html').read_text()
+    def version_asset(match):
+        path = match['path']
+        digest = hashlib.sha256(catalog.safe_path(root, path).read_bytes()).hexdigest()[:16]
+        return f'{match["attribute"]}="{path}?v={digest}"'
+    html = re.sub(r'(?P<attribute>src|href)="(?P<path>assets/[^"?]+\.(?:js|css))"', version_asset, html)
+    (site / 'index.html').write_text(html)
     shutil.copytree(root / 'assets', site / 'assets')
     shutil.copytree(root / 'Doc', site / 'Doc')
     (site / 'catalog').mkdir()
