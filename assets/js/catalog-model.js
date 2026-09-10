@@ -39,12 +39,10 @@
     return gas;
   }
   function validateQuery(q) {
-    if (q.componentCount && q.components.filter(c=>c.name).length > q.componentCount) return '所选组分数量超过指定的气体类型。';
-    if (q.components.some(c => !c.name && c.fraction !== null)) return '请为已填写的比例选择气体。';
     const names = q.components.filter(c => c.name).map(c => c.name);
     if (new Set(names).size !== names.length) return '同一种气体只需填写一次。';
     if (q.components.some(c => c.fraction !== null && (!Number.isFinite(c.fraction) || c.fraction < 0 || c.fraction > 100))) return '比例应在 0–100% 之间。';
-    if (q.exactSet && names.length && q.components.filter(c=>c.name).every(c => c.fraction !== null) && Math.abs(q.components.reduce((s,c)=>s+(c.fraction || 0),0)-100) > .05) return '精确组分查询的比例总和应为 100%。';
+    if (q.exactSet && q.components.length && q.components.every(c => c.fraction !== null) && Math.abs(q.components.reduce((s,c)=>s+(c.fraction || 0),0)-100) > .05) return '精确组分查询的比例总和应为 100%。';
     if (![q.fractionTolerance, q.temperature, q.pressure, q.b, q.angle, q.minE, q.maxE].every(v => v === null || Number.isFinite(v))) return '请输入有效数值。';
     if (q.temperature !== null && q.temperature <= -273.15) return '温度必须高于绝对零度。';
     if (q.pressure !== null && q.pressure <= 0) return '压强必须大于 0。';
@@ -54,16 +52,21 @@
     return '';
   }
   function match(file, q) {
-    if (q.componentCount && file.components.length !== q.componentCount) return null;
-    if (q.nobleGas === 'none' && file.components.some(c=>nobleGases.includes(canonical(c.name)))) return null;
-    if (q.nobleGas && q.nobleGas !== 'none' && !file.components.some(c=>canonical(c.name)===q.nobleGas)) return null;
     const terms = q.text.toLowerCase().trim().split(/\s+/).filter(Boolean);
     const hay = [file.label, file.path, file.family, file.identifier, ...Object.values(file.metadata || {})].join(' ').toLowerCase();
     if (!terms.every(t => hay.includes(t))) return null;
-    const components = q.components.filter(c => c.name);
-    if (components.some(c => !file.components.some(f => canonical(f.name) === canonical(c.name) &&
-        (c.fraction === null || Math.abs(f.fraction-c.fraction) <= q.fractionTolerance + 1e-6)))) return null;
-    if (q.exactSet && components.length && file.components.length !== components.length) return null;
+    // Each row occupies one distinct component, including unnamed wildcard rows.
+    if (q.components.length && file.components.length !== q.components.length) return null;
+    const rows = [...q.components].sort((a,b)=>Number(Boolean(b.name))-Number(Boolean(a.name)));
+    const assign = (index, used) => {
+      if (index === rows.length) return true;
+      const row = rows[index];
+      return file.components.some((component,i) => !used.has(i) &&
+        (!row.name || canonical(component.name) === canonical(row.name)) &&
+        (row.fraction === null || Math.abs(component.fraction-row.fraction) <= q.fractionTolerance+1e-6) &&
+        assign(index+1, new Set([...used,i])));
+    };
+    if (!assign(0,new Set())) return null;
     if (q.temperature !== null && !near(file.temperature_k, q.temperature+273.15)) return null;
     if (q.pressure !== null && !near(file.pressure_atm, q.pressure)) return null;
     if (q.b !== null && !file.magnetic_fields.some(b => near(b,q.b))) return null;

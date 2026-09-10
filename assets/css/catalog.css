@@ -490,14 +490,12 @@ body{font-size:var(--type-body);font-weight:400}
 @media(max-width:550px){.file-table .table-sort{font-size:11px;line-height:1.4}.file-table .sort-arrow{right:-3px;font-size:9px}.file-table .sort-column{padding-left:5px;padding-right:8px}}
 
 /* Classification controls and a viewport-sized desktop workspace. */
-.category-filters{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px}
-.category-filters select{margin-top:6px}
 @media(min-width:1001px){
   body{height:100vh;height:100dvh;display:flex;flex-direction:column;overflow:hidden}
   .topbar{height:76px;min-height:76px;flex:none;padding-top:0;padding-bottom:0}
   .header-mascot img{height:70px;width:auto}.header-motto{font-size:18px}
   main{flex:1;min-height:0;width:100%;padding:12px 20px 0;display:flex;flex-direction:column;overflow:hidden}
-  .workspace{flex:1;min-height:0;align-items:stretch;gap:16px}
+  .workspace{flex:1;min-height:0;align-items:stretch;gap:16px;grid-template-columns:minmax(0,.84fr) minmax(0,1.16fr)}
   .catalog-browser{min-height:0;overflow:auto;padding-bottom:12px}
   .catalog-browser .filter-sidebar{flex:none}
   .catalog-browser .filter-sidebar>.workspace-heading{min-height:40px;padding:10px 0}
@@ -508,7 +506,8 @@ body{font-size:var(--type-body);font-weight:400}
   .catalog-browser .filters .filter-buttons{margin:10px 0}
   .workspace>.plot-column{display:block;min-height:0;overflow:auto}
   .plot-panel{min-height:100%;padding-bottom:10px}
-  .chart-container svg{max-height:42vh}
+  .chart-container{max-width:none;width:100%}
+  .chart-container svg{max-height:none}
   .plot-configuration{margin-top:8px;padding:8px}
   #view-maintain{min-height:0;overflow:auto}
   .site-footer{flex:none;width:calc(100% - 40px);max-width:none;margin:6px 20px 0;padding:5px 0;font-size:10px}

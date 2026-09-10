@@ -140,10 +140,10 @@
     $('componentRows').append(row);enhanceSelects();
   }
   function query() {
-    return {text:'',nobleGas:$('nobleGas').value,componentCount:(Number($('componentCount').value)||null),components:[...$('componentRows').children].map(row=>({name:row.querySelector('select').value,
+    return {text:'',components:[...$('componentRows').children].map(row=>({name:row.querySelector('select').value,
       fraction:row.querySelector('input[type=number]').value===''?null:row.querySelector('input[type=number]').valueAsNumber})),temperature:number('temperature'),pressure:number('pressure'),
       b:null,angle:null,minE:null,maxE:null,fractionTolerance:1,
-      exactSet:!(Number($('componentCount').value)||null)&&[...$('componentRows').querySelectorAll('select')].filter(s=>s.value).length>=2,partial:true};
+      exactSet:true,partial:true};
   }
   function sortHeader(key,label) {
     const active=state.sortKey===key,direction=active?(state.sortDirection===1?'ascending':'descending'):'none';
@@ -172,20 +172,14 @@
     $('results').innerHTML=state.results.length?`<table class="file-table" aria-label="气体文件检索结果"><thead><tr><th scope="col">比较</th>${sortHeader('recipe','气体配方')}${sortHeader('temperature','温度 (°C)')}${sortHeader('pressure','压强 (atm)')}<th scope="col">操作</th></tr></thead><tbody>${state.results.map(row).join('')}</tbody></table>`:'';
   }
 
-  function updateGasTypes() {
-    const base=$('nobleGas').value, noble=base && base!=='none';
-    const labels=['不限','Pure',...(noble?[`${base}+X（二元）`,`${base}+X+Y（三元）`,`${base}+X+Y+Z（四元）`]:['X+Y（二元）','X+Y+Z（三元）','X+Y+Z+W（四元）'])];
-    [...$('componentCount').options].forEach((option,i)=>{option.textContent=labels[i];});
-  }
-
   function resetSearch() {
     state.sortKey=null;state.sortDirection=1;
-    $('searchForm').reset();updateGasTypes();$('componentRows').replaceChildren();
+    $('searchForm').reset();$('componentRows').replaceChildren();
     addComponent();search();enhanceSelects();
   }
   function balanceRecipe(changed) {
     const rows=[...$('componentRows').children], named=rows.filter(r=>r.querySelector('select').value);
-    if(named.length===2 && rows.length===2 && (!(Number($('componentCount').value)||null) || (Number($('componentCount').value)||null)===2)) {
+    if(named.length===2 && rows.length===2) {
       const other=named.map(r=>r.querySelector('input[type=number]')).find(i=>i!==changed);
       if(changed.value==='')other.value='';
       else if(Number.isFinite(changed.valueAsNumber)&&changed.valueAsNumber>=0&&changed.valueAsNumber<=100)other.value=Number((100-changed.valueAsNumber).toFixed(6));
@@ -359,7 +353,7 @@
           return Math.abs(rounded)>=1e6||Math.abs(rounded)<.0001?rounded.toExponential().replace('e+','e'):String(rounded);
         };
         const message=shortLabel(s.entry.file)+(showThermo?'\n'+thermoLabel(s.entry.file):'')+'\n'+axisLabel+' = '+hoverNumber(pt.x)+' '+unit+(axis==='E'?' ('+hoverNumber(pt.record.E)+' V/cm)':'')+'\n'+p.label+' = '+hoverNumber(pt.y)+' '+p.unit;
-        circle.append(svgNode('title',{},message));
+        circle.setAttribute('aria-label',message);
         circle.addEventListener('pointerenter',event=>{
           if(zoomDrag)return;
           const bounds=svg.parentElement.getBoundingClientRect(),tooltip=$('chartTooltip');
@@ -521,8 +515,8 @@
     });
     $('results').addEventListener('change',event=>{if(event.target.dataset.select)select(event.target.dataset.select,event.target.checked);});
     $('searchForm').onsubmit=e=>{e.preventDefault();search();};
-    $('searchForm').addEventListener('input',search);$('searchForm').addEventListener('change',()=>{updateGasTypes();search();enhanceSelects();});
-    $('addComponent').onclick=()=>{addComponent();};$('resetSearch').onclick=resetSearch;$('emptyReset').onclick=resetSearch;
+    $('searchForm').addEventListener('input',search);$('searchForm').addEventListener('change',()=>{search();enhanceSelects();});
+    $('addComponent').onclick=()=>{addComponent();search();};$('resetSearch').onclick=resetSearch;$('emptyReset').onclick=resetSearch;
     $('compareVisible').onclick=()=>{for(const {file} of state.results){if(state.selected.size>=8)break;state.selected.add(file.id);}if(state.results.some(({file})=>!state.selected.has(file.id)))notice('最多比较 8 份文件，未加入超出数量的结果。');state.mode='compare';counts();search();renderComparison();};
     $('clearSelected').onclick=()=>{state.selected.clear();state.mode='preview';counts();search();renderComparison();};
     $('returnComparison').onclick=()=>{state.mode='compare';counts();search();renderComparison();};

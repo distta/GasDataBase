@@ -26,11 +26,7 @@
       <details class="filter-sidebar panel" id="filterDrawer" open>
         <summary class="workspace-heading"><span class="heading-icon" aria-hidden="true">⌕</span> 筛选条件 <span class="mobile-filter-hint">展开 / 收起</span></summary>
         <form id="searchForm" class="filters">
-          <div class="category-filters">
-            <label>稀有气体<select id="nobleGas" aria-label="稀有气体"><option value="">不限</option><option>He</option><option>Ne</option><option>Ar</option><option>Kr</option><option>Xe</option><option value="none">无稀有气体</option></select></label>
-            <label>气体类型<select id="componentCount" aria-label="气体类型"><option value="">不限</option><option value="1">Pure</option><option value="2">X+Y（二元）</option><option value="3">X+Y+Z（三元）</option><option value="4">X+Y+Z+W（四元）</option></select></label>
-          </div>
-          <div class="mixture-filter"><label>组分与比例</label><div id="componentRows"></div></div>
+          <div class="mixture-filter"><label>组分与比例</label><div id="componentRows"></div><p class="hint">组分行数决定元数；每行可选不限。</p></div>
           <div class="field-grid thermo-filter">
             <label>温度 <span class="unit">°C</span><input id="temperature" type="number" step="any" placeholder="不限"></label>
             <label>压强 <span class="unit">atm</span><input id="pressure" type="number" step="any" min="0" placeholder="不限"></label>
