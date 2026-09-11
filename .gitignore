@@ -13,7 +13,6 @@ __pycache__/
 /simulation/
 /catalog/gas_index.json
 /catalog/gas_index_report.md
-/catalog/path-migration.json
 /tools/ingest.py
 /tools/inventory.py
 /tests/browser_catalog.py
@@ -21,4 +20,3 @@ __pycache__/
 /tests/test_fraction_rounding.py
 /tests/test_ingest.py
 /tests/test_inventory.py
-/Doc/气体数据整理与计算方案.md

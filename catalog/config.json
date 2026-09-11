@@ -187,6 +187,84 @@
       "label": "Xe / iC4H10",
       "directory": "GasDataBase/Xe+X/Xe_iC4H10",
       "description": "当前收录气体表；温压、场网格和来源以各文件记录为准"
+    },
+    {
+      "id": "ar_cf4_ic4h10",
+      "label": "Ar / CF4 / iC4H10",
+      "directory": "GasDataBase/Ar+X+Y/Ar_CF4_iC4H10",
+      "description": "同设置自动合并的当前数据"
+    },
+    {
+      "id": "ar_co2_ic4h10",
+      "label": "Ar / CO2 / iC4H10",
+      "directory": "GasDataBase/Ar+X+Y/Ar_CO2_iC4H10",
+      "description": "同设置自动合并的当前数据"
+    },
+    {
+      "id": "ar_cf4_co2",
+      "label": "Ar / CF4 / CO2",
+      "directory": "GasDataBase/Ar+X+Y/Ar_CF4_CO2",
+      "description": "同设置自动合并的当前数据"
+    },
+    {
+      "id": "he_cf4",
+      "label": "He / CF4",
+      "directory": "GasDataBase/He+X/He_CF4",
+      "description": "同设置自动合并的当前数据"
+    },
+    {
+      "id": "dme",
+      "label": "DME",
+      "directory": "GasDataBase/Pure/DME",
+      "description": "同设置自动合并的当前数据"
+    },
+    {
+      "id": "cf4",
+      "label": "CF4",
+      "directory": "GasDataBase/Pure/CF4",
+      "description": "同设置自动合并的当前数据"
+    },
+    {
+      "id": "he_dme",
+      "label": "He / DME",
+      "directory": "GasDataBase/He+X/He_DME",
+      "description": "同设置自动合并的当前数据"
+    },
+    {
+      "id": "he_ic4h10",
+      "label": "He / iC4H10",
+      "directory": "GasDataBase/He+X/He_iC4H10",
+      "description": "同设置自动合并的当前数据"
+    },
+    {
+      "id": "he_co2",
+      "label": "He / CO2",
+      "directory": "GasDataBase/He+X/He_CO2",
+      "description": "同设置自动合并的当前数据"
+    },
+    {
+      "id": "xe_dme",
+      "label": "Xe / DME",
+      "directory": "GasDataBase/Xe+X/Xe_DME",
+      "description": "同设置自动合并的当前数据"
+    },
+    {
+      "id": "ar_xe_dme",
+      "label": "Ar / Xe / DME",
+      "directory": "GasDataBase/Ar+X+Y/Ar_Xe_DME",
+      "description": "同设置自动合并的当前数据"
+    },
+    {
+      "id": "ar_ch4_co2",
+      "label": "Ar / CH4 / CO2",
+      "directory": "GasDataBase/Ar+X+Y/Ar_CH4_CO2",
+      "description": "同设置自动合并的当前数据"
+    },
+    {
+      "id": "ne_co2_n2",
+      "label": "Ne / CO2 / N2",
+      "directory": "GasDataBase/Ne+X+Y/Ne_CO2_N2",
+      "description": "同设置自动合并的当前数据"
     }
   ],
   "reference_profile": {
