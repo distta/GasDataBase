@@ -5,7 +5,7 @@
   const $ = id => document.getElementById(id);
   const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const fmt=M.fmt, colors=['#2455a4','#c83232','#278348','#8055a5','#d7851f','#39a0b5','#aa487b','#555555'];
-  const state={catalog:null,collection:'',results:[],selected:new Set(),cache:new Map(),locals:new Map(),view:'catalog',params:[],plot:[],epoch:0,localCounter:0,preview:null,mode:'preview',group:'drift',sortKey:null,sortDirection:1};
+  const state={catalog:null,collection:'',results:[],selected:new Set(),cache:new Map(),locals:new Map(),view:'catalog',params:[],plot:[],epoch:0,localCounter:0,preview:null,mode:'preview',group:'drift'};
   const number = id => $(id).value.trim()==='' ? null : $(id).valueAsNumber;
   const range = values => values.length > 1 ? `${fmt(values[0])}–${fmt(values[values.length-1])}` : values.length ? fmt(values[0]) : '—';
   const chemicalName = name => name.replace(/\d/g,d=>'₀₁₂₃₄₅₆₇₈₉'[Number(d)]);
@@ -147,17 +147,15 @@
       b:null,angle:null,minE:null,maxE:null,fractionTolerance:1,fuzzyMatching:true,
       exactSet:true,partial:true};
   }
-  function sortHeader(key,label) {
-    const active=state.sortKey===key,direction=active?(state.sortDirection===1?'ascending':'descending'):'none';
-    const next=active?(state.sortDirection===1?'降序':'恢复相关性排序'):'升序';
-    return `<th scope="col" aria-sort="${direction}" class="sort-column sort-${key}"><button type="button" class="table-sort" data-sort="${key}" title="${next}" aria-label="${label}：${next}"><span>${label}</span><span class="sort-arrow" aria-hidden="true">${active?(state.sortDirection===1?'↑':'↓'):'↕'}</span></button></th>`;
+  function tableHeader(key,label) {
+    return `<th scope="col" class="sort-column sort-${key}"><span class="table-heading">${label}</span></th>`;
   }
   function search() {
     if(!state.catalog)return;
     const scrollTop=$('results').scrollTop;
     const q=query(),error=M.validateQuery(q);
     $('queryError').textContent=error;$('queryError').hidden=!error;
-    state.results=error?[]:state.catalog.files.map(file=>({file,match:M.match(file,q)})).filter(item=>item.match).sort((a,b)=>M.compareTableFiles(a.file,b.file,q,state.sortKey,state.sortDirection));
+    state.results=error?[]:state.catalog.files.map(file=>({file,match:M.match(file,q)})).filter(item=>item.match).sort((a,b)=>M.compareFiles(a.file,b.file,q));
     const groups=new Map();
     state.results.forEach(item=>{const key=JSON.stringify(item.file.components.map(c=>[M.canonical(c.name),c.fraction]).sort());if(!groups.has(key))groups.set(key,[]);groups.get(key).push(item);});
     $('resultCount').textContent=`${groups.size} 种 / ${state.results.length} 份`;
@@ -173,12 +171,11 @@
       <td class="file-facts" title="${fmt(f.temperature_k)} K">${fmt(f.temperature_k-273.15)}</td>
       <td title="${fmt(f.pressure_torr)} Torr">${fmt(f.pressure_atm)}</td>
       <td class="row-actions"><button class="text-button" data-detail="${f.id}">详情</button><button class="text-button" data-download="${f.id}" aria-label="下载 ${esc(displayLabel(f))}">下载</button></td></tr>`;
-    $('results').innerHTML=state.results.length?`<table class="file-table" aria-label="气体文件检索结果"><thead><tr><th scope="col">比较</th>${sortHeader('recipe','气体配方')}${sortHeader('temperature','温度 (°C)')}${sortHeader('pressure','压强 (atm)')}<th scope="col">操作</th></tr></thead><tbody>${state.results.map(row).join('')}</tbody></table>`:'';
+    $('results').innerHTML=state.results.length?`<table class="file-table" aria-label="气体文件检索结果"><thead><tr><th scope="col">比较</th>${tableHeader('recipe','气体配方')}${tableHeader('temperature','温度 (°C)')}${tableHeader('pressure','压强 (atm)')}<th scope="col">操作</th></tr></thead><tbody>${state.results.map(row).join('')}</tbody></table>`:'';
     $('results').scrollTop=scrollTop;
   }
 
   function resetSearch() {
-    state.sortKey=null;state.sortDirection=1;
     $('searchForm').reset();$('componentRows').replaceChildren();
     addComponent();search();enhanceSelects();
   }
@@ -511,14 +508,6 @@
       if(el.classList.contains('local-trigger'))$('localFiles').click();
     });
     $('results').addEventListener('click',event=>{
-      const sort=event.target.closest('[data-sort]');
-      if(sort){
-        const key=sort.dataset.sort;
-        if(state.sortKey!==key){state.sortKey=key;state.sortDirection=1;}
-        else if(state.sortDirection===1)state.sortDirection=-1;
-        else{state.sortKey=null;state.sortDirection=1;}
-        search();$('results').querySelector(`[data-sort="${key}"]`).focus();return;
-      }
       const card=event.target.closest('.file-row');
       if(card&&!event.target.closest('button, input, label, a, select, summary'))preview(card.dataset.file);
     });

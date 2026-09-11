@@ -12,8 +12,7 @@
   check(files.slice().sort((a,b)=>M.compareFiles(a,b,query)).map(f=>f.id), ['pressure','hot','exact','far','extra']);
   const recipes = [file('low',70),file('high',90),file('middle',80)];
   check(recipes.slice().sort((a,b)=>M.compareFiles(a,b,{components:[]})).map(f=>f.id), ['high','middle','low']);
-  check(recipes.slice().sort((a,b)=>M.compareTableFiles(a,b,query,'recipe',1)).map(f=>f.id), ['low','middle','high']);
-  check(recipes.slice().sort((a,b)=>M.compareTableFiles(a,b,query,'recipe',-1)).map(f=>f.id), ['high','middle','low']);
+  check(recipes.slice().sort((a,b)=>M.compareFiles(a,b,query)).map(f=>f.id), ['middle','high','low']);
   check(['CF4','Xe','iC4H10','Ne','Ar','He'].sort(M.componentOrder), ['He','Ne','Ar','Xe','CF4','iC4H10']);
   const wildcard = () => ({name:'',fraction:null});
   const filter = {text:'', components:[wildcard(),wildcard(),wildcard()], temperature:null, pressure:null,

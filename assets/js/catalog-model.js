@@ -81,8 +81,9 @@
     return {coverage: full ? '完整覆盖' : '部分覆盖'};
   }
   // Relevance ranks first; equal relevance uses descending recipe, percentages,
-  // pressure and temperature. Explicit column sorting can override this order.
-  function compareFiles(a,b,q,order=-1) {
+  // pressure and temperature. This order is fixed for all catalogue results.
+  function compareFiles(a,b,q) {
+    const order=-1;
     const requested=q.components.filter(c=>c.name).map(c=>({...c,name:canonical(c.name)}));
     const components=f=>[...f.components].map(c=>({...c,name:canonical(c.name)})).sort((a,b)=>componentOrder(a.name,b.name));
     const ac=components(a),bc=components(b);
@@ -114,21 +115,6 @@
     const names=[...requested.map(c=>c.name),...ac.map(c=>c.name)].filter((n,i,all)=>all.indexOf(n)===i);
     for(const name of names){const delta=(ac.find(c=>c.name===name)?.fraction??0)-(bc.find(c=>c.name===name)?.fraction??0);if(Math.abs(delta)>1e-6)return delta*order;}
     return (a.pressure_atm-b.pressure_atm)*order || (a.temperature_k-b.temperature_k)*order || String(a.path||a.id||'').localeCompare(String(b.path||b.id||''),'en');
-  }
-  function compareTableFiles(a,b,q,key,direction=1) {
-    if(!key)return compareFiles(a,b,q);
-    let delta=0;
-    if(key==='recipe') {
-      // Ignore query relevance for an explicit recipe sort; percentages remain numeric.
-      delta=compareFiles(a,b,{components:[]},1);
-    }else {
-      const field=key==='temperature'?'temperature_k':'pressure_atm';
-      const av=a[field],bv=b[field];
-      if(!Number.isFinite(av)||!Number.isFinite(bv)) {
-        if(Number.isFinite(av)!==Number.isFinite(bv))return Number.isFinite(av)?-1:1;
-      }else delta=av-bv;
-    }
-    return delta*direction || compareFiles(a,b,q);
   }
   const base = [
     ['veCmUs','沿 E 电子漂移速度','cm/μs',[0],'漂移速度','raw.ve'],
@@ -187,5 +173,5 @@
     return slice(gas,b,angle).filter(r=>(r.E>=min||near(r.E,min))&&(r.E<=max||near(r.E,max)))
       .map(r=>({x:r.E,y:param.get(r,gas),record:r}));
   }
-  return {bits,near,fmt,canonical,componentOrder,describe,parse,validateQuery,match,compareFiles,compareTableFiles,parameters,available,slice,series};
+  return {bits,near,fmt,canonical,componentOrder,describe,parse,validateQuery,match,compareFiles,parameters,available,slice,series};
 });

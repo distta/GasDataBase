@@ -476,19 +476,15 @@ body{font-size:var(--type-body);font-weight:400}
 #chart [data-point],#chart [data-axis-frame]{cursor:crosshair}
 .zoom-hint{font-size:11px;color:#687c88;margin-left:auto}
 
-/* Shared header/body alignment for the sortable gas catalogue. */
+/* Shared header/body alignment for the gas catalogue. */
 .file-table th,.file-table td{vertical-align:middle}
 .file-table .formula-line{display:grid;grid-template-columns:8px minmax(0,1fr);column-gap:4px;text-align:left}
 .file-table .formula-line .swatch{grid-column:1;grid-row:1}
 .file-table .recipe-name{grid-column:2;max-width:100%;text-align:left;padding:0}
 .file-table .preview-badge{grid-column:2;justify-self:start;margin:0}
-.file-table .table-sort{display:flex;align-items:center;justify-content:center;gap:4px;width:100%;padding:0;border:0;background:none;color:inherit;font:inherit;text-align:center;cursor:pointer}
-.file-table .table-sort>span:first-child{min-width:0}
-.file-table .sort-recipe .table-sort{display:inline-flex;width:auto;max-width:calc(100% - 12px);margin-left:12px;justify-content:flex-start;text-align:left}
-.file-table .sort-arrow{position:static;flex:none;font-size:10px;line-height:1;color:#85939d}
-
-.file-table th[aria-sort="ascending"],.file-table th[aria-sort="descending"],.file-table .table-sort:hover{color:#108b92}
-@media(max-width:550px){.file-table .table-sort{font-size:11px;line-height:1.4}.file-table .sort-arrow{font-size:9px}.file-table .sort-column{padding-left:5px;padding-right:8px}}
+.file-table .table-heading{display:block;text-align:center}
+.file-table .sort-recipe .table-heading{margin-left:12px;text-align:left}
+@media(max-width:550px){.file-table .table-heading{font-size:11px;line-height:1.4}.file-table .sort-column{padding-left:5px;padding-right:8px}}
 
 /* Classification controls and a viewport-sized desktop workspace. */
 @media(min-width:1001px){
@@ -523,11 +519,11 @@ body{font-size:var(--type-body);font-weight:400}
   .file-table td:nth-child(3),.file-table td:nth-child(4){font-size:12px!important;white-space:nowrap}
 }
 
-/* Keep thermodynamic labels, units and sort arrows on a single line. */
+/* Keep thermodynamic labels and units on a single line. */
 .file-table th.sort-temperature{width:90px}
 .file-table th.sort-pressure{width:100px}
-.file-table .sort-temperature .table-sort>span:first-child,
-.file-table .sort-pressure .table-sort>span:first-child{white-space:nowrap;overflow-wrap:normal;flex:none}
+.file-table .sort-temperature .table-heading,
+.file-table .sort-pressure .table-heading{white-space:nowrap;overflow-wrap:normal;flex:none}
 @media(max-width:550px){
   .file-table th.sort-temperature{width:80px}
   .file-table th.sort-pressure{width:90px}
