@@ -28,17 +28,22 @@ class CatalogueTests(unittest.TestCase):
         payload, report = catalog.assemble(ROOT)
         self.assertFalse(report["rejected"])
         provenance = json.loads((ROOT / 'catalog/provenance.json').read_text())['files']
-        self.assertEqual({r['path'] for r in payload['files']}, set(provenance))
-        self.assertEqual(report['accepted'], len(provenance))
+        metadata = json.loads((ROOT / 'catalog/metadata.json').read_text())['files']
+        current = {p for p in provenance if metadata.get(p, {}).get('status', 'current') == 'current'}
+        self.assertEqual({r['path'] for r in payload['files']}, current)
+        self.assertEqual(report['accepted'], len(current))
+        self.assertEqual({p.relative_to(ROOT).as_posix() for p in (ROOT / 'GasDataBase').rglob('*.gas')}, set(provenance))
+        self.assertEqual({r['path'] for r in report['ignored']}, set(provenance) - current)
         self.assertTrue(any(p.get('origin') == 'legacy' for p in provenance.values()))
-        for record in payload["files"]:
-            source = provenance[record['path']]
-            self.assertEqual(hashlib.sha256((ROOT / record['path']).read_bytes()).hexdigest(), source['sha256'])
+        for path, source in provenance.items():
+            self.assertEqual(hashlib.sha256((ROOT / path).read_bytes()).hexdigest(), source['sha256'])
             self.assertTrue(source['source_files'])
-            if source.get('origin') == 'legacy':
+            if source.get('origin') in {'legacy', 'user-import'}:
                 self.assertTrue(all(s['sha256'] == source['sha256'] for s in source['source_files']))
                 self.assertIsNone(source['config']['penning_enabled'])
-            else:
+        for record in payload["files"]:
+            source = provenance[record['path']]
+            if source.get('origin') not in {'legacy', 'user-import'}:
                 self.assertEqual(record['dimensions']['electric'], 31)
                 self.assertEqual(record['reference_check']['missing_magnetic_points'],
                                  [b for b in [0, 1] if b not in record['magnetic_fields']])

@@ -1450,6 +1450,581 @@
       "status": "current",
       "source": "本项目计算；同设置网格自动合并",
       "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar+X/Ar_CF4/Ar-97_CF4-3_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar+X/Ar_CF4/Ar-99_CF4-1_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar+X/Ar_CF4/Ar-98_CF4-2_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar+X/Ar_CF4/Ar-96_CF4-4_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar+X/Ar_C2H6/Ar-95_C2H6-5_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar+X/Ar_C2H6/Ar-90_C2H6-10_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar+X/Ar_C2H6/Ar-85_C2H6-15_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar+X/Ar_C2H6/Ar-80_C2H6-20_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar+X/Ar_C2H4/Ar-95_C2H4-5_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar+X/Ar_C2H4/Ar-90_C2H4-10_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar+X/Ar_C2H4/Ar-85_C2H4-15_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar+X/Ar_C2H4/Ar-80_C2H4-20_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar+X/Ar_C2H2/Ar-95_C2H2-5_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar+X/Ar_C2H2/Ar-90_C2H2-10_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar+X/Ar_C2H2/Ar-85_C2H2-15_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar+X/Ar_C2H2/Ar-80_C2H2-20_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar+X/Ar_C3H6/Ar-95_C3H6-5_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar+X/Ar_C3H6/Ar-90_C3H6-10_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar+X/Ar_C3H6/Ar-85_C3H6-15_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar+X/Ar_C3H6/Ar-80_C3H6-20_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar+X/Ar_C3H8/Ar-95_C3H8-5_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar+X/Ar_C3H8/Ar-90_C3H8-10_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar+X/Ar_C3H8/Ar-85_C3H8-15_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar+X/Ar_C3H8/Ar-80_C3H8-20_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar+X/Ar_nC4H10/Ar-95_nC4H10-5_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar+X/Ar_nC4H10/Ar-90_nC4H10-10_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar+X/Ar_nC4H10/Ar-85_nC4H10-15_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar+X/Ar_nC4H10/Ar-80_nC4H10-20_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar+X/Ar_neoC5H12/Ar-95_neoC5H12-5_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar+X/Ar_neoC5H12/Ar-90_neoC5H12-10_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar+X/Ar_neoC5H12/Ar-85_neoC5H12-15_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar+X/Ar_neoC5H12/Ar-80_neoC5H12-20_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar+X/Ar_H2/Ar-95_H2-5_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar+X/Ar_H2/Ar-90_H2-10_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar+X/Ar_H2/Ar-85_H2-15_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "本项目计算；同设置网格自动合并",
+      "notes": "关闭Penning；完整来源见 catalog/provenance.json；未进行重复稳定性或物理精度验收。"
+    },
+    "GasDataBase/Ar+X/Ar_C2H6/Ar-40_C2H6-60_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。"
+    },
+    "GasDataBase/Ar+X/Ar_C2H6/Ar-50_C2H6-50_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。"
+    },
+    "GasDataBase/Ar+X/Ar_C2H6/Ar-60_C2H6-40_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。"
+    },
+    "GasDataBase/Ar+X/Ar_C2H6/Ar-70_C2H6-30_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。"
+    },
+    "GasDataBase/Ar+X/Ar_C2H6/archive/Ar-80_C2H6-20_T293.15K_P760Torr__new-470c54a0295a.gas": {
+      "status": "archived",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。同配方和温压的当前数据为 GasDataBase/Ar+X/Ar_C2H6/Ar-80_C2H6-20_T293.15K_P760Torr.gas；此来源独立归档。"
+    },
+    "GasDataBase/Ar+X/Ar_C2H6/archive/Ar-90_C2H6-10_T293.15K_P760Torr__new-815b2ade6deb.gas": {
+      "status": "archived",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。同配方和温压的当前数据为 GasDataBase/Ar+X/Ar_C2H6/Ar-90_C2H6-10_T293.15K_P760Torr.gas；此来源独立归档。"
+    },
+    "GasDataBase/Ar+X/Ar_C2H6/archive/Ar-95_C2H6-5_T293.15K_P760Torr__new-e4bb254f5df8.gas": {
+      "status": "archived",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。同配方和温压的当前数据为 GasDataBase/Ar+X/Ar_C2H6/Ar-95_C2H6-5_T293.15K_P760Torr.gas；此来源独立归档。"
+    },
+    "GasDataBase/Ar+X/Ar_CF4/archive/Ar-60_CF4-40_T293.15K_P760Torr__new-951f072b4e08.gas": {
+      "status": "archived",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。同配方和温压的当前数据为 GasDataBase/Ar+X/Ar_CF4/Ar-60_CF4-40_T293.15K_P760Torr.gas；此来源独立归档。"
+    },
+    "GasDataBase/Ar+X/Ar_CF4/archive/Ar-70_CF4-30_T293.15K_P760Torr__new-9818a918bb9f.gas": {
+      "status": "archived",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。同配方和温压的当前数据为 GasDataBase/Ar+X/Ar_CF4/Ar-70_CF4-30_T293.15K_P760Torr.gas；此来源独立归档。"
+    },
+    "GasDataBase/Ar+X/Ar_CF4/archive/Ar-80_CF4-20_T293.15K_P760Torr__new-a7bde5fc4edd.gas": {
+      "status": "archived",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。同配方和温压的当前数据为 GasDataBase/Ar+X/Ar_CF4/Ar-80_CF4-20_T293.15K_P760Torr.gas；此来源独立归档。"
+    },
+    "GasDataBase/Ar+X/Ar_CF4/archive/Ar-90_CF4-10_T293.15K_P760Torr__new-cca449f4014e.gas": {
+      "status": "archived",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。同配方和温压的当前数据为 GasDataBase/Ar+X/Ar_CF4/Ar-90_CF4-10_T293.15K_P760Torr.gas；此来源独立归档。"
+    },
+    "GasDataBase/Ar+X/Ar_CH4/archive/Ar-50_CH4-50_T293.15K_P760Torr__new-af2e98fdd085.gas": {
+      "status": "archived",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。同配方和温压的当前数据为 GasDataBase/Ar+X/Ar_CH4/Ar-50_CH4-50_T293.15K_P760Torr.gas；此来源独立归档。每条记录含 8 个未解释扩展值；保留原值供检查"
+    },
+    "GasDataBase/Ar+X/Ar_CH4/archive/Ar-80_CH4-20_T293.15K_P760Torr__new-a0faba66ff83.gas": {
+      "status": "archived",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。同配方和温压的当前数据为 GasDataBase/Ar+X/Ar_CH4/Ar-80_CH4-20_T293.15K_P760Torr.gas；此来源独立归档。每条记录含 8 个未解释扩展值；保留原值供检查"
+    },
+    "GasDataBase/Ar+X/Ar_CH4/Ar-90_CH4-10_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。每条记录含 8 个未解释扩展值；保留原值供检查"
+    },
+    "GasDataBase/Ar+X/Ar_CH4/archive/Ar-95_CH4-5_T293.15K_P760Torr__new-6716c756fda0.gas": {
+      "status": "archived",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。同配方和温压的当前数据为 GasDataBase/Ar+X/Ar_CH4/Ar-95_CH4-5_T293.15K_P760Torr.gas；此来源独立归档。每条记录含 8 个未解释扩展值；保留原值供检查"
+    },
+    "GasDataBase/Ar+X/Ar_CO2/archive/Ar-70_CO2-30_T293.15K_P760Torr__new-3cb041172e09.gas": {
+      "status": "archived",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。同配方和温压的当前数据为 GasDataBase/Ar+X/Ar_CO2/Ar-70_CO2-30_T293.15K_P760Torr.gas；此来源独立归档。"
+    },
+    "GasDataBase/Ar+X/Ar_CO2/archive/Ar-85_CO2-15_T293.15K_P760Torr__new-456929e8c2e0.gas": {
+      "status": "archived",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。同配方和温压的当前数据为 GasDataBase/Ar+X/Ar_CO2/Ar-85_CO2-15_T293.15K_P760Torr.gas；此来源独立归档。"
+    },
+    "GasDataBase/Ar+X/Ar_CO2/archive/Ar-93_CO2-7_T293.15K_P760Torr__new-7a20c021fb6f.gas": {
+      "status": "archived",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。同配方和温压的当前数据为 GasDataBase/Ar+X/Ar_CO2/Ar-93_CO2-7_T293.15K_P760Torr.gas；此来源独立归档。"
+    },
+    "GasDataBase/Ar+X/Ar_N2/Ar-50_N2-50_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。"
+    },
+    "GasDataBase/Ar+X/Ar_N2/Ar-60_N2-40_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。"
+    },
+    "GasDataBase/Ar+X/Ar_N2/Ar-70_N2-30_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。"
+    },
+    "GasDataBase/Ar+X/Ar_N2/Ar-80_N2-20_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。"
+    },
+    "GasDataBase/Ar+X/Ar_N2/Ar-90_N2-10_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。"
+    },
+    "GasDataBase/Ar+X/Ar_iC4H10/archive/Ar-80_iC4H10-20_T293.15K_P760Torr__new-dc90c4a6bcf3.gas": {
+      "status": "archived",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。同配方和温压的当前数据为 GasDataBase/Ar+X/Ar_iC4H10/Ar-80_iC4H10-20_T293.15K_P760Torr.gas；此来源独立归档。每条记录含 8 个未解释扩展值；保留原值供检查"
+    },
+    "GasDataBase/Ar+X/Ar_iC4H10/archive/Ar-85_iC4H10-15_T293.15K_P760Torr__new-cb1f5d3b9246.gas": {
+      "status": "archived",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。同配方和温压的当前数据为 GasDataBase/Ar+X/Ar_iC4H10/Ar-85_iC4H10-15_T293.15K_P760Torr.gas；此来源独立归档。每条记录含 8 个未解释扩展值；保留原值供检查"
+    },
+    "GasDataBase/Ar+X/Ar_iC4H10/archive/Ar-90_iC4H10-10_T293.15K_P760Torr__new-ae5c8c1c55e0.gas": {
+      "status": "archived",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。同配方和温压的当前数据为 GasDataBase/Ar+X/Ar_iC4H10/Ar-90_iC4H10-10_T293.15K_P760Torr.gas；此来源独立归档。每条记录含 8 个未解释扩展值；保留原值供检查"
+    },
+    "GasDataBase/Ar+X/Ar_iC4H10/archive/Ar-90_iC4H10-10_T293.15K_P760Torr__new-5aba70be20c3.gas": {
+      "status": "archived",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。同配方和温压的当前数据为 GasDataBase/Ar+X/Ar_iC4H10/Ar-90_iC4H10-10_T293.15K_P760Torr.gas；此来源独立归档。每条记录含 8 个未解释扩展值；保留原值供检查"
+    },
+    "GasDataBase/Ar+X/Ar_iC4H10/archive/Ar-95_iC4H10-5_T293.15K_P760Torr__new-5d3318f470dd.gas": {
+      "status": "archived",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。同配方和温压的当前数据为 GasDataBase/Ar+X/Ar_iC4H10/Ar-95_iC4H10-5_T293.15K_P760Torr.gas；此来源独立归档。每条记录含 8 个未解释扩展值；保留原值供检查"
+    },
+    "GasDataBase/Ar+X/Ar_iC4H10/archive/Ar-98_iC4H10-2_T293.15K_P760Torr__new-2dc11e075ef9.gas": {
+      "status": "archived",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。同配方和温压的当前数据为 GasDataBase/Ar+X/Ar_iC4H10/Ar-98_iC4H10-2_T293.15K_P760Torr.gas；此来源独立归档。"
+    },
+    "GasDataBase/Ne+X/Ne_CF4/Ne-60_CF4-40_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。每条记录含 8 个未解释扩展值；保留原值供检查"
+    },
+    "GasDataBase/Ne+X/Ne_CF4/archive/Ne-70_CF4-30_T293.15K_P760Torr__new-422632c19e09.gas": {
+      "status": "archived",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。同配方和温压的当前数据为 GasDataBase/Ne+X/Ne_CF4/Ne-70_CF4-30_T293.15K_P760Torr.gas；此来源独立归档。每条记录含 8 个未解释扩展值；保留原值供检查"
+    },
+    "GasDataBase/Ne+X/Ne_CF4/archive/Ne-80_CF4-20_T293.15K_P760Torr__new-1bce9176bb38.gas": {
+      "status": "archived",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。同配方和温压的当前数据为 GasDataBase/Ne+X/Ne_CF4/Ne-80_CF4-20_T293.15K_P760Torr.gas；此来源独立归档。每条记录含 8 个未解释扩展值；保留原值供检查"
+    },
+    "GasDataBase/Ne+X/Ne_CF4/archive/Ne-90_CF4-10_T293.15K_P760Torr__new-93d7f8f2580b.gas": {
+      "status": "archived",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。同配方和温压的当前数据为 GasDataBase/Ne+X/Ne_CF4/Ne-90_CF4-10_T293.15K_P760Torr.gas；此来源独立归档。每条记录含 8 个未解释扩展值；保留原值供检查"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CF4_CO2/archive/Ar-45_CF4-40_CO2-15_T293.15K_P760Torr__new-fff860951545.gas": {
+      "status": "archived",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。同配方和温压的当前数据为 GasDataBase/Ar+X+Y/Ar_CF4_CO2/Ar-45_CF4-40_CO2-15_T293.15K_P760Torr.gas；此来源独立归档。"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CF4_CO2/archive/Ar-45_CF4-40_CO2-15_T293.15K_P760Torr__new-e8eb8377ae98.gas": {
+      "status": "archived",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。同配方和温压的当前数据为 GasDataBase/Ar+X+Y/Ar_CF4_CO2/Ar-45_CF4-40_CO2-15_T293.15K_P760Torr.gas；此来源独立归档。每条记录含 8 个未解释扩展值；保留原值供检查"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/archive/Ar-45_CF4-40_iC4H10-15_T293.15K_P760Torr__new-c215d866d911.gas": {
+      "status": "archived",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。同配方和温压的当前数据为 GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/Ar-45_CF4-40_iC4H10-15_T293.15K_P760Torr.gas；此来源独立归档。每条记录含 8 个未解释扩展值；保留原值供检查"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/Ar-45_CF4-53_iC4H10-2_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。每条记录含 8 个未解释扩展值；保留原值供检查"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/archive/Ar-53_CF4-45_iC4H10-2_T293.15K_P760Torr__new-36ff4e314b9e.gas": {
+      "status": "archived",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。同配方和温压的当前数据为 GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/Ar-53_CF4-45_iC4H10-2_T293.15K_P760Torr.gas；此来源独立归档。每条记录含 8 个未解释扩展值；保留原值供检查"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/archive/Ar-58_CF4-40_iC4H10-2_T293.15K_P760Torr__new-6ab5b951eeb8.gas": {
+      "status": "archived",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。同配方和温压的当前数据为 GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/Ar-58_CF4-40_iC4H10-2_T293.15K_P760Torr.gas；此来源独立归档。每条记录含 8 个未解释扩展值；保留原值供检查"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/Ar-63_CF4-35_iC4H10-2_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。每条记录含 8 个未解释扩展值；保留原值供检查"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/Ar-68_CF4-30_iC4H10-2_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。每条记录含 8 个未解释扩展值；保留原值供检查"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/archive/Ar-73_CF4-25_iC4H10-2_T293.15K_P760Torr__new-ed5428eab34e.gas": {
+      "status": "archived",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。同配方和温压的当前数据为 GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/Ar-73_CF4-25_iC4H10-2_T293.15K_P760Torr.gas；此来源独立归档。每条记录含 8 个未解释扩展值；保留原值供检查"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/Ar-78_CF4-20_iC4H10-2_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。每条记录含 8 个未解释扩展值；保留原值供检查"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/archive/Ar-88_CF4-10_iC4H10-2_T293.15K_P760Torr__new-815837f6d08e.gas": {
+      "status": "archived",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。同配方和温压的当前数据为 GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/Ar-88_CF4-10_iC4H10-2_T293.15K_P760Torr.gas；此来源独立归档。每条记录含 8 个未解释扩展值；保留原值供检查"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/Ar-93_CF4-5_iC4H10-2_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。每条记录含 8 个未解释扩展值；保留原值供检查"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/archive/Ar-45_CF4-40_iC4H10-15_T293.15K_P760Torr__new-f7c107b7ac86.gas": {
+      "status": "archived",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。同配方和温压的当前数据为 GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/Ar-45_CF4-40_iC4H10-15_T293.15K_P760Torr.gas；此来源独立归档。每条记录含 8 个未解释扩展值；保留原值供检查"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CO2_iC4H10/Ar-68_CO2-30_iC4H10-2_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CO2_iC4H10/Ar-73_CO2-25_iC4H10-2_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CO2_iC4H10/Ar-78_CO2-20_iC4H10-2_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CO2_iC4H10/Ar-83_CO2-15_iC4H10-2_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CO2_iC4H10/Ar-85_CO2-13_iC4H10-2_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CO2_iC4H10/Ar-91_CO2-7_iC4H10-2_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CO2_iC4H10/archive/Ar-93_CO2-5_iC4H10-2_T293.15K_P760Torr__new-625c8f4573ec.gas": {
+      "status": "archived",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。同配方和温压的当前数据为 GasDataBase/Ar+X+Y/Ar_CO2_iC4H10/Ar-93_CO2-5_iC4H10-2_T293.15K_P760Torr.gas；此来源独立归档。"
+    },
+    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/archive/Ne-80_C2H6-10_CF4-10_T293.15K_P760Torr__new-6a6de4e701ea.gas": {
+      "status": "archived",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。同配方和温压的当前数据为 GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-80_C2H6-10_CF4-10_T293.15K_P760Torr.gas；此来源独立归档。每条记录含 8 个未解释扩展值；保留原值供检查"
+    },
+    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/archive/Ne-80_C2H6-10_CF4-10_T293.15K_P760Torr__new-dfb0f8cba625.gas": {
+      "status": "archived",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。同配方和温压的当前数据为 GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-80_C2H6-10_CF4-10_T293.15K_P760Torr.gas；此来源独立归档。每条记录含 8 个未解释扩展值；保留原值供检查"
+    },
+    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/archive/Ne-80_C2H6-10_CF4-10_T293.15K_P760Torr__new-9eae59c181bd.gas": {
+      "status": "archived",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。同配方和温压的当前数据为 GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-80_C2H6-10_CF4-10_T293.15K_P760Torr.gas；此来源独立归档。每条记录含 8 个未解释扩展值；保留原值供检查"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/archive/Ar-65_CF4-28_iC4H10-7_T293.15K_P760Torr__new-d3700f9a6d52.gas": {
+      "status": "archived",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。同配方和温压的当前数据为 GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/Ar-65_CF4-28_iC4H10-7_T293.15K_P760Torr.gas；此来源独立归档。每条记录含 8 个未解释扩展值；保留原值供检查"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/archive/Ar-88_CF4-10_iC4H10-2_T293.15K_P760Torr__new-ab5328b213c2.gas": {
+      "status": "archived",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。同配方和温压的当前数据为 GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/Ar-88_CF4-10_iC4H10-2_T293.15K_P760Torr.gas；此来源独立归档。每条记录含 8 个未解释扩展值；保留原值供检查"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/archive/Ar-88_CF4-10_iC4H10-2_T293.15K_P760Torr__new-0b1b7def4ac0.gas": {
+      "status": "archived",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。同配方和温压的当前数据为 GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/Ar-88_CF4-10_iC4H10-2_T293.15K_P760Torr.gas；此来源独立归档。每条记录含 8 个未解释扩展值；保留原值供检查"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CF4_CO2/Ar-35_CF4-30_CO2-35_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CF4_CO2/Ar-39_CF4-28_CO2-33_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CF4_CO2/Ar-42.1053_CF4-26.3158_CO2-31.5789_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。Identifier 比例存在显示舍入；与 Mixture 在末位半单位内一致，展示保留 Identifier 比例"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CF4_CO2/Ar-42_CF4-26_CO2-32_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CF4_CO2/Ar-45_CF4-20_CO2-35_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CF4_CO2/Ar-45_CF4-25_CO2-30_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CF4_CO2/Ar-45_CF4-30_CO2-25_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CF4_CO2/Ar-45_CF4-35_CO2-20_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CF4_CO2/archive/Ar-45_CF4-40_CO2-15_T293.15K_P760Torr__new-d53d884b7e56.gas": {
+      "status": "archived",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。同配方和温压的当前数据为 GasDataBase/Ar+X+Y/Ar_CF4_CO2/Ar-45_CF4-40_CO2-15_T293.15K_P760Torr.gas；此来源独立归档。"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CF4_CO2/Ar-48_CF4-24_CO2-28_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CF4_CO2/Ar-50_CF4-23_CO2-27_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。"
+    },
+    "GasDataBase/Pure/Ar/Ar-100_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。"
+    },
+    "GasDataBase/Pure/CF4/archive/CF4-100_T293.15K_P760Torr__new-b341507cf7b9.gas": {
+      "status": "archived",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。同配方和温压的当前数据为 GasDataBase/Pure/CF4/CF4-100_T293.15K_P760Torr.gas；此来源独立归档。"
+    },
+    "GasDataBase/Pure/CH4/archive/CH4-100_T293.15K_P760Torr__new-8fe6b88d560a.gas": {
+      "status": "archived",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。同配方和温压的当前数据为 GasDataBase/Pure/CH4/CH4-100_T293.15K_P760Torr.gas；此来源独立归档。"
+    },
+    "GasDataBase/Pure/CO2/CO2-100_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。"
+    },
+    "GasDataBase/Pure/H2/H2-100_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。"
+    },
+    "GasDataBase/Pure/He/archive/He-100_T293.15K_P760Torr__new-913ce2fce2ae.gas": {
+      "status": "archived",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。同配方和温压的当前数据为 GasDataBase/Pure/He/He-100_T293.15K_P760Torr.gas；此来源独立归档。"
+    },
+    "GasDataBase/Pure/N2/N2-100_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。"
+    },
+    "GasDataBase/Pure/O2/O2-100_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。"
+    },
+    "GasDataBase/Pure/Xe/archive/Xe-100_T293.15K_P760Torr__new-c4ca7165d11c.gas": {
+      "status": "archived",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。同配方和温压的当前数据为 GasDataBase/Pure/Xe/Xe-100_T293.15K_P760Torr.gas；此来源独立归档。"
+    },
+    "GasDataBase/Pure/iC4H10/iC4H10-100_T293.15K_P760Torr.gas": {
+      "status": "current",
+      "source": "用户提供的 new 目录；原始路径和 SHA256 见 catalog/provenance.json",
+      "notes": "保留原始字节；软件版本、统计设置及 Penning 状态未知，未与其他来源拼接。"
     }
   }
 }

@@ -265,6 +265,96 @@
       "label": "Ne / CO2 / N2",
       "directory": "GasDataBase/Ne+X+Y/Ne_CO2_N2",
       "description": "同设置自动合并的当前数据"
+    },
+    {
+      "id": "ar_c2h6",
+      "label": "Ar / C2H6",
+      "directory": "GasDataBase/Ar+X/Ar_C2H6",
+      "description": "同设置自动合并的当前数据"
+    },
+    {
+      "id": "ar_c2h4",
+      "label": "Ar / C2H4",
+      "directory": "GasDataBase/Ar+X/Ar_C2H4",
+      "description": "同设置自动合并的当前数据"
+    },
+    {
+      "id": "ar_c2h2",
+      "label": "Ar / C2H2",
+      "directory": "GasDataBase/Ar+X/Ar_C2H2",
+      "description": "同设置自动合并的当前数据"
+    },
+    {
+      "id": "ar_c3h6",
+      "label": "Ar / C3H6",
+      "directory": "GasDataBase/Ar+X/Ar_C3H6",
+      "description": "同设置自动合并的当前数据"
+    },
+    {
+      "id": "ar_c3h8",
+      "label": "Ar / C3H8",
+      "directory": "GasDataBase/Ar+X/Ar_C3H8",
+      "description": "同设置自动合并的当前数据"
+    },
+    {
+      "id": "ar_nc4h10",
+      "label": "Ar / nC4H10",
+      "directory": "GasDataBase/Ar+X/Ar_nC4H10",
+      "description": "同设置自动合并的当前数据"
+    },
+    {
+      "id": "ar_neoc5h12",
+      "label": "Ar / neoC5H12",
+      "directory": "GasDataBase/Ar+X/Ar_neoC5H12",
+      "description": "同设置自动合并的当前数据"
+    },
+    {
+      "id": "ar_h2",
+      "label": "Ar / H2",
+      "directory": "GasDataBase/Ar+X/Ar_H2",
+      "description": "同设置自动合并的当前数据"
+    },
+    {
+      "id": "ar_n2",
+      "label": "Ar / N2",
+      "directory": "GasDataBase/Ar+X/Ar_N2",
+      "description": "已收录气体表"
+    },
+    {
+      "id": "ar",
+      "label": "Ar",
+      "directory": "GasDataBase/Pure/Ar",
+      "description": "已收录气体表"
+    },
+    {
+      "id": "co2",
+      "label": "CO2",
+      "directory": "GasDataBase/Pure/CO2",
+      "description": "已收录气体表"
+    },
+    {
+      "id": "h2",
+      "label": "H2",
+      "directory": "GasDataBase/Pure/H2",
+      "description": "已收录气体表"
+    },
+    {
+      "id": "n2",
+      "label": "N2",
+      "directory": "GasDataBase/Pure/N2",
+      "description": "已收录气体表"
+    },
+    {
+      "id": "o2",
+      "label": "O2",
+      "directory": "GasDataBase/Pure/O2",
+      "description": "已收录气体表"
+    },
+    {
+      "id": "ic4h10",
+      "label": "iC4H10",
+      "directory": "GasDataBase/Pure/iC4H10",
+      "description": "已收录气体表"
     }
   ],
   "reference_profile": {
