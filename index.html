@@ -31,6 +31,11 @@
             <label>温度 <span class="unit">°C</span><input id="temperature" type="number" step="any" placeholder="不限"></label>
             <label>压强 <span class="unit">atm</span><input id="pressure" type="number" step="any" min="0" placeholder="不限"></label>
           </div>
+          <div class="field-grid field-filter">
+            <label>磁场 B <span class="unit">T</span><select id="plotB" aria-label="磁场筛选"></select></label>
+            <label>夹角 θ <span class="unit">°</span><select id="plotAngle" aria-label="夹角筛选"></select></label>
+          </div>
+          <p class="hint">磁场与夹角同时用于筛选和绘图；B=0 时不区分夹角。</p>
           <p id="queryError" class="error-text" role="alert" hidden></p>
           <div class="filter-buttons"><button id="addComponent" type="button" class="text-button">＋ 添加组分</button><button id="resetSearch" type="button" class="button secondary">重置</button></div>
         </form>
@@ -52,7 +57,7 @@
           <div class="plot-context"><span id="plotContext" class="sr-only">选择文件即可预览</span><button id="returnComparison" class="text-button" hidden>返回已选文件比较</button></div>
           <div id="compareEmpty" class="empty-state"><h3>选择一个配方查看曲线</h3></div>
           <div id="compareWorkspace" hidden>
-            <div class="plot-configuration"><label class="parameter-control"><span class="sr-only">分量 / 参数</span><select id="parameter" aria-label="分量 / 参数"></select></label><div class="plot-condition-bar"><label>B <select id="plotB" aria-label="绘图磁场"></select></label><label>θ <select id="plotAngle" aria-label="绘图夹角"></select></label><span id="plotThermo"></span></div></div>
+            <div class="plot-configuration"><label class="parameter-control"><span class="sr-only">分量 / 参数</span><select id="parameter" aria-label="分量 / 参数"></select></label><div class="plot-condition-bar"><span id="plotThermo"></span></div></div>
             <div class="chart-container"><svg id="chart" viewBox="0 0 720 530" role="img" aria-label="气体参数曲线"></svg><div id="chartTooltip" class="chart-tooltip" hidden></div></div>
             <div id="chartLegend" class="chart-legend"></div>
             <p id="plotNotice" class="hint" role="status"></p>

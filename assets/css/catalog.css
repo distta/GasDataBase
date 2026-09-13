@@ -581,3 +581,13 @@ body{font-size:var(--type-body);font-weight:400}
  .header-mascot{right:10px;top:8px;height:44px}.header-mascot img{height:44px;width:auto}
  #compareVisible{font-size:11px;padding:4px 7px}
 }
+
+/* Keep each file's magnetic conditions visible alongside its recipe. */
+.file-table{min-width:560px}
+.file-table th.sort-temperature{width:68px}
+.file-table th.sort-pressure{width:78px}
+.file-table th.sort-magnetic,.file-table th.sort-angle{width:60px}
+.file-table th:last-child{width:80px}
+.file-table .row-actions{padding-left:4px;padding-right:4px}
+.file-table td.field-value{text-align:center;white-space:nowrap;padding-left:5px;padding-right:5px}
+.field-filter .select-picker{width:100%;min-width:0}

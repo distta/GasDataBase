@@ -161,7 +161,7 @@
   function query() {
     return {text:'',components:[...$('componentRows').children].map(row=>({name:row.querySelector('select').value,
       fraction:row.querySelector('input[type=number]').value===''?null:row.querySelector('input[type=number]').valueAsNumber})),temperature:number('temperature'),pressure:number('pressure'),
-      b:null,angle:null,minE:null,maxE:null,fractionTolerance:1,fuzzyMatching:true,
+      b:Number($('plotB').value),angle:Number($('plotAngle').value),minE:null,maxE:null,fractionTolerance:1,fuzzyMatching:true,
       exactSet:true,partial:true};
   }
   function tableHeader(key,label) {
@@ -187,14 +187,19 @@
       <td class="formula-cell"><div class="formula-line">${state.selected.has(f.id)||state.mode==='preview'&&state.preview===f.id?`<i class="swatch" style="background:${colors[Math.max(0,[...state.selected].indexOf(f.id))]}"></i>`:'<i class="swatch swatch-empty" aria-hidden="true"></i>'}<button class="recipe-name" data-preview="${f.id}" aria-label="预览 ${esc(displayLabel(f))}">${title(f)}</button>${state.mode==='preview'&&state.preview===f.id?'<span class="badge preview-badge">正在预览</span>':''}</div></td>
       <td class="file-facts" title="${fmt(f.temperature_k)} K">${fmt(f.temperature_k-273.15)}</td>
       <td title="${fmt(f.pressure_torr)} Torr">${fmt(f.pressure_atm)}</td>
+      <td class="field-value">${f.magnetic_fields.map(fmt).join(' / ')}</td>
+      <td class="field-value">${f.angles_deg.map(fmt).join(' / ')}</td>
       <td class="row-actions"><button class="text-button" data-detail="${f.id}">详情</button><button class="text-button" data-download="${f.id}" aria-label="下载 ${esc(displayLabel(f))}">下载</button></td></tr>`;
-    $('results').innerHTML=state.results.length?`<table class="file-table" aria-label="气体文件检索结果"><thead><tr><th scope="col">比较</th>${tableHeader('recipe','气体配方')}${tableHeader('temperature','温度 (°C)')}${tableHeader('pressure','压强 (atm)')}<th scope="col">操作</th></tr></thead><tbody>${state.results.map(row).join('')}</tbody></table>`:'';
+    $('results').innerHTML=state.results.length?`<table class="file-table" aria-label="气体文件检索结果"><thead><tr><th scope="col">比较</th>${tableHeader('recipe','气体配方')}${tableHeader('temperature','温度 (°C)')}${tableHeader('pressure','压强 (atm)')}${tableHeader('magnetic','磁场 (T)')}${tableHeader('angle','夹角 (°)')}<th scope="col">操作</th></tr></thead><tbody>${state.results.map(row).join('')}</tbody></table>`:'';
     $('results').scrollTop=scrollTop;
   }
 
   function resetSearch() {
     $('searchForm').reset();$('componentRows').replaceChildren();
-    addComponent();search();enhanceSelects();
+    updateFields();
+    if(conditionFiles().some(f=>f.magnetic_fields.includes(0)))$('plotB').value='0';
+    updateAngles();
+    addComponent();conditionsChanged();enhanceSelects();
   }
   function balanceRecipe(changed) {
     const rows=[...$('componentRows').children], named=rows.filter(r=>r.querySelector('select').value);
@@ -252,14 +257,25 @@
     const sameThermo=entries.every(e=>M.near(e.gas.pressure,entries[0].gas.pressure)&&M.near(e.gas.temperature,entries[0].gas.temperature));
     $('plotThermo').textContent=sameThermo?fmt(entries[0].gas.temperature-273.15)+' °C · '+fmt(entries[0].gas.pressure/760)+' atm':'多种温压 · 见图例';
     $('plotThermo').title=entries.map(e=>`${displayLabel(e.file)}: ${fmt(e.gas.temperature)} K · ${fmt(e.gas.pressure)} Torr`).join('\n');
-    fillSelect('plotB',[...new Set(entries.flatMap(e=>e.file.magnetic_fields))].sort((a,b)=>a-b),v=>`${fmt(v)} T`);
-    updateAngles();setRange(false);prefetchFiles();
+    setRange(false);prefetchFiles();
+  }
+  function conditionFiles() {return [...(state.catalog?.files||[]),...state.locals.values()];}
+  function updateFields() {
+    fillSelect('plotB',[...new Set(conditionFiles().flatMap(f=>f.magnetic_fields))].sort((a,b)=>a-b),v=>`${fmt(v)} T`);
+    updateAngles();
+  }
+  function conditionsChanged() {
+    search();
+    if(state.mode==='preview') {
+      if(!state.results.some(({file})=>file.id===state.preview))state.preview=state.results[0]?.file.id||null;
+      renderComparison();
+    } else setRange(false);
   }
   function updateAngles() {
     const b=Number($('plotB').value);
     if(b===0){fillSelect('plotAngle',[90],()=> '90°');$('plotAngle').disabled=true;$('plotAngle').title='B=0 时方向无物理区分；90°为界面约定，原始夹角保留在详情和导出中。';enhanceSelects();return;}
     $('plotAngle').disabled=false;$('plotAngle').title='';
-    fillSelect('plotAngle',[...new Set(entries.filter(e=>e.file.magnetic_fields.some(v=>M.near(v,b))).flatMap(e=>e.file.angles_deg))].sort((a,b)=>a-b),v=>`${fmt(v)}°`);
+    fillSelect('plotAngle',[...new Set(conditionFiles().filter(f=>f.magnetic_fields.some(v=>M.near(v,b))).flatMap(f=>f.angles_deg))].sort((a,b)=>a-b),v=>`${fmt(v)}°`);
   }
   let electricRange=[null,null];
   function setRange(common) {
@@ -459,7 +475,7 @@
     }
     $('localFiles').value='';
     notice([`添加 ${added} 份本地文件${duplicate?`，跳过 ${duplicate} 份重复文件`:''}。文件未上传。`,...errors].join('\n'));
-    state.mode=state.selected.size?'compare':'preview';search();view('catalog');renderComparison();
+    updateFields();state.mode=state.selected.size?'compare':'preview';search();view('catalog');renderComparison();
   }
   let zoomDrag=null;
   function cancelZoom(){if(zoomDrag){zoomDrag.rect.remove();zoomDrag=null;}}
@@ -550,7 +566,7 @@
     $('parameter').onchange=()=>{$('axisYMin').value='';$('axisYMax').value='';draw();};
     $('plotXAxis').onchange=()=>{$('axisXMin').value='';$('axisXMax').value='';draw();};
     $('autoAxes').onclick=()=>{['axisXMin','axisXMax','axisYMin','axisYMax'].forEach(id=>$(id).value='');draw();};
-    $('plotB').onchange=()=>{updateAngles();setRange(false);};$('plotAngle').onchange=()=>setRange(false);
+    $('plotB').onchange=()=>{updateAngles();conditionsChanged();};$('plotAngle').onchange=conditionsChanged;
     $('exportRaw').onclick=async()=>{const ids=state.plot.map(s=>s.entry.file.id);for(const id of ids)await rawDownload(id);};
     $('exportCsv').onclick=csv;$('exportSvg').onclick=()=>download('gas-comparison.svg',new XMLSerializer().serializeToString($('chart')),'image/svg+xml;charset=utf-8');
     window.addEventListener('hashchange',()=>view(location.hash.slice(1)));
@@ -567,8 +583,7 @@
       const data=await response.json();
       if(data.schema_version!==1||!Array.isArray(data.files))throw Error('不支持的目录格式');
       state.catalog=data;resetSearch();
-      if(!state.preview&&!state.selected.size)state.preview=data.files[0]?.id||null;
-      search();renderComparison();
+      search();
       const p=data.reference_profile;
       $('referenceProfile').innerHTML=`<div class="profile-facts"><div><strong>${fmt(p.temperature_k-273.15)} °C</strong><span>温度</span></div><div><strong>${fmt(p.pressure_atm)} atm</strong><span>压强</span></div><div><strong>${p.magnetic_fields_t.map(fmt).join(' / ')} T</strong><span>磁场</span></div><div><strong>${p.angles_deg.map(fmt).join(' / ')}°</strong><span>夹角</span></div><div><strong>${p.electric_fields_v_cm.length} 点</strong><span>统一实际电场 E</span></div></div><p class="grid-points">${p.electric_fields_v_cm.map(fmt).join(' · ')} V/cm</p>`;
     }catch(error){notice(`目录暂时无法读取：${error.message}\n请通过 GitHub Pages 网站访问；本地预览可运行 python3 tools/catalog.py --serve。仍可添加本地文件进行比较。`);$('resultSubtitle').textContent='目录未加载';$('compareVisible').disabled=true;}
