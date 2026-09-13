@@ -4446,167 +4446,7 @@
       "source": "本项目计算；2026-09-13停止作业后整合有效完成点",
       "notes": "仅收录已完成并校验的场点；统计参数10；缺标准电场点0个；未插值或外推。不同磁场缺点不同时独立成表。关闭Penning；未进行重复稳定性验收。 从归档原表按单一磁场和夹角精确拆分，保留全部电场点。"
     },
-    "GasDataBase/Ar+X/Ar_iC4H10/Ar-75_iC4H10-25_T293.15K_P760Torr_B0T_A0deg.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ar+X/Ar_iC4H10/Ar-84_iC4H10-16_T293.15K_P760Torr_B0T_A0deg.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ar+X/Ar_iC4H10/Ar-87_iC4H10-13_T293.15K_P760Torr_B0T_A0deg.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ar+X/Ar_iC4H10/Ar-93_iC4H10-7_T293.15K_P760Torr_B0T_A0deg.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ar+X/Ar_iC4H10/Ar-96_iC4H10-4_T293.15K_P760Torr_B0T_A0deg.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ar+X/Ar_CF4/Ar-75_CF4-25_T293.15K_P760Torr_B0T_A0deg.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ar+X/Ar_CF4/Ar-85_CF4-15_T293.15K_P760Torr_B0T_A0deg.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ar+X/Ar_CO2/Ar-75_CO2-25_T293.15K_P760Torr_B0T_A0deg.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ar+X/Ar_CO2/Ar-95_CO2-5_T293.15K_P760Torr_B0T_A0deg.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ar+X/Ar_CH4/Ar-70_CH4-30_T293.15K_P760Torr_B0T_A0deg.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ar+X/Ar_CH4/Ar-75_CH4-25_T293.15K_P760Torr_B0T_A0deg.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ar+X/Ar_CH4/Ar-80_CH4-20_T293.15K_P760Torr_B0T_A0deg.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ar+X/Ar_CH4/Ar-85_CH4-15_T293.15K_P760Torr_B0T_A0deg.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
     "GasDataBase/Ar+X/Ar_CH4/Ar-90_CH4-10_T293.15K_P760Torr_B1T_A90deg.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ar+X/Ar_CH4/Ar-95_CH4-5_T293.15K_P760Torr_B0T_A0deg.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ar+X/Ar_DME/Ar-75_DME-25_T293.15K_P760Torr_B0T_A0deg.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ar+X/Ar_DME/Ar-85_DME-15_T293.15K_P760Torr_B0T_A0deg.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ar+X/Ar_DME/Ar-95_DME-5_T293.15K_P760Torr_B0T_A0deg.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ne+X/Ne_CF4/Ne-70_CF4-30_T293.15K_P760Torr_B0T_A0deg.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ne+X/Ne_CF4/Ne-80_CF4-20_T293.15K_P760Torr_B0T_A0deg.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ne+X/Ne_CF4/Ne-90_CF4-10_T293.15K_P760Torr_B0T_A0deg.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ne+X/Ne_CH4/Ne-70_CH4-30_T293.15K_P760Torr_B0T_A0deg.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ne+X/Ne_CH4/Ne-80_CH4-20_T293.15K_P760Torr_B0T_A0deg.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ne+X/Ne_CH4/Ne-90_CH4-10_T293.15K_P760Torr_B0T_A0deg.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ne+X/Ne_CO2/Ne-70_CO2-30_T293.15K_P760Torr_B0T_A0deg.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ne+X/Ne_CO2/Ne-80_CO2-20_T293.15K_P760Torr_B0T_A0deg.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ne+X/Ne_CO2/Ne-90_CO2-10_T293.15K_P760Torr_B0T_A0deg.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ne+X/Ne_DME/Ne-70_DME-30_T293.15K_P760Torr_B0T_A0deg.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ne+X/Ne_DME/Ne-80_DME-20_T293.15K_P760Torr_B0T_A0deg.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ne+X/Ne_DME/Ne-90_DME-10_T293.15K_P760Torr_B0T_A0deg.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ne+X/Ne_iC4H10/Ne-70_iC4H10-30_T293.15K_P760Torr_B0T_A0deg.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ne+X/Ne_iC4H10/Ne-80_iC4H10-20_T293.15K_P760Torr_B0T_A0deg.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ne+X/Ne_iC4H10/Ne-90_iC4H10-10_T293.15K_P760Torr_B0T_A0deg.gas": {
       "status": "current",
       "source": "旧表缺失场点补充",
       "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
@@ -5180,6 +5020,166 @@
       "status": "archived",
       "source": "旧表缺失场点补充",
       "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X/Ar_N2/Ar-90_N2-10_T293.15K_P760Torr_B1T_A90deg.gas"
+    },
+    "GasDataBase/Ar+X/Ar_iC4H10/archive/Ar-75_iC4H10-25_T293.15K_P760Torr_B0T_A0deg.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 B=0 时不同夹角属于同一条件，只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X/Ar_iC4H10/Ar-75_iC4H10-25_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ar+X/Ar_iC4H10/archive/Ar-84_iC4H10-16_T293.15K_P760Torr_B0T_A0deg.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 B=0 时不同夹角属于同一条件，只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X/Ar_iC4H10/Ar-84_iC4H10-16_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ar+X/Ar_iC4H10/archive/Ar-87_iC4H10-13_T293.15K_P760Torr_B0T_A0deg.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 B=0 时不同夹角属于同一条件，只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X/Ar_iC4H10/Ar-87_iC4H10-13_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ar+X/Ar_iC4H10/archive/Ar-93_iC4H10-7_T293.15K_P760Torr_B0T_A0deg.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 B=0 时不同夹角属于同一条件，只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X/Ar_iC4H10/Ar-93_iC4H10-7_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ar+X/Ar_iC4H10/archive/Ar-96_iC4H10-4_T293.15K_P760Torr_B0T_A0deg.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 B=0 时不同夹角属于同一条件，只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X/Ar_iC4H10/Ar-96_iC4H10-4_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ar+X/Ar_CF4/archive/Ar-75_CF4-25_T293.15K_P760Torr_B0T_A0deg.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 B=0 时不同夹角属于同一条件，只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X/Ar_CF4/Ar-75_CF4-25_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ar+X/Ar_CF4/archive/Ar-85_CF4-15_T293.15K_P760Torr_B0T_A0deg.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 B=0 时不同夹角属于同一条件，只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X/Ar_CF4/Ar-85_CF4-15_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ar+X/Ar_CO2/archive/Ar-75_CO2-25_T293.15K_P760Torr_B0T_A0deg.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 B=0 时不同夹角属于同一条件，只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X/Ar_CO2/Ar-75_CO2-25_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ar+X/Ar_CO2/archive/Ar-95_CO2-5_T293.15K_P760Torr_B0T_A0deg.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 B=0 时不同夹角属于同一条件，只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X/Ar_CO2/Ar-95_CO2-5_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ar+X/Ar_CH4/archive/Ar-70_CH4-30_T293.15K_P760Torr_B0T_A0deg.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 B=0 时不同夹角属于同一条件，只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X/Ar_CH4/Ar-70_CH4-30_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ar+X/Ar_CH4/archive/Ar-75_CH4-25_T293.15K_P760Torr_B0T_A0deg.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 B=0 时不同夹角属于同一条件，只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X/Ar_CH4/Ar-75_CH4-25_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ar+X/Ar_CH4/archive/Ar-80_CH4-20_T293.15K_P760Torr_B0T_A0deg.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 B=0 时不同夹角属于同一条件，只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X/Ar_CH4/Ar-80_CH4-20_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ar+X/Ar_CH4/archive/Ar-85_CH4-15_T293.15K_P760Torr_B0T_A0deg.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 B=0 时不同夹角属于同一条件，只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X/Ar_CH4/Ar-85_CH4-15_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ar+X/Ar_CH4/archive/Ar-95_CH4-5_T293.15K_P760Torr_B0T_A0deg.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 B=0 时不同夹角属于同一条件，只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X/Ar_CH4/Ar-95_CH4-5_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ar+X/Ar_DME/archive/Ar-75_DME-25_T293.15K_P760Torr_B0T_A0deg.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 B=0 时不同夹角属于同一条件，只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X/Ar_DME/Ar-75_DME-25_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ar+X/Ar_DME/archive/Ar-85_DME-15_T293.15K_P760Torr_B0T_A0deg.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 B=0 时不同夹角属于同一条件，只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X/Ar_DME/Ar-85_DME-15_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ar+X/Ar_DME/archive/Ar-95_DME-5_T293.15K_P760Torr_B0T_A0deg.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 B=0 时不同夹角属于同一条件，只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X/Ar_DME/Ar-95_DME-5_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ne+X/Ne_CF4/archive/Ne-70_CF4-30_T293.15K_P760Torr_B0T_A0deg.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 B=0 时不同夹角属于同一条件，只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ne+X/Ne_CF4/Ne-70_CF4-30_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ne+X/Ne_CF4/archive/Ne-80_CF4-20_T293.15K_P760Torr_B0T_A0deg.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 B=0 时不同夹角属于同一条件，只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ne+X/Ne_CF4/Ne-80_CF4-20_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ne+X/Ne_CF4/archive/Ne-90_CF4-10_T293.15K_P760Torr_B0T_A0deg.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 B=0 时不同夹角属于同一条件，只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ne+X/Ne_CF4/Ne-90_CF4-10_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ne+X/Ne_CH4/archive/Ne-70_CH4-30_T293.15K_P760Torr_B0T_A0deg.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 B=0 时不同夹角属于同一条件，只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ne+X/Ne_CH4/Ne-70_CH4-30_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ne+X/Ne_CH4/archive/Ne-80_CH4-20_T293.15K_P760Torr_B0T_A0deg.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 B=0 时不同夹角属于同一条件，只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ne+X/Ne_CH4/Ne-80_CH4-20_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ne+X/Ne_CH4/archive/Ne-90_CH4-10_T293.15K_P760Torr_B0T_A0deg.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 B=0 时不同夹角属于同一条件，只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ne+X/Ne_CH4/Ne-90_CH4-10_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ne+X/Ne_CO2/archive/Ne-70_CO2-30_T293.15K_P760Torr_B0T_A0deg.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 B=0 时不同夹角属于同一条件，只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ne+X/Ne_CO2/Ne-70_CO2-30_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ne+X/Ne_CO2/archive/Ne-80_CO2-20_T293.15K_P760Torr_B0T_A0deg.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 B=0 时不同夹角属于同一条件，只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ne+X/Ne_CO2/Ne-80_CO2-20_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ne+X/Ne_CO2/archive/Ne-90_CO2-10_T293.15K_P760Torr_B0T_A0deg.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 B=0 时不同夹角属于同一条件，只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ne+X/Ne_CO2/Ne-90_CO2-10_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ne+X/Ne_DME/archive/Ne-70_DME-30_T293.15K_P760Torr_B0T_A0deg.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 B=0 时不同夹角属于同一条件，只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ne+X/Ne_DME/Ne-70_DME-30_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ne+X/Ne_DME/archive/Ne-80_DME-20_T293.15K_P760Torr_B0T_A0deg.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 B=0 时不同夹角属于同一条件，只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ne+X/Ne_DME/Ne-80_DME-20_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ne+X/Ne_DME/archive/Ne-90_DME-10_T293.15K_P760Torr_B0T_A0deg.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 B=0 时不同夹角属于同一条件，只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ne+X/Ne_DME/Ne-90_DME-10_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ne+X/Ne_iC4H10/archive/Ne-70_iC4H10-30_T293.15K_P760Torr_B0T_A0deg.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 B=0 时不同夹角属于同一条件，只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ne+X/Ne_iC4H10/Ne-70_iC4H10-30_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ne+X/Ne_iC4H10/archive/Ne-80_iC4H10-20_T293.15K_P760Torr_B0T_A0deg.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 B=0 时不同夹角属于同一条件，只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ne+X/Ne_iC4H10/Ne-80_iC4H10-20_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ne+X/Ne_iC4H10/archive/Ne-90_iC4H10-10_T293.15K_P760Torr_B0T_A0deg.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 B=0 时不同夹角属于同一条件，只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ne+X/Ne_iC4H10/Ne-90_iC4H10-10_T293.15K_P760Torr_B0T_A90deg.gas"
     }
   }
 }
