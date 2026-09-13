@@ -44,6 +44,15 @@ class CatalogueTests(unittest.TestCase):
                 self.assertIsNone(source['config']['penning_enabled'])
         for record in payload["files"]:
             source = provenance[record['path']]
+            self.assertEqual(len(record['magnetic_fields']), 1)
+            self.assertEqual(len(record['angles_deg']), 1)
+            config = source['config']
+            parts = sorted(config['components'].items(), key=lambda item: catalog.component_order(item[0]))
+            expected = '_'.join(f'{name}-{value:g}' for name, value in parts)
+            expected += f'_T{config["temperature_k"]:g}K_P{config["pressure_torr"]:g}Torr'
+            expected += f'_B{record["magnetic_fields"][0]:g}T_A{record["angles_deg"][0]:g}deg.gas'
+            self.assertEqual(Path(record['path']).name, expected)
+            self.assertEqual(record['download_name'], expected)
             if source.get('origin') not in {'legacy', 'user-import'}:
                 self.assertEqual(record['dimensions']['electric'], len(source['config']['electric_fields_v_cm']))
                 self.assertTrue(all(any(catalog.close(e, v) for v in source['config']['electric_fields_v_cm'])
