@@ -51,8 +51,12 @@ class CatalogueTests(unittest.TestCase):
             expected = '_'.join(f'{name}-{value:g}' for name, value in parts)
             expected += f'_T{config["temperature_k"]:g}K_P{config["pressure_torr"]:g}Torr'
             expected += f'_B{record["magnetic_fields"][0]:g}T_A{record["angles_deg"][0]:g}deg.gas'
-            self.assertEqual(Path(record['path']).name, expected)
-            self.assertEqual(record['download_name'], expected)
+            actual_name = Path(record['path']).name
+            if '__legacy-' in actual_name:
+                self.assertEqual(source.get('origin'), 'legacy-supplement')
+                expected = expected[:-4] + '__legacy-' + source['restored_from']['sha256'][:12] + '.gas'
+            self.assertEqual(actual_name, expected)
+            self.assertEqual(record['download_name'], actual_name)
             if source.get('origin') not in {'legacy', 'user-import'}:
                 self.assertEqual(record['dimensions']['electric'], len(source['config']['electric_fields_v_cm']))
                 self.assertTrue(all(any(catalog.close(e, v) for v in source['config']['electric_fields_v_cm'])
@@ -86,6 +90,14 @@ class CatalogueTests(unittest.TestCase):
             (folder / 'b.gas').write_text(with_b(0) + '\n')
             _, report = catalog.assemble(root)
             self.assertEqual(len(report['rejected']), 1)
+            shifted = re.sub(r'(E fields\s+)(.*?)(?=E-B angles)',
+                             lambda m: m[1] + ' '.join(str(x + .123456)
+                                 for x in catalog.legacy.parse_float_tokens(m[2])) + '\n ',
+                             with_b(0), flags=re.S)
+            (folder / 'b.gas').write_text(shifted)
+            data, report = catalog.assemble(root)
+            self.assertEqual(len(data['files']), 2)
+            self.assertFalse(report['rejected'])
 
     def test_classified_paths_follow_component_count(self):
         cases = [(['CO2', 'Ar'], 'GasDataBase/Ar+X/Ar_CO2'),

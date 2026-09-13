@@ -207,8 +207,9 @@ def assemble(root):
                 for previous, previous_record in identities.get(identity, []):
                     overlaps_b = any(close(x, y) for x in record['magnetic_fields'] for y in previous_record['magnetic_fields'])
                     overlaps_angle = any(close(x, y) for x in record['angles_deg'] for y in previous_record['angles_deg'])
-                    if overlaps_b and overlaps_angle:
-                        raise ValueError("同配方、温压及已知版本的当前文件磁场和夹角重叠；请合并或归档旧文件：" + previous)
+                    overlaps_e = any(close(x, y) for x in record['electric_fields'] for y in previous_record['electric_fields'])
+                    if overlaps_b and overlaps_angle and overlaps_e:
+                        raise ValueError("同配方、温压及已知版本的当前文件场点重叠；请合并或归档旧文件：" + previous)
                 identities.setdefault(identity, []).append((relative, record))
                 name = path.name
                 profile = config["reference_profile"]

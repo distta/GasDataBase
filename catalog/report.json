@@ -1,11 +1,7 @@
 {
-  "accepted": 597,
+  "accepted": 744,
   "rejected": [],
   "ignored": [
-    {
-      "path": "GasDataBase/Ar+X/Ar_iC4H10/archive/Ar-50_iC4H10-50_T293.15K_P760Torr_B0-1T_A90deg__archive-afbc4b674fa7.gas",
-      "reason": "archived"
-    },
     {
       "path": "GasDataBase/Ar+X/Ar_iC4H10/archive/Ar-50_iC4H10-50_T293.15K_P760Torr_B0-1T__ncoll1-16609f9c8490.gas",
       "reason": "archived"
@@ -15,19 +11,11 @@
       "reason": "archived"
     },
     {
-      "path": "GasDataBase/Ar+X/Ar_iC4H10/archive/Ar-60_iC4H10-40_T293.15K_P760Torr_B0-1T_A90deg__archive-ed90c42bb6bb.gas",
-      "reason": "archived"
-    },
-    {
       "path": "GasDataBase/Ar+X/Ar_iC4H10/archive/Ar-60_iC4H10-40_T293.15K_P760Torr_B0-1T__ncoll1-7467b5026058.gas",
       "reason": "archived"
     },
     {
       "path": "GasDataBase/Ar+X/Ar_iC4H10/archive/Ar-60_iC4H10-40_T293.15K_P760Torr__before-20260913-ed90c42bb6bb.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_iC4H10/archive/Ar-70_iC4H10-30_T293.15K_P760Torr_B0-1T_A90deg__archive-36172c66dbe7.gas",
       "reason": "archived"
     },
     {
@@ -40,10 +28,6 @@
     },
     {
       "path": "GasDataBase/Ar+X/Ar_iC4H10/archive/Ar-75_iC4H10-25_T293.15K_P760Torr__before-20260913-25ee6c248992.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_iC4H10/archive/Ar-80_iC4H10-20_T293.15K_P760Torr_B0-1T_A90deg__archive-8cb32787a854.gas",
       "reason": "archived"
     },
     {
@@ -63,10 +47,6 @@
       "reason": "archived"
     },
     {
-      "path": "GasDataBase/Ar+X/Ar_iC4H10/archive/Ar-85_iC4H10-15_T293.15K_P760Torr_B0-1T_A90deg__archive-b1d7e524842f.gas",
-      "reason": "archived"
-    },
-    {
       "path": "GasDataBase/Ar+X/Ar_iC4H10/archive/Ar-85_iC4H10-15_T293.15K_P760Torr_B0-1T__ncoll1-a4451ef964f8.gas",
       "reason": "archived"
     },
@@ -80,10 +60,6 @@
     },
     {
       "path": "GasDataBase/Ar+X/Ar_iC4H10/archive/Ar-87_iC4H10-13_T293.15K_P760Torr__before-20260913-967c229272fb.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_iC4H10/archive/Ar-90_iC4H10-10_T293.15K_P760Torr_B0-1T_A90deg__archive-4b86a8cc7f4c.gas",
       "reason": "archived"
     },
     {
@@ -107,10 +83,6 @@
       "reason": "archived"
     },
     {
-      "path": "GasDataBase/Ar+X/Ar_iC4H10/archive/Ar-95_iC4H10-5_T293.15K_P760Torr_B0-1T_A90deg__archive-17c190a207ee.gas",
-      "reason": "archived"
-    },
-    {
       "path": "GasDataBase/Ar+X/Ar_iC4H10/archive/Ar-95_iC4H10-5_T293.15K_P760Torr_B0-1T__ncoll1-13ada5397134.gas",
       "reason": "archived"
     },
@@ -124,10 +96,6 @@
     },
     {
       "path": "GasDataBase/Ar+X/Ar_iC4H10/archive/Ar-96_iC4H10-4_T293.15K_P760Torr__before-20260913-942c85723ee3.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_iC4H10/archive/Ar-97.7_iC4H10-2.3_T293.15K_P760Torr_B0-1T_A90deg__archive-eb366e2e8ceb.gas",
       "reason": "archived"
     },
     {
@@ -147,10 +115,6 @@
       "reason": "archived"
     },
     {
-      "path": "GasDataBase/Ar+X/Ar_iC4H10/archive/Ar-98_iC4H10-2_T293.15K_P760Torr_B0-1T_A90deg__archive-d980c9cd7b2f.gas",
-      "reason": "archived"
-    },
-    {
       "path": "GasDataBase/Ar+X/Ar_iC4H10/archive/Ar-98_iC4H10-2_T293.15K_P760Torr_B0-1T__ncoll1-c933246ea473.gas",
       "reason": "archived"
     },
@@ -167,19 +131,11 @@
       "reason": "archived"
     },
     {
-      "path": "GasDataBase/Ar+X/Ar_CF4/archive/Ar-50_CF4-50_T293.15K_P760Torr_B0-1T_A90deg__archive-dacee50fe1b2.gas",
-      "reason": "archived"
-    },
-    {
       "path": "GasDataBase/Ar+X/Ar_CF4/archive/Ar-50_CF4-50_T293.15K_P760Torr_B0-1T__ncoll1-23916e47a09a.gas",
       "reason": "archived"
     },
     {
       "path": "GasDataBase/Ar+X/Ar_CF4/archive/Ar-50_CF4-50_T293.15K_P760Torr__before-20260913-dacee50fe1b2.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_CF4/archive/Ar-60_CF4-40_T293.15K_P760Torr_B0-1T_A90deg__archive-e8cf88d8a878.gas",
       "reason": "archived"
     },
     {
@@ -195,19 +151,11 @@
       "reason": "archived"
     },
     {
-      "path": "GasDataBase/Ar+X/Ar_CF4/archive/Ar-70_CF4-30_T293.15K_P760Torr_B0-1T_A90deg__archive-b6627685d2c1.gas",
-      "reason": "archived"
-    },
-    {
       "path": "GasDataBase/Ar+X/Ar_CF4/archive/Ar-70_CF4-30_T293.15K_P760Torr__new-9818a918bb9f.gas",
       "reason": "archived"
     },
     {
       "path": "GasDataBase/Ar+X/Ar_CF4/archive/Ar-75_CF4-25_T293.15K_P760Torr__before-20260913-2af0f3edabdb.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_CF4/archive/Ar-80_CF4-20_T293.15K_P760Torr_B0-1T_A90deg__archive-55897c872367.gas",
       "reason": "archived"
     },
     {
@@ -227,10 +175,6 @@
       "reason": "archived"
     },
     {
-      "path": "GasDataBase/Ar+X/Ar_CF4/archive/Ar-90_CF4-10_T293.15K_P760Torr_B0-1T_A90deg__archive-7571c1948ca5.gas",
-      "reason": "archived"
-    },
-    {
       "path": "GasDataBase/Ar+X/Ar_CF4/archive/Ar-90_CF4-10_T293.15K_P760Torr_B0-1T__ncoll1-48b037d4a493.gas",
       "reason": "archived"
     },
@@ -243,10 +187,6 @@
       "reason": "archived"
     },
     {
-      "path": "GasDataBase/Ar+X/Ar_CF4/archive/Ar-95_CF4-5_T293.15K_P760Torr_B0-1T_A90deg__archive-332a797acb1f.gas",
-      "reason": "archived"
-    },
-    {
       "path": "GasDataBase/Ar+X/Ar_CF4/archive/Ar-95_CF4-5_T293.15K_P760Torr_B0-1T__ncoll1-eb704b22eed5.gas",
       "reason": "archived"
     },
@@ -255,35 +195,11 @@
       "reason": "archived"
     },
     {
-      "path": "GasDataBase/Ar+X/Ar_CF4/archive/Ar-96_CF4-4_T293.15K_P760Torr_B0-1T_A90deg__archive-77f833a2fc29.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_CF4/archive/Ar-97_CF4-3_T293.15K_P760Torr_B0-1T_A90deg__archive-22a776f38b58.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_CF4/archive/Ar-98_CF4-2_T293.15K_P760Torr_B0-1T_A90deg__archive-16670a488209.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_CF4/archive/Ar-99_CF4-1_T293.15K_P760Torr_B0-1T_A90deg__archive-23b498aeb4c6.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_CO2/archive/Ar-60_CO2-40_T293.15K_P760Torr_B0-1T_A90deg__archive-9e16ee5dd094.gas",
-      "reason": "archived"
-    },
-    {
       "path": "GasDataBase/Ar+X/Ar_CO2/archive/Ar-60_CO2-40_T293.15K_P760Torr_B0-1T__ncoll1-39c178f8e8fd.gas",
       "reason": "archived"
     },
     {
       "path": "GasDataBase/Ar+X/Ar_CO2/archive/Ar-60_CO2-40_T293.15K_P760Torr__before-20260913-9e16ee5dd094.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_CO2/archive/Ar-70_CO2-30_T293.15K_P760Torr_B0-1T_A90deg__archive-adc120257d4a.gas",
       "reason": "archived"
     },
     {
@@ -303,19 +219,11 @@
       "reason": "archived"
     },
     {
-      "path": "GasDataBase/Ar+X/Ar_CO2/archive/Ar-80_CO2-20_T293.15K_P760Torr_B0-1T_A90deg__archive-573e76a173f0.gas",
-      "reason": "archived"
-    },
-    {
       "path": "GasDataBase/Ar+X/Ar_CO2/archive/Ar-80_CO2-20_T293.15K_P760Torr_B0-1T__ncoll1-0d88dbf44d7b.gas",
       "reason": "archived"
     },
     {
       "path": "GasDataBase/Ar+X/Ar_CO2/archive/Ar-80_CO2-20_T293.15K_P760Torr__before-20260913-573e76a173f0.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_CO2/archive/Ar-85_CO2-15_T293.15K_P760Torr_B0-1T_A90deg__archive-992395aed66a.gas",
       "reason": "archived"
     },
     {
@@ -331,10 +239,6 @@
       "reason": "archived"
     },
     {
-      "path": "GasDataBase/Ar+X/Ar_CO2/archive/Ar-88_CO2-12_T293.15K_P760Torr_B0-1T_A90deg__archive-9a6a823b6053.gas",
-      "reason": "archived"
-    },
-    {
       "path": "GasDataBase/Ar+X/Ar_CO2/archive/Ar-88_CO2-12_T293.15K_P760Torr_B0-1T__ncoll1-6264cfcf9381.gas",
       "reason": "archived"
     },
@@ -343,19 +247,11 @@
       "reason": "archived"
     },
     {
-      "path": "GasDataBase/Ar+X/Ar_CO2/archive/Ar-90_CO2-10_T293.15K_P760Torr_B0-1T_A90deg__archive-08b9535b605b.gas",
-      "reason": "archived"
-    },
-    {
       "path": "GasDataBase/Ar+X/Ar_CO2/archive/Ar-90_CO2-10_T293.15K_P760Torr_B0-1T__ncoll1-b265e16da85f.gas",
       "reason": "archived"
     },
     {
       "path": "GasDataBase/Ar+X/Ar_CO2/archive/Ar-90_CO2-10_T293.15K_P760Torr__before-20260913-08b9535b605b.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_CO2/archive/Ar-93_CO2-7_T293.15K_P760Torr_B0-1T_A90deg__archive-307dbfbc2acf.gas",
       "reason": "archived"
     },
     {
@@ -372,10 +268,6 @@
     },
     {
       "path": "GasDataBase/Ar+X/Ar_CO2/archive/Ar-95_CO2-5_T293.15K_P760Torr__before-20260913-bfec9c79cea0.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_CH4/archive/Ar-50_CH4-50_T293.15K_P760Torr_B0-1T_A90deg__archive-171e881e63f1.gas",
       "reason": "archived"
     },
     {
@@ -424,10 +316,6 @@
     },
     {
       "path": "GasDataBase/Ar+X/Ar_CH4/archive/Ar-99_CH4-1_T293.15K_P760Torr__before-20260913-61863369d777.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_DME/archive/Ar-50_DME-50_T293.15K_P760Torr_B0-1T_A90deg__archive-33a5cf12bfd7.gas",
       "reason": "archived"
     },
     {
@@ -567,10 +455,6 @@
       "reason": "archived"
     },
     {
-      "path": "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/archive/Ne-80_C2H6-10_CF4-10_T293.15K_P760Torr_B0-1T_A90deg__archive-71276a119704.gas",
-      "reason": "archived"
-    },
-    {
       "path": "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/archive/Ne-80_C2H6-10_CF4-10_T293.15K_P760Torr_B0T_A90deg__ncoll1-215c18fdaf59.gas",
       "reason": "archived"
     },
@@ -600,10 +484,6 @@
     },
     {
       "path": "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/archive/Ne-80_C2H6-4_CF4-16_T293.15K_P760Torr__before-20260913-d4de9bfff2a0.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/archive/Ne-85_C2H6-10_CF4-5_T293.15K_P760Torr_B0-1T_A90deg__archive-3bb7cffa3fb4.gas",
       "reason": "archived"
     },
     {
@@ -759,10 +639,6 @@
       "reason": "archived"
     },
     {
-      "path": "GasDataBase/Ne+X/Ne_DME/archive/Ne-50_DME-50_T293.15K_P760Torr_B0-1T_A90deg__archive-247836898924.gas",
-      "reason": "archived"
-    },
-    {
       "path": "GasDataBase/Ne+X/Ne_DME/archive/Ne-70_DME-30_T293.15K_P760Torr__before-20260913-faae07368ddb.gas",
       "reason": "archived"
     },
@@ -875,10 +751,6 @@
       "reason": "archived"
     },
     {
-      "path": "GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/archive/Ar-45_CF4-40_iC4H10-15_T293.15K_P760Torr_B0-1T_A90deg__archive-4aa65a1dd58c.gas",
-      "reason": "archived"
-    },
-    {
       "path": "GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/archive/Ar-45_CF4-40_iC4H10-15_T293.15K_P760Torr_B0T_A90deg__ncoll1-3b510ccfcc69.gas",
       "reason": "archived"
     },
@@ -903,10 +775,6 @@
       "reason": "archived"
     },
     {
-      "path": "GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/archive/Ar-53_CF4-45_iC4H10-2_T293.15K_P760Torr_B0-1T_A90deg__archive-cdc944eb0f63.gas",
-      "reason": "archived"
-    },
-    {
       "path": "GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/archive/Ar-53_CF4-45_iC4H10-2_T293.15K_P760Torr_B0T_A90deg__ncoll1-2c4c950210e3.gas",
       "reason": "archived"
     },
@@ -923,10 +791,6 @@
       "reason": "archived"
     },
     {
-      "path": "GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/archive/Ar-58_CF4-40_iC4H10-2_T293.15K_P760Torr_B0-1T_A90deg__archive-ea6aaaea946b.gas",
-      "reason": "archived"
-    },
-    {
       "path": "GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/archive/Ar-58_CF4-40_iC4H10-2_T293.15K_P760Torr_B0-1T__ncoll1-5438eae8201b.gas",
       "reason": "archived"
     },
@@ -940,10 +804,6 @@
     },
     {
       "path": "GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/archive/Ar-63_CF4-35_iC4H10-2_T293.15K_P760Torr__before-20260913-ec3840859881.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/archive/Ar-65_CF4-28_iC4H10-7_T293.15K_P760Torr_B0-1T_A90deg__archive-2265922f5146.gas",
       "reason": "archived"
     },
     {
@@ -967,10 +827,6 @@
       "reason": "archived"
     },
     {
-      "path": "GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/archive/Ar-73_CF4-25_iC4H10-2_T293.15K_P760Torr_B0-1T_A90deg__archive-c7ff94c3b4ca.gas",
-      "reason": "archived"
-    },
-    {
       "path": "GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/archive/Ar-73_CF4-25_iC4H10-2_T293.15K_P760Torr_B0-1T__ncoll1-abab5f657271.gas",
       "reason": "archived"
     },
@@ -983,15 +839,7 @@
       "reason": "archived"
     },
     {
-      "path": "GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/archive/Ar-75_CF4-20_iC4H10-5_T293.15K_P760Torr_B0-1T_A90deg__archive-5bbe2ef2de17.gas",
-      "reason": "archived"
-    },
-    {
       "path": "GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/archive/Ar-78_CF4-20_iC4H10-2_T293.15K_P760Torr__before-20260913-9021997ed11b.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/archive/Ar-88_CF4-10_iC4H10-2_T293.15K_P760Torr_B0-1T_A90deg__archive-1d8179c5ba5f.gas",
       "reason": "archived"
     },
     {
@@ -1020,10 +868,6 @@
     },
     {
       "path": "GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/archive/Ar-93_CF4-5_iC4H10-2_T293.15K_P760Torr__before-20260913-fcbe423767d4.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/archive/Ar-95_CF4-3_iC4H10-2_T293.15K_P760Torr_B0-1T_A90deg__archive-0cd987c5db60.gas",
       "reason": "archived"
     },
     {
@@ -1059,10 +903,6 @@
       "reason": "archived"
     },
     {
-      "path": "GasDataBase/Ar+X+Y/Ar_CO2_iC4H10/archive/Ar-93_CO2-5_iC4H10-2_T293.15K_P760Torr_B0-1T_A90deg__archive-25904012f41d.gas",
-      "reason": "archived"
-    },
-    {
       "path": "GasDataBase/Ar+X+Y/Ar_CO2_iC4H10/archive/Ar-93_CO2-5_iC4H10-2_T293.15K_P760Torr_B0T_A90deg__ncoll1-a260d9e5fb6e.gas",
       "reason": "archived"
     },
@@ -1087,19 +927,11 @@
       "reason": "archived"
     },
     {
-      "path": "GasDataBase/Ar+X+Y/Ar_CF4_CO2/archive/Ar-41_CF4-44_CO2-15_T293.15K_P760Torr_B0-1T_A90deg__archive-9396009274fb.gas",
-      "reason": "archived"
-    },
-    {
       "path": "GasDataBase/Ar+X+Y/Ar_CF4_CO2/archive/Ar-42.1053_CF4-26.3158_CO2-31.5789_T293.15K_P760Torr__before-20260913-cba23f31548c.gas",
       "reason": "archived"
     },
     {
       "path": "GasDataBase/Ar+X+Y/Ar_CF4_CO2/archive/Ar-42_CF4-26_CO2-32_T293.15K_P760Torr__before-20260913-86c4755a8222.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_CF4_CO2/archive/Ar-43_CF4-42_CO2-15_T293.15K_P760Torr_B0-1T_A90deg__archive-1a103bdd071e.gas",
       "reason": "archived"
     },
     {
@@ -1115,27 +947,7 @@
       "reason": "archived"
     },
     {
-      "path": "GasDataBase/Ar+X+Y/Ar_CF4_CO2/archive/Ar-45_CF4-32_CO2-23_T293.15K_P760Torr_B0-1T_A90deg__archive-8dcca31f6027.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_CF4_CO2/archive/Ar-45_CF4-34_CO2-21_T293.15K_P760Torr_B0-1T_A90deg__archive-4ca7b969f26a.gas",
-      "reason": "archived"
-    },
-    {
       "path": "GasDataBase/Ar+X+Y/Ar_CF4_CO2/archive/Ar-45_CF4-35_CO2-20_T293.15K_P760Torr__before-20260913-705bf068bd4d.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_CF4_CO2/archive/Ar-45_CF4-36_CO2-19_T293.15K_P760Torr_B0-1T_A90deg__archive-3c40c217d59e.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_CF4_CO2/archive/Ar-45_CF4-38_CO2-17_T293.15K_P760Torr_B0-1T_A90deg__archive-04944c015172.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_CF4_CO2/archive/Ar-45_CF4-40_CO2-15_T293.15K_P760Torr_B0-1T_A90deg__archive-94fdd1398125.gas",
       "reason": "archived"
     },
     {
@@ -1163,47 +975,11 @@
       "reason": "archived"
     },
     {
-      "path": "GasDataBase/Ar+X+Y/Ar_CF4_CO2/archive/Ar-45_CF4-42_CO2-13_T293.15K_P760Torr_B0-1T_A90deg__archive-2ecc544c938f.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_CF4_CO2/archive/Ar-45_CF4-44_CO2-11_T293.15K_P760Torr_B0-1T_A90deg__archive-d70a34b24c82.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_CF4_CO2/archive/Ar-45_CF4-46_CO2-9_T293.15K_P760Torr_B0-1T_A90deg__archive-15f741c2deff.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_CF4_CO2/archive/Ar-45_CF4-48_CO2-7_T293.15K_P760Torr_B0-1T_A90deg__archive-59ffc7105265.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_CF4_CO2/archive/Ar-47_CF4-38_CO2-15_T293.15K_P760Torr_B0-1T_A90deg__archive-1ca1fd19f3c5.gas",
-      "reason": "archived"
-    },
-    {
       "path": "GasDataBase/Ar+X+Y/Ar_CF4_CO2/archive/Ar-48_CF4-24_CO2-28_T293.15K_P760Torr__before-20260913-ff8183e7d566.gas",
       "reason": "archived"
     },
     {
-      "path": "GasDataBase/Ar+X+Y/Ar_CF4_CO2/archive/Ar-48_CF4-36_CO2-16_T293.15K_P760Torr_B0-1T_A90deg__archive-a3172601fbe3.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_CF4_CO2/archive/Ar-49_CF4-36_CO2-15_T293.15K_P760Torr_B0-1T_A90deg__archive-9545f703e7eb.gas",
-      "reason": "archived"
-    },
-    {
       "path": "GasDataBase/Ar+X+Y/Ar_CF4_CO2/archive/Ar-50_CF4-23_CO2-27_T293.15K_P760Torr__before-20260913-5ea28bb09285.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_CF4_CO2/archive/Ar-51_CF4-34_CO2-15_T293.15K_P760Torr_B0-1T_A90deg__archive-176b02dbd2ad.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/He+X/He_CF4/archive/He-60_CF4-40_T293.15K_P760Torr_B0-1T_A90deg__archive-5cb196593f8a.gas",
       "reason": "archived"
     },
     {
@@ -1219,23 +995,11 @@
       "reason": "archived"
     },
     {
-      "path": "GasDataBase/He+X/He_CF4/archive/He-70_CF4-30_T293.15K_P760Torr_B0-1T_A90deg__archive-c9fe2abfe437.gas",
-      "reason": "archived"
-    },
-    {
       "path": "GasDataBase/He+X/He_CF4/archive/He-70_CF4-30_T293.15K_P760Torr_B0T__ncoll1-17d010ccaac0.gas",
       "reason": "archived"
     },
     {
       "path": "GasDataBase/He+X/He_CF4/archive/He-70_CF4-30_T293.15K_P760Torr__before-20260913-c9fe2abfe437.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/He+X/He_CF4/archive/He-80_CF4-20_T293.15K_P760Torr_B0-1T_A90deg__archive-2f5fdf2ec97a.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Pure/DME/archive/DME-100_T293.15K_P760Torr_B0-1T_A90deg__archive-f7004c9d9343.gas",
       "reason": "archived"
     },
     {
@@ -1248,10 +1012,6 @@
     },
     {
       "path": "GasDataBase/Pure/DME/archive/DME-100_T293.15K_P760Torr__before-20260913-f7004c9d9343.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Pure/CF4/archive/CF4-100_T293.15K_P760Torr_B0-1T_A90deg__archive-b17635e36f79.gas",
       "reason": "archived"
     },
     {
@@ -1271,10 +1031,6 @@
       "reason": "archived"
     },
     {
-      "path": "GasDataBase/He+X/He_DME/archive/He-20_DME-80_T293.15K_P760Torr_B0-1T_A90deg__archive-fcd8852cf067.gas",
-      "reason": "archived"
-    },
-    {
       "path": "GasDataBase/He+X/He_DME/archive/He-20_DME-80_T293.15K_P760Torr_B0T_A90deg__ncoll1-647df94ddb51.gas",
       "reason": "archived"
     },
@@ -1284,14 +1040,6 @@
     },
     {
       "path": "GasDataBase/He+X/He_DME/archive/He-20_DME-80_T293.15K_P760Torr__before-20260913-fcd8852cf067.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/He+X/He_DME/archive/He-40_DME-60_T293.15K_P760Torr_B0-1T_A90deg__archive-fda3a36b95e3.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/He+X/He_iC4H10/archive/He-95_iC4H10-5_T293.15K_P760Torr_B0-1T_A90deg__archive-7cbc80664760.gas",
       "reason": "archived"
     },
     {
@@ -1307,10 +1055,6 @@
       "reason": "archived"
     },
     {
-      "path": "GasDataBase/He+X/He_CO2/archive/He-70_CO2-30_T293.15K_P760Torr_B0-1T_A90deg__archive-495465246a80.gas",
-      "reason": "archived"
-    },
-    {
       "path": "GasDataBase/He+X/He_CO2/archive/He-70_CO2-30_T293.15K_P760Torr_B0T_A90deg__ncoll1-240d026ae5a5.gas",
       "reason": "archived"
     },
@@ -1323,10 +1067,6 @@
       "reason": "archived"
     },
     {
-      "path": "GasDataBase/He+X/He_CO2/archive/He-80_CO2-20_T293.15K_P760Torr_B0-1T_A90deg__archive-32d37e8c6b36.gas",
-      "reason": "archived"
-    },
-    {
       "path": "GasDataBase/He+X/He_CO2/archive/He-80_CO2-20_T293.15K_P760Torr_B0T_A90deg__ncoll1-54da1acee7e2.gas",
       "reason": "archived"
     },
@@ -1336,30 +1076,6 @@
     },
     {
       "path": "GasDataBase/He+X/He_CO2/archive/He-80_CO2-20_T293.15K_P760Torr__before-20260913-32d37e8c6b36.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Xe+X/Xe_DME/archive/Xe-95_DME-5_T293.15K_P760Torr_B0-1T_A90deg__archive-6d80778da26f.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_Xe_DME/archive/Ar-10_Xe-85_DME-5_T293.15K_P760Torr_B0-1T_A90deg__archive-b7e4759f2531.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_Xe_DME/archive/Ar-12_Xe-85_DME-3_T293.15K_P760Torr_B0-1T_A90deg__archive-ccf6c161a2bf.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_Xe_DME/archive/Ar-22_Xe-75_DME-3_T293.15K_P760Torr_B0-1T_A90deg__archive-d0440b0035cf.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_CH4_CO2/archive/Ar-93_CH4-5_CO2-2_T293.15K_P760Torr_B0-1T_A90deg__archive-d39682b7a03c.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ne+X+Y/Ne_CO2_N2/archive/Ne-85.7143_CO2-9.52381_N2-4.7619_T293.15K_P760Torr_B0-1T_A90deg__archive-933c017d8c1c.gas",
       "reason": "archived"
     },
     {
@@ -1391,19 +1107,7 @@
       "reason": "archived"
     },
     {
-      "path": "GasDataBase/Ar+X/Ar_C2H6/archive/Ar-80_C2H6-20_T293.15K_P760Torr_B0-1T_A90deg__archive-019a1f90b034.gas",
-      "reason": "archived"
-    },
-    {
       "path": "GasDataBase/Ar+X/Ar_C2H6/archive/Ar-80_C2H6-20_T293.15K_P760Torr__new-470c54a0295a.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_C2H6/archive/Ar-85_C2H6-15_T293.15K_P760Torr_B0-1T_A90deg__archive-83882b51f9b2.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_C2H6/archive/Ar-90_C2H6-10_T293.15K_P760Torr_B0-1T_A90deg__archive-32e5196663d7.gas",
       "reason": "archived"
     },
     {
@@ -1411,123 +1115,7 @@
       "reason": "archived"
     },
     {
-      "path": "GasDataBase/Ar+X/Ar_C2H6/archive/Ar-95_C2H6-5_T293.15K_P760Torr_B0-1T_A90deg__archive-216cab84dc2a.gas",
-      "reason": "archived"
-    },
-    {
       "path": "GasDataBase/Ar+X/Ar_C2H6/archive/Ar-95_C2H6-5_T293.15K_P760Torr__new-e4bb254f5df8.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_C2H4/archive/Ar-80_C2H4-20_T293.15K_P760Torr_B0-1T_A90deg__archive-dfebb5236764.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_C2H4/archive/Ar-85_C2H4-15_T293.15K_P760Torr_B0-1T_A90deg__archive-70f509fe2dfe.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_C2H4/archive/Ar-90_C2H4-10_T293.15K_P760Torr_B0-1T_A90deg__archive-f17684ca28fe.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_C2H4/archive/Ar-95_C2H4-5_T293.15K_P760Torr_B0-1T_A90deg__archive-df41e6195754.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_C2H2/archive/Ar-80_C2H2-20_T293.15K_P760Torr_B0-1T_A90deg__archive-07fd52d5c707.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_C2H2/archive/Ar-85_C2H2-15_T293.15K_P760Torr_B0-1T_A90deg__archive-853f45674471.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_C2H2/archive/Ar-90_C2H2-10_T293.15K_P760Torr_B0-1T_A90deg__archive-514433b4bc1a.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_C2H2/archive/Ar-95_C2H2-5_T293.15K_P760Torr_B0-1T_A90deg__archive-6c10b377fcd0.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_C3H6/archive/Ar-80_C3H6-20_T293.15K_P760Torr_B0-1T_A90deg__archive-5e8f3bd705a0.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_C3H6/archive/Ar-85_C3H6-15_T293.15K_P760Torr_B0-1T_A90deg__archive-615448f98088.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_C3H6/archive/Ar-90_C3H6-10_T293.15K_P760Torr_B0-1T_A90deg__archive-a782c90ae8a1.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_C3H6/archive/Ar-95_C3H6-5_T293.15K_P760Torr_B0-1T_A90deg__archive-5f3f756fbad7.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_C3H8/archive/Ar-80_C3H8-20_T293.15K_P760Torr_B0-1T_A90deg__archive-209924b1e092.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_C3H8/archive/Ar-85_C3H8-15_T293.15K_P760Torr_B0-1T_A90deg__archive-c07859082416.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_C3H8/archive/Ar-90_C3H8-10_T293.15K_P760Torr_B0-1T_A90deg__archive-24b0249edea1.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_C3H8/archive/Ar-95_C3H8-5_T293.15K_P760Torr_B0-1T_A90deg__archive-f8fcd4cbd5fc.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_nC4H10/archive/Ar-80_nC4H10-20_T293.15K_P760Torr_B0-1T_A90deg__archive-520850474c4a.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_nC4H10/archive/Ar-85_nC4H10-15_T293.15K_P760Torr_B0-1T_A90deg__archive-785164df28b0.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_nC4H10/archive/Ar-90_nC4H10-10_T293.15K_P760Torr_B0-1T_A90deg__archive-046e58b2ba70.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_nC4H10/archive/Ar-95_nC4H10-5_T293.15K_P760Torr_B0-1T_A90deg__archive-dd9633949d13.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_neoC5H12/archive/Ar-80_neoC5H12-20_T293.15K_P760Torr_B0-1T_A90deg__archive-5f1dc553d8db.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_neoC5H12/archive/Ar-85_neoC5H12-15_T293.15K_P760Torr_B0-1T_A90deg__archive-d00559ab2af4.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_neoC5H12/archive/Ar-90_neoC5H12-10_T293.15K_P760Torr_B0-1T_A90deg__archive-3f0c9511e4cc.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_neoC5H12/archive/Ar-95_neoC5H12-5_T293.15K_P760Torr_B0-1T_A90deg__archive-512c27dae134.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_H2/archive/Ar-80_H2-20_T293.15K_P760Torr_B0-1T_A90deg__archive-40e8be9c397c.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_H2/archive/Ar-85_H2-15_T293.15K_P760Torr_B0-1T_A90deg__archive-a9522ddc744f.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_H2/archive/Ar-90_H2-10_T293.15K_P760Torr_B0-1T_A90deg__archive-ba7c2648234a.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_H2/archive/Ar-95_H2-5_T293.15K_P760Torr_B0-1T_A90deg__archive-a7eea6dfb5ca.gas",
       "reason": "archived"
     },
     {
@@ -1544,14 +1132,6 @@
     },
     {
       "path": "GasDataBase/Ar+X/Ar_N2/archive/Ar-80_N2-20_T293.15K_P760Torr__before-20260913-a1cf4c16443a.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_N2/archive/Ar-85_N2-15_T293.15K_P760Torr_B0-1T_A90deg__archive-bee95b679a6d.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_N2/archive/Ar-90_N2-10_T293.15K_P760Torr_B0-1T_A90deg__archive-c1cc71364adc.gas",
       "reason": "archived"
     },
     {
@@ -1583,223 +1163,11 @@
       "reason": "archived"
     },
     {
-      "path": "GasDataBase/Ne+X+Y/Ne_Xe_iC4H10/archive/Ne-48.85_Xe-48.85_iC4H10-2.3_T293.15K_P760Torr_B0-1T_A90deg__archive-8493b5a33beb.gas",
-      "reason": "archived"
-    },
-    {
       "path": "GasDataBase/Ne+X+Y/Ne_Xe_iC4H10/archive/Ne-48.85_Xe-48.85_iC4H10-2.3_T293.15K_P760Torr_B0T_A90deg__ncoll1-cfde4492866c.gas",
       "reason": "archived"
     },
     {
       "path": "GasDataBase/Ne+X+Y/Ne_Xe_iC4H10/archive/Ne-48.85_Xe-48.85_iC4H10-2.3_T293.15K_P760Torr_B1T_A90deg__ncoll1-0c47119c4e9a.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Xe+X/Xe_CO2/archive/Xe-90_CO2-10_T293.15K_P760Torr_B0-1T_A90deg__archive-c1c466a7de46.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_CO/archive/Ar-80_CO-20_T293.15K_P760Torr_B0-1T_A90deg__archive-bf952378f49d.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_CO/archive/Ar-85_CO-15_T293.15K_P760Torr_B0-1T_A90deg__archive-b730042cfe61.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_CO/archive/Ar-90_CO-10_T293.15K_P760Torr_B0-1T_A90deg__archive-7a1e2a6445c9.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_nC5H12/archive/Ar-80_nC5H12-20_T293.15K_P760Torr_B0-1T_A90deg__archive-b73aeffdea45.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_nC5H12/archive/Ar-85_nC5H12-15_T293.15K_P760Torr_B0-1T_A90deg__archive-c7f57f2e97fa.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_nC5H12/archive/Ar-90_nC5H12-10_T293.15K_P760Torr_B0-1T_A90deg__archive-6dc38c08779d.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_nC5H12/archive/Ar-95_nC5H12-5_T293.15K_P760Torr_B0-1T_A90deg__archive-440a201c26ad.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_TMA/archive/Ar-80_TMA-20_T293.15K_P760Torr_B0-1T_A90deg__archive-7f0db927a083.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_TMA/archive/Ar-85_TMA-15_T293.15K_P760Torr_B0-1T_A90deg__archive-1346b8439f16.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_TMA/archive/Ar-90_TMA-10_T293.15K_P760Torr_B0-1T_A90deg__archive-588e7a456999.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_TMA/archive/Ar-95_TMA-5_T293.15K_P760Torr_B0-1T_A90deg__archive-1fa73c2207a0.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_Methylal/archive/Ar-80_Methylal-20_T293.15K_P760Torr_B0-1T_A90deg__archive-e7d8b8c1b597.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_Methylal/archive/Ar-85_Methylal-15_T293.15K_P760Torr_B0-1T_A90deg__archive-5ac909f0e035.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_Methylal/archive/Ar-90_Methylal-10_T293.15K_P760Torr_B0-1T_A90deg__archive-f72a92215df5.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_Methylal/archive/Ar-95_Methylal-5_T293.15K_P760Torr_B0-1T_A90deg__archive-d146e861285f.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_CHF3/archive/Ar-80_CHF3-20_T293.15K_P760Torr_B0-1T_A90deg__archive-b80c5139f688.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_CHF3/archive/Ar-85_CHF3-15_T293.15K_P760Torr_B0-1T_A90deg__archive-affcc8bb066c.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_CHF3/archive/Ar-90_CHF3-10_T293.15K_P760Torr_B0-1T_A90deg__archive-a71fd40291ad.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_CHF3/archive/Ar-95_CHF3-5_T293.15K_P760Torr_B0-1T_A90deg__archive-267c6b9a9e42.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_C2F6/archive/Ar-80_C2F6-20_T293.15K_P760Torr_B0-1T_A90deg__archive-805812bb34d4.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_C2F6/archive/Ar-85_C2F6-15_T293.15K_P760Torr_B0-1T_A90deg__archive-179375f3d1d8.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_C2F6/archive/Ar-90_C2F6-10_T293.15K_P760Torr_B0-1T_A90deg__archive-71edf46d74f9.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_C2F6/archive/Ar-95_C2F6-5_T293.15K_P760Torr_B0-1T_A90deg__archive-bafa44008940.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X/Ar_C3F8/archive/Ar-90_C3F8-10_T293.15K_P760Torr_B0-1T_A90deg__archive-bceadd63851e.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_CF4_CH4/archive/Ar-60_CF4-30_CH4-10_T293.15K_P760Torr_B0-1T_A90deg__archive-5c1954acb19f.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_CF4_CH4/archive/Ar-65_CF4-30_CH4-5_T293.15K_P760Torr_B0-1T_A90deg__archive-8c150a99e70a.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_CF4_CH4/archive/Ar-68_CF4-30_CH4-2_T293.15K_P760Torr_B0-1T_A90deg__archive-dfca48560384.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_CF4_CH4/archive/Ar-70_CF4-20_CH4-10_T293.15K_P760Torr_B0-1T_A90deg__archive-a5dea91fdbb1.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_CF4_CH4/archive/Ar-75_CF4-20_CH4-5_T293.15K_P760Torr_B0-1T_A90deg__archive-3e6d1c384fb5.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_CF4_CH4/archive/Ar-78_CF4-20_CH4-2_T293.15K_P760Torr_B0-1T_A90deg__archive-32a4d3e29571.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_CF4_CH4/archive/Ar-80_CF4-10_CH4-10_T293.15K_P760Torr_B0-1T_A90deg__archive-3aad2db10edf.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_CF4_CH4/archive/Ar-85_CF4-10_CH4-5_T293.15K_P760Torr_B0-1T_A90deg__archive-f1536a953f32.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_CF4_CH4/archive/Ar-88_CF4-10_CH4-2_T293.15K_P760Torr_B0-1T_A90deg__archive-7b13d02bcf27.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_C2H6_CF4/archive/Ar-60_C2H6-10_CF4-30_T293.15K_P760Torr_B0-1T_A90deg__archive-811b7e09c916.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_C2H6_CF4/archive/Ar-65_C2H6-5_CF4-30_T293.15K_P760Torr_B0-1T_A90deg__archive-0573182c2d03.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_C2H6_CF4/archive/Ar-68_C2H6-2_CF4-30_T293.15K_P760Torr_B0-1T_A90deg__archive-1f0c6cd2bf27.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_C2H6_CF4/archive/Ar-70_C2H6-10_CF4-20_T293.15K_P760Torr_B0-1T_A90deg__archive-85da6178f5a4.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_C2H6_CF4/archive/Ar-75_C2H6-5_CF4-20_T293.15K_P760Torr_B0-1T_A90deg__archive-72fcadcf0741.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_C2H6_CF4/archive/Ar-78_C2H6-2_CF4-20_T293.15K_P760Torr_B0-1T_A90deg__archive-37dc4186d70b.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_C2H6_CF4/archive/Ar-80_C2H6-10_CF4-10_T293.15K_P760Torr_B0-1T_A90deg__archive-cfc5413ead87.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_C2H6_CF4/archive/Ar-85_C2H6-5_CF4-10_T293.15K_P760Torr_B0-1T_A90deg__archive-0c42c7664ea9.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_C2H6_CF4/archive/Ar-88_C2H6-2_CF4-10_T293.15K_P760Torr_B0-1T_A90deg__archive-e5d3ba9b91b2.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_CF4_H2/archive/Ar-60_CF4-30_H2-10_T293.15K_P760Torr_B0-1T_A90deg__archive-ca8280654748.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_CF4_H2/archive/Ar-65_CF4-30_H2-5_T293.15K_P760Torr_B0-1T_A90deg__archive-904a7bf57fb9.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_CF4_H2/archive/Ar-68_CF4-30_H2-2_T293.15K_P760Torr_B0-1T_A90deg__archive-132d94c785c7.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_CF4_H2/archive/Ar-70_CF4-20_H2-10_T293.15K_P760Torr_B0-1T_A90deg__archive-f52e08cbd65e.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_CF4_H2/archive/Ar-75_CF4-20_H2-5_T293.15K_P760Torr_B0-1T_A90deg__archive-5e6e6e8fd559.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_CF4_H2/archive/Ar-78_CF4-20_H2-2_T293.15K_P760Torr_B0-1T_A90deg__archive-0c52097f4c81.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_CF4_H2/archive/Ar-80_CF4-10_H2-10_T293.15K_P760Torr_B0-1T_A90deg__archive-5369b87ecdbf.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_CF4_H2/archive/Ar-85_CF4-10_H2-5_T293.15K_P760Torr_B0-1T_A90deg__archive-e6314e55a0ca.gas",
-      "reason": "archived"
-    },
-    {
-      "path": "GasDataBase/Ar+X+Y/Ar_CF4_H2/archive/Ar-88_CF4-10_H2-2_T293.15K_P760Torr_B0-1T_A90deg__archive-20b0578d1116.gas",
       "reason": "archived"
     }
   ],
