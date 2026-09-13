@@ -70,6 +70,7 @@ jobs:
         with:
           path: "_site"
 
+  # Deploy the uploaded site only after all validation and build steps succeed.
   deploy:
     if: github.event_name != 'pull_request'
     needs: validate-and-build
