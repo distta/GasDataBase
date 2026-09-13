@@ -4446,16 +4446,6 @@
       "source": "本项目计算；2026-09-13停止作业后整合有效完成点",
       "notes": "仅收录已完成并校验的场点；统计参数10；缺标准电场点0个；未插值或外推。不同磁场缺点不同时独立成表。关闭Penning；未进行重复稳定性验收。 从归档原表按单一磁场和夹角精确拆分，保留全部电场点。"
     },
-    "GasDataBase/Ar+X/Ar_N2/Ar-90_N2-10_T293.15K_P760Torr_B1T_A90deg__legacy-6e4ff84fb148.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ar+X/Ar_N2/Ar-80_N2-20_T293.15K_P760Torr_B1T_A90deg__legacy-a1cf4c16443a.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
     "GasDataBase/Ar+X/Ar_iC4H10/Ar-75_iC4H10-25_T293.15K_P760Torr_B0T_A0deg.gas": {
       "status": "current",
       "source": "旧表缺失场点补充",
@@ -4477,16 +4467,6 @@
       "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
     },
     "GasDataBase/Ar+X/Ar_iC4H10/Ar-96_iC4H10-4_T293.15K_P760Torr_B0T_A0deg.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ar+X/Ar_iC4H10/Ar-97_iC4H10-3_T293.15K_P760Torr_B0T_A90deg__legacy-c71685aa8786.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ar+X/Ar_iC4H10/Ar-99.5_iC4H10-0.5_T293.15K_P760Torr_B0T_A90deg__legacy-b4453ae6f995.gas": {
       "status": "current",
       "source": "旧表缺失场点补充",
       "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
@@ -4541,11 +4521,6 @@
       "source": "旧表缺失场点补充",
       "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
     },
-    "GasDataBase/Ar+X/Ar_CH4/Ar-99_CH4-1_T293.15K_P760Torr_B0T_A90deg__legacy-61863369d777.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
     "GasDataBase/Ar+X/Ar_DME/Ar-75_DME-25_T293.15K_P760Torr_B0T_A0deg.gas": {
       "status": "current",
       "source": "旧表缺失场点补充",
@@ -4557,246 +4532,6 @@
       "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
     },
     "GasDataBase/Ar+X/Ar_DME/Ar-95_DME-5_T293.15K_P760Torr_B0T_A0deg.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ar+X+Y/Ar_CH4_O2/Ar-89.955_CH4-9.995_O2-0.05_T293.15K_P760Torr_B0T_A90deg__legacy-b0fc4439ee50.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ar+X+Y/Ar_CH4_O2/Ar-89.973_CH4-9.997_O2-0.03_T293.15K_P760Torr_B0T_A90deg__legacy-69d849141ea0.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ar+X+Y/Ar_CH4_O2/Ar-89.9982_CH4-9.9998_O2-0.002_T293.15K_P760Torr_B0T_A90deg__legacy-59cdf6e14015.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ar+X+Y/Ar_iC4H10_SF6/Ar-90_iC4H10-5_SF6-5_T293.15K_P760Torr_B0T_A90deg__legacy-dc7a29694511.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ar+X+Y/Ar_iC4H10_O2/Ar-93_iC4H10-5_O2-2_T293.15K_P760Torr_B0T_A90deg__legacy-d6c5207f3698.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Pure/C2F6/C2F6-100_T293.15K_P760Torr_B0T_A90deg__legacy-3e4fa661655c.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Pure/C2H2F4/C2H2F4-100_T293.15K_P760Torr_B0T_A90deg__legacy-ee1d73d06ea8.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-70_iC4H10-25_SF6-5_T293.15K_P760Torr_B0T_A90deg__legacy-79e8ee7803ff.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-80_iC4H10-10_SF6-10_T293.15K_P760Torr_B0T_A90deg__legacy-1d0b74fcab4d.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-80_iC4H10-16_SF6-4_T293.15K_P760Torr_B0T_A90deg__legacy-2429c93c90ff.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-80_iC4H10-4_SF6-16_T293.15K_P760Torr_B0T_A90deg__legacy-5a4858ebfecf.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-85_iC4H10-12_SF6-3_T293.15K_P760Torr_B0T_A90deg__legacy-49d5aa4dc709.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-85_iC4H10-3_SF6-12_T293.15K_P760Torr_B0T_A90deg__legacy-03908e5a53a6.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-85_iC4H10-7.5_SF6-7.5_T293.15K_P760Torr_B0T_A90deg__legacy-7b0ac0501f6f.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-2_SF6-8_T293.15K_P760Torr_B0T_A90deg__legacy-e22008dbd8c8.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-8_SF6-2_T293.15K_P760Torr_B0T_A90deg__legacy-d94d61bf9e30.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-95_iC4H10-1_SF6-4_T293.15K_P760Torr_B0T_A90deg__legacy-d14be9bb3f8a.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-95_iC4H10-2.5_SF6-2.5_T293.15K_P760Torr_B0T_A90deg__legacy-aaeb3b86bc67.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-95_iC4H10-4_SF6-1_T293.15K_P760Torr_B0T_A90deg__legacy-7acc6001a9bf.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-80_CF3Br-10_iC4H10-10_T293.15K_P760Torr_B0T_A90deg__legacy-f57318f89bc3.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-80_CF3Br-16_iC4H10-4_T293.15K_P760Torr_B0T_A90deg__legacy-f43142c6df0e.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-80_CF3Br-4_iC4H10-16_T293.15K_P760Torr_B0T_A90deg__legacy-a51fd95020e5.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-85_CF3Br-12_iC4H10-3_T293.15K_P760Torr_B0T_A90deg__legacy-2f906a8750a3.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-85_CF3Br-3_iC4H10-12_T293.15K_P760Torr_B0T_A90deg__legacy-d681c6f12430.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-85_CF3Br-7.5_iC4H10-7.5_T293.15K_P760Torr_B0T_A90deg__legacy-bc822b5b31d7.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-90_CF3Br-2_iC4H10-8_T293.15K_P760Torr_B0T_A90deg__legacy-868e69507545.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-90_CF3Br-5_iC4H10-5_T293.15K_P760Torr_B0T_A90deg__legacy-13b538284a92.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-90_CF3Br-8_iC4H10-2_T293.15K_P760Torr_B0T_A90deg__legacy-e47360f56966.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-95_CF3Br-1_iC4H10-4_T293.15K_P760Torr_B0T_A90deg__legacy-d34c109ab5ef.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-95_CF3Br-2.5_iC4H10-2.5_T293.15K_P760Torr_B0T_A90deg__legacy-112bcc7c5d50.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-95_CF3Br-4_iC4H10-1_T293.15K_P760Torr_B0T_A90deg__legacy-7cb994cd8307.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-80_C2H6-16_CF4-4_T293.15K_P760Torr_B0T_A90deg__legacy-09fd83ac6948.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-80_C2H6-4_CF4-16_T293.15K_P760Torr_B0T_A90deg__legacy-d4de9bfff2a0.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-85_C2H6-12_CF4-3_T293.15K_P760Torr_B0T_A90deg__legacy-5d30044a9b9e.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-85_C2H6-3_CF4-12_T293.15K_P760Torr_B0T_A90deg__legacy-0179e8bd1695.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-85_C2H6-7.5_CF4-7.5_T293.15K_P760Torr_B0T_A90deg__legacy-5fe622d9d3ee.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-90_C2H6-2_CF4-8_T293.15K_P760Torr_B0T_A90deg__legacy-37cc0a956f03.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-90_C2H6-5_CF4-5_T293.15K_P760Torr_B0T_A90deg__legacy-bddfe481b182.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-90_C2H6-8_CF4-2_T293.15K_P760Torr_B0T_A90deg__legacy-43ab4d34eed7.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-95_C2H6-1_CF4-4_T293.15K_P760Torr_B0T_A90deg__legacy-e8ec3a140edf.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-95_C2H6-2.5_CF4-2.5_T293.15K_P760Torr_B0T_A90deg__legacy-0ec2e7b2ebe1.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-95_C2H6-4_CF4-1_T293.15K_P760Torr_B0T_A90deg__legacy-47300864c653.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Pure/C2H6/C2H6-100_T293.15K_P760Torr_B0T_A90deg__legacy-5a167dc87d7b.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Pure/C3F8/C3F8-100_T293.15K_P760Torr_B0T_A90deg__legacy-9eee53692843.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Pure/C3H6/C3H6-100_T293.15K_P760Torr_B0T_A90deg__legacy-13a855c5e05f.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Pure/C3H8/C3H8-100_T293.15K_P760Torr_B0T_A90deg__legacy-810f5e7a799d.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Pure/CF3Br/CF3Br-100_T293.15K_P760Torr_B0T_A90deg__legacy-d2703a724cc0.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ne+X/Ne_CF4/Ne-60_CF4-40_T293.15K_P760Torr_B0T_A90deg__legacy-deb1ee4dddc3.gas": {
       "status": "current",
       "source": "旧表缺失场点补充",
       "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
@@ -4816,31 +4551,6 @@
       "source": "旧表缺失场点补充",
       "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
     },
-    "GasDataBase/Xe+X/Xe_CF4/Xe-0.5_CF4-99.5_T293.15K_P760Torr_B0T_A90deg__legacy-3e875fcf07a6.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Xe+X/Xe_CF4/Xe-1_CF4-99_T293.15K_P760Torr_B0T_A90deg__legacy-24c2521a22c2.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Xe+X/Xe_CF4/Xe-2_CF4-98_T293.15K_P760Torr_B0T_A90deg__legacy-f9af6e274593.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Xe+X/Xe_CF4/Xe-3_CF4-97_T293.15K_P760Torr_B0T_A90deg__legacy-7c8a687800fe.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Xe+X/Xe_CF4/Xe-5_CF4-95_T293.15K_P760Torr_B0T_A90deg__legacy-14f871f37bc9.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
     "GasDataBase/Ne+X/Ne_CH4/Ne-70_CH4-30_T293.15K_P760Torr_B0T_A0deg.gas": {
       "status": "current",
       "source": "旧表缺失场点补充",
@@ -4852,16 +4562,6 @@
       "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
     },
     "GasDataBase/Ne+X/Ne_CH4/Ne-90_CH4-10_T293.15K_P760Torr_B0T_A0deg.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Pure/CH4/CH4-100_T293.15K_P760Torr_B0T_A90deg__legacy-24cf1255d004.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Pure/CHF3/CHF3-100_T293.15K_P760Torr_B0T_A90deg__legacy-2f961a900165.gas": {
       "status": "current",
       "source": "旧表缺失场点补充",
       "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
@@ -4896,11 +4596,6 @@
       "source": "旧表缺失场点补充",
       "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
     },
-    "GasDataBase/Pure/He/He-100_T293.15K_P760Torr_B0T_A90deg__legacy-f2655b6b1adf.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
     "GasDataBase/Ne+X/Ne_iC4H10/Ne-70_iC4H10-30_T293.15K_P760Torr_B0T_A0deg.gas": {
       "status": "current",
       "source": "旧表缺失场点补充",
@@ -4912,126 +4607,6 @@
       "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
     },
     "GasDataBase/Ne+X/Ne_iC4H10/Ne-90_iC4H10-10_T293.15K_P760Torr_B0T_A0deg.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ne+X/Ne_iC4H10/Ne-95_iC4H10-5_T293.15K_P760Torr_B0T_A90deg__legacy-ebb710eab28f.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ne+X/Ne_iC4H10/Ne-97_iC4H10-3_T293.15K_P760Torr_B0T_A90deg__legacy-cbe74968ffb4.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ne+X/Ne_iC4H10/Ne-98_iC4H10-2_T293.15K_P760Torr_B0T_A90deg__legacy-0fefff5e7fb6.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ne+X/Ne_iC4H10/Ne-99.5_iC4H10-0.5_T293.15K_P760Torr_B0T_A90deg__legacy-e372c93a157e.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ne+X/Ne_iC4H10/Ne-99_iC4H10-1_T293.15K_P760Torr_B0T_A90deg__legacy-05f796548bef.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Pure/SF6/SF6-100_T293.15K_P760Torr_B0T_A90deg__legacy-19cfd4775902.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Xe+X/Xe_TMA/Xe-95_TMA-5_T293.15K_P760Torr_B0T_A90deg__legacy-c54abafeba12.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Xe+X/Xe_TMA/Xe-97.8_TMA-2.2_T293.15K_P760Torr_B0T_A90deg__legacy-0d8e45c3cf89.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Xe+X/Xe_TMA/Xe-97_TMA-3_T293.15K_P760Torr_B0T_A90deg__legacy-c96885c7a3e6.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Xe+X/Xe_TMA/Xe-98_TMA-2_T293.15K_P760Torr_B0T_A90deg__legacy-b3f7af973bf6.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Xe+X/Xe_TMA/Xe-99.5_TMA-0.5_T293.15K_P760Torr_B0T_A90deg__legacy-5917d673129a.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Xe+X/Xe_TMA/Xe-99.9_TMA-0.1_T293.15K_P760Torr_B0T_A90deg__legacy-91283935a544.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Xe+X/Xe_TMA/Xe-99_TMA-1_T293.15K_P760Torr_B0T_A90deg__legacy-6b95463f5d6a.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Pure/Xe/Xe-100_T293.15K_P760Torr_B0T_A90deg__legacy-356413c2f73e.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Xe+X/Xe_iC4H10/Xe-95_iC4H10-5_T293.15K_P760Torr_B0T_A90deg__legacy-a2872f46def0.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Xe+X/Xe_iC4H10/Xe-97_iC4H10-3_T293.15K_P760Torr_B0T_A90deg__legacy-50ee448cec7b.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Xe+X/Xe_iC4H10/Xe-98_iC4H10-2_T293.15K_P760Torr_B0T_A90deg__legacy-dd3f1344e495.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Xe+X/Xe_iC4H10/Xe-99.5_iC4H10-0.5_T293.15K_P760Torr_B0T_A90deg__legacy-3e0a7fa85ef3.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Xe+X/Xe_iC4H10/Xe-99_iC4H10-1_T293.15K_P760Torr_B0T_A90deg__legacy-28f35f65f3ec.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/Ar-45_CF4-53_iC4H10-2_T293.15K_P760Torr_B0T_A90deg__legacy-43c5036da222.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/Ar-63_CF4-35_iC4H10-2_T293.15K_P760Torr_B0T_A90deg__legacy-ec3840859881.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/Ar-68_CF4-30_iC4H10-2_T293.15K_P760Torr_B0T_A90deg__legacy-37d839251ab4.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/Ar-78_CF4-20_iC4H10-2_T293.15K_P760Torr_B0T_A90deg__legacy-9021997ed11b.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/Ar-93_CF4-5_iC4H10-2_T293.15K_P760Torr_B0T_A90deg__legacy-fcbe423767d4.gas": {
       "status": "current",
       "source": "旧表缺失场点补充",
       "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
@@ -5062,56 +4637,6 @@
       "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
     },
     "GasDataBase/Ar+X+Y/Ar_CO2_iC4H10/Ar-91_CO2-7_iC4H10-2_T293.15K_P760Torr_B1T_A90deg.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ar+X+Y/Ar_CF4_CO2/Ar-35_CF4-30_CO2-35_T293.15K_P760Torr_B0T_A90deg__legacy-8f2aedfa35af.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ar+X+Y/Ar_CF4_CO2/Ar-39_CF4-28_CO2-33_T293.15K_P760Torr_B0T_A90deg__legacy-116a819b878f.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ar+X+Y/Ar_CF4_CO2/Ar-42.1053_CF4-26.3158_CO2-31.5789_T293.15K_P760Torr_B0T_A90deg__legacy-cba23f31548c.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ar+X+Y/Ar_CF4_CO2/Ar-42_CF4-26_CO2-32_T293.15K_P760Torr_B0T_A90deg__legacy-86c4755a8222.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ar+X+Y/Ar_CF4_CO2/Ar-45_CF4-20_CO2-35_T293.15K_P760Torr_B0T_A90deg__legacy-037c3a3d619b.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ar+X+Y/Ar_CF4_CO2/Ar-45_CF4-25_CO2-30_T293.15K_P760Torr_B0T_A90deg__legacy-bd16d8a3af87.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ar+X+Y/Ar_CF4_CO2/Ar-45_CF4-30_CO2-25_T293.15K_P760Torr_B0T_A90deg__legacy-d6b6b163e985.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ar+X+Y/Ar_CF4_CO2/Ar-45_CF4-35_CO2-20_T293.15K_P760Torr_B0T_A90deg__legacy-705bf068bd4d.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ar+X+Y/Ar_CF4_CO2/Ar-48_CF4-24_CO2-28_T293.15K_P760Torr_B0T_A90deg__legacy-ff8183e7d566.gas": {
-      "status": "current",
-      "source": "旧表缺失场点补充",
-      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
-    },
-    "GasDataBase/Ar+X+Y/Ar_CF4_CO2/Ar-50_CF4-23_CO2-27_T293.15K_P760Torr_B0T_A90deg__legacy-5ea28bb09285.gas": {
       "status": "current",
       "source": "旧表缺失场点补充",
       "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
@@ -5180,6 +4705,481 @@
       "status": "current",
       "source": "旧表缺失场点补充",
       "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。"
+    },
+    "GasDataBase/Ar+X/Ar_iC4H10/archive/Ar-97_iC4H10-3_T293.15K_P760Torr_B0T_A90deg__legacy-c71685aa8786.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X/Ar_iC4H10/Ar-97_iC4H10-3_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ar+X/Ar_iC4H10/archive/Ar-99.5_iC4H10-0.5_T293.15K_P760Torr_B0T_A90deg__legacy-b4453ae6f995.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X/Ar_iC4H10/Ar-99.5_iC4H10-0.5_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ar+X/Ar_CH4/archive/Ar-99_CH4-1_T293.15K_P760Torr_B0T_A90deg__legacy-61863369d777.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X/Ar_CH4/Ar-99_CH4-1_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CH4_O2/archive/Ar-89.955_CH4-9.995_O2-0.05_T293.15K_P760Torr_B0T_A90deg__legacy-b0fc4439ee50.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X+Y/Ar_CH4_O2/Ar-89.955_CH4-9.995_O2-0.05_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CH4_O2/archive/Ar-89.973_CH4-9.997_O2-0.03_T293.15K_P760Torr_B0T_A90deg__legacy-69d849141ea0.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X+Y/Ar_CH4_O2/Ar-89.973_CH4-9.997_O2-0.03_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CH4_O2/archive/Ar-89.9982_CH4-9.9998_O2-0.002_T293.15K_P760Torr_B0T_A90deg__legacy-59cdf6e14015.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X+Y/Ar_CH4_O2/Ar-89.9982_CH4-9.9998_O2-0.002_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ar+X+Y/Ar_iC4H10_SF6/archive/Ar-90_iC4H10-5_SF6-5_T293.15K_P760Torr_B0T_A90deg__legacy-dc7a29694511.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X+Y/Ar_iC4H10_SF6/Ar-90_iC4H10-5_SF6-5_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ar+X+Y/Ar_iC4H10_O2/archive/Ar-93_iC4H10-5_O2-2_T293.15K_P760Torr_B0T_A90deg__legacy-d6c5207f3698.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X+Y/Ar_iC4H10_O2/Ar-93_iC4H10-5_O2-2_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Pure/C2F6/archive/C2F6-100_T293.15K_P760Torr_B0T_A90deg__legacy-3e4fa661655c.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Pure/C2F6/C2F6-100_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Pure/C2H2F4/archive/C2H2F4-100_T293.15K_P760Torr_B0T_A90deg__legacy-ee1d73d06ea8.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Pure/C2H2F4/C2H2F4-100_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/archive/C2H2F4-70_iC4H10-25_SF6-5_T293.15K_P760Torr_B0T_A90deg__legacy-79e8ee7803ff.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-70_iC4H10-25_SF6-5_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/archive/C2H2F4-80_iC4H10-10_SF6-10_T293.15K_P760Torr_B0T_A90deg__legacy-1d0b74fcab4d.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-80_iC4H10-10_SF6-10_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/archive/C2H2F4-80_iC4H10-16_SF6-4_T293.15K_P760Torr_B0T_A90deg__legacy-2429c93c90ff.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-80_iC4H10-16_SF6-4_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/archive/C2H2F4-80_iC4H10-4_SF6-16_T293.15K_P760Torr_B0T_A90deg__legacy-5a4858ebfecf.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-80_iC4H10-4_SF6-16_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/archive/C2H2F4-85_iC4H10-12_SF6-3_T293.15K_P760Torr_B0T_A90deg__legacy-49d5aa4dc709.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-85_iC4H10-12_SF6-3_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/archive/C2H2F4-85_iC4H10-3_SF6-12_T293.15K_P760Torr_B0T_A90deg__legacy-03908e5a53a6.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-85_iC4H10-3_SF6-12_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/archive/C2H2F4-85_iC4H10-7.5_SF6-7.5_T293.15K_P760Torr_B0T_A90deg__legacy-7b0ac0501f6f.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-85_iC4H10-7.5_SF6-7.5_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/archive/C2H2F4-90_iC4H10-2_SF6-8_T293.15K_P760Torr_B0T_A90deg__legacy-e22008dbd8c8.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-2_SF6-8_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/archive/C2H2F4-90_iC4H10-8_SF6-2_T293.15K_P760Torr_B0T_A90deg__legacy-d94d61bf9e30.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-90_iC4H10-8_SF6-2_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/archive/C2H2F4-95_iC4H10-1_SF6-4_T293.15K_P760Torr_B0T_A90deg__legacy-d14be9bb3f8a.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-95_iC4H10-1_SF6-4_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/archive/C2H2F4-95_iC4H10-2.5_SF6-2.5_T293.15K_P760Torr_B0T_A90deg__legacy-aaeb3b86bc67.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-95_iC4H10-2.5_SF6-2.5_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/archive/C2H2F4-95_iC4H10-4_SF6-1_T293.15K_P760Torr_B0T_A90deg__legacy-7acc6001a9bf.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/X+Y+Z/C2H2F4_iC4H10_SF6/C2H2F4-95_iC4H10-4_SF6-1_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/archive/C2H2F4-80_CF3Br-10_iC4H10-10_T293.15K_P760Torr_B0T_A90deg__legacy-f57318f89bc3.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-80_CF3Br-10_iC4H10-10_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/archive/C2H2F4-80_CF3Br-16_iC4H10-4_T293.15K_P760Torr_B0T_A90deg__legacy-f43142c6df0e.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-80_CF3Br-16_iC4H10-4_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/archive/C2H2F4-80_CF3Br-4_iC4H10-16_T293.15K_P760Torr_B0T_A90deg__legacy-a51fd95020e5.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-80_CF3Br-4_iC4H10-16_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/archive/C2H2F4-85_CF3Br-12_iC4H10-3_T293.15K_P760Torr_B0T_A90deg__legacy-2f906a8750a3.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-85_CF3Br-12_iC4H10-3_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/archive/C2H2F4-85_CF3Br-3_iC4H10-12_T293.15K_P760Torr_B0T_A90deg__legacy-d681c6f12430.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-85_CF3Br-3_iC4H10-12_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/archive/C2H2F4-85_CF3Br-7.5_iC4H10-7.5_T293.15K_P760Torr_B0T_A90deg__legacy-bc822b5b31d7.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-85_CF3Br-7.5_iC4H10-7.5_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/archive/C2H2F4-90_CF3Br-2_iC4H10-8_T293.15K_P760Torr_B0T_A90deg__legacy-868e69507545.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-90_CF3Br-2_iC4H10-8_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/archive/C2H2F4-90_CF3Br-5_iC4H10-5_T293.15K_P760Torr_B0T_A90deg__legacy-13b538284a92.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-90_CF3Br-5_iC4H10-5_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/archive/C2H2F4-90_CF3Br-8_iC4H10-2_T293.15K_P760Torr_B0T_A90deg__legacy-e47360f56966.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-90_CF3Br-8_iC4H10-2_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/archive/C2H2F4-95_CF3Br-1_iC4H10-4_T293.15K_P760Torr_B0T_A90deg__legacy-d34c109ab5ef.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-95_CF3Br-1_iC4H10-4_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/archive/C2H2F4-95_CF3Br-2.5_iC4H10-2.5_T293.15K_P760Torr_B0T_A90deg__legacy-112bcc7c5d50.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-95_CF3Br-2.5_iC4H10-2.5_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/archive/C2H2F4-95_CF3Br-4_iC4H10-1_T293.15K_P760Torr_B0T_A90deg__legacy-7cb994cd8307.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/X+Y+Z/C2H2F4_CF3Br_iC4H10/C2H2F4-95_CF3Br-4_iC4H10-1_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/archive/Ne-80_C2H6-16_CF4-4_T293.15K_P760Torr_B0T_A90deg__legacy-09fd83ac6948.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-80_C2H6-16_CF4-4_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/archive/Ne-80_C2H6-4_CF4-16_T293.15K_P760Torr_B0T_A90deg__legacy-d4de9bfff2a0.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-80_C2H6-4_CF4-16_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/archive/Ne-85_C2H6-12_CF4-3_T293.15K_P760Torr_B0T_A90deg__legacy-5d30044a9b9e.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-85_C2H6-12_CF4-3_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/archive/Ne-85_C2H6-3_CF4-12_T293.15K_P760Torr_B0T_A90deg__legacy-0179e8bd1695.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-85_C2H6-3_CF4-12_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/archive/Ne-85_C2H6-7.5_CF4-7.5_T293.15K_P760Torr_B0T_A90deg__legacy-5fe622d9d3ee.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-85_C2H6-7.5_CF4-7.5_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/archive/Ne-90_C2H6-2_CF4-8_T293.15K_P760Torr_B0T_A90deg__legacy-37cc0a956f03.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-90_C2H6-2_CF4-8_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/archive/Ne-90_C2H6-5_CF4-5_T293.15K_P760Torr_B0T_A90deg__legacy-bddfe481b182.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-90_C2H6-5_CF4-5_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/archive/Ne-90_C2H6-8_CF4-2_T293.15K_P760Torr_B0T_A90deg__legacy-43ab4d34eed7.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-90_C2H6-8_CF4-2_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/archive/Ne-95_C2H6-1_CF4-4_T293.15K_P760Torr_B0T_A90deg__legacy-e8ec3a140edf.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-95_C2H6-1_CF4-4_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/archive/Ne-95_C2H6-2.5_CF4-2.5_T293.15K_P760Torr_B0T_A90deg__legacy-0ec2e7b2ebe1.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-95_C2H6-2.5_CF4-2.5_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ne+X+Y/Ne_C2H6_CF4/archive/Ne-95_C2H6-4_CF4-1_T293.15K_P760Torr_B0T_A90deg__legacy-47300864c653.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ne+X+Y/Ne_C2H6_CF4/Ne-95_C2H6-4_CF4-1_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Pure/C2H6/archive/C2H6-100_T293.15K_P760Torr_B0T_A90deg__legacy-5a167dc87d7b.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Pure/C2H6/C2H6-100_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Pure/C3F8/archive/C3F8-100_T293.15K_P760Torr_B0T_A90deg__legacy-9eee53692843.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Pure/C3F8/C3F8-100_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Pure/C3H6/archive/C3H6-100_T293.15K_P760Torr_B0T_A90deg__legacy-13a855c5e05f.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Pure/C3H6/C3H6-100_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Pure/C3H8/archive/C3H8-100_T293.15K_P760Torr_B0T_A90deg__legacy-810f5e7a799d.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Pure/C3H8/C3H8-100_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Pure/CF3Br/archive/CF3Br-100_T293.15K_P760Torr_B0T_A90deg__legacy-d2703a724cc0.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Pure/CF3Br/CF3Br-100_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ne+X/Ne_CF4/archive/Ne-60_CF4-40_T293.15K_P760Torr_B0T_A90deg__legacy-deb1ee4dddc3.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ne+X/Ne_CF4/Ne-60_CF4-40_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Xe+X/Xe_CF4/archive/Xe-0.5_CF4-99.5_T293.15K_P760Torr_B0T_A90deg__legacy-3e875fcf07a6.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Xe+X/Xe_CF4/Xe-0.5_CF4-99.5_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Xe+X/Xe_CF4/archive/Xe-1_CF4-99_T293.15K_P760Torr_B0T_A90deg__legacy-24c2521a22c2.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Xe+X/Xe_CF4/Xe-1_CF4-99_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Xe+X/Xe_CF4/archive/Xe-2_CF4-98_T293.15K_P760Torr_B0T_A90deg__legacy-f9af6e274593.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Xe+X/Xe_CF4/Xe-2_CF4-98_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Xe+X/Xe_CF4/archive/Xe-3_CF4-97_T293.15K_P760Torr_B0T_A90deg__legacy-7c8a687800fe.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Xe+X/Xe_CF4/Xe-3_CF4-97_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Xe+X/Xe_CF4/archive/Xe-5_CF4-95_T293.15K_P760Torr_B0T_A90deg__legacy-14f871f37bc9.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Xe+X/Xe_CF4/Xe-5_CF4-95_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Pure/CH4/archive/CH4-100_T293.15K_P760Torr_B0T_A90deg__legacy-24cf1255d004.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Pure/CH4/CH4-100_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Pure/CHF3/archive/CHF3-100_T293.15K_P760Torr_B0T_A90deg__legacy-2f961a900165.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Pure/CHF3/CHF3-100_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Pure/He/archive/He-100_T293.15K_P760Torr_B0T_A90deg__legacy-f2655b6b1adf.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Pure/He/He-100_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ne+X/Ne_iC4H10/archive/Ne-95_iC4H10-5_T293.15K_P760Torr_B0T_A90deg__legacy-ebb710eab28f.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ne+X/Ne_iC4H10/Ne-95_iC4H10-5_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ne+X/Ne_iC4H10/archive/Ne-97_iC4H10-3_T293.15K_P760Torr_B0T_A90deg__legacy-cbe74968ffb4.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ne+X/Ne_iC4H10/Ne-97_iC4H10-3_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ne+X/Ne_iC4H10/archive/Ne-98_iC4H10-2_T293.15K_P760Torr_B0T_A90deg__legacy-0fefff5e7fb6.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ne+X/Ne_iC4H10/Ne-98_iC4H10-2_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ne+X/Ne_iC4H10/archive/Ne-99.5_iC4H10-0.5_T293.15K_P760Torr_B0T_A90deg__legacy-e372c93a157e.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ne+X/Ne_iC4H10/Ne-99.5_iC4H10-0.5_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ne+X/Ne_iC4H10/archive/Ne-99_iC4H10-1_T293.15K_P760Torr_B0T_A90deg__legacy-05f796548bef.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ne+X/Ne_iC4H10/Ne-99_iC4H10-1_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Pure/SF6/archive/SF6-100_T293.15K_P760Torr_B0T_A90deg__legacy-19cfd4775902.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Pure/SF6/SF6-100_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Xe+X/Xe_TMA/archive/Xe-95_TMA-5_T293.15K_P760Torr_B0T_A90deg__legacy-c54abafeba12.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Xe+X/Xe_TMA/Xe-95_TMA-5_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Xe+X/Xe_TMA/archive/Xe-97.8_TMA-2.2_T293.15K_P760Torr_B0T_A90deg__legacy-0d8e45c3cf89.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Xe+X/Xe_TMA/Xe-97.8_TMA-2.2_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Xe+X/Xe_TMA/archive/Xe-97_TMA-3_T293.15K_P760Torr_B0T_A90deg__legacy-c96885c7a3e6.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Xe+X/Xe_TMA/Xe-97_TMA-3_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Xe+X/Xe_TMA/archive/Xe-98_TMA-2_T293.15K_P760Torr_B0T_A90deg__legacy-b3f7af973bf6.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Xe+X/Xe_TMA/Xe-98_TMA-2_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Xe+X/Xe_TMA/archive/Xe-99.5_TMA-0.5_T293.15K_P760Torr_B0T_A90deg__legacy-5917d673129a.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Xe+X/Xe_TMA/Xe-99.5_TMA-0.5_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Xe+X/Xe_TMA/archive/Xe-99.9_TMA-0.1_T293.15K_P760Torr_B0T_A90deg__legacy-91283935a544.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Xe+X/Xe_TMA/Xe-99.9_TMA-0.1_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Xe+X/Xe_TMA/archive/Xe-99_TMA-1_T293.15K_P760Torr_B0T_A90deg__legacy-6b95463f5d6a.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Xe+X/Xe_TMA/Xe-99_TMA-1_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Pure/Xe/archive/Xe-100_T293.15K_P760Torr_B0T_A90deg__legacy-356413c2f73e.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Pure/Xe/Xe-100_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Xe+X/Xe_iC4H10/archive/Xe-95_iC4H10-5_T293.15K_P760Torr_B0T_A90deg__legacy-a2872f46def0.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Xe+X/Xe_iC4H10/Xe-95_iC4H10-5_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Xe+X/Xe_iC4H10/archive/Xe-97_iC4H10-3_T293.15K_P760Torr_B0T_A90deg__legacy-50ee448cec7b.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Xe+X/Xe_iC4H10/Xe-97_iC4H10-3_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Xe+X/Xe_iC4H10/archive/Xe-98_iC4H10-2_T293.15K_P760Torr_B0T_A90deg__legacy-dd3f1344e495.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Xe+X/Xe_iC4H10/Xe-98_iC4H10-2_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Xe+X/Xe_iC4H10/archive/Xe-99.5_iC4H10-0.5_T293.15K_P760Torr_B0T_A90deg__legacy-3e0a7fa85ef3.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Xe+X/Xe_iC4H10/Xe-99.5_iC4H10-0.5_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Xe+X/Xe_iC4H10/archive/Xe-99_iC4H10-1_T293.15K_P760Torr_B0T_A90deg__legacy-28f35f65f3ec.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Xe+X/Xe_iC4H10/Xe-99_iC4H10-1_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/archive/Ar-45_CF4-53_iC4H10-2_T293.15K_P760Torr_B0T_A90deg__legacy-43c5036da222.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/Ar-45_CF4-53_iC4H10-2_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/archive/Ar-63_CF4-35_iC4H10-2_T293.15K_P760Torr_B0T_A90deg__legacy-ec3840859881.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/Ar-63_CF4-35_iC4H10-2_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/archive/Ar-68_CF4-30_iC4H10-2_T293.15K_P760Torr_B0T_A90deg__legacy-37d839251ab4.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/Ar-68_CF4-30_iC4H10-2_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/archive/Ar-78_CF4-20_iC4H10-2_T293.15K_P760Torr_B0T_A90deg__legacy-9021997ed11b.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/Ar-78_CF4-20_iC4H10-2_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/archive/Ar-93_CF4-5_iC4H10-2_T293.15K_P760Torr_B0T_A90deg__legacy-fcbe423767d4.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X+Y/Ar_CF4_iC4H10/Ar-93_CF4-5_iC4H10-2_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CF4_CO2/archive/Ar-35_CF4-30_CO2-35_T293.15K_P760Torr_B0T_A90deg__legacy-8f2aedfa35af.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X+Y/Ar_CF4_CO2/Ar-35_CF4-30_CO2-35_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CF4_CO2/archive/Ar-39_CF4-28_CO2-33_T293.15K_P760Torr_B0T_A90deg__legacy-116a819b878f.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X+Y/Ar_CF4_CO2/Ar-39_CF4-28_CO2-33_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CF4_CO2/archive/Ar-42.1053_CF4-26.3158_CO2-31.5789_T293.15K_P760Torr_B0T_A90deg__legacy-cba23f31548c.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X+Y/Ar_CF4_CO2/Ar-42.1053_CF4-26.3158_CO2-31.5789_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CF4_CO2/archive/Ar-42_CF4-26_CO2-32_T293.15K_P760Torr_B0T_A90deg__legacy-86c4755a8222.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X+Y/Ar_CF4_CO2/Ar-42_CF4-26_CO2-32_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CF4_CO2/archive/Ar-45_CF4-20_CO2-35_T293.15K_P760Torr_B0T_A90deg__legacy-037c3a3d619b.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X+Y/Ar_CF4_CO2/Ar-45_CF4-20_CO2-35_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CF4_CO2/archive/Ar-45_CF4-25_CO2-30_T293.15K_P760Torr_B0T_A90deg__legacy-bd16d8a3af87.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X+Y/Ar_CF4_CO2/Ar-45_CF4-25_CO2-30_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CF4_CO2/archive/Ar-45_CF4-30_CO2-25_T293.15K_P760Torr_B0T_A90deg__legacy-d6b6b163e985.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X+Y/Ar_CF4_CO2/Ar-45_CF4-30_CO2-25_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CF4_CO2/archive/Ar-45_CF4-35_CO2-20_T293.15K_P760Torr_B0T_A90deg__legacy-705bf068bd4d.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X+Y/Ar_CF4_CO2/Ar-45_CF4-35_CO2-20_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CF4_CO2/archive/Ar-48_CF4-24_CO2-28_T293.15K_P760Torr_B0T_A90deg__legacy-ff8183e7d566.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X+Y/Ar_CF4_CO2/Ar-48_CF4-24_CO2-28_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ar+X+Y/Ar_CF4_CO2/archive/Ar-50_CF4-23_CO2-27_T293.15K_P760Torr_B0T_A90deg__legacy-5ea28bb09285.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X+Y/Ar_CF4_CO2/Ar-50_CF4-23_CO2-27_T293.15K_P760Torr_B0T_A90deg.gas"
+    },
+    "GasDataBase/Ar+X/Ar_N2/archive/Ar-80_N2-20_T293.15K_P760Torr_B1T_A90deg__legacy-a1cf4c16443a.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X/Ar_N2/Ar-80_N2-20_T293.15K_P760Torr_B1T_A90deg.gas"
+    },
+    "GasDataBase/Ar+X/Ar_N2/archive/Ar-90_N2-10_T293.15K_P760Torr_B1T_A90deg__legacy-6e4ff84fb148.gas": {
+      "status": "archived",
+      "source": "旧表缺失场点补充",
+      "notes": "新表未覆盖的旧场点；保留旧格式、通道和计算设置。与同条件新表无重叠场点；不代表重新计算。 同条件只保留一个当前文件；结构或版本不同/未知，不与新表拼接。当前文件：GasDataBase/Ar+X/Ar_N2/Ar-90_N2-10_T293.15K_P760Torr_B1T_A90deg.gas"
     }
   }
 }

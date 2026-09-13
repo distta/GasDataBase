@@ -203,13 +203,12 @@ def assemble(root):
                     seen[digest]["alternate_paths"].append(relative)
                     duplicates.append({"path": relative, "same_as": seen[digest]["path"]})
                     continue
-                identity = json.dumps([record["components"], record["temperature_k"], record["pressure_atm"], meta.get("garfield_version"), meta.get("magboltz_version")], sort_keys=True)
+                identity = json.dumps([record["components"], record["temperature_k"], record["pressure_atm"]], sort_keys=True)
                 for previous, previous_record in identities.get(identity, []):
                     overlaps_b = any(close(x, y) for x in record['magnetic_fields'] for y in previous_record['magnetic_fields'])
                     overlaps_angle = any(close(x, y) for x in record['angles_deg'] for y in previous_record['angles_deg'])
-                    overlaps_e = any(close(x, y) for x in record['electric_fields'] for y in previous_record['electric_fields'])
-                    if overlaps_b and overlaps_angle and overlaps_e:
-                        raise ValueError("同配方、温压及已知版本的当前文件场点重叠；请合并或归档旧文件：" + previous)
+                    if overlaps_b and overlaps_angle:
+                        raise ValueError("同配方、温压、磁场和夹角只能有一个当前文件；请合并兼容数据或归档旧版本：" + previous)
                 identities.setdefault(identity, []).append((relative, record))
                 name = path.name
                 profile = config["reference_profile"]

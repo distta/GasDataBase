@@ -96,8 +96,13 @@ class CatalogueTests(unittest.TestCase):
                              with_b(0), flags=re.S)
             (folder / 'b.gas').write_text(shifted)
             data, report = catalog.assemble(root)
-            self.assertEqual(len(data['files']), 2)
-            self.assertFalse(report['rejected'])
+            self.assertEqual(len(data['files']), 1)
+            self.assertEqual(len(report['rejected']), 1)
+            (root / 'catalog/metadata.json').write_text(json.dumps({'schema_version': 1, 'files': {
+                'GasDataBase/test/a.gas': {'magboltz_version': '11.11'},
+                'GasDataBase/test/b.gas': {'magboltz_version': '11.19'}}}))
+            _, report = catalog.assemble(root)
+            self.assertEqual(len(report['rejected']), 1)
 
     def test_classified_paths_follow_component_count(self):
         cases = [(['CO2', 'Ar'], 'GasDataBase/Ar+X/Ar_CO2'),
