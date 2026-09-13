@@ -4,6 +4,7 @@ from pathlib import Path
 import hashlib
 import json
 import re
+import tempfile
 import unittest
 
 from tools import catalog
@@ -44,9 +45,38 @@ class CatalogueTests(unittest.TestCase):
         for record in payload["files"]:
             source = provenance[record['path']]
             if source.get('origin') not in {'legacy', 'user-import'}:
-                self.assertEqual(record['dimensions']['electric'], 31)
+                self.assertEqual(record['dimensions']['electric'], len(source['config']['electric_fields_v_cm']))
+                self.assertTrue(all(any(catalog.close(e, v) for v in source['config']['electric_fields_v_cm'])
+                                    for e in record['electric_fields']))
                 self.assertEqual(record['reference_check']['missing_magnetic_points'],
                                  [b for b in [0, 1] if b not in record['magnetic_fields']])
+
+    def test_disjoint_magnetic_tables_and_overlap_rejection(self):
+        payload, _ = catalog.assemble(ROOT)
+        sample = next(f for f in payload['files'] if len(f['magnetic_fields']) == 1)
+        original = (ROOT / sample['path']).read_text()
+        def with_b(value):
+            return re.sub(r'(B fields\s+).*?(?=Mixture\b)',
+                          lambda m: m[1] + str(value) + '\n ', original, flags=re.S)
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / 'catalog').mkdir()
+            folder = root / 'GasDataBase/test'
+            folder.mkdir(parents=True)
+            config = json.loads((ROOT / 'catalog/config.json').read_text())
+            config['collections'] = [{'id': 'test', 'label': 'test', 'directory': 'GasDataBase/test'}]
+            (root / 'catalog/config.json').write_text(json.dumps(config))
+            (root / 'catalog/metadata.json').write_text(json.dumps({'schema_version': 1, 'files': {}}))
+            (root / 'catalog/gas_aliases.json').write_bytes((ROOT / 'catalog/gas_aliases.json').read_bytes())
+            (folder / 'a.gas').write_text(with_b(0))
+            (folder / 'b.gas').write_text(with_b(100))
+            data, report = catalog.assemble(root)
+            self.assertEqual(len(data['files']), 2)
+            self.assertFalse(report['rejected'])
+            self.assertEqual(len({f['download_name'] for f in data['files']}), 2)
+            (folder / 'b.gas').write_text(with_b(0) + '\n')
+            _, report = catalog.assemble(root)
+            self.assertEqual(len(report['rejected']), 1)
 
     def test_classified_paths_follow_component_count(self):
         cases = [(['CO2', 'Ar'], 'GasDataBase/Ar+X/Ar_CO2'),

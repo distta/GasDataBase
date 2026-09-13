@@ -16,6 +16,40 @@
     const rank = name => nobleGases.includes(canonical(name)) ? nobleGases.indexOf(canonical(name)) : nobleGases.length;
     return rank(a)-rank(b) || canonical(a).localeCompare(canonical(b),'en',{numeric:true});
   };
+  const gasGroups = [
+    {label:'稀有气体', gases:[
+      ['He','氦','helium'],['Ne','氖','neon'],['Ar','氩','argon'],['Kr','氪','krypton'],
+      ['Xe','氙','xenon'],['Rn','氡','radon'],['Og','鿫','oganesson']]},
+    {label:'简单分子', gases:[
+      ['H2','氢气','hydrogen'],['N2','氮气','nitrogen'],['O2','氧气','oxygen'],
+      ['CO','一氧化碳','carbon monoxide'],['CO2','二氧化碳','carbon dioxide']]},
+    {label:'烃类', gases:[
+      ['CH4','甲烷','methane'],['C2H2','乙炔','acetylene'],['C2H4','乙烯','ethylene'],
+      ['C2H6','乙烷','ethane'],['C3H6','丙烯','propylene propene'],['C3H8','丙烷','propane'],
+      ['nC4H10','正丁烷','n-butane'],['iC4H10','异丁烷','isobutane isoC4H10'],
+      ['nC5H12','正戊烷','n-pentane'],['iC5H12','异戊烷','isopentane'],['neoC5H12','新戊烷','neopentane']]},
+    {label:'含氧、含氮有机物', gases:[
+      ['DME','二甲醚','dimethyl ether CH3OCH3 C2H6O'],
+      ['Methylal','甲缩醛','dimethoxymethane 二甲氧基甲烷 CH2(OCH3)2 C3H8O2'],
+      ['TMA','三甲胺','trimethylamine N(CH3)3 C3H9N']]},
+    {label:'含卤素气体', gases:[
+      ['CF4','四氟化碳','carbon tetrafluoride'],['CHF3','三氟甲烷','trifluoromethane R23'],
+      ['C2F6','六氟乙烷','hexafluoroethane'],['C2H2F4','四氟乙烷','tetrafluoroethane R134a HFC134a'],
+      ['C3F8','八氟丙烷','octafluoropropane'],['CF3Br','三氟溴甲烷','bromotrifluoromethane halon1301'],
+      ['SF6','六氟化硫','sulfur hexafluoride']]}
+  ];
+  const gasDetails = new Map(gasGroups.flatMap(group=>group.gases.map(([name,label,aliases])=>[name,{name,label,aliases}])));
+  const normalizeGasSearch = value => value.toLowerCase().replace(/[₀-₉]/g,d=>String('₀₁₂₃₄₅₆₇₈₉'.indexOf(d))).replace(/[\s_()\-]/g,'');
+  function gasMatches(name,query) {
+    const gas=gasDetails.get(name);
+    return normalizeGasSearch([name,gas?.label,gas?.aliases].filter(Boolean).join(' ')).includes(normalizeGasSearch(query));
+  }
+  function gasOptionGroups(names) {
+    const remaining=new Set(names);
+    const groups=gasGroups.map(group=>({label:group.label,options:group.gases.filter(([name])=>remaining.delete(name)).map(([name])=>gasDetails.get(name))}));
+    if(remaining.size)groups.push({label:'其他气体',options:[...remaining].sort(componentOrder).map(name=>({name,label:''}))});
+    return groups.filter(group=>group.options.length);
+  }
   function describe(gas, name) {
     const values = gas.identifier.split(',').map(part => part.trim().match(/^(.+?)\s+([\d.]+)\s*%$/)).filter(Boolean);
     const components = values.map(m => ({name: canonical(m[1]), fraction: Number(m[2])})).sort((a,b) => componentOrder(a.name,b.name));
@@ -173,5 +207,5 @@
     return slice(gas,b,angle).filter(r=>(r.E>=min||near(r.E,min))&&(r.E<=max||near(r.E,max)))
       .map(r=>({x:r.E,y:param.get(r,gas),record:r}));
   }
-  return {bits,near,fmt,canonical,componentOrder,describe,parse,validateQuery,match,compareFiles,parameters,available,slice,series};
+  return {bits,near,fmt,canonical,componentOrder,gasMatches,gasOptionGroups,describe,parse,validateQuery,match,compareFiles,parameters,available,slice,series};
 });

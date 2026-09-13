@@ -355,6 +355,90 @@
       "label": "iC4H10",
       "directory": "GasDataBase/Pure/iC4H10",
       "description": "已收录气体表"
+    },
+    {
+      "id": "ne_xe_ic4h10",
+      "label": "Ne / Xe / iC4H10",
+      "directory": "GasDataBase/Ne+X+Y/Ne_Xe_iC4H10",
+      "description": "已收录气体表"
+    },
+    {
+      "id": "xe_co2",
+      "label": "Xe / CO2",
+      "directory": "GasDataBase/Xe+X/Xe_CO2",
+      "description": "已收录气体表"
+    },
+    {
+      "id": "ar_xe_co2",
+      "label": "Ar / Xe / CO2",
+      "directory": "GasDataBase/Ar+X+Y/Ar_Xe_CO2",
+      "description": "已收录气体表"
+    },
+    {
+      "id": "ar_xe_ch4",
+      "label": "Ar / Xe / CH4",
+      "directory": "GasDataBase/Ar+X+Y/Ar_Xe_CH4",
+      "description": "已收录气体表"
+    },
+    {
+      "id": "ar_co",
+      "label": "Ar / CO",
+      "directory": "GasDataBase/Ar+X/Ar_CO",
+      "description": "已收录气体表"
+    },
+    {
+      "id": "ar_nc5h12",
+      "label": "Ar / nC5H12",
+      "directory": "GasDataBase/Ar+X/Ar_nC5H12",
+      "description": "已收录气体表"
+    },
+    {
+      "id": "ar_tma",
+      "label": "Ar / TMA",
+      "directory": "GasDataBase/Ar+X/Ar_TMA",
+      "description": "已收录气体表"
+    },
+    {
+      "id": "ar_methylal",
+      "label": "Ar / Methylal",
+      "directory": "GasDataBase/Ar+X/Ar_Methylal",
+      "description": "已收录气体表"
+    },
+    {
+      "id": "ar_chf3",
+      "label": "Ar / CHF3",
+      "directory": "GasDataBase/Ar+X/Ar_CHF3",
+      "description": "已收录气体表"
+    },
+    {
+      "id": "ar_c2f6",
+      "label": "Ar / C2F6",
+      "directory": "GasDataBase/Ar+X/Ar_C2F6",
+      "description": "已收录气体表"
+    },
+    {
+      "id": "ar_c3f8",
+      "label": "Ar / C3F8",
+      "directory": "GasDataBase/Ar+X/Ar_C3F8",
+      "description": "已收录气体表"
+    },
+    {
+      "id": "ar_cf4_ch4",
+      "label": "Ar / CF4 / CH4",
+      "directory": "GasDataBase/Ar+X+Y/Ar_CF4_CH4",
+      "description": "已收录气体表"
+    },
+    {
+      "id": "ar_c2h6_cf4",
+      "label": "Ar / C2H6 / CF4",
+      "directory": "GasDataBase/Ar+X+Y/Ar_C2H6_CF4",
+      "description": "已收录气体表"
+    },
+    {
+      "id": "ar_cf4_h2",
+      "label": "Ar / CF4 / H2",
+      "directory": "GasDataBase/Ar+X+Y/Ar_CF4_H2",
+      "description": "已收录气体表"
     }
   ],
   "reference_profile": {

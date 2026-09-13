@@ -470,6 +470,10 @@ body{font-size:var(--type-body);font-weight:400}
 .plot-configuration .plot-condition-bar .select-picker{width:70px}
 .plot-configuration #plotThermo{margin-left:auto;flex-basis:auto;font-size:11px;white-space:nowrap}
 .plot-configuration .picker-trigger{background:#fff;border-color:#dfe6e9}
+.picker-group{display:block}
+.picker-group-title{display:block;padding:7px 8px 4px;margin-top:3px;background:#f4f7f9;color:#647487;font-size:11px;font-weight:500;line-height:1.5}
+.picker-empty{display:block;padding:10px 8px;color:#647487;font-size:12px}
+#componentRows .picker-menu{min-width:min(260px,calc(100vw - 40px))}
 @media(max-width:700px){.plot-heading .parameter-tabs{gap:10px}.plot-panel>.plot-heading{gap:6px}.plot-heading .parameter-tabs button{font-size:11px!important}.plot-heading .export-menu summary{padding:4px}.plot-configuration .plot-condition-bar{justify-content:flex-start;gap:10px}.plot-configuration .parameter-control{flex-basis:100%}}
 .tooltip-thermo{margin-top:7px;color:#647985;font-size:11px}
 #chart{user-select:none}

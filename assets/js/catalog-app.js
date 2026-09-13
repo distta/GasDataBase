@@ -94,13 +94,29 @@
           const wasOpen=wrapper.classList.contains('open');closePickers();if(wasOpen)return;
           menu.replaceChildren();
           const options=[...select.options];
+          const gasPicker=Boolean(select.closest('#componentRows'));
           let filter;
-          if(options.length>10){filter=document.createElement('input');filter.type='search';filter.placeholder='查找参数…';filter.setAttribute('aria-label','查找选项');menu.append(filter);}
+          if(options.length>10){filter=document.createElement('input');filter.type='search';filter.placeholder=gasPicker?'化学式 / 简称 / 中文名':'查找参数…';filter.setAttribute('aria-label',gasPicker?'查找气体':'查找选项');menu.append(filter);}
           const list=document.createElement('span');list.className='picker-options';menu.append(list);
-          const populate=()=>{list.replaceChildren();options.filter(o=>!filter||o.textContent.toLowerCase().includes(filter.value.toLowerCase())).forEach(option=>{
-            const item=document.createElement('button');item.type='button';item.className='picker-option';item.innerHTML=select.closest('#componentRows')?formula(option.textContent):esc(option.textContent);item.disabled=option.disabled;item.setAttribute('role','option');item.setAttribute('aria-selected',String(option.selected));
-            item.onclick=()=>{select.value=option.value;closePickers();enhanceSelects();select.dispatchEvent(new Event('change',{bubbles:true}));button.focus();};list.append(item);
-          });};populate();if(filter)filter.oninput=populate;
+          const populate=()=>{
+            list.replaceChildren();let parent=list,lastGroup=null;
+            const visible=options.filter(o=>!filter||(gasPicker?(o.value?M.gasMatches(o.value,filter.value):true):o.textContent.toLowerCase().includes(filter.value.toLowerCase())));
+            visible.forEach(option=>{
+              const group=option.parentElement.tagName==='OPTGROUP'?option.parentElement:null;
+              if(group!==lastGroup){
+                parent=list;lastGroup=group;
+                if(group){
+                  parent=document.createElement('span');parent.className='picker-group';parent.setAttribute('role','group');parent.setAttribute('aria-label',group.label);
+                  const heading=document.createElement('span');heading.className='picker-group-title';heading.textContent=group.label;heading.setAttribute('aria-hidden','true');parent.append(heading);list.append(parent);
+                }
+              }
+              const item=document.createElement('button');item.type='button';item.className='picker-option';item.innerHTML=gasPicker?formula(option.textContent):esc(option.textContent);item.disabled=option.disabled||Boolean(group?.disabled);item.setAttribute('role','option');item.setAttribute('aria-selected',String(option.selected));
+              item.onclick=()=>{select.value=option.value;closePickers();enhanceSelects();select.dispatchEvent(new Event('change',{bubbles:true}));button.focus();};parent.append(item);
+            });
+            if(gasPicker&&!visible.some(o=>o.value)){
+              const empty=document.createElement('span');empty.className='picker-empty';empty.textContent='没有匹配的气体';empty.setAttribute('role','status');list.append(empty);
+            }
+          };populate();if(filter)filter.oninput=populate;
           wrapper.classList.add('open');button.setAttribute('aria-expanded','true');
           const bounds=button.getBoundingClientRect(),below=innerHeight-bounds.bottom-12,above=bounds.top-12;
           wrapper.classList.toggle('opens-up',below<190&&above>below);menu.style.maxHeight=Math.max(100,Math.min(300,below<190&&above>below?above:below))+'px';
@@ -114,7 +130,8 @@
         });
         select.addEventListener('change',enhanceSelects);
       }
-      const trigger=wrapper.querySelector('.picker-trigger');trigger.innerHTML=select.closest('#componentRows')?formula(select.selectedOptions[0]?.textContent||'选择'):esc(select.selectedOptions[0]?.textContent||'选择');trigger.disabled=select.disabled;trigger.title=select.title;trigger.setAttribute('aria-label',select.getAttribute('aria-label')||'选择选项');
+      const trigger=wrapper.querySelector('.picker-trigger'),gasPicker=Boolean(select.closest('#componentRows'));
+      trigger.innerHTML=gasPicker?formula(select.value||'不限'):esc(select.selectedOptions[0]?.textContent||'选择');trigger.disabled=select.disabled;trigger.title=gasPicker?(select.selectedOptions[0]?.textContent||'不限'):select.title;trigger.setAttribute('aria-label',gasPicker?`气体组分：${trigger.title}`:(select.getAttribute('aria-label')||'选择选项'));
     });
   }
   function parameterCategory(p) {
@@ -134,9 +151,9 @@
     enhanceSelects();
   }
   function addComponent(name='',fraction='') {
-    const names=[...new Set((state.catalog?.files || []).flatMap(f=>f.components.map(c=>c.name)))].sort(M.componentOrder);
+    const groups=M.gasOptionGroups((state.catalog?.files || []).flatMap(f=>f.components.map(c=>c.name)));
     const row=document.createElement('div');row.className='component-row';
-    row.innerHTML=`<select aria-label="气体组分"><option value="">不限</option>${names.map(n=>`<option ${n===name?'selected':''} value="${esc(n)}">${esc(n)}</option>`).join('')}</select><div class="fraction-field"><input type="number" min="0" max="100" step="any" value="${esc(fraction)}" placeholder="不限" aria-label="组分比例"><span>%</span></div><button type="button" class="component-remove" aria-label="移除组分">×</button>`;
+    row.innerHTML=`<select aria-label="气体组分"><option value="">不限</option>${groups.map(group=>`<optgroup label="${esc(group.label)}">${group.options.map(o=>`<option ${o.name===name?'selected':''} value="${esc(o.name)}">${esc(o.name)}${o.label?' · '+esc(o.label):''}</option>`).join('')}</optgroup>`).join('')}</select><div class="fraction-field"><input type="number" min="0" max="100" step="any" value="${esc(fraction)}" placeholder="不限" aria-label="组分比例"><span>%</span></div><button type="button" class="component-remove" aria-label="移除组分">×</button>`;
     row.querySelector('button').onclick=()=>{row.remove();if(!$('componentRows').children.length)addComponent();search();};
     row.querySelector('input[type=number]').addEventListener('input',event=>balanceRecipe(event.target));
     $('componentRows').append(row);enhanceSelects();

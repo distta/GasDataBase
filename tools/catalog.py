@@ -204,11 +204,16 @@ def assemble(root):
                     duplicates.append({"path": relative, "same_as": seen[digest]["path"]})
                     continue
                 identity = json.dumps([record["components"], record["temperature_k"], record["pressure_atm"], meta.get("garfield_version"), meta.get("magboltz_version")], sort_keys=True)
-                if identity in identities:
-                    raise ValueError("同配方、温压及已知版本有不同当前文件；请明确合并或在 metadata.json 归档旧文件：" + identities[identity])
-                identities[identity] = relative
+                for previous, previous_record in identities.get(identity, []):
+                    overlaps_b = any(close(x, y) for x in record['magnetic_fields'] for y in previous_record['magnetic_fields'])
+                    overlaps_angle = any(close(x, y) for x in record['angles_deg'] for y in previous_record['angles_deg'])
+                    if overlaps_b and overlaps_angle:
+                        raise ValueError("同配方、温压及已知版本的当前文件磁场和夹角重叠；请合并或归档旧文件：" + previous)
+                identities.setdefault(identity, []).append((relative, record))
                 name = "_".join("%s-%g" % (re.sub(r"[^A-Za-z0-9().-]", "-", c["name"]), c["fraction"]) for c in record["components"])
                 name += "_T%gK_P%gatm.gas" % (record["temperature_k"], record["pressure_atm"])
+                name = name[:-4] + '_B' + '-'.join('%g' % b for b in record['magnetic_fields']) + 'T.gas'
+                name = name[:-4] + '_A' + '-'.join('%g' % a for a in record['angles_deg']) + 'deg.gas'
                 profile = config["reference_profile"]
                 has_point = lambda values, target: any(close(v, target) for v in values)
                 record.update({
